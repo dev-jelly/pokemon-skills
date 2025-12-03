@@ -250,13 +250,13 @@ data/sprites/
 3. [x] species-index.json 생성
 4. [x] moves-index.json 생성
 5. [x] 기존 분할 파일 삭제
-6. [ ] templates/battle-context.json 생성 (선택사항)
+6. [x] templates/battle-context.json 생성
 
 ### Phase 2: BGM 시스템
 1. [x] ~/Music/pokemon-bgm/ 디렉토리 생성
 2. [x] data/audio/bgm-mapping.json 생성 (27곡 매핑)
 3. [x] SKILL.md에 BGM 섹션 추가
-4. [ ] save-template.json에 BGM 옵션 추가 (선택사항)
+4. [x] save-template.json에 BGM 옵션 추가
 5. [x] YouTube 링크 목록 준비 (MP3 다운로드용)
 
 ### Phase 3: ASCII 아트
@@ -268,8 +268,9 @@ data/sprites/
 
 ### Phase 4: 마무리
 1. [x] SKILL.md 최종 업데이트
-2. [ ] 테스트 플레이
+2. [x] 테스트 플레이
 3. [x] 문서 정리
+4. [x] README.md 작성
 
 ---
 

@@ -107,6 +107,14 @@
   "options": {
     "textSpeed": "medium",
     "battleAnimation": true,
-    "battleStyle": "shift"
+    "battleStyle": "shift",
+    "bgm": {
+      "enabled": true,
+      "volume": 50
+    },
+    "sfx": {
+      "enabled": true,
+      "volume": 50
+    }
   }
 }

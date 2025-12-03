@@ -1,0 +1,142 @@
+{
+  "$schema": "Battle Context Schema",
+  "description": "전투 중 사용되는 캐싱 데이터 구조. 턴마다 갱신되는 임시 데이터",
+
+  "battleContext": {
+    "type": "wild | trainer | gym_leader | elite_four | champion",
+    "turnCount": 0,
+    "canEscape": true,
+
+    "player": {
+      "activePokemon": {
+        "uid": "uuid",
+        "speciesId": 25,
+        "name": "피카츄",
+        "level": 10,
+        "types": ["electric"],
+        "currentHp": 28,
+        "maxHp": 35,
+        "status": null,
+        "statusTurns": 0,
+
+        "stats": {
+          "attack": 20,
+          "defense": 15,
+          "special": 22,
+          "speed": 35
+        },
+
+        "statModifiers": {
+          "attack": 0,
+          "defense": 0,
+          "special": 0,
+          "speed": 0,
+          "accuracy": 0,
+          "evasion": 0
+        },
+
+        "moves": [
+          { "id": "thunder_shock", "name": "전기쇼크", "type": "electric", "power": 40, "accuracy": 100, "pp": 30, "ppMax": 30, "category": "special" },
+          { "id": "growl", "name": "울음소리", "type": "normal", "power": 0, "accuracy": 100, "pp": 40, "ppMax": 40, "category": "status" },
+          null,
+          null
+        ],
+
+        "volatileStatus": []
+      },
+
+      "partySize": 1,
+      "itemsUsed": 0
+    },
+
+    "opponent": {
+      "activePokemon": {
+        "uid": "wild-001",
+        "speciesId": 16,
+        "name": "구구",
+        "level": 5,
+        "types": ["normal", "flying"],
+        "currentHp": 18,
+        "maxHp": 18,
+        "status": null,
+        "statusTurns": 0,
+
+        "stats": {
+          "attack": 10,
+          "defense": 10,
+          "special": 8,
+          "speed": 14
+        },
+
+        "statModifiers": {
+          "attack": 0,
+          "defense": 0,
+          "special": 0,
+          "speed": 0,
+          "accuracy": 0,
+          "evasion": 0
+        },
+
+        "moves": [
+          { "id": "tackle", "name": "몸통박치기", "type": "normal", "power": 35, "accuracy": 95, "pp": 35, "ppMax": 35, "category": "physical" },
+          { "id": "sand_attack", "name": "모래뿌리기", "type": "normal", "power": 0, "accuracy": 100, "pp": 15, "ppMax": 15, "category": "status" },
+          null,
+          null
+        ],
+
+        "volatileStatus": []
+      },
+
+      "trainer": null,
+      "partyRemaining": 1
+    },
+
+    "field": {
+      "weather": null,
+      "reflect": { "player": false, "opponent": false },
+      "lightScreen": { "player": false, "opponent": false }
+    },
+
+    "lastMove": {
+      "user": null,
+      "moveId": null,
+      "damage": 0,
+      "critical": false,
+      "effectiveness": 1.0
+    }
+  },
+
+  "statModifierRange": {
+    "min": -6,
+    "max": 6,
+    "multipliers": {
+      "-6": 0.25,
+      "-5": 0.28,
+      "-4": 0.33,
+      "-3": 0.40,
+      "-2": 0.50,
+      "-1": 0.66,
+      "0": 1.00,
+      "1": 1.50,
+      "2": 2.00,
+      "3": 2.50,
+      "4": 3.00,
+      "5": 3.50,
+      "6": 4.00
+    }
+  },
+
+  "battleTypes": {
+    "wild": { "canEscape": true, "canCatch": true, "expMultiplier": 1.0 },
+    "trainer": { "canEscape": false, "canCatch": false, "expMultiplier": 1.5 },
+    "gym_leader": { "canEscape": false, "canCatch": false, "expMultiplier": 1.5 },
+    "elite_four": { "canEscape": false, "canCatch": false, "expMultiplier": 1.5 },
+    "champion": { "canEscape": false, "canCatch": false, "expMultiplier": 1.5 }
+  },
+
+  "notes": {
+    "statModifiers": "전투 중 능력치 변화 단계. -6 ~ +6 범위",
+    "volatileStatus": "전투 종료 시 사라지는 상태 (혼란, 풀죽음, 씨뿌리기 등)",
+    "field": "1세대는 날씨 없음. 빛의장막/리플렉터만 존재"
+  }
+}
