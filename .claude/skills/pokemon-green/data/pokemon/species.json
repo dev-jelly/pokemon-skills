@@ -1,0 +1,1512 @@
+{
+  "1": {
+    "name": { "ko": "이상해씨", "en": "Bulbasaur" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 45, "attack": 49, "defense": 49, "special": 65, "speed": 45 },
+    "catchRate": 45,
+    "baseExp": 64,
+    "growthRate": "medium_slow",
+    "height": 0.7,
+    "weight": 6.9
+  },
+  "2": {
+    "name": { "ko": "이상해풀", "en": "Ivysaur" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 60, "attack": 62, "defense": 63, "special": 80, "speed": 60 },
+    "catchRate": 45,
+    "baseExp": 141,
+    "growthRate": "medium_slow",
+    "height": 1.0,
+    "weight": 13.0
+  },
+  "3": {
+    "name": { "ko": "이상해꽃", "en": "Venusaur" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 80, "attack": 82, "defense": 83, "special": 100, "speed": 80 },
+    "catchRate": 45,
+    "baseExp": 208,
+    "growthRate": "medium_slow",
+    "height": 2.0,
+    "weight": 100.0
+  },
+  "4": {
+    "name": { "ko": "파이리", "en": "Charmander" },
+    "types": ["fire"],
+    "baseStats": { "hp": 39, "attack": 52, "defense": 43, "special": 50, "speed": 65 },
+    "catchRate": 45,
+    "baseExp": 65,
+    "growthRate": "medium_slow",
+    "height": 0.6,
+    "weight": 8.5
+  },
+  "5": {
+    "name": { "ko": "리자드", "en": "Charmeleon" },
+    "types": ["fire"],
+    "baseStats": { "hp": 58, "attack": 64, "defense": 58, "special": 65, "speed": 80 },
+    "catchRate": 45,
+    "baseExp": 142,
+    "growthRate": "medium_slow",
+    "height": 1.1,
+    "weight": 19.0
+  },
+  "6": {
+    "name": { "ko": "리자몽", "en": "Charizard" },
+    "types": ["fire", "flying"],
+    "baseStats": { "hp": 78, "attack": 84, "defense": 78, "special": 85, "speed": 100 },
+    "catchRate": 45,
+    "baseExp": 209,
+    "growthRate": "medium_slow",
+    "height": 1.7,
+    "weight": 90.5
+  },
+  "7": {
+    "name": { "ko": "꼬부기", "en": "Squirtle" },
+    "types": ["water"],
+    "baseStats": { "hp": 44, "attack": 48, "defense": 65, "special": 50, "speed": 43 },
+    "catchRate": 45,
+    "baseExp": 66,
+    "growthRate": "medium_slow",
+    "height": 0.5,
+    "weight": 9.0
+  },
+  "8": {
+    "name": { "ko": "어니부기", "en": "Wartortle" },
+    "types": ["water"],
+    "baseStats": { "hp": 59, "attack": 63, "defense": 80, "special": 65, "speed": 58 },
+    "catchRate": 45,
+    "baseExp": 143,
+    "growthRate": "medium_slow",
+    "height": 1.0,
+    "weight": 22.5
+  },
+  "9": {
+    "name": { "ko": "거북왕", "en": "Blastoise" },
+    "types": ["water"],
+    "baseStats": { "hp": 79, "attack": 83, "defense": 100, "special": 85, "speed": 78 },
+    "catchRate": 45,
+    "baseExp": 210,
+    "growthRate": "medium_slow",
+    "height": 1.6,
+    "weight": 85.5
+  },
+  "10": {
+    "name": { "ko": "캐터피", "en": "Caterpie" },
+    "types": ["bug"],
+    "baseStats": { "hp": 45, "attack": 30, "defense": 35, "special": 20, "speed": 45 },
+    "catchRate": 255,
+    "baseExp": 53,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 2.9
+  },
+  "11": {
+    "name": { "ko": "단데기", "en": "Metapod" },
+    "types": ["bug"],
+    "baseStats": { "hp": 50, "attack": 20, "defense": 55, "special": 25, "speed": 30 },
+    "catchRate": 120,
+    "baseExp": 72,
+    "growthRate": "medium_fast",
+    "height": 0.7,
+    "weight": 9.9
+  },
+  "12": {
+    "name": { "ko": "버터플", "en": "Butterfree" },
+    "types": ["bug", "flying"],
+    "baseStats": { "hp": 60, "attack": 45, "defense": 50, "special": 80, "speed": 70 },
+    "catchRate": 45,
+    "baseExp": 160,
+    "growthRate": "medium_fast",
+    "height": 1.1,
+    "weight": 32.0
+  },
+  "13": {
+    "name": { "ko": "뿔충이", "en": "Weedle" },
+    "types": ["bug", "poison"],
+    "baseStats": { "hp": 40, "attack": 35, "defense": 30, "special": 20, "speed": 50 },
+    "catchRate": 255,
+    "baseExp": 52,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 3.2
+  },
+  "14": {
+    "name": { "ko": "딱충이", "en": "Kakuna" },
+    "types": ["bug", "poison"],
+    "baseStats": { "hp": 45, "attack": 25, "defense": 50, "special": 25, "speed": 35 },
+    "catchRate": 120,
+    "baseExp": 71,
+    "growthRate": "medium_fast",
+    "height": 0.6,
+    "weight": 10.0
+  },
+  "15": {
+    "name": { "ko": "독침붕", "en": "Beedrill" },
+    "types": ["bug", "poison"],
+    "baseStats": { "hp": 65, "attack": 80, "defense": 40, "special": 45, "speed": 75 },
+    "catchRate": 45,
+    "baseExp": 159,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 29.5
+  },
+  "16": {
+    "name": { "ko": "구구", "en": "Pidgey" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 40, "special": 35, "speed": 56 },
+    "catchRate": 255,
+    "baseExp": 55,
+    "growthRate": "medium_slow",
+    "height": 0.3,
+    "weight": 1.8
+  },
+  "17": {
+    "name": { "ko": "피죤", "en": "Pidgeotto" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 63, "attack": 60, "defense": 55, "special": 50, "speed": 71 },
+    "catchRate": 120,
+    "baseExp": 113,
+    "growthRate": "medium_slow",
+    "height": 1.1,
+    "weight": 30.0
+  },
+  "18": {
+    "name": { "ko": "피죤투", "en": "Pidgeot" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 83, "attack": 80, "defense": 75, "special": 70, "speed": 91 },
+    "catchRate": 45,
+    "baseExp": 172,
+    "growthRate": "medium_slow",
+    "height": 1.5,
+    "weight": 39.5
+  },
+  "19": {
+    "name": { "ko": "꼬렛", "en": "Rattata" },
+    "types": ["normal"],
+    "baseStats": { "hp": 30, "attack": 56, "defense": 35, "special": 25, "speed": 72 },
+    "catchRate": 255,
+    "baseExp": 57,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 3.5
+  },
+  "20": {
+    "name": { "ko": "레트라", "en": "Raticate" },
+    "types": ["normal"],
+    "baseStats": { "hp": 55, "attack": 81, "defense": 60, "special": 50, "speed": 97 },
+    "catchRate": 127,
+    "baseExp": 116,
+    "growthRate": "medium_fast",
+    "height": 0.7,
+    "weight": 18.5
+  },
+  "21": {
+    "name": { "ko": "깨비참", "en": "Spearow" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 40, "attack": 60, "defense": 30, "special": 31, "speed": 70 },
+    "catchRate": 255,
+    "baseExp": 58,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 2.0
+  },
+  "22": {
+    "name": { "ko": "깨비드릴조", "en": "Fearow" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 65, "special": 61, "speed": 100 },
+    "catchRate": 90,
+    "baseExp": 162,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 38.0
+  },
+  "23": {
+    "name": { "ko": "아보", "en": "Ekans" },
+    "types": ["poison"],
+    "baseStats": { "hp": 35, "attack": 60, "defense": 44, "special": 40, "speed": 55 },
+    "catchRate": 255,
+    "baseExp": 62,
+    "growthRate": "medium_fast",
+    "height": 2.0,
+    "weight": 6.9
+  },
+  "24": {
+    "name": { "ko": "아보크", "en": "Arbok" },
+    "types": ["poison"],
+    "baseStats": { "hp": 60, "attack": 85, "defense": 69, "special": 65, "speed": 80 },
+    "catchRate": 90,
+    "baseExp": 147,
+    "growthRate": "medium_fast",
+    "height": 3.5,
+    "weight": 65.0
+  },
+  "25": {
+    "name": { "ko": "피카츄", "en": "Pikachu" },
+    "types": ["electric"],
+    "baseStats": { "hp": 35, "attack": 55, "defense": 30, "special": 50, "speed": 90 },
+    "catchRate": 190,
+    "baseExp": 82,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 6.0
+  },
+  "26": {
+    "name": { "ko": "라이츄", "en": "Raichu" },
+    "types": ["electric"],
+    "baseStats": { "hp": 60, "attack": 90, "defense": 55, "special": 90, "speed": 100 },
+    "catchRate": 75,
+    "baseExp": 122,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 30.0
+  },
+  "27": {
+    "name": { "ko": "모래두지", "en": "Sandshrew" },
+    "types": ["ground"],
+    "baseStats": { "hp": 50, "attack": 75, "defense": 85, "special": 30, "speed": 40 },
+    "catchRate": 255,
+    "baseExp": 93,
+    "growthRate": "medium_fast",
+    "height": 0.6,
+    "weight": 12.0
+  },
+  "28": {
+    "name": { "ko": "고지", "en": "Sandslash" },
+    "types": ["ground"],
+    "baseStats": { "hp": 75, "attack": 100, "defense": 110, "special": 55, "speed": 65 },
+    "catchRate": 90,
+    "baseExp": 163,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 29.5
+  },
+  "29": {
+    "name": { "ko": "니드런♀", "en": "Nidoran♀" },
+    "types": ["poison"],
+    "baseStats": { "hp": 55, "attack": 47, "defense": 52, "special": 40, "speed": 41 },
+    "catchRate": 235,
+    "baseExp": 59,
+    "growthRate": "medium_slow",
+    "height": 0.4,
+    "weight": 7.0
+  },
+  "30": {
+    "name": { "ko": "니드리나", "en": "Nidorina" },
+    "types": ["poison"],
+    "baseStats": { "hp": 70, "attack": 62, "defense": 67, "special": 55, "speed": 56 },
+    "catchRate": 120,
+    "baseExp": 117,
+    "growthRate": "medium_slow",
+    "height": 0.8,
+    "weight": 20.0
+  },
+  "31": {
+    "name": { "ko": "니드퀸", "en": "Nidoqueen" },
+    "types": ["poison", "ground"],
+    "baseStats": { "hp": 90, "attack": 82, "defense": 87, "special": 75, "speed": 76 },
+    "catchRate": 45,
+    "baseExp": 194,
+    "growthRate": "medium_slow",
+    "height": 1.3,
+    "weight": 60.0
+  },
+  "32": {
+    "name": { "ko": "니드런♂", "en": "Nidoran♂" },
+    "types": ["poison"],
+    "baseStats": { "hp": 46, "attack": 57, "defense": 40, "special": 40, "speed": 50 },
+    "catchRate": 235,
+    "baseExp": 60,
+    "growthRate": "medium_slow",
+    "height": 0.5,
+    "weight": 9.0
+  },
+  "33": {
+    "name": { "ko": "니드리노", "en": "Nidorino" },
+    "types": ["poison"],
+    "baseStats": { "hp": 61, "attack": 72, "defense": 57, "special": 55, "speed": 65 },
+    "catchRate": 120,
+    "baseExp": 118,
+    "growthRate": "medium_slow",
+    "height": 0.9,
+    "weight": 19.5
+  },
+  "34": {
+    "name": { "ko": "니드킹", "en": "Nidoking" },
+    "types": ["poison", "ground"],
+    "baseStats": { "hp": 81, "attack": 92, "defense": 77, "special": 75, "speed": 85 },
+    "catchRate": 45,
+    "baseExp": 195,
+    "growthRate": "medium_slow",
+    "height": 1.4,
+    "weight": 62.0
+  },
+  "35": {
+    "name": { "ko": "삐삐", "en": "Clefairy" },
+    "types": ["normal"],
+    "baseStats": { "hp": 70, "attack": 45, "defense": 48, "special": 60, "speed": 35 },
+    "catchRate": 150,
+    "baseExp": 68,
+    "growthRate": "fast",
+    "height": 0.6,
+    "weight": 7.5
+  },
+  "36": {
+    "name": { "ko": "픽시", "en": "Clefable" },
+    "types": ["normal"],
+    "baseStats": { "hp": 95, "attack": 70, "defense": 73, "special": 85, "speed": 60 },
+    "catchRate": 25,
+    "baseExp": 129,
+    "growthRate": "fast",
+    "height": 1.3,
+    "weight": 40.0
+  },
+  "37": {
+    "name": { "ko": "식스테일", "en": "Vulpix" },
+    "types": ["fire"],
+    "baseStats": { "hp": 38, "attack": 41, "defense": 40, "special": 65, "speed": 65 },
+    "catchRate": 190,
+    "baseExp": 63,
+    "growthRate": "medium_fast",
+    "height": 0.6,
+    "weight": 9.9
+  },
+  "38": {
+    "name": { "ko": "나인테일", "en": "Ninetales" },
+    "types": ["fire"],
+    "baseStats": { "hp": 73, "attack": 76, "defense": 75, "special": 100, "speed": 100 },
+    "catchRate": 75,
+    "baseExp": 178,
+    "growthRate": "medium_fast",
+    "height": 1.1,
+    "weight": 19.9
+  },
+  "39": {
+    "name": { "ko": "푸린", "en": "Jigglypuff" },
+    "types": ["normal"],
+    "baseStats": { "hp": 115, "attack": 45, "defense": 20, "special": 25, "speed": 20 },
+    "catchRate": 170,
+    "baseExp": 76,
+    "growthRate": "fast",
+    "height": 0.5,
+    "weight": 5.5
+  },
+  "40": {
+    "name": { "ko": "푸크린", "en": "Wigglytuff" },
+    "types": ["normal"],
+    "baseStats": { "hp": 140, "attack": 70, "defense": 45, "special": 50, "speed": 45 },
+    "catchRate": 50,
+    "baseExp": 109,
+    "growthRate": "fast",
+    "height": 1.0,
+    "weight": 12.0
+  },
+  "41": {
+    "name": { "ko": "주뱃", "en": "Zubat" },
+    "types": ["poison", "flying"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 35, "special": 40, "speed": 55 },
+    "catchRate": 255,
+    "baseExp": 54,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 7.5
+  },
+  "42": {
+    "name": { "ko": "골뱃", "en": "Golbat" },
+    "types": ["poison", "flying"],
+    "baseStats": { "hp": 75, "attack": 80, "defense": 70, "special": 75, "speed": 90 },
+    "catchRate": 90,
+    "baseExp": 171,
+    "growthRate": "medium_fast",
+    "height": 1.6,
+    "weight": 55.0
+  },
+  "43": {
+    "name": { "ko": "뚜벅쵸", "en": "Oddish" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 45, "attack": 50, "defense": 55, "special": 75, "speed": 30 },
+    "catchRate": 255,
+    "baseExp": 78,
+    "growthRate": "medium_slow",
+    "height": 0.5,
+    "weight": 5.4
+  },
+  "44": {
+    "name": { "ko": "냄새꼬", "en": "Gloom" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 60, "attack": 65, "defense": 70, "special": 85, "speed": 40 },
+    "catchRate": 120,
+    "baseExp": 132,
+    "growthRate": "medium_slow",
+    "height": 0.8,
+    "weight": 8.6
+  },
+  "45": {
+    "name": { "ko": "라플레시아", "en": "Vileplume" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 75, "attack": 80, "defense": 85, "special": 100, "speed": 50 },
+    "catchRate": 45,
+    "baseExp": 184,
+    "growthRate": "medium_slow",
+    "height": 1.2,
+    "weight": 18.6
+  },
+  "46": {
+    "name": { "ko": "파라스", "en": "Paras" },
+    "types": ["bug", "grass"],
+    "baseStats": { "hp": 35, "attack": 70, "defense": 55, "special": 55, "speed": 25 },
+    "catchRate": 190,
+    "baseExp": 70,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 5.4
+  },
+  "47": {
+    "name": { "ko": "파라섹트", "en": "Parasect" },
+    "types": ["bug", "grass"],
+    "baseStats": { "hp": 60, "attack": 95, "defense": 80, "special": 80, "speed": 30 },
+    "catchRate": 75,
+    "baseExp": 128,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 29.5
+  },
+  "48": {
+    "name": { "ko": "콘팡", "en": "Venonat" },
+    "types": ["bug", "poison"],
+    "baseStats": { "hp": 60, "attack": 55, "defense": 50, "special": 40, "speed": 45 },
+    "catchRate": 190,
+    "baseExp": 75,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 30.0
+  },
+  "49": {
+    "name": { "ko": "도나리", "en": "Venomoth" },
+    "types": ["bug", "poison"],
+    "baseStats": { "hp": 70, "attack": 65, "defense": 60, "special": 90, "speed": 90 },
+    "catchRate": 75,
+    "baseExp": 138,
+    "growthRate": "medium_fast",
+    "height": 1.5,
+    "weight": 12.5
+  },
+  "50": {
+    "name": { "ko": "디그다", "en": "Diglett" },
+    "types": ["ground"],
+    "baseStats": { "hp": 10, "attack": 55, "defense": 25, "special": 45, "speed": 95 },
+    "catchRate": 255,
+    "baseExp": 81,
+    "growthRate": "medium_fast",
+    "height": 0.2,
+    "weight": 0.8
+  },
+  "51": {
+    "name": { "ko": "닥트리오", "en": "Dugtrio" },
+    "types": ["ground"],
+    "baseStats": { "hp": 35, "attack": 80, "defense": 50, "special": 70, "speed": 120 },
+    "catchRate": 50,
+    "baseExp": 153,
+    "growthRate": "medium_fast",
+    "height": 0.7,
+    "weight": 33.3
+  },
+  "52": {
+    "name": { "ko": "나옹", "en": "Meowth" },
+    "types": ["normal"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 35, "special": 40, "speed": 90 },
+    "catchRate": 255,
+    "baseExp": 69,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 4.2
+  },
+  "53": {
+    "name": { "ko": "페르시온", "en": "Persian" },
+    "types": ["normal"],
+    "baseStats": { "hp": 65, "attack": 70, "defense": 60, "special": 65, "speed": 115 },
+    "catchRate": 90,
+    "baseExp": 148,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 32.0
+  },
+  "54": {
+    "name": { "ko": "고라파덕", "en": "Psyduck" },
+    "types": ["water"],
+    "baseStats": { "hp": 50, "attack": 52, "defense": 48, "special": 50, "speed": 55 },
+    "catchRate": 190,
+    "baseExp": 80,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 19.6
+  },
+  "55": {
+    "name": { "ko": "골덕", "en": "Golduck" },
+    "types": ["water"],
+    "baseStats": { "hp": 80, "attack": 82, "defense": 78, "special": 80, "speed": 85 },
+    "catchRate": 75,
+    "baseExp": 174,
+    "growthRate": "medium_fast",
+    "height": 1.7,
+    "weight": 76.6
+  },
+  "56": {
+    "name": { "ko": "망키", "en": "Mankey" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 40, "attack": 80, "defense": 35, "special": 35, "speed": 70 },
+    "catchRate": 190,
+    "baseExp": 74,
+    "growthRate": "medium_fast",
+    "height": 0.5,
+    "weight": 28.0
+  },
+  "57": {
+    "name": { "ko": "성원숭", "en": "Primeape" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 65, "attack": 105, "defense": 60, "special": 60, "speed": 95 },
+    "catchRate": 75,
+    "baseExp": 149,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 32.0
+  },
+  "58": {
+    "name": { "ko": "가디", "en": "Growlithe" },
+    "types": ["fire"],
+    "baseStats": { "hp": 55, "attack": 70, "defense": 45, "special": 50, "speed": 60 },
+    "catchRate": 190,
+    "baseExp": 91,
+    "growthRate": "slow",
+    "height": 0.7,
+    "weight": 19.0
+  },
+  "59": {
+    "name": { "ko": "윈디", "en": "Arcanine" },
+    "types": ["fire"],
+    "baseStats": { "hp": 90, "attack": 110, "defense": 80, "special": 80, "speed": 95 },
+    "catchRate": 75,
+    "baseExp": 213,
+    "growthRate": "slow",
+    "height": 1.9,
+    "weight": 155.0
+  },
+  "60": {
+    "name": { "ko": "발챙이", "en": "Poliwag" },
+    "types": ["water"],
+    "baseStats": { "hp": 40, "attack": 50, "defense": 40, "special": 40, "speed": 90 },
+    "catchRate": 255,
+    "baseExp": 77,
+    "growthRate": "medium_slow",
+    "height": 0.6,
+    "weight": 12.4
+  },
+  "61": {
+    "name": { "ko": "슈륙챙이", "en": "Poliwhirl" },
+    "types": ["water"],
+    "baseStats": { "hp": 65, "attack": 65, "defense": 65, "special": 50, "speed": 90 },
+    "catchRate": 120,
+    "baseExp": 131,
+    "growthRate": "medium_slow",
+    "height": 1.0,
+    "weight": 20.0
+  },
+  "62": {
+    "name": { "ko": "강챙이", "en": "Poliwrath" },
+    "types": ["water", "fighting"],
+    "baseStats": { "hp": 90, "attack": 85, "defense": 95, "special": 70, "speed": 70 },
+    "catchRate": 45,
+    "baseExp": 185,
+    "growthRate": "medium_slow",
+    "height": 1.3,
+    "weight": 54.0
+  },
+  "63": {
+    "name": { "ko": "캐이시", "en": "Abra" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 25, "attack": 20, "defense": 15, "special": 105, "speed": 90 },
+    "catchRate": 200,
+    "baseExp": 73,
+    "growthRate": "medium_slow",
+    "height": 0.9,
+    "weight": 19.5
+  },
+  "64": {
+    "name": { "ko": "윤겔라", "en": "Kadabra" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 40, "attack": 35, "defense": 30, "special": 120, "speed": 105 },
+    "catchRate": 100,
+    "baseExp": 145,
+    "growthRate": "medium_slow",
+    "height": 1.3,
+    "weight": 56.5
+  },
+  "65": {
+    "name": { "ko": "후딘", "en": "Alakazam" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 55, "attack": 50, "defense": 45, "special": 135, "speed": 120 },
+    "catchRate": 50,
+    "baseExp": 186,
+    "growthRate": "medium_slow",
+    "height": 1.5,
+    "weight": 48.0
+  },
+  "66": {
+    "name": { "ko": "알통몬", "en": "Machop" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 70, "attack": 80, "defense": 50, "special": 35, "speed": 35 },
+    "catchRate": 180,
+    "baseExp": 88,
+    "growthRate": "medium_slow",
+    "height": 0.8,
+    "weight": 19.5
+  },
+  "67": {
+    "name": { "ko": "근육몬", "en": "Machoke" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 80, "attack": 100, "defense": 70, "special": 50, "speed": 45 },
+    "catchRate": 90,
+    "baseExp": 146,
+    "growthRate": "medium_slow",
+    "height": 1.5,
+    "weight": 70.5
+  },
+  "68": {
+    "name": { "ko": "괴력몬", "en": "Machamp" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 90, "attack": 130, "defense": 80, "special": 65, "speed": 55 },
+    "catchRate": 45,
+    "baseExp": 193,
+    "growthRate": "medium_slow",
+    "height": 1.6,
+    "weight": 130.0
+  },
+  "69": {
+    "name": { "ko": "모다피", "en": "Bellsprout" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 50, "attack": 75, "defense": 35, "special": 70, "speed": 40 },
+    "catchRate": 255,
+    "baseExp": 84,
+    "growthRate": "medium_slow",
+    "height": 0.7,
+    "weight": 4.0
+  },
+  "70": {
+    "name": { "ko": "우츠동", "en": "Weepinbell" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 50, "special": 85, "speed": 55 },
+    "catchRate": 120,
+    "baseExp": 151,
+    "growthRate": "medium_slow",
+    "height": 1.0,
+    "weight": 6.4
+  },
+  "71": {
+    "name": { "ko": "우츠보트", "en": "Victreebel" },
+    "types": ["grass", "poison"],
+    "baseStats": { "hp": 80, "attack": 105, "defense": 65, "special": 100, "speed": 70 },
+    "catchRate": 45,
+    "baseExp": 191,
+    "growthRate": "medium_slow",
+    "height": 1.7,
+    "weight": 15.5
+  },
+  "72": {
+    "name": { "ko": "왕눈해", "en": "Tentacool" },
+    "types": ["water", "poison"],
+    "baseStats": { "hp": 40, "attack": 40, "defense": 35, "special": 100, "speed": 70 },
+    "catchRate": 190,
+    "baseExp": 105,
+    "growthRate": "slow",
+    "height": 0.9,
+    "weight": 45.5
+  },
+  "73": {
+    "name": { "ko": "독파리", "en": "Tentacruel" },
+    "types": ["water", "poison"],
+    "baseStats": { "hp": 80, "attack": 70, "defense": 65, "special": 120, "speed": 100 },
+    "catchRate": 60,
+    "baseExp": 205,
+    "growthRate": "slow",
+    "height": 1.6,
+    "weight": 55.0
+  },
+  "74": {
+    "name": { "ko": "꼬마돌", "en": "Geodude" },
+    "types": ["rock", "ground"],
+    "baseStats": { "hp": 40, "attack": 80, "defense": 100, "special": 30, "speed": 20 },
+    "catchRate": 255,
+    "baseExp": 86,
+    "growthRate": "medium_slow",
+    "height": 0.4,
+    "weight": 20.0
+  },
+  "75": {
+    "name": { "ko": "데구리", "en": "Graveler" },
+    "types": ["rock", "ground"],
+    "baseStats": { "hp": 55, "attack": 95, "defense": 115, "special": 45, "speed": 35 },
+    "catchRate": 120,
+    "baseExp": 134,
+    "growthRate": "medium_slow",
+    "height": 1.0,
+    "weight": 105.0
+  },
+  "76": {
+    "name": { "ko": "딱구리", "en": "Golem" },
+    "types": ["rock", "ground"],
+    "baseStats": { "hp": 80, "attack": 110, "defense": 130, "special": 55, "speed": 45 },
+    "catchRate": 45,
+    "baseExp": 177,
+    "growthRate": "medium_slow",
+    "height": 1.4,
+    "weight": 300.0
+  },
+  "77": {
+    "name": { "ko": "포니타", "en": "Ponyta" },
+    "types": ["fire"],
+    "baseStats": { "hp": 50, "attack": 85, "defense": 55, "special": 65, "speed": 90 },
+    "catchRate": 190,
+    "baseExp": 152,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 30.0
+  },
+  "78": {
+    "name": { "ko": "날쌩마", "en": "Rapidash" },
+    "types": ["fire"],
+    "baseStats": { "hp": 65, "attack": 100, "defense": 70, "special": 80, "speed": 105 },
+    "catchRate": 60,
+    "baseExp": 192,
+    "growthRate": "medium_fast",
+    "height": 1.7,
+    "weight": 95.0
+  },
+  "79": {
+    "name": { "ko": "야돈", "en": "Slowpoke" },
+    "types": ["water", "psychic"],
+    "baseStats": { "hp": 90, "attack": 65, "defense": 65, "special": 40, "speed": 15 },
+    "catchRate": 190,
+    "baseExp": 99,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 36.0
+  },
+  "80": {
+    "name": { "ko": "야도란", "en": "Slowbro" },
+    "types": ["water", "psychic"],
+    "baseStats": { "hp": 95, "attack": 75, "defense": 110, "special": 80, "speed": 30 },
+    "catchRate": 75,
+    "baseExp": 164,
+    "growthRate": "medium_fast",
+    "height": 1.6,
+    "weight": 78.5
+  },
+  "81": {
+    "name": { "ko": "코일", "en": "Magnemite" },
+    "types": ["electric"],
+    "baseStats": { "hp": 25, "attack": 35, "defense": 70, "special": 95, "speed": 45 },
+    "catchRate": 190,
+    "baseExp": 89,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 6.0
+  },
+  "82": {
+    "name": { "ko": "레어코일", "en": "Magneton" },
+    "types": ["electric"],
+    "baseStats": { "hp": 50, "attack": 60, "defense": 95, "special": 120, "speed": 70 },
+    "catchRate": 60,
+    "baseExp": 161,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 60.0
+  },
+  "83": {
+    "name": { "ko": "파오리", "en": "Farfetch'd" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 52, "attack": 65, "defense": 55, "special": 58, "speed": 60 },
+    "catchRate": 45,
+    "baseExp": 94,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 15.0
+  },
+  "84": {
+    "name": { "ko": "두두", "en": "Doduo" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 35, "attack": 85, "defense": 45, "special": 35, "speed": 75 },
+    "catchRate": 190,
+    "baseExp": 96,
+    "growthRate": "medium_fast",
+    "height": 1.4,
+    "weight": 39.2
+  },
+  "85": {
+    "name": { "ko": "두트리오", "en": "Dodrio" },
+    "types": ["normal", "flying"],
+    "baseStats": { "hp": 60, "attack": 110, "defense": 70, "special": 60, "speed": 100 },
+    "catchRate": 45,
+    "baseExp": 158,
+    "growthRate": "medium_fast",
+    "height": 1.8,
+    "weight": 85.2
+  },
+  "86": {
+    "name": { "ko": "쥬쥬", "en": "Seel" },
+    "types": ["water"],
+    "baseStats": { "hp": 65, "attack": 45, "defense": 55, "special": 70, "speed": 45 },
+    "catchRate": 190,
+    "baseExp": 100,
+    "growthRate": "medium_fast",
+    "height": 1.1,
+    "weight": 90.0
+  },
+  "87": {
+    "name": { "ko": "쥬레곤", "en": "Dewgong" },
+    "types": ["water", "ice"],
+    "baseStats": { "hp": 90, "attack": 70, "defense": 80, "special": 95, "speed": 70 },
+    "catchRate": 75,
+    "baseExp": 176,
+    "growthRate": "medium_fast",
+    "height": 1.7,
+    "weight": 120.0
+  },
+  "88": {
+    "name": { "ko": "질퍽이", "en": "Grimer" },
+    "types": ["poison"],
+    "baseStats": { "hp": 80, "attack": 80, "defense": 50, "special": 40, "speed": 25 },
+    "catchRate": 190,
+    "baseExp": 90,
+    "growthRate": "medium_fast",
+    "height": 0.9,
+    "weight": 30.0
+  },
+  "89": {
+    "name": { "ko": "질뻐기", "en": "Muk" },
+    "types": ["poison"],
+    "baseStats": { "hp": 105, "attack": 105, "defense": 75, "special": 65, "speed": 50 },
+    "catchRate": 75,
+    "baseExp": 157,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 30.0
+  },
+  "90": {
+    "name": { "ko": "셀러", "en": "Shellder" },
+    "types": ["water"],
+    "baseStats": { "hp": 30, "attack": 65, "defense": 100, "special": 45, "speed": 40 },
+    "catchRate": 190,
+    "baseExp": 97,
+    "growthRate": "slow",
+    "height": 0.3,
+    "weight": 4.0
+  },
+  "91": {
+    "name": { "ko": "파르셀", "en": "Cloyster" },
+    "types": ["water", "ice"],
+    "baseStats": { "hp": 50, "attack": 95, "defense": 180, "special": 85, "speed": 70 },
+    "catchRate": 60,
+    "baseExp": 203,
+    "growthRate": "slow",
+    "height": 1.5,
+    "weight": 132.5
+  },
+  "92": {
+    "name": { "ko": "고오스", "en": "Gastly" },
+    "types": ["ghost", "poison"],
+    "baseStats": { "hp": 30, "attack": 35, "defense": 30, "special": 100, "speed": 80 },
+    "catchRate": 190,
+    "baseExp": 95,
+    "growthRate": "medium_slow",
+    "height": 1.3,
+    "weight": 0.1
+  },
+  "93": {
+    "name": { "ko": "고우스트", "en": "Haunter" },
+    "types": ["ghost", "poison"],
+    "baseStats": { "hp": 45, "attack": 50, "defense": 45, "special": 115, "speed": 95 },
+    "catchRate": 90,
+    "baseExp": 126,
+    "growthRate": "medium_slow",
+    "height": 1.6,
+    "weight": 0.1
+  },
+  "94": {
+    "name": { "ko": "팬텀", "en": "Gengar" },
+    "types": ["ghost", "poison"],
+    "baseStats": { "hp": 60, "attack": 65, "defense": 60, "special": 130, "speed": 110 },
+    "catchRate": 45,
+    "baseExp": 190,
+    "growthRate": "medium_slow",
+    "height": 1.5,
+    "weight": 40.5
+  },
+  "95": {
+    "name": { "ko": "롱스톤", "en": "Onix" },
+    "types": ["rock", "ground"],
+    "baseStats": { "hp": 35, "attack": 45, "defense": 160, "special": 30, "speed": 70 },
+    "catchRate": 45,
+    "baseExp": 108,
+    "growthRate": "medium_fast",
+    "height": 8.8,
+    "weight": 210.0
+  },
+  "96": {
+    "name": { "ko": "슬리프", "en": "Drowzee" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 60, "attack": 48, "defense": 45, "special": 90, "speed": 42 },
+    "catchRate": 190,
+    "baseExp": 102,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 32.4
+  },
+  "97": {
+    "name": { "ko": "슬리퍼", "en": "Hypno" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 85, "attack": 73, "defense": 70, "special": 115, "speed": 67 },
+    "catchRate": 75,
+    "baseExp": 165,
+    "growthRate": "medium_fast",
+    "height": 1.6,
+    "weight": 75.6
+  },
+  "98": {
+    "name": { "ko": "크랩", "en": "Krabby" },
+    "types": ["water"],
+    "baseStats": { "hp": 30, "attack": 105, "defense": 90, "special": 25, "speed": 50 },
+    "catchRate": 225,
+    "baseExp": 115,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 6.5
+  },
+  "99": {
+    "name": { "ko": "킹크랩", "en": "Kingler" },
+    "types": ["water"],
+    "baseStats": { "hp": 55, "attack": 130, "defense": 115, "special": 50, "speed": 75 },
+    "catchRate": 60,
+    "baseExp": 206,
+    "growthRate": "medium_fast",
+    "height": 1.3,
+    "weight": 60.0
+  },
+  "100": {
+    "name": { "ko": "찌리리공", "en": "Voltorb" },
+    "types": ["electric"],
+    "baseStats": { "hp": 40, "attack": 30, "defense": 50, "special": 55, "speed": 100 },
+    "catchRate": 190,
+    "baseExp": 103,
+    "growthRate": "medium_fast",
+    "height": 0.5,
+    "weight": 10.4
+  },
+  "101": {
+    "name": { "ko": "붐볼", "en": "Electrode" },
+    "types": ["electric"],
+    "baseStats": { "hp": 60, "attack": 50, "defense": 70, "special": 80, "speed": 140 },
+    "catchRate": 60,
+    "baseExp": 150,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 66.6
+  },
+  "102": {
+    "name": { "ko": "아라리", "en": "Exeggcute" },
+    "types": ["grass", "psychic"],
+    "baseStats": { "hp": 60, "attack": 40, "defense": 80, "special": 60, "speed": 40 },
+    "catchRate": 90,
+    "baseExp": 98,
+    "growthRate": "slow",
+    "height": 0.4,
+    "weight": 2.5
+  },
+  "103": {
+    "name": { "ko": "나시", "en": "Exeggutor" },
+    "types": ["grass", "psychic"],
+    "baseStats": { "hp": 95, "attack": 95, "defense": 85, "special": 125, "speed": 55 },
+    "catchRate": 45,
+    "baseExp": 212,
+    "growthRate": "slow",
+    "height": 2.0,
+    "weight": 120.0
+  },
+  "104": {
+    "name": { "ko": "탕구리", "en": "Cubone" },
+    "types": ["ground"],
+    "baseStats": { "hp": 50, "attack": 50, "defense": 95, "special": 40, "speed": 35 },
+    "catchRate": 190,
+    "baseExp": 87,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 6.5
+  },
+  "105": {
+    "name": { "ko": "텅구리", "en": "Marowak" },
+    "types": ["ground"],
+    "baseStats": { "hp": 60, "attack": 80, "defense": 110, "special": 50, "speed": 45 },
+    "catchRate": 75,
+    "baseExp": 124,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 45.0
+  },
+  "106": {
+    "name": { "ko": "시라소몬", "en": "Hitmonlee" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 50, "attack": 120, "defense": 53, "special": 35, "speed": 87 },
+    "catchRate": 45,
+    "baseExp": 139,
+    "growthRate": "medium_fast",
+    "height": 1.5,
+    "weight": 49.8
+  },
+  "107": {
+    "name": { "ko": "홍수몬", "en": "Hitmonchan" },
+    "types": ["fighting"],
+    "baseStats": { "hp": 50, "attack": 105, "defense": 79, "special": 35, "speed": 76 },
+    "catchRate": 45,
+    "baseExp": 140,
+    "growthRate": "medium_fast",
+    "height": 1.4,
+    "weight": 50.2
+  },
+  "108": {
+    "name": { "ko": "내루미", "en": "Lickitung" },
+    "types": ["normal"],
+    "baseStats": { "hp": 90, "attack": 55, "defense": 75, "special": 60, "speed": 30 },
+    "catchRate": 45,
+    "baseExp": 127,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 65.5
+  },
+  "109": {
+    "name": { "ko": "또가스", "en": "Koffing" },
+    "types": ["poison"],
+    "baseStats": { "hp": 40, "attack": 65, "defense": 95, "special": 60, "speed": 35 },
+    "catchRate": 190,
+    "baseExp": 114,
+    "growthRate": "medium_fast",
+    "height": 0.6,
+    "weight": 1.0
+  },
+  "110": {
+    "name": { "ko": "또도가스", "en": "Weezing" },
+    "types": ["poison"],
+    "baseStats": { "hp": 65, "attack": 90, "defense": 120, "special": 85, "speed": 60 },
+    "catchRate": 60,
+    "baseExp": 173,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 9.5
+  },
+  "111": {
+    "name": { "ko": "뿔카노", "en": "Rhyhorn" },
+    "types": ["ground", "rock"],
+    "baseStats": { "hp": 80, "attack": 85, "defense": 95, "special": 30, "speed": 25 },
+    "catchRate": 120,
+    "baseExp": 135,
+    "growthRate": "slow",
+    "height": 1.0,
+    "weight": 115.0
+  },
+  "112": {
+    "name": { "ko": "코뿌리", "en": "Rhydon" },
+    "types": ["ground", "rock"],
+    "baseStats": { "hp": 105, "attack": 130, "defense": 120, "special": 45, "speed": 40 },
+    "catchRate": 60,
+    "baseExp": 204,
+    "growthRate": "slow",
+    "height": 1.9,
+    "weight": 120.0
+  },
+  "113": {
+    "name": { "ko": "럭키", "en": "Chansey" },
+    "types": ["normal"],
+    "baseStats": { "hp": 250, "attack": 5, "defense": 5, "special": 105, "speed": 50 },
+    "catchRate": 30,
+    "baseExp": 255,
+    "growthRate": "fast",
+    "height": 1.1,
+    "weight": 34.6
+  },
+  "114": {
+    "name": { "ko": "덩쿠리", "en": "Tangela" },
+    "types": ["grass"],
+    "baseStats": { "hp": 65, "attack": 55, "defense": 115, "special": 100, "speed": 60 },
+    "catchRate": 45,
+    "baseExp": 166,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 35.0
+  },
+  "115": {
+    "name": { "ko": "캥카", "en": "Kangaskhan" },
+    "types": ["normal"],
+    "baseStats": { "hp": 105, "attack": 95, "defense": 80, "special": 40, "speed": 90 },
+    "catchRate": 45,
+    "baseExp": 175,
+    "growthRate": "medium_fast",
+    "height": 2.2,
+    "weight": 80.0
+  },
+  "116": {
+    "name": { "ko": "쏘드라", "en": "Horsea" },
+    "types": ["water"],
+    "baseStats": { "hp": 30, "attack": 40, "defense": 70, "special": 70, "speed": 60 },
+    "catchRate": 225,
+    "baseExp": 83,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 8.0
+  },
+  "117": {
+    "name": { "ko": "시드라", "en": "Seadra" },
+    "types": ["water"],
+    "baseStats": { "hp": 55, "attack": 65, "defense": 95, "special": 95, "speed": 85 },
+    "catchRate": 75,
+    "baseExp": 155,
+    "growthRate": "medium_fast",
+    "height": 1.2,
+    "weight": 25.0
+  },
+  "118": {
+    "name": { "ko": "콘치", "en": "Goldeen" },
+    "types": ["water"],
+    "baseStats": { "hp": 45, "attack": 67, "defense": 60, "special": 50, "speed": 63 },
+    "catchRate": 225,
+    "baseExp": 111,
+    "growthRate": "medium_fast",
+    "height": 0.6,
+    "weight": 15.0
+  },
+  "119": {
+    "name": { "ko": "왕콘치", "en": "Seaking" },
+    "types": ["water"],
+    "baseStats": { "hp": 80, "attack": 92, "defense": 65, "special": 80, "speed": 68 },
+    "catchRate": 60,
+    "baseExp": 170,
+    "growthRate": "medium_fast",
+    "height": 1.3,
+    "weight": 39.0
+  },
+  "120": {
+    "name": { "ko": "별가사리", "en": "Staryu" },
+    "types": ["water"],
+    "baseStats": { "hp": 30, "attack": 45, "defense": 55, "special": 70, "speed": 85 },
+    "catchRate": 225,
+    "baseExp": 106,
+    "growthRate": "slow",
+    "height": 0.8,
+    "weight": 34.5
+  },
+  "121": {
+    "name": { "ko": "아쿠스타", "en": "Starmie" },
+    "types": ["water", "psychic"],
+    "baseStats": { "hp": 60, "attack": 75, "defense": 85, "special": 100, "speed": 115 },
+    "catchRate": 60,
+    "baseExp": 207,
+    "growthRate": "slow",
+    "height": 1.1,
+    "weight": 80.0
+  },
+  "122": {
+    "name": { "ko": "마임맨", "en": "Mr. Mime" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 40, "attack": 45, "defense": 65, "special": 100, "speed": 90 },
+    "catchRate": 45,
+    "baseExp": 136,
+    "growthRate": "medium_fast",
+    "height": 1.3,
+    "weight": 54.5
+  },
+  "123": {
+    "name": { "ko": "스라크", "en": "Scyther" },
+    "types": ["bug", "flying"],
+    "baseStats": { "hp": 70, "attack": 110, "defense": 80, "special": 55, "speed": 105 },
+    "catchRate": 45,
+    "baseExp": 187,
+    "growthRate": "medium_fast",
+    "height": 1.5,
+    "weight": 56.0
+  },
+  "124": {
+    "name": { "ko": "루주라", "en": "Jynx" },
+    "types": ["ice", "psychic"],
+    "baseStats": { "hp": 65, "attack": 50, "defense": 35, "special": 95, "speed": 95 },
+    "catchRate": 45,
+    "baseExp": 137,
+    "growthRate": "medium_fast",
+    "height": 1.4,
+    "weight": 40.6
+  },
+  "125": {
+    "name": { "ko": "에레브", "en": "Electabuzz" },
+    "types": ["electric"],
+    "baseStats": { "hp": 65, "attack": 83, "defense": 57, "special": 85, "speed": 105 },
+    "catchRate": 45,
+    "baseExp": 156,
+    "growthRate": "medium_fast",
+    "height": 1.1,
+    "weight": 30.0
+  },
+  "126": {
+    "name": { "ko": "마그마", "en": "Magmar" },
+    "types": ["fire"],
+    "baseStats": { "hp": 65, "attack": 95, "defense": 57, "special": 85, "speed": 93 },
+    "catchRate": 45,
+    "baseExp": 167,
+    "growthRate": "medium_fast",
+    "height": 1.3,
+    "weight": 44.5
+  },
+  "127": {
+    "name": { "ko": "쁘사이저", "en": "Pinsir" },
+    "types": ["bug"],
+    "baseStats": { "hp": 65, "attack": 125, "defense": 100, "special": 55, "speed": 85 },
+    "catchRate": 45,
+    "baseExp": 200,
+    "growthRate": "slow",
+    "height": 1.5,
+    "weight": 55.0
+  },
+  "128": {
+    "name": { "ko": "켄타로스", "en": "Tauros" },
+    "types": ["normal"],
+    "baseStats": { "hp": 75, "attack": 100, "defense": 95, "special": 70, "speed": 110 },
+    "catchRate": 45,
+    "baseExp": 211,
+    "growthRate": "slow",
+    "height": 1.4,
+    "weight": 88.4
+  },
+  "129": {
+    "name": { "ko": "잉어킹", "en": "Magikarp" },
+    "types": ["water"],
+    "baseStats": { "hp": 20, "attack": 10, "defense": 55, "special": 20, "speed": 80 },
+    "catchRate": 255,
+    "baseExp": 20,
+    "growthRate": "slow",
+    "height": 0.9,
+    "weight": 10.0
+  },
+  "130": {
+    "name": { "ko": "갸라도스", "en": "Gyarados" },
+    "types": ["water", "flying"],
+    "baseStats": { "hp": 95, "attack": 125, "defense": 79, "special": 100, "speed": 81 },
+    "catchRate": 45,
+    "baseExp": 214,
+    "growthRate": "slow",
+    "height": 6.5,
+    "weight": 235.0
+  },
+  "131": {
+    "name": { "ko": "라프라스", "en": "Lapras" },
+    "types": ["water", "ice"],
+    "baseStats": { "hp": 130, "attack": 85, "defense": 80, "special": 95, "speed": 60 },
+    "catchRate": 45,
+    "baseExp": 219,
+    "growthRate": "slow",
+    "height": 2.5,
+    "weight": 220.0
+  },
+  "132": {
+    "name": { "ko": "메타몽", "en": "Ditto" },
+    "types": ["normal"],
+    "baseStats": { "hp": 48, "attack": 48, "defense": 48, "special": 48, "speed": 48 },
+    "catchRate": 35,
+    "baseExp": 61,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 4.0
+  },
+  "133": {
+    "name": { "ko": "이브이", "en": "Eevee" },
+    "types": ["normal"],
+    "baseStats": { "hp": 55, "attack": 55, "defense": 50, "special": 65, "speed": 55 },
+    "catchRate": 45,
+    "baseExp": 92,
+    "growthRate": "medium_fast",
+    "height": 0.3,
+    "weight": 6.5
+  },
+  "134": {
+    "name": { "ko": "샤미드", "en": "Vaporeon" },
+    "types": ["water"],
+    "baseStats": { "hp": 130, "attack": 65, "defense": 60, "special": 110, "speed": 65 },
+    "catchRate": 45,
+    "baseExp": 196,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 29.0
+  },
+  "135": {
+    "name": { "ko": "쥬피썬더", "en": "Jolteon" },
+    "types": ["electric"],
+    "baseStats": { "hp": 65, "attack": 65, "defense": 60, "special": 110, "speed": 130 },
+    "catchRate": 45,
+    "baseExp": 197,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 24.5
+  },
+  "136": {
+    "name": { "ko": "부스터", "en": "Flareon" },
+    "types": ["fire"],
+    "baseStats": { "hp": 65, "attack": 130, "defense": 60, "special": 110, "speed": 65 },
+    "catchRate": 45,
+    "baseExp": 198,
+    "growthRate": "medium_fast",
+    "height": 0.9,
+    "weight": 25.0
+  },
+  "137": {
+    "name": { "ko": "폴리곤", "en": "Porygon" },
+    "types": ["normal"],
+    "baseStats": { "hp": 65, "attack": 60, "defense": 70, "special": 75, "speed": 40 },
+    "catchRate": 45,
+    "baseExp": 130,
+    "growthRate": "medium_fast",
+    "height": 0.8,
+    "weight": 36.5
+  },
+  "138": {
+    "name": { "ko": "암나이트", "en": "Omanyte" },
+    "types": ["rock", "water"],
+    "baseStats": { "hp": 35, "attack": 40, "defense": 100, "special": 90, "speed": 35 },
+    "catchRate": 45,
+    "baseExp": 120,
+    "growthRate": "medium_fast",
+    "height": 0.4,
+    "weight": 7.5
+  },
+  "139": {
+    "name": { "ko": "암스타", "en": "Omastar" },
+    "types": ["rock", "water"],
+    "baseStats": { "hp": 70, "attack": 60, "defense": 125, "special": 115, "speed": 55 },
+    "catchRate": 45,
+    "baseExp": 199,
+    "growthRate": "medium_fast",
+    "height": 1.0,
+    "weight": 35.0
+  },
+  "140": {
+    "name": { "ko": "투구", "en": "Kabuto" },
+    "types": ["rock", "water"],
+    "baseStats": { "hp": 30, "attack": 80, "defense": 90, "special": 45, "speed": 55 },
+    "catchRate": 45,
+    "baseExp": 119,
+    "growthRate": "medium_fast",
+    "height": 0.5,
+    "weight": 11.5
+  },
+  "141": {
+    "name": { "ko": "투구푸스", "en": "Kabutops" },
+    "types": ["rock", "water"],
+    "baseStats": { "hp": 60, "attack": 115, "defense": 105, "special": 70, "speed": 80 },
+    "catchRate": 45,
+    "baseExp": 201,
+    "growthRate": "medium_fast",
+    "height": 1.3,
+    "weight": 40.5
+  },
+  "142": {
+    "name": { "ko": "프테라", "en": "Aerodactyl" },
+    "types": ["rock", "flying"],
+    "baseStats": { "hp": 80, "attack": 105, "defense": 65, "special": 60, "speed": 130 },
+    "catchRate": 45,
+    "baseExp": 202,
+    "growthRate": "slow",
+    "height": 1.8,
+    "weight": 59.0
+  },
+  "143": {
+    "name": { "ko": "잠만보", "en": "Snorlax" },
+    "types": ["normal"],
+    "baseStats": { "hp": 160, "attack": 110, "defense": 65, "special": 65, "speed": 30 },
+    "catchRate": 25,
+    "baseExp": 154,
+    "growthRate": "slow",
+    "height": 2.1,
+    "weight": 460.0
+  },
+  "144": {
+    "name": { "ko": "프리져", "en": "Articuno" },
+    "types": ["ice", "flying"],
+    "baseStats": { "hp": 90, "attack": 85, "defense": 100, "special": 125, "speed": 85 },
+    "catchRate": 3,
+    "baseExp": 215,
+    "growthRate": "slow",
+    "height": 1.7,
+    "weight": 55.4
+  },
+  "145": {
+    "name": { "ko": "썬더", "en": "Zapdos" },
+    "types": ["electric", "flying"],
+    "baseStats": { "hp": 90, "attack": 90, "defense": 85, "special": 125, "speed": 100 },
+    "catchRate": 3,
+    "baseExp": 216,
+    "growthRate": "slow",
+    "height": 1.6,
+    "weight": 52.6
+  },
+  "146": {
+    "name": { "ko": "파이어", "en": "Moltres" },
+    "types": ["fire", "flying"],
+    "baseStats": { "hp": 90, "attack": 100, "defense": 90, "special": 125, "speed": 90 },
+    "catchRate": 3,
+    "baseExp": 217,
+    "growthRate": "slow",
+    "height": 2.0,
+    "weight": 60.0
+  },
+  "147": {
+    "name": { "ko": "미뇽", "en": "Dratini" },
+    "types": ["dragon"],
+    "baseStats": { "hp": 41, "attack": 64, "defense": 45, "special": 50, "speed": 50 },
+    "catchRate": 45,
+    "baseExp": 67,
+    "growthRate": "slow",
+    "height": 1.8,
+    "weight": 3.3
+  },
+  "148": {
+    "name": { "ko": "신뇽", "en": "Dragonair" },
+    "types": ["dragon"],
+    "baseStats": { "hp": 61, "attack": 84, "defense": 65, "special": 70, "speed": 70 },
+    "catchRate": 45,
+    "baseExp": 144,
+    "growthRate": "slow",
+    "height": 4.0,
+    "weight": 16.5
+  },
+  "149": {
+    "name": { "ko": "망나뇽", "en": "Dragonite" },
+    "types": ["dragon", "flying"],
+    "baseStats": { "hp": 91, "attack": 134, "defense": 95, "special": 100, "speed": 80 },
+    "catchRate": 45,
+    "baseExp": 218,
+    "growthRate": "slow",
+    "height": 2.2,
+    "weight": 210.0
+  },
+  "150": {
+    "name": { "ko": "뮤츠", "en": "Mewtwo" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 106, "attack": 110, "defense": 90, "special": 154, "speed": 130 },
+    "catchRate": 3,
+    "baseExp": 220,
+    "growthRate": "slow",
+    "height": 2.0,
+    "weight": 122.0
+  },
+  "151": {
+    "name": { "ko": "뮤", "en": "Mew" },
+    "types": ["psychic"],
+    "baseStats": { "hp": 100, "attack": 100, "defense": 100, "special": 100, "speed": 100 },
+    "catchRate": 45,
+    "baseExp": 154,
+    "growthRate": "medium_slow",
+    "height": 0.4,
+    "weight": 4.0
+  }
+}

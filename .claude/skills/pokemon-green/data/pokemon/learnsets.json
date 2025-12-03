@@ -1,0 +1,2113 @@
+{
+  "version": "1.0.0",
+  "description": "1세대 포켓몬 레벨업 기술 (레드/그린 기준)",
+
+  "learnsets": {
+    "1": {
+      "name": "이상해씨",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "growl" },
+        { "level": 7, "move": "leech_seed" },
+        { "level": 13, "move": "vine_whip" },
+        { "level": 20, "move": "poison_powder" },
+        { "level": 27, "move": "razor_leaf" },
+        { "level": 34, "move": "growth" },
+        { "level": 41, "move": "sleep_powder" },
+        { "level": 48, "move": "solar_beam" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "2": {
+      "name": "이상해풀",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "leech_seed" },
+        { "level": 13, "move": "vine_whip" },
+        { "level": 22, "move": "poison_powder" },
+        { "level": 30, "move": "razor_leaf" },
+        { "level": 38, "move": "growth" },
+        { "level": 46, "move": "sleep_powder" },
+        { "level": 54, "move": "solar_beam" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "3": {
+      "name": "이상해꽃",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "leech_seed" },
+        { "level": 1, "move": "vine_whip" },
+        { "level": 22, "move": "poison_powder" },
+        { "level": 30, "move": "razor_leaf" },
+        { "level": 43, "move": "growth" },
+        { "level": 55, "move": "sleep_powder" },
+        { "level": 65, "move": "solar_beam" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "4": {
+      "name": "파이리",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 9, "move": "ember" },
+        { "level": 15, "move": "leer" },
+        { "level": 22, "move": "rage" },
+        { "level": 30, "move": "slash" },
+        { "level": 38, "move": "flamethrower" },
+        { "level": 46, "move": "fire_spin" }
+      ],
+      "tm": ["tm01", "tm03", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm23", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm04"]
+    },
+    "5": {
+      "name": "리자드",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "ember" },
+        { "level": 15, "move": "leer" },
+        { "level": 24, "move": "rage" },
+        { "level": 33, "move": "slash" },
+        { "level": 42, "move": "flamethrower" },
+        { "level": 56, "move": "fire_spin" }
+      ],
+      "tm": ["tm01", "tm03", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm23", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm04"]
+    },
+    "6": {
+      "name": "리자몽",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "ember" },
+        { "level": 1, "move": "leer" },
+        { "level": 24, "move": "rage" },
+        { "level": 36, "move": "slash" },
+        { "level": 46, "move": "flamethrower" },
+        { "level": 55, "move": "fire_spin" }
+      ],
+      "tm": ["tm01", "tm03", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm23", "tm26", "tm27", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm02", "hm04"]
+    },
+    "7": {
+      "name": "꼬부기",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 8, "move": "bubble" },
+        { "level": 15, "move": "water_gun" },
+        { "level": 22, "move": "bite" },
+        { "level": 28, "move": "withdraw" },
+        { "level": 35, "move": "skull_bash" },
+        { "level": 42, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm28", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "8": {
+      "name": "어니부기",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "bubble" },
+        { "level": 15, "move": "water_gun" },
+        { "level": 24, "move": "bite" },
+        { "level": 31, "move": "withdraw" },
+        { "level": 39, "move": "skull_bash" },
+        { "level": 47, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "9": {
+      "name": "거북왕",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "bubble" },
+        { "level": 1, "move": "water_gun" },
+        { "level": 24, "move": "bite" },
+        { "level": 31, "move": "withdraw" },
+        { "level": 42, "move": "skull_bash" },
+        { "level": 52, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "10": {
+      "name": "캐터피",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "string_shot" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "11": {
+      "name": "단데기",
+      "levelUp": [
+        { "level": 1, "move": "harden" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "12": {
+      "name": "버터플",
+      "levelUp": [
+        { "level": 1, "move": "confusion" },
+        { "level": 12, "move": "confusion" },
+        { "level": 15, "move": "poison_powder" },
+        { "level": 16, "move": "stun_spore" },
+        { "level": 17, "move": "sleep_powder" },
+        { "level": 21, "move": "supersonic" },
+        { "level": 26, "move": "whirlwind" },
+        { "level": 32, "move": "psybeam" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm44", "tm46", "tm50"],
+      "hm": []
+    },
+    "13": {
+      "name": "뿔충이",
+      "levelUp": [
+        { "level": 1, "move": "poison_sting" },
+        { "level": 1, "move": "string_shot" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "14": {
+      "name": "딱충이",
+      "levelUp": [
+        { "level": 1, "move": "harden" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "15": {
+      "name": "독침붕",
+      "levelUp": [
+        { "level": 1, "move": "fury_attack" },
+        { "level": 12, "move": "fury_attack" },
+        { "level": 16, "move": "focus_energy" },
+        { "level": 20, "move": "twineedle" },
+        { "level": 25, "move": "rage" },
+        { "level": 30, "move": "pin_missile" },
+        { "level": 35, "move": "agility" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "16": {
+      "name": "구구",
+      "levelUp": [
+        { "level": 1, "move": "gust" },
+        { "level": 5, "move": "sand_attack" },
+        { "level": 12, "move": "quick_attack" },
+        { "level": 19, "move": "whirlwind" },
+        { "level": 28, "move": "wing_attack" },
+        { "level": 36, "move": "agility" },
+        { "level": 44, "move": "mirror_move" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "17": {
+      "name": "피죤",
+      "levelUp": [
+        { "level": 1, "move": "gust" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 12, "move": "quick_attack" },
+        { "level": 21, "move": "whirlwind" },
+        { "level": 31, "move": "wing_attack" },
+        { "level": 40, "move": "agility" },
+        { "level": 49, "move": "mirror_move" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "18": {
+      "name": "피죤투",
+      "levelUp": [
+        { "level": 1, "move": "gust" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 21, "move": "whirlwind" },
+        { "level": 31, "move": "wing_attack" },
+        { "level": 44, "move": "agility" },
+        { "level": 54, "move": "mirror_move" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "19": {
+      "name": "꼬렛",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 7, "move": "quick_attack" },
+        { "level": 14, "move": "hyper_fang" },
+        { "level": 23, "move": "focus_energy" },
+        { "level": 34, "move": "super_fang" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm14", "tm20", "tm24", "tm25", "tm28", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "20": {
+      "name": "레트라",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 14, "move": "hyper_fang" },
+        { "level": 27, "move": "focus_energy" },
+        { "level": 41, "move": "super_fang" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm14", "tm15", "tm20", "tm24", "tm25", "tm28", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "21": {
+      "name": "깨비참",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "growl" },
+        { "level": 9, "move": "leer" },
+        { "level": 15, "move": "fury_attack" },
+        { "level": 22, "move": "mirror_move" },
+        { "level": 29, "move": "drill_peck" },
+        { "level": 36, "move": "agility" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm20", "tm31", "tm32", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "22": {
+      "name": "깨비드릴조",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "leer" },
+        { "level": 15, "move": "fury_attack" },
+        { "level": 25, "move": "mirror_move" },
+        { "level": 34, "move": "drill_peck" },
+        { "level": 43, "move": "agility" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "23": {
+      "name": "아보",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "leer" },
+        { "level": 10, "move": "poison_sting" },
+        { "level": 17, "move": "bite" },
+        { "level": 24, "move": "glare" },
+        { "level": 31, "move": "screech" },
+        { "level": 38, "move": "acid" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm48", "tm50"],
+      "hm": []
+    },
+    "24": {
+      "name": "아보크",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "poison_sting" },
+        { "level": 17, "move": "bite" },
+        { "level": 27, "move": "glare" },
+        { "level": 36, "move": "screech" },
+        { "level": 47, "move": "acid" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm21", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "25": {
+      "name": "피카츄",
+      "levelUp": [
+        { "level": 1, "move": "thunder_shock" },
+        { "level": 1, "move": "growl" },
+        { "level": 9, "move": "thunder_wave" },
+        { "level": 16, "move": "quick_attack" },
+        { "level": 26, "move": "swift" },
+        { "level": 33, "move": "agility" },
+        { "level": 43, "move": "thunder" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm16", "tm17", "tm19", "tm20", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm05"]
+    },
+    "26": {
+      "name": "라이츄",
+      "levelUp": [
+        { "level": 1, "move": "thunder_shock" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "thunder_wave" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm16", "tm17", "tm19", "tm20", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm05"]
+    },
+    "27": {
+      "name": "모래두지",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 10, "move": "sand_attack" },
+        { "level": 17, "move": "slash" },
+        { "level": 24, "move": "poison_sting" },
+        { "level": 31, "move": "swift" },
+        { "level": 38, "move": "fury_swipes" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm17", "tm20", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm01", "hm04"]
+    },
+    "28": {
+      "name": "고지",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 17, "move": "slash" },
+        { "level": 27, "move": "poison_sting" },
+        { "level": 36, "move": "swift" },
+        { "level": 47, "move": "fury_swipes" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm01", "hm04"]
+    },
+    "29": {
+      "name": "니드런♀",
+      "levelUp": [
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "tackle" },
+        { "level": 8, "move": "scratch" },
+        { "level": 14, "move": "poison_sting" },
+        { "level": 21, "move": "tail_whip" },
+        { "level": 29, "move": "bite" },
+        { "level": 36, "move": "fury_swipes" },
+        { "level": 43, "move": "double_kick" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "30": {
+      "name": "니드리나",
+      "levelUp": [
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "scratch" },
+        { "level": 14, "move": "poison_sting" },
+        { "level": 23, "move": "tail_whip" },
+        { "level": 32, "move": "bite" },
+        { "level": 41, "move": "fury_swipes" },
+        { "level": 50, "move": "double_kick" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "31": {
+      "name": "니드퀸",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "body_slam" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "32": {
+      "name": "니드런♂",
+      "levelUp": [
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "tackle" },
+        { "level": 8, "move": "horn_attack" },
+        { "level": 14, "move": "poison_sting" },
+        { "level": 21, "move": "focus_energy" },
+        { "level": 29, "move": "fury_attack" },
+        { "level": 36, "move": "horn_drill" },
+        { "level": 43, "move": "double_kick" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "33": {
+      "name": "니드리노",
+      "levelUp": [
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "horn_attack" },
+        { "level": 14, "move": "poison_sting" },
+        { "level": 23, "move": "focus_energy" },
+        { "level": 32, "move": "fury_attack" },
+        { "level": 41, "move": "horn_drill" },
+        { "level": 50, "move": "double_kick" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "34": {
+      "name": "니드킹",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "horn_attack" },
+        { "level": 1, "move": "poison_sting" },
+        { "level": 1, "move": "thrash" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "35": {
+      "name": "삐삐",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "growl" },
+        { "level": 13, "move": "sing" },
+        { "level": 18, "move": "double_slap" },
+        { "level": 24, "move": "minimize" },
+        { "level": 31, "move": "metronome" },
+        { "level": 39, "move": "defense_curl" },
+        { "level": 48, "move": "light_screen" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm38", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm05"]
+    },
+    "36": {
+      "name": "픽시",
+      "levelUp": [
+        { "level": 1, "move": "sing" },
+        { "level": 1, "move": "double_slap" },
+        { "level": 1, "move": "minimize" },
+        { "level": 1, "move": "metronome" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm38", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm04", "hm05"]
+    },
+    "37": {
+      "name": "식스테일",
+      "levelUp": [
+        { "level": 1, "move": "ember" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 16, "move": "quick_attack" },
+        { "level": 21, "move": "roar" },
+        { "level": 28, "move": "confuse_ray" },
+        { "level": 35, "move": "flamethrower" },
+        { "level": 42, "move": "fire_spin" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm44", "tm50"],
+      "hm": []
+    },
+    "38": {
+      "name": "나인테일",
+      "levelUp": [
+        { "level": 1, "move": "ember" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 1, "move": "roar" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm44", "tm50"],
+      "hm": []
+    },
+    "39": {
+      "name": "푸린",
+      "levelUp": [
+        { "level": 1, "move": "sing" },
+        { "level": 9, "move": "pound" },
+        { "level": 14, "move": "disable" },
+        { "level": 19, "move": "defense_curl" },
+        { "level": 24, "move": "double_slap" },
+        { "level": 29, "move": "rest" },
+        { "level": 34, "move": "body_slam" },
+        { "level": 39, "move": "double_edge" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm38", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm05"]
+    },
+    "40": {
+      "name": "푸크린",
+      "levelUp": [
+        { "level": 1, "move": "sing" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "defense_curl" },
+        { "level": 1, "move": "double_slap" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm38", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm04", "hm05"]
+    },
+    "41": {
+      "name": "주뱃",
+      "levelUp": [
+        { "level": 1, "move": "leech_life" },
+        { "level": 10, "move": "supersonic" },
+        { "level": 15, "move": "bite" },
+        { "level": 21, "move": "confuse_ray" },
+        { "level": 28, "move": "wing_attack" },
+        { "level": 36, "move": "haze" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm20", "tm21", "tm31", "tm32", "tm34", "tm39", "tm44", "tm50"],
+      "hm": []
+    },
+    "42": {
+      "name": "골뱃",
+      "levelUp": [
+        { "level": 1, "move": "leech_life" },
+        { "level": 1, "move": "supersonic" },
+        { "level": 1, "move": "bite" },
+        { "level": 21, "move": "confuse_ray" },
+        { "level": 32, "move": "wing_attack" },
+        { "level": 43, "move": "haze" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm31", "tm32", "tm34", "tm39", "tm44", "tm50"],
+      "hm": []
+    },
+    "43": {
+      "name": "뚜벅쵸",
+      "levelUp": [
+        { "level": 1, "move": "absorb" },
+        { "level": 15, "move": "poison_powder" },
+        { "level": 17, "move": "stun_spore" },
+        { "level": 19, "move": "sleep_powder" },
+        { "level": 24, "move": "acid" },
+        { "level": 33, "move": "petal_dance" },
+        { "level": 46, "move": "solar_beam" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "44": {
+      "name": "냄새꼬",
+      "levelUp": [
+        { "level": 1, "move": "absorb" },
+        { "level": 1, "move": "poison_powder" },
+        { "level": 1, "move": "stun_spore" },
+        { "level": 19, "move": "sleep_powder" },
+        { "level": 28, "move": "acid" },
+        { "level": 38, "move": "petal_dance" },
+        { "level": 52, "move": "solar_beam" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "45": {
+      "name": "라플레시아",
+      "levelUp": [
+        { "level": 1, "move": "stun_spore" },
+        { "level": 1, "move": "sleep_powder" },
+        { "level": 1, "move": "acid" },
+        { "level": 1, "move": "petal_dance" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "46": {
+      "name": "파라스",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 13, "move": "stun_spore" },
+        { "level": 20, "move": "leech_life" },
+        { "level": 27, "move": "spore" },
+        { "level": 34, "move": "slash" },
+        { "level": 41, "move": "growth" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm22", "tm28", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "47": {
+      "name": "파라섹트",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "stun_spore" },
+        { "level": 1, "move": "leech_life" },
+        { "level": 30, "move": "spore" },
+        { "level": 39, "move": "slash" },
+        { "level": 48, "move": "growth" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm28", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "48": {
+      "name": "콘팡",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "disable" },
+        { "level": 24, "move": "poison_powder" },
+        { "level": 27, "move": "leech_life" },
+        { "level": 30, "move": "stun_spore" },
+        { "level": 35, "move": "psybeam" },
+        { "level": 38, "move": "sleep_powder" },
+        { "level": 43, "move": "psychic" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm21", "tm29", "tm31", "tm32", "tm33", "tm34", "tm44", "tm46", "tm50"],
+      "hm": []
+    },
+    "49": {
+      "name": "도나리",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "poison_powder" },
+        { "level": 1, "move": "leech_life" },
+        { "level": 38, "move": "psybeam" },
+        { "level": 43, "move": "sleep_powder" },
+        { "level": 50, "move": "psychic" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm44", "tm46", "tm50"],
+      "hm": []
+    },
+    "50": {
+      "name": "디그다",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 15, "move": "growl" },
+        { "level": 19, "move": "dig" },
+        { "level": 24, "move": "sand_attack" },
+        { "level": 31, "move": "slash" },
+        { "level": 40, "move": "earthquake" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm44", "tm48", "tm50"],
+      "hm": []
+    },
+    "51": {
+      "name": "닥트리오",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "dig" },
+        { "level": 24, "move": "sand_attack" },
+        { "level": 35, "move": "slash" },
+        { "level": 47, "move": "earthquake" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm44", "tm48", "tm50"],
+      "hm": []
+    },
+    "52": {
+      "name": "나옹",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 12, "move": "bite" },
+        { "level": 17, "move": "pay_day" },
+        { "level": 24, "move": "screech" },
+        { "level": 33, "move": "fury_swipes" },
+        { "level": 44, "move": "slash" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm16", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "53": {
+      "name": "페르시온",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "bite" },
+        { "level": 17, "move": "pay_day" },
+        { "level": 24, "move": "screech" },
+        { "level": 37, "move": "fury_swipes" },
+        { "level": 51, "move": "slash" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm15", "tm16", "tm20", "tm24", "tm25", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "54": {
+      "name": "고라파덕",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 28, "move": "tail_whip" },
+        { "level": 31, "move": "disable" },
+        { "level": 36, "move": "confusion" },
+        { "level": 43, "move": "fury_swipes" },
+        { "level": 52, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "55": {
+      "name": "골덕",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "disable" },
+        { "level": 39, "move": "confusion" },
+        { "level": 48, "move": "fury_swipes" },
+        { "level": 59, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm28", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "56": {
+      "name": "망키",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "leer" },
+        { "level": 15, "move": "karate_chop" },
+        { "level": 21, "move": "fury_swipes" },
+        { "level": 27, "move": "focus_energy" },
+        { "level": 33, "move": "seismic_toss" },
+        { "level": 39, "move": "thrash" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm28", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "57": {
+      "name": "성원숭",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "karate_chop" },
+        { "level": 1, "move": "fury_swipes" },
+        { "level": 27, "move": "focus_energy" },
+        { "level": 37, "move": "seismic_toss" },
+        { "level": 46, "move": "thrash" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm28", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "58": {
+      "name": "가디",
+      "levelUp": [
+        { "level": 1, "move": "bite" },
+        { "level": 1, "move": "roar" },
+        { "level": 18, "move": "ember" },
+        { "level": 23, "move": "leer" },
+        { "level": 30, "move": "take_down" },
+        { "level": 39, "move": "agility" },
+        { "level": 50, "move": "flamethrower" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm44", "tm50"],
+      "hm": []
+    },
+    "59": {
+      "name": "윈디",
+      "levelUp": [
+        { "level": 1, "move": "roar" },
+        { "level": 1, "move": "ember" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "take_down" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm28", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm44", "tm50"],
+      "hm": []
+    },
+    "60": {
+      "name": "발챙이",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 16, "move": "hypnosis" },
+        { "level": 19, "move": "water_gun" },
+        { "level": 25, "move": "double_slap" },
+        { "level": 31, "move": "body_slam" },
+        { "level": 38, "move": "amnesia" },
+        { "level": 45, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm29", "tm31", "tm32", "tm34", "tm40", "tm44", "tm46", "tm50"],
+      "hm": ["hm03"]
+    },
+    "61": {
+      "name": "슈륙챙이",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 1, "move": "hypnosis" },
+        { "level": 1, "move": "water_gun" },
+        { "level": 26, "move": "double_slap" },
+        { "level": 33, "move": "body_slam" },
+        { "level": 41, "move": "amnesia" },
+        { "level": 49, "move": "hydro_pump" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm29", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm46", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "62": {
+      "name": "강챙이",
+      "levelUp": [
+        { "level": 1, "move": "hypnosis" },
+        { "level": 1, "move": "water_gun" },
+        { "level": 1, "move": "double_slap" },
+        { "level": 1, "move": "body_slam" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm29", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm46", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "63": {
+      "name": "케이시",
+      "levelUp": [
+        { "level": 1, "move": "teleport" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "64": {
+      "name": "윤겔라",
+      "levelUp": [
+        { "level": 1, "move": "teleport" },
+        { "level": 1, "move": "confusion" },
+        { "level": 16, "move": "confusion" },
+        { "level": 20, "move": "disable" },
+        { "level": 27, "move": "psybeam" },
+        { "level": 31, "move": "recover" },
+        { "level": 38, "move": "psychic" },
+        { "level": 42, "move": "reflect" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "65": {
+      "name": "후딘",
+      "levelUp": [
+        { "level": 1, "move": "teleport" },
+        { "level": 1, "move": "confusion" },
+        { "level": 1, "move": "disable" },
+        { "level": 27, "move": "psybeam" },
+        { "level": 31, "move": "recover" },
+        { "level": 38, "move": "psychic" },
+        { "level": 42, "move": "reflect" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "66": {
+      "name": "알통몬",
+      "levelUp": [
+        { "level": 1, "move": "karate_chop" },
+        { "level": 20, "move": "low_kick" },
+        { "level": 25, "move": "leer" },
+        { "level": 32, "move": "focus_energy" },
+        { "level": 39, "move": "seismic_toss" },
+        { "level": 46, "move": "submission" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "67": {
+      "name": "근육몬",
+      "levelUp": [
+        { "level": 1, "move": "karate_chop" },
+        { "level": 1, "move": "low_kick" },
+        { "level": 1, "move": "leer" },
+        { "level": 36, "move": "focus_energy" },
+        { "level": 44, "move": "seismic_toss" },
+        { "level": 52, "move": "submission" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "68": {
+      "name": "괴력몬",
+      "levelUp": [
+        { "level": 1, "move": "karate_chop" },
+        { "level": 1, "move": "low_kick" },
+        { "level": 1, "move": "leer" },
+        { "level": 36, "move": "focus_energy" },
+        { "level": 44, "move": "seismic_toss" },
+        { "level": 52, "move": "submission" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "69": {
+      "name": "모다피",
+      "levelUp": [
+        { "level": 1, "move": "vine_whip" },
+        { "level": 1, "move": "growth" },
+        { "level": 13, "move": "wrap" },
+        { "level": 15, "move": "poison_powder" },
+        { "level": 18, "move": "sleep_powder" },
+        { "level": 21, "move": "stun_spore" },
+        { "level": 26, "move": "acid" },
+        { "level": 33, "move": "razor_leaf" },
+        { "level": 42, "move": "slam" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "70": {
+      "name": "우츠동",
+      "levelUp": [
+        { "level": 1, "move": "vine_whip" },
+        { "level": 1, "move": "growth" },
+        { "level": 1, "move": "wrap" },
+        { "level": 15, "move": "poison_powder" },
+        { "level": 18, "move": "sleep_powder" },
+        { "level": 23, "move": "stun_spore" },
+        { "level": 29, "move": "acid" },
+        { "level": 38, "move": "razor_leaf" },
+        { "level": 49, "move": "slam" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "71": {
+      "name": "우츠보트",
+      "levelUp": [
+        { "level": 1, "move": "sleep_powder" },
+        { "level": 1, "move": "stun_spore" },
+        { "level": 1, "move": "acid" },
+        { "level": 1, "move": "razor_leaf" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "72": {
+      "name": "왕눈해",
+      "levelUp": [
+        { "level": 1, "move": "acid" },
+        { "level": 7, "move": "supersonic" },
+        { "level": 13, "move": "wrap" },
+        { "level": 18, "move": "poison_sting" },
+        { "level": 22, "move": "water_gun" },
+        { "level": 27, "move": "constrict" },
+        { "level": 33, "move": "barrier" },
+        { "level": 40, "move": "screech" },
+        { "level": 48, "move": "hydro_pump" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm21", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm03"]
+    },
+    "73": {
+      "name": "독파리",
+      "levelUp": [
+        { "level": 1, "move": "acid" },
+        { "level": 1, "move": "supersonic" },
+        { "level": 1, "move": "wrap" },
+        { "level": 18, "move": "poison_sting" },
+        { "level": 22, "move": "water_gun" },
+        { "level": 27, "move": "constrict" },
+        { "level": 35, "move": "barrier" },
+        { "level": 43, "move": "screech" },
+        { "level": 50, "move": "hydro_pump" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm21", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm03"]
+    },
+    "74": {
+      "name": "꼬마돌",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 11, "move": "defense_curl" },
+        { "level": 16, "move": "rock_throw" },
+        { "level": 21, "move": "self_destruct" },
+        { "level": 26, "move": "harden" },
+        { "level": 31, "move": "earthquake" },
+        { "level": 36, "move": "explosion" }
+      ],
+      "tm": ["tm01", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm36", "tm38", "tm44", "tm47", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "75": {
+      "name": "데구리",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "defense_curl" },
+        { "level": 16, "move": "rock_throw" },
+        { "level": 21, "move": "self_destruct" },
+        { "level": 26, "move": "harden" },
+        { "level": 31, "move": "earthquake" },
+        { "level": 36, "move": "explosion" }
+      ],
+      "tm": ["tm01", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm36", "tm38", "tm44", "tm47", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "76": {
+      "name": "딱구리",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "defense_curl" },
+        { "level": 1, "move": "rock_throw" },
+        { "level": 21, "move": "self_destruct" },
+        { "level": 26, "move": "harden" },
+        { "level": 31, "move": "earthquake" },
+        { "level": 36, "move": "explosion" }
+      ],
+      "tm": ["tm01", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm36", "tm38", "tm44", "tm47", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "77": {
+      "name": "포니타",
+      "levelUp": [
+        { "level": 1, "move": "ember" },
+        { "level": 30, "move": "tail_whip" },
+        { "level": 32, "move": "stomp" },
+        { "level": 35, "move": "growl" },
+        { "level": 39, "move": "fire_spin" },
+        { "level": 43, "move": "take_down" },
+        { "level": 47, "move": "agility" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "78": {
+      "name": "날쌩마",
+      "levelUp": [
+        { "level": 1, "move": "ember" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "stomp" },
+        { "level": 1, "move": "growl" },
+        { "level": 39, "move": "fire_spin" },
+        { "level": 47, "move": "take_down" },
+        { "level": 55, "move": "agility" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "79": {
+      "name": "야돈",
+      "levelUp": [
+        { "level": 1, "move": "confusion" },
+        { "level": 18, "move": "disable" },
+        { "level": 22, "move": "headbutt" },
+        { "level": 27, "move": "growl" },
+        { "level": 33, "move": "water_gun" },
+        { "level": 40, "move": "amnesia" },
+        { "level": 48, "move": "psychic" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm26", "tm27", "tm28", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm38", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm03", "hm04", "hm05"]
+    },
+    "80": {
+      "name": "야도란",
+      "levelUp": [
+        { "level": 1, "move": "confusion" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "headbutt" },
+        { "level": 27, "move": "growl" },
+        { "level": 33, "move": "water_gun" },
+        { "level": 37, "move": "withdraw" },
+        { "level": 44, "move": "amnesia" },
+        { "level": 55, "move": "psychic" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm26", "tm27", "tm28", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm38", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm03", "hm04", "hm05"]
+    },
+    "81": {
+      "name": "코일",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 21, "move": "sonic_boom" },
+        { "level": 25, "move": "thunder_shock" },
+        { "level": 29, "move": "supersonic" },
+        { "level": 35, "move": "thunder_wave" },
+        { "level": 41, "move": "swift" },
+        { "level": 47, "move": "screech" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm24", "tm25", "tm30", "tm31", "tm32", "tm33", "tm34", "tm39", "tm44", "tm45", "tm50"],
+      "hm": ["hm05"]
+    },
+    "82": {
+      "name": "레어코일",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sonic_boom" },
+        { "level": 1, "move": "thunder_shock" },
+        { "level": 29, "move": "supersonic" },
+        { "level": 38, "move": "thunder_wave" },
+        { "level": 46, "move": "swift" },
+        { "level": 54, "move": "screech" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm24", "tm25", "tm30", "tm31", "tm32", "tm33", "tm34", "tm39", "tm44", "tm45", "tm50"],
+      "hm": ["hm05"]
+    },
+    "83": {
+      "name": "파오리",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 7, "move": "leer" },
+        { "level": 15, "move": "fury_attack" },
+        { "level": 23, "move": "swords_dance" },
+        { "level": 31, "move": "agility" },
+        { "level": 39, "move": "slash" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm43", "tm44", "tm50"],
+      "hm": ["hm01", "hm02"]
+    },
+    "84": {
+      "name": "두두",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 20, "move": "growl" },
+        { "level": 24, "move": "fury_attack" },
+        { "level": 30, "move": "drill_peck" },
+        { "level": 36, "move": "rage" },
+        { "level": 40, "move": "tri_attack" },
+        { "level": 44, "move": "agility" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "85": {
+      "name": "두트리오",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "fury_attack" },
+        { "level": 30, "move": "drill_peck" },
+        { "level": 39, "move": "rage" },
+        { "level": 45, "move": "tri_attack" },
+        { "level": 51, "move": "agility" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "86": {
+      "name": "쥬쥬",
+      "levelUp": [
+        { "level": 1, "move": "headbutt" },
+        { "level": 30, "move": "growl" },
+        { "level": 35, "move": "aurora_beam" },
+        { "level": 40, "move": "rest" },
+        { "level": 45, "move": "take_down" },
+        { "level": 50, "move": "ice_beam" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm16", "tm20", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "87": {
+      "name": "쥬레곤",
+      "levelUp": [
+        { "level": 1, "move": "headbutt" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "aurora_beam" },
+        { "level": 44, "move": "rest" },
+        { "level": 50, "move": "take_down" },
+        { "level": 56, "move": "ice_beam" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm16", "tm20", "tm31", "tm32", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "88": {
+      "name": "질퍽이",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "disable" },
+        { "level": 30, "move": "poison_gas" },
+        { "level": 33, "move": "minimize" },
+        { "level": 37, "move": "sludge" },
+        { "level": 42, "move": "harden" },
+        { "level": 48, "move": "screech" },
+        { "level": 55, "move": "acid_armor" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm24", "tm25", "tm31", "tm32", "tm34", "tm36", "tm38", "tm44", "tm47", "tm50"],
+      "hm": []
+    },
+    "89": {
+      "name": "질뻐기",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "poison_gas" },
+        { "level": 33, "move": "minimize" },
+        { "level": 37, "move": "sludge" },
+        { "level": 45, "move": "harden" },
+        { "level": 53, "move": "screech" },
+        { "level": 60, "move": "acid_armor" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm21", "tm24", "tm25", "tm31", "tm32", "tm34", "tm36", "tm38", "tm44", "tm47", "tm50"],
+      "hm": []
+    },
+    "90": {
+      "name": "셀러",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "withdraw" },
+        { "level": 18, "move": "supersonic" },
+        { "level": 23, "move": "clamp" },
+        { "level": 30, "move": "aurora_beam" },
+        { "level": 39, "move": "leer" },
+        { "level": 50, "move": "ice_beam" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm30", "tm31", "tm32", "tm33", "tm34", "tm36", "tm44", "tm47", "tm50"],
+      "hm": ["hm03"]
+    },
+    "91": {
+      "name": "파르셀",
+      "levelUp": [
+        { "level": 1, "move": "withdraw" },
+        { "level": 1, "move": "supersonic" },
+        { "level": 1, "move": "clamp" },
+        { "level": 1, "move": "aurora_beam" },
+        { "level": 50, "move": "spike_cannon" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm30", "tm31", "tm32", "tm33", "tm34", "tm36", "tm44", "tm47", "tm49", "tm50"],
+      "hm": ["hm03"]
+    },
+    "92": {
+      "name": "고오스",
+      "levelUp": [
+        { "level": 1, "move": "lick" },
+        { "level": 1, "move": "confuse_ray" },
+        { "level": 1, "move": "night_shade" },
+        { "level": 27, "move": "hypnosis" },
+        { "level": 35, "move": "dream_eater" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm21", "tm24", "tm25", "tm29", "tm31", "tm32", "tm34", "tm36", "tm42", "tm44", "tm46", "tm47", "tm50"],
+      "hm": []
+    },
+    "93": {
+      "name": "고우스트",
+      "levelUp": [
+        { "level": 1, "move": "lick" },
+        { "level": 1, "move": "confuse_ray" },
+        { "level": 1, "move": "night_shade" },
+        { "level": 29, "move": "hypnosis" },
+        { "level": 38, "move": "dream_eater" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm21", "tm24", "tm25", "tm29", "tm31", "tm32", "tm34", "tm36", "tm42", "tm44", "tm46", "tm47", "tm50"],
+      "hm": []
+    },
+    "94": {
+      "name": "팬텀",
+      "levelUp": [
+        { "level": 1, "move": "lick" },
+        { "level": 1, "move": "confuse_ray" },
+        { "level": 1, "move": "night_shade" },
+        { "level": 29, "move": "hypnosis" },
+        { "level": 38, "move": "dream_eater" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm20", "tm21", "tm24", "tm25", "tm29", "tm31", "tm32", "tm34", "tm36", "tm42", "tm44", "tm46", "tm47", "tm50"],
+      "hm": ["hm04"]
+    },
+    "95": {
+      "name": "롱스톤",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "screech" },
+        { "level": 15, "move": "bind" },
+        { "level": 19, "move": "rock_throw" },
+        { "level": 25, "move": "rage" },
+        { "level": 33, "move": "slam" },
+        { "level": 43, "move": "harden" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm35", "tm36", "tm44", "tm48", "tm50"],
+      "hm": ["hm04"]
+    },
+    "96": {
+      "name": "슬리프",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "hypnosis" },
+        { "level": 12, "move": "disable" },
+        { "level": 17, "move": "confusion" },
+        { "level": 24, "move": "headbutt" },
+        { "level": 29, "move": "poison_gas" },
+        { "level": 32, "move": "psychic" },
+        { "level": 37, "move": "meditate" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm42", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "97": {
+      "name": "슬리퍼",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "hypnosis" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "confusion" },
+        { "level": 24, "move": "headbutt" },
+        { "level": 33, "move": "poison_gas" },
+        { "level": 37, "move": "psychic" },
+        { "level": 43, "move": "meditate" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm42", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "98": {
+      "name": "크랩",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 1, "move": "leer" },
+        { "level": 20, "move": "vice_grip" },
+        { "level": 25, "move": "guillotine" },
+        { "level": 30, "move": "stomp" },
+        { "level": 35, "move": "crabhammer" },
+        { "level": 40, "move": "harden" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm31", "tm32", "tm34", "tm44", "tm50"],
+      "hm": ["hm01", "hm03", "hm04"]
+    },
+    "99": {
+      "name": "킹크랩",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "vice_grip" },
+        { "level": 25, "move": "guillotine" },
+        { "level": 34, "move": "stomp" },
+        { "level": 42, "move": "crabhammer" },
+        { "level": 49, "move": "harden" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm31", "tm32", "tm34", "tm44", "tm50"],
+      "hm": ["hm01", "hm03", "hm04"]
+    },
+    "100": {
+      "name": "찌리리공",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "screech" },
+        { "level": 17, "move": "sonic_boom" },
+        { "level": 22, "move": "self_destruct" },
+        { "level": 29, "move": "light_screen" },
+        { "level": 36, "move": "swift" },
+        { "level": 43, "move": "explosion" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm24", "tm25", "tm30", "tm31", "tm32", "tm33", "tm34", "tm36", "tm39", "tm44", "tm45", "tm47", "tm50"],
+      "hm": ["hm05"]
+    },
+    "101": {
+      "name": "붐볼",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "screech" },
+        { "level": 1, "move": "sonic_boom" },
+        { "level": 22, "move": "self_destruct" },
+        { "level": 29, "move": "light_screen" },
+        { "level": 40, "move": "swift" },
+        { "level": 50, "move": "explosion" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm24", "tm25", "tm30", "tm31", "tm32", "tm33", "tm34", "tm36", "tm39", "tm44", "tm45", "tm47", "tm50"],
+      "hm": ["hm05"]
+    },
+    "102": {
+      "name": "아라리",
+      "levelUp": [
+        { "level": 1, "move": "barrage" },
+        { "level": 1, "move": "hypnosis" },
+        { "level": 25, "move": "reflect" },
+        { "level": 28, "move": "leech_seed" },
+        { "level": 32, "move": "stun_spore" },
+        { "level": 37, "move": "poison_powder" },
+        { "level": 42, "move": "solar_beam" },
+        { "level": 48, "move": "sleep_powder" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm21", "tm22", "tm29", "tm31", "tm32", "tm33", "tm34", "tm36", "tm37", "tm44", "tm46", "tm47", "tm50"],
+      "hm": []
+    },
+    "103": {
+      "name": "나시",
+      "levelUp": [
+        { "level": 1, "move": "barrage" },
+        { "level": 1, "move": "hypnosis" },
+        { "level": 28, "move": "stomp" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm22", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm36", "tm37", "tm44", "tm46", "tm47", "tm50"],
+      "hm": ["hm04"]
+    },
+    "104": {
+      "name": "탕구리",
+      "levelUp": [
+        { "level": 1, "move": "bone_club" },
+        { "level": 25, "move": "leer" },
+        { "level": 31, "move": "focus_energy" },
+        { "level": 38, "move": "thrash" },
+        { "level": 43, "move": "bonemerang" },
+        { "level": 46, "move": "rage" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "105": {
+      "name": "텅구리",
+      "levelUp": [
+        { "level": 1, "move": "bone_club" },
+        { "level": 1, "move": "growl" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "focus_energy" },
+        { "level": 41, "move": "thrash" },
+        { "level": 48, "move": "bonemerang" },
+        { "level": 55, "move": "rage" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "106": {
+      "name": "시라소몬",
+      "levelUp": [
+        { "level": 1, "move": "double_kick" },
+        { "level": 33, "move": "rolling_kick" },
+        { "level": 38, "move": "jump_kick" },
+        { "level": 43, "move": "focus_energy" },
+        { "level": 48, "move": "hi_jump_kick" },
+        { "level": 53, "move": "mega_kick" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm31", "tm32", "tm34", "tm35", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "107": {
+      "name": "홍수몬",
+      "levelUp": [
+        { "level": 1, "move": "comet_punch" },
+        { "level": 33, "move": "agility" },
+        { "level": 38, "move": "fire_punch" },
+        { "level": 43, "move": "ice_punch" },
+        { "level": 48, "move": "thunder_punch" },
+        { "level": 53, "move": "mega_punch" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm17", "tm18", "tm19", "tm20", "tm31", "tm32", "tm34", "tm35", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm04"]
+    },
+    "108": {
+      "name": "내루미",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "supersonic" },
+        { "level": 7, "move": "stomp" },
+        { "level": 15, "move": "disable" },
+        { "level": 23, "move": "defense_curl" },
+        { "level": 31, "move": "slam" },
+        { "level": 39, "move": "screech" }
+      ],
+      "tm": ["tm01", "tm03", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm03", "hm04"]
+    },
+    "109": {
+      "name": "또가스",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "smog" },
+        { "level": 32, "move": "sludge" },
+        { "level": 37, "move": "smokescreen" },
+        { "level": 40, "move": "self_destruct" },
+        { "level": 45, "move": "haze" },
+        { "level": 48, "move": "explosion" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm20", "tm21", "tm24", "tm25", "tm31", "tm32", "tm34", "tm36", "tm38", "tm44", "tm47", "tm50"],
+      "hm": []
+    },
+    "110": {
+      "name": "또도가스",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "smog" },
+        { "level": 1, "move": "sludge" },
+        { "level": 39, "move": "smokescreen" },
+        { "level": 43, "move": "self_destruct" },
+        { "level": 49, "move": "haze" },
+        { "level": 53, "move": "explosion" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm15", "tm20", "tm21", "tm24", "tm25", "tm31", "tm32", "tm34", "tm36", "tm38", "tm44", "tm47", "tm50"],
+      "hm": []
+    },
+    "111": {
+      "name": "뿔카노",
+      "levelUp": [
+        { "level": 1, "move": "horn_attack" },
+        { "level": 30, "move": "stomp" },
+        { "level": 35, "move": "tail_whip" },
+        { "level": 40, "move": "fury_attack" },
+        { "level": 45, "move": "horn_drill" },
+        { "level": 50, "move": "leer" },
+        { "level": 55, "move": "take_down" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "112": {
+      "name": "코뿌리",
+      "levelUp": [
+        { "level": 1, "move": "horn_attack" },
+        { "level": 1, "move": "stomp" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "fury_attack" },
+        { "level": 48, "move": "horn_drill" },
+        { "level": 55, "move": "leer" },
+        { "level": 64, "move": "take_down" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm07", "tm08", "tm09", "tm10", "tm15", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "113": {
+      "name": "럭키",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "double_slap" },
+        { "level": 24, "move": "sing" },
+        { "level": 30, "move": "growl" },
+        { "level": 38, "move": "minimize" },
+        { "level": 44, "move": "defense_curl" },
+        { "level": 48, "move": "light_screen" },
+        { "level": 54, "move": "double_edge" }
+      ],
+      "tm": ["tm01", "tm03", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm37", "tm38", "tm40", "tm41", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm04", "hm05"]
+    },
+    "114": {
+      "name": "덩쿠리",
+      "levelUp": [
+        { "level": 1, "move": "constrict" },
+        { "level": 1, "move": "bind" },
+        { "level": 29, "move": "absorb" },
+        { "level": 32, "move": "poison_powder" },
+        { "level": 36, "move": "stun_spore" },
+        { "level": 39, "move": "sleep_powder" },
+        { "level": 45, "move": "slam" },
+        { "level": 49, "move": "growth" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm20", "tm21", "tm22", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "115": {
+      "name": "캥카",
+      "levelUp": [
+        { "level": 1, "move": "comet_punch" },
+        { "level": 1, "move": "rage" },
+        { "level": 26, "move": "bite" },
+        { "level": 31, "move": "tail_whip" },
+        { "level": 36, "move": "mega_punch" },
+        { "level": 41, "move": "leer" },
+        { "level": 46, "move": "dizzy_punch" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm24", "tm25", "tm26", "tm27", "tm28", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "116": {
+      "name": "쏘드라",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 19, "move": "smokescreen" },
+        { "level": 24, "move": "leer" },
+        { "level": 30, "move": "water_gun" },
+        { "level": 41, "move": "agility" },
+        { "level": 52, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "117": {
+      "name": "시드라",
+      "levelUp": [
+        { "level": 1, "move": "bubble" },
+        { "level": 1, "move": "smokescreen" },
+        { "level": 24, "move": "leer" },
+        { "level": 30, "move": "water_gun" },
+        { "level": 41, "move": "agility" },
+        { "level": 52, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "118": {
+      "name": "콘치",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 19, "move": "supersonic" },
+        { "level": 24, "move": "horn_attack" },
+        { "level": 30, "move": "fury_attack" },
+        { "level": 39, "move": "waterfall" },
+        { "level": 48, "move": "horn_drill" },
+        { "level": 54, "move": "agility" }
+      ],
+      "tm": ["tm06", "tm07", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "119": {
+      "name": "왕콘치",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "tail_whip" },
+        { "level": 1, "move": "supersonic" },
+        { "level": 24, "move": "horn_attack" },
+        { "level": 30, "move": "fury_attack" },
+        { "level": 39, "move": "waterfall" },
+        { "level": 48, "move": "horn_drill" },
+        { "level": 54, "move": "agility" }
+      ],
+      "tm": ["tm06", "tm07", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "120": {
+      "name": "별가사리",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 17, "move": "water_gun" },
+        { "level": 22, "move": "harden" },
+        { "level": 27, "move": "recover" },
+        { "level": 32, "move": "swift" },
+        { "level": 37, "move": "minimize" },
+        { "level": 42, "move": "light_screen" },
+        { "level": 47, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm03", "hm05"]
+    },
+    "121": {
+      "name": "아쿠스타",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "water_gun" },
+        { "level": 1, "move": "harden" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm03", "hm05"]
+    },
+    "122": {
+      "name": "마임맨",
+      "levelUp": [
+        { "level": 1, "move": "confusion" },
+        { "level": 1, "move": "barrier" },
+        { "level": 15, "move": "confusion" },
+        { "level": 23, "move": "light_screen" },
+        { "level": 31, "move": "double_slap" },
+        { "level": 39, "move": "meditate" },
+        { "level": 47, "move": "substitute" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm05"]
+    },
+    "123": {
+      "name": "스라크",
+      "levelUp": [
+        { "level": 1, "move": "quick_attack" },
+        { "level": 17, "move": "leer" },
+        { "level": 20, "move": "focus_energy" },
+        { "level": 24, "move": "double_team" },
+        { "level": 29, "move": "slash" },
+        { "level": 35, "move": "swords_dance" },
+        { "level": 42, "move": "agility" }
+      ],
+      "tm": ["tm03", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm01"]
+    },
+    "124": {
+      "name": "루주라",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 1, "move": "lovely_kiss" },
+        { "level": 18, "move": "lick" },
+        { "level": 23, "move": "double_slap" },
+        { "level": 31, "move": "ice_punch" },
+        { "level": 39, "move": "body_slam" },
+        { "level": 47, "move": "thrash" },
+        { "level": 58, "move": "blizzard" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm40", "tm44", "tm46", "tm50"],
+      "hm": []
+    },
+    "125": {
+      "name": "에레브",
+      "levelUp": [
+        { "level": 1, "move": "quick_attack" },
+        { "level": 1, "move": "leer" },
+        { "level": 34, "move": "thunder_punch" },
+        { "level": 37, "move": "light_screen" },
+        { "level": 42, "move": "swift" },
+        { "level": 49, "move": "screech" },
+        { "level": 54, "move": "thunder" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm39", "tm40", "tm44", "tm45", "tm46", "tm50"],
+      "hm": ["hm04", "hm05"]
+    },
+    "126": {
+      "name": "마그마",
+      "levelUp": [
+        { "level": 1, "move": "ember" },
+        { "level": 36, "move": "leer" },
+        { "level": 39, "move": "confuse_ray" },
+        { "level": 43, "move": "fire_punch" },
+        { "level": 48, "move": "smokescreen" },
+        { "level": 52, "move": "smog" },
+        { "level": 55, "move": "flamethrower" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm18", "tm19", "tm20", "tm29", "tm30", "tm31", "tm32", "tm34", "tm35", "tm38", "tm40", "tm44", "tm46", "tm50"],
+      "hm": ["hm04"]
+    },
+    "127": {
+      "name": "쁘사이저",
+      "levelUp": [
+        { "level": 1, "move": "vice_grip" },
+        { "level": 25, "move": "seismic_toss" },
+        { "level": 30, "move": "guillotine" },
+        { "level": 36, "move": "focus_energy" },
+        { "level": 43, "move": "harden" },
+        { "level": 49, "move": "slash" },
+        { "level": 54, "move": "swords_dance" }
+      ],
+      "tm": ["tm03", "tm06", "tm08", "tm09", "tm10", "tm15", "tm17", "tm19", "tm20", "tm31", "tm32", "tm34", "tm44", "tm50"],
+      "hm": ["hm01", "hm04"]
+    },
+    "128": {
+      "name": "켄타로스",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 21, "move": "stomp" },
+        { "level": 28, "move": "tail_whip" },
+        { "level": 35, "move": "leer" },
+        { "level": 44, "move": "rage" },
+        { "level": 51, "move": "take_down" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm13", "tm14", "tm15", "tm20", "tm24", "tm25", "tm26", "tm27", "tm31", "tm32", "tm34", "tm38", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "129": {
+      "name": "잉어킹",
+      "levelUp": [
+        { "level": 1, "move": "splash" },
+        { "level": 15, "move": "tackle" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "130": {
+      "name": "갸라도스",
+      "levelUp": [
+        { "level": 1, "move": "bite" },
+        { "level": 1, "move": "dragon_rage" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "hydro_pump" },
+        { "level": 20, "move": "bite" },
+        { "level": 25, "move": "dragon_rage" },
+        { "level": 32, "move": "leer" },
+        { "level": 41, "move": "hydro_pump" },
+        { "level": 52, "move": "hyper_beam" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm23", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm38", "tm40", "tm44", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "131": {
+      "name": "라프라스",
+      "levelUp": [
+        { "level": 1, "move": "water_gun" },
+        { "level": 1, "move": "growl" },
+        { "level": 16, "move": "sing" },
+        { "level": 20, "move": "mist" },
+        { "level": 25, "move": "body_slam" },
+        { "level": 31, "move": "confuse_ray" },
+        { "level": 38, "move": "ice_beam" },
+        { "level": 46, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm22", "tm23", "tm24", "tm25", "tm29", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm46", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "132": {
+      "name": "메타몽",
+      "levelUp": [
+        { "level": 1, "move": "transform" }
+      ],
+      "tm": [],
+      "hm": []
+    },
+    "133": {
+      "name": "이브이",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 27, "move": "quick_attack" },
+        { "level": 31, "move": "tail_whip" },
+        { "level": 37, "move": "bite" },
+        { "level": 45, "move": "take_down" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "134": {
+      "name": "샤미드",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 31, "move": "water_gun" },
+        { "level": 37, "move": "tail_whip" },
+        { "level": 40, "move": "bite" },
+        { "level": 42, "move": "acid_armor" },
+        { "level": 44, "move": "haze" },
+        { "level": 48, "move": "mist" },
+        { "level": 54, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "135": {
+      "name": "쥬피썬더",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 31, "move": "thunder_shock" },
+        { "level": 37, "move": "tail_whip" },
+        { "level": 40, "move": "thunder_wave" },
+        { "level": 42, "move": "double_kick" },
+        { "level": 44, "move": "agility" },
+        { "level": 48, "move": "pin_missile" },
+        { "level": 54, "move": "thunder" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm05"]
+    },
+    "136": {
+      "name": "부스터",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sand_attack" },
+        { "level": 1, "move": "quick_attack" },
+        { "level": 1, "move": "ember" },
+        { "level": 37, "move": "tail_whip" },
+        { "level": 40, "move": "bite" },
+        { "level": 42, "move": "leer" },
+        { "level": 44, "move": "fire_spin" },
+        { "level": 48, "move": "rage" },
+        { "level": 54, "move": "flamethrower" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm50"],
+      "hm": []
+    },
+    "137": {
+      "name": "폴리곤",
+      "levelUp": [
+        { "level": 1, "move": "tackle" },
+        { "level": 1, "move": "sharpen" },
+        { "level": 1, "move": "conversion" },
+        { "level": 23, "move": "psybeam" },
+        { "level": 28, "move": "recover" },
+        { "level": 35, "move": "agility" },
+        { "level": 42, "move": "tri_attack" }
+      ],
+      "tm": ["tm06", "tm09", "tm10", "tm13", "tm14", "tm15", "tm20", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm39", "tm40", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm05"]
+    },
+    "138": {
+      "name": "암나이트",
+      "levelUp": [
+        { "level": 1, "move": "water_gun" },
+        { "level": 1, "move": "withdraw" },
+        { "level": 34, "move": "horn_attack" },
+        { "level": 39, "move": "leer" },
+        { "level": 46, "move": "spike_cannon" },
+        { "level": 53, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "139": {
+      "name": "암스타",
+      "levelUp": [
+        { "level": 1, "move": "water_gun" },
+        { "level": 1, "move": "withdraw" },
+        { "level": 1, "move": "horn_attack" },
+        { "level": 39, "move": "leer" },
+        { "level": 44, "move": "spike_cannon" },
+        { "level": 49, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm19", "tm20", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "140": {
+      "name": "투구",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "harden" },
+        { "level": 34, "move": "absorb" },
+        { "level": 39, "move": "slash" },
+        { "level": 44, "move": "leer" },
+        { "level": 49, "move": "hydro_pump" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm31", "tm32", "tm33", "tm34", "tm44", "tm50"],
+      "hm": ["hm03"]
+    },
+    "141": {
+      "name": "투구푸스",
+      "levelUp": [
+        { "level": 1, "move": "scratch" },
+        { "level": 1, "move": "harden" },
+        { "level": 1, "move": "absorb" },
+        { "level": 39, "move": "slash" },
+        { "level": 44, "move": "leer" },
+        { "level": 49, "move": "hydro_pump" }
+      ],
+      "tm": ["tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm19", "tm20", "tm31", "tm32", "tm33", "tm34", "tm40", "tm44", "tm50"],
+      "hm": ["hm01", "hm03"]
+    },
+    "142": {
+      "name": "프테라",
+      "levelUp": [
+        { "level": 1, "move": "wing_attack" },
+        { "level": 1, "move": "agility" },
+        { "level": 33, "move": "supersonic" },
+        { "level": 38, "move": "bite" },
+        { "level": 45, "move": "take_down" },
+        { "level": 54, "move": "hyper_beam" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm23", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "143": {
+      "name": "잠만보",
+      "levelUp": [
+        { "level": 1, "move": "headbutt" },
+        { "level": 1, "move": "amnesia" },
+        { "level": 35, "move": "rest" },
+        { "level": 41, "move": "body_slam" },
+        { "level": 48, "move": "harden" },
+        { "level": 56, "move": "double_edge" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm26", "tm27", "tm29", "tm31", "tm32", "tm33", "tm34", "tm35", "tm36", "tm38", "tm40", "tm44", "tm46", "tm48", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "144": {
+      "name": "프리져",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "ice_beam" },
+        { "level": 51, "move": "blizzard" },
+        { "level": 55, "move": "agility" },
+        { "level": 60, "move": "mist" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "145": {
+      "name": "썬더",
+      "levelUp": [
+        { "level": 1, "move": "thunder_shock" },
+        { "level": 1, "move": "drill_peck" },
+        { "level": 51, "move": "thunder" },
+        { "level": 55, "move": "agility" },
+        { "level": 60, "move": "light_screen" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm39", "tm43", "tm44", "tm45", "tm50"],
+      "hm": ["hm02", "hm05"]
+    },
+    "146": {
+      "name": "파이어",
+      "levelUp": [
+        { "level": 1, "move": "peck" },
+        { "level": 1, "move": "fire_spin" },
+        { "level": 51, "move": "leer" },
+        { "level": 55, "move": "agility" },
+        { "level": 60, "move": "sky_attack" }
+      ],
+      "tm": ["tm02", "tm04", "tm06", "tm09", "tm10", "tm15", "tm20", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm43", "tm44", "tm50"],
+      "hm": ["hm02"]
+    },
+    "147": {
+      "name": "미뇽",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "leer" },
+        { "level": 10, "move": "thunder_wave" },
+        { "level": 20, "move": "agility" },
+        { "level": 30, "move": "slam" },
+        { "level": 40, "move": "dragon_rage" },
+        { "level": 50, "move": "hyper_beam" }
+      ],
+      "tm": ["tm06", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm23", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm03"]
+    },
+    "148": {
+      "name": "신뇽",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "thunder_wave" },
+        { "level": 20, "move": "agility" },
+        { "level": 35, "move": "slam" },
+        { "level": 45, "move": "dragon_rage" },
+        { "level": 55, "move": "hyper_beam" }
+      ],
+      "tm": ["tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm20", "tm23", "tm24", "tm25", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm03"]
+    },
+    "149": {
+      "name": "망나뇽",
+      "levelUp": [
+        { "level": 1, "move": "wrap" },
+        { "level": 1, "move": "leer" },
+        { "level": 1, "move": "thunder_wave" },
+        { "level": 1, "move": "agility" },
+        { "level": 35, "move": "slam" },
+        { "level": 45, "move": "dragon_rage" },
+        { "level": 60, "move": "hyper_beam" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm17", "tm18", "tm19", "tm20", "tm23", "tm24", "tm25", "tm26", "tm27", "tm31", "tm32", "tm33", "tm34", "tm38", "tm39", "tm40", "tm44", "tm45", "tm50"],
+      "hm": ["hm03", "hm04"]
+    },
+    "150": {
+      "name": "뮤츠",
+      "levelUp": [
+        { "level": 1, "move": "confusion" },
+        { "level": 1, "move": "disable" },
+        { "level": 1, "move": "swift" },
+        { "level": 1, "move": "psychic" },
+        { "level": 63, "move": "barrier" },
+        { "level": 66, "move": "psychic" },
+        { "level": 70, "move": "recover" },
+        { "level": 75, "move": "mist" },
+        { "level": 81, "move": "amnesia" }
+      ],
+      "tm": ["tm01", "tm05", "tm06", "tm08", "tm09", "tm10", "tm13", "tm14", "tm15", "tm16", "tm17", "tm18", "tm19", "tm20", "tm22", "tm24", "tm25", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm36", "tm38", "tm40", "tm44", "tm45", "tm46", "tm49", "tm50"],
+      "hm": ["hm04", "hm05"]
+    },
+    "151": {
+      "name": "뮤",
+      "levelUp": [
+        { "level": 1, "move": "pound" },
+        { "level": 10, "move": "transform" },
+        { "level": 20, "move": "mega_punch" },
+        { "level": 30, "move": "metronome" },
+        { "level": 40, "move": "psychic" }
+      ],
+      "tm": ["tm01", "tm02", "tm03", "tm04", "tm05", "tm06", "tm07", "tm08", "tm09", "tm10", "tm11", "tm12", "tm13", "tm14", "tm15", "tm16", "tm17", "tm18", "tm19", "tm20", "tm21", "tm22", "tm23", "tm24", "tm25", "tm26", "tm27", "tm28", "tm29", "tm30", "tm31", "tm32", "tm33", "tm34", "tm35", "tm36", "tm37", "tm38", "tm39", "tm40", "tm41", "tm42", "tm43", "tm44", "tm45", "tm46", "tm47", "tm48", "tm49", "tm50"],
+      "hm": ["hm01", "hm02", "hm03", "hm04", "hm05"]
+    }
+  },
+
+  "tmList": {
+    "tm01": "mega_punch",
+    "tm02": "razor_wind",
+    "tm03": "swords_dance",
+    "tm04": "whirlwind",
+    "tm05": "mega_kick",
+    "tm06": "toxic",
+    "tm07": "horn_drill",
+    "tm08": "body_slam",
+    "tm09": "take_down",
+    "tm10": "double_edge",
+    "tm11": "bubble_beam",
+    "tm12": "water_gun",
+    "tm13": "ice_beam",
+    "tm14": "blizzard",
+    "tm15": "hyper_beam",
+    "tm16": "pay_day",
+    "tm17": "submission",
+    "tm18": "counter",
+    "tm19": "seismic_toss",
+    "tm20": "rage",
+    "tm21": "mega_drain",
+    "tm22": "solar_beam",
+    "tm23": "dragon_rage",
+    "tm24": "thunderbolt",
+    "tm25": "thunder",
+    "tm26": "earthquake",
+    "tm27": "fissure",
+    "tm28": "dig",
+    "tm29": "psychic",
+    "tm30": "teleport",
+    "tm31": "mimic",
+    "tm32": "double_team",
+    "tm33": "reflect",
+    "tm34": "bide",
+    "tm35": "metronome",
+    "tm36": "self_destruct",
+    "tm37": "egg_bomb",
+    "tm38": "fire_blast",
+    "tm39": "swift",
+    "tm40": "skull_bash",
+    "tm41": "soft_boiled",
+    "tm42": "dream_eater",
+    "tm43": "sky_attack",
+    "tm44": "rest",
+    "tm45": "thunder_wave",
+    "tm46": "psywave",
+    "tm47": "explosion",
+    "tm48": "rock_slide",
+    "tm49": "tri_attack",
+    "tm50": "substitute"
+  },
+
+  "hmList": {
+    "hm01": "cut",
+    "hm02": "fly",
+    "hm03": "surf",
+    "hm04": "strength",
+    "hm05": "flash"
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "version": "1.0.0",
+  "description": "포켓몬 그린 스토리 이벤트 데이터",
+
+  "mainStory": {
+    "chapter_1": {
+      "title": "여행의 시작",
+      "events": [
+        {
+          "id": "intro",
+          "location": "player_house",
+          "trigger": "game_start",
+          "dialogue": [
+            { "speaker": "narrator", "text": "여기는 포켓몬의 세계!" },
+            { "speaker": "narrator", "text": "이 세계에는 포켓몬이라 불리는 생물이 곳곳에 살고 있어." },
+            { "speaker": "oak", "text": "나는 오박사. 사람들은 나를 포켓몬 박사라고 부른단다." },
+            { "speaker": "oak", "text": "그런데 너의 이름은 뭐니?" }
+          ],
+          "actions": ["input_player_name", "input_rival_name"],
+          "nextEvent": "wake_up"
+        },
+        {
+          "id": "wake_up",
+          "location": "player_house",
+          "trigger": "after_intro",
+          "dialogue": [
+            { "speaker": "narrator", "text": "{player}의 집, 태초마을..." },
+            { "speaker": "mom", "text": "{player}! 오박사님이 부르셨어. 어서 가봐!" }
+          ],
+          "setFlags": ["can_leave_house"],
+          "nextEvent": "route_1_grass"
+        },
+        {
+          "id": "route_1_grass",
+          "location": "route_1",
+          "trigger": "enter_grass_without_pokemon",
+          "dialogue": [
+            { "speaker": "oak", "text": "잠깐! 풀숲에는 야생 포켓몬이 있어서 위험해!" },
+            { "speaker": "oak", "text": "나를 따라 연구소로 오렴." }
+          ],
+          "actions": ["teleport_to_oak_lab"],
+          "nextEvent": "choose_starter"
+        },
+        {
+          "id": "choose_starter",
+          "location": "oak_lab",
+          "trigger": "enter_oak_lab_first",
+          "dialogue": [
+            { "speaker": "oak", "text": "여기 있는 세 마리의 포켓몬 중 하나를 선택하렴." },
+            { "speaker": "oak", "text": "이사키 군! 넌 나중에 고르거라." },
+            { "speaker": "rival", "text": "흥, 빨리 골라!" }
+          ],
+          "choices": [
+            { "pokemon": 1, "text": "이상해씨 - 풀/독 타입" },
+            { "pokemon": 4, "text": "파이리 - 불꽃 타입" },
+            { "pokemon": 7, "text": "꼬부기 - 물 타입" }
+          ],
+          "actions": ["receive_starter"],
+          "setFlags": ["received_starter"],
+          "nextEvent": "rival_choose"
+        },
+        {
+          "id": "rival_choose",
+          "location": "oak_lab",
+          "trigger": "after_player_choose",
+          "dialogue": [
+            { "speaker": "rival", "text": "그럼 나는 이걸로 할게!" },
+            { "speaker": "narrator", "text": "{rival}은(는) {rival_starter}을(를) 선택했다!" },
+            { "speaker": "rival", "text": "잠깐! {player}! 한판 붙자!" }
+          ],
+          "actions": ["rival_select_counter_starter"],
+          "battle": {
+            "trainer": "rival_1",
+            "canLose": false
+          },
+          "nextEvent": "after_first_rival"
+        },
+        {
+          "id": "after_first_rival",
+          "location": "oak_lab",
+          "trigger": "after_rival_battle_1",
+          "dialogue": [
+            { "speaker": "rival", "text": "체! 운이 좋았을 뿐이야!" },
+            { "speaker": "oak", "text": "그런데 나에게 부탁이 있단다. 이 소포를 상록시티 프렌드리숍에서 찾아다오." }
+          ],
+          "items": [{ "item": 112, "action": "receive" }],
+          "setFlags": ["has_oak_parcel"],
+          "nextEvent": "deliver_parcel"
+        }
+      ]
+    },
+    "chapter_2": {
+      "title": "포켓몬 도감",
+      "events": [
+        {
+          "id": "deliver_parcel",
+          "location": "viridian_city_mart",
+          "trigger": "talk_to_clerk_with_parcel",
+          "dialogue": [
+            { "speaker": "clerk", "text": "오! 이건 오박사님의 소포군요! 고마워요." },
+            { "speaker": "narrator", "text": "오박사의 소포를 받았다!" }
+          ],
+          "items": [{ "item": 112, "action": "give" }],
+          "setFlags": ["delivered_parcel"],
+          "nextEvent": "receive_pokedex"
+        },
+        {
+          "id": "receive_pokedex",
+          "location": "oak_lab",
+          "trigger": "return_to_lab_after_parcel",
+          "dialogue": [
+            { "speaker": "oak", "text": "고맙다! 이건 커스텀 몬스터볼이란다." },
+            { "speaker": "oak", "text": "그리고 이것은 '포켓몬 도감'이야. 세상의 모든 포켓몬 데이터를 기록하는 장치지." },
+            { "speaker": "oak", "text": "나의 오랜 꿈... 모든 포켓몬의 데이터를 완성하는 것! 너희 둘에게 이 꿈을 맡기마." },
+            { "speaker": "rival", "text": "흥! 할아버지 걱정 마세요. 제가 먼저 완성해 보일 테니까!" }
+          ],
+          "items": [
+            { "item": 113, "action": "receive" },
+            { "item": 1, "quantity": 5, "action": "receive" }
+          ],
+          "setFlags": ["has_pokedex", "can_catch_pokemon"],
+          "nextEvent": "journey_begins"
+        }
+      ]
+    },
+    "chapter_3": {
+      "title": "첫 번째 뱃지",
+      "events": [
+        {
+          "id": "viridian_forest_enter",
+          "location": "viridian_forest",
+          "trigger": "first_enter",
+          "dialogue": [
+            { "speaker": "narrator", "text": "상록숲에 들어왔다. 벌레 포켓몬이 많이 서식하는 숲이다." },
+            { "speaker": "bug_catcher", "text": "이 숲에는 캐터피랑 뿔충이가 많아! 조심해!" }
+          ]
+        },
+        {
+          "id": "pewter_gym_hint",
+          "location": "pewter_city",
+          "trigger": "first_enter",
+          "dialogue": [
+            { "speaker": "npc", "text": "여기는 회색시티야! 체육관에서 바위를 전문으로 하는 웅이 기다리고 있어." },
+            { "speaker": "npc", "text": "불이나 풀 타입 포켓몬은 고전할 거야." }
+          ]
+        },
+        {
+          "id": "pewter_gym_battle",
+          "location": "pewter_gym",
+          "trigger": "talk_to_brock",
+          "dialogue": [
+            { "speaker": "brock", "text": "나는 웅! 바위처럼 단단한 의지의 사나이지!" },
+            { "speaker": "brock", "text": "네 포켓몬이 얼마나 강한지 보여줘!" }
+          ],
+          "battle": {
+            "trainer": "brock",
+            "reward": {
+              "badge": "boulder_badge",
+              "money": 1386,
+              "tm": 134
+            }
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "brock", "text": "대단해! 이건 회색뱃지야. 이걸 가지면 플래시를 사용할 수 있어." },
+              { "speaker": "brock", "text": "그리고 이 기술머신을 받아. TM34 참기야." }
+            ]
+          },
+          "setFlags": ["badge_boulder"],
+          "nextEvent": "route_3_rival"
+        }
+      ]
+    },
+    "chapter_4": {
+      "title": "달맞이산",
+      "events": [
+        {
+          "id": "route_3_rival",
+          "location": "route_3",
+          "trigger": "enter_from_pewter",
+          "condition": { "flag": "badge_boulder" },
+          "dialogue": [
+            { "speaker": "rival", "text": "오! {player}! 웅의 뱃지를 땄구나? 나도 당연히 땄지!" },
+            { "speaker": "rival", "text": "한판 붙어볼까?" }
+          ],
+          "battle": {
+            "trainer": "rival_2"
+          },
+          "setFlags": ["rival_battle_2"]
+        },
+        {
+          "id": "mt_moon_rocket",
+          "location": "mt_moon",
+          "trigger": "reach_fossil_room",
+          "dialogue": [
+            { "speaker": "rocket", "text": "로켓단 참상! 이 화석은 우리 거야!" },
+            { "speaker": "rocket", "text": "방해하면 가만 안 둬!" }
+          ],
+          "battle": {
+            "trainer": "rocket_grunt_1"
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "scientist", "text": "고마워! 덕분에 살았어. 이 화석 중 하나를 가져가도 돼." }
+            ],
+            "choices": [
+              { "item": 90, "text": "조개화석 (암나이트)" },
+              { "item": 91, "text": "돔화석 (투구)" }
+            ]
+          },
+          "setFlags": ["cleared_mt_moon", "has_fossil"]
+        }
+      ]
+    },
+    "chapter_5": {
+      "title": "블루시티와 너겟다리",
+      "events": [
+        {
+          "id": "cerulean_rival",
+          "location": "cerulean_city",
+          "trigger": "enter_from_mt_moon",
+          "dialogue": [
+            { "speaker": "rival", "text": "늦었구나 {player}! 나는 벌써 이 도시 체육관도 클리어했어!" },
+            { "speaker": "rival", "text": "어디 실력이 얼마나 늘었나 볼까?" }
+          ],
+          "battle": {
+            "trainer": "rival_3"
+          },
+          "setFlags": ["rival_battle_3"]
+        },
+        {
+          "id": "nugget_bridge",
+          "location": "route_24",
+          "trigger": "defeat_all_trainers",
+          "dialogue": [
+            { "speaker": "rocket", "text": "축하해! 너겟다리를 돌파했군! 상품으로 금구슬을 줄게." },
+            { "speaker": "rocket", "text": "그런데... 로켓단에 들어오지 않을래?" },
+            { "speaker": "player", "text": "싫어!" },
+            { "speaker": "rocket", "text": "그럼 어쩔 수 없지! 배틀이다!" }
+          ],
+          "items": [{ "item": "nugget", "action": "receive" }],
+          "battle": {
+            "trainer": "rocket_grunt_2"
+          },
+          "setFlags": ["cleared_nugget_bridge"]
+        },
+        {
+          "id": "bills_house",
+          "location": "bills_house",
+          "trigger": "talk_to_bill",
+          "dialogue": [
+            { "speaker": "bill", "text": "어? 손님? 지금 좀 곤란한데... 실험을 잘못해서 포켓몬과 합체해 버렸어!" },
+            { "speaker": "bill", "text": "저 컴퓨터를 작동시켜 줄 수 있어?" }
+          ],
+          "actions": ["help_bill"],
+          "afterAction": {
+            "dialogue": [
+              { "speaker": "bill", "text": "고마워! 덕분에 원래대로 돌아왔어." },
+              { "speaker": "bill", "text": "이건 내 감사의 표시야. SS앤호 티켓이야." }
+            ],
+            "items": [{ "item": 110, "action": "receive" }]
+          },
+          "setFlags": ["helped_bill", "has_ss_ticket"]
+        },
+        {
+          "id": "cerulean_gym_battle",
+          "location": "cerulean_gym",
+          "trigger": "talk_to_misty",
+          "dialogue": [
+            { "speaker": "misty", "text": "나는 이슬! 물의 예술가야!" },
+            { "speaker": "misty", "text": "네 포켓몬이 내 물결을 이길 수 있을까?" }
+          ],
+          "battle": {
+            "trainer": "misty",
+            "reward": {
+              "badge": "cascade_badge",
+              "money": 2079,
+              "tm": 111
+            }
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "misty", "text": "대단해! 이건 블루뱃지야. Lv.30까지의 포켓몬이 순종하고 풀베기를 사용할 수 있어." }
+            ]
+          },
+          "setFlags": ["badge_cascade"]
+        }
+      ]
+    },
+    "chapter_6": {
+      "title": "SS앤호와 갈색시티",
+      "events": [
+        {
+          "id": "ss_anne_board",
+          "location": "vermilion_port",
+          "trigger": "show_ticket",
+          "condition": { "item": 110 },
+          "dialogue": [
+            { "speaker": "sailor", "text": "SS앤호에 오신 것을 환영합니다!" }
+          ]
+        },
+        {
+          "id": "ss_anne_rival",
+          "location": "ss_anne",
+          "trigger": "reach_corridor",
+          "dialogue": [
+            { "speaker": "rival", "text": "뭐야, 너도 이 배에 탔어?" },
+            { "speaker": "rival", "text": "한판 하자!" }
+          ],
+          "battle": {
+            "trainer": "rival_4"
+          },
+          "setFlags": ["rival_battle_4"]
+        },
+        {
+          "id": "ss_anne_captain",
+          "location": "ss_anne_cabin",
+          "trigger": "talk_to_captain",
+          "dialogue": [
+            { "speaker": "captain", "text": "으으... 배가 흔들려서 뱃멀미가..." },
+            { "speaker": "narrator", "text": "{player}은(는) 선장의 등을 쓸어주었다." },
+            { "speaker": "captain", "text": "고마워! 한결 나아졌어. 이건 내 감사의 표시야." }
+          ],
+          "items": [{ "item": 201, "action": "receive" }],
+          "setFlags": ["has_hm_cut", "helped_captain"],
+          "nextEvent": "ss_anne_depart"
+        },
+        {
+          "id": "ss_anne_depart",
+          "location": "vermilion_port",
+          "trigger": "exit_ss_anne",
+          "condition": { "flag": "helped_captain" },
+          "dialogue": [
+            { "speaker": "narrator", "text": "SS앤호가 출항했다..." },
+            { "speaker": "narrator", "text": "다시는 탈 수 없게 되었다." }
+          ],
+          "setFlags": ["ss_anne_departed"]
+        },
+        {
+          "id": "vermilion_gym_puzzle",
+          "location": "vermilion_gym",
+          "trigger": "enter_gym",
+          "dialogue": [
+            { "speaker": "narrator", "text": "체육관 안에는 쓰레기통이 가득하다." },
+            { "speaker": "trainer", "text": "마티스님은 쓰레기통 스위치 퍼즐을 만들어 놓으셨어!" }
+          ]
+        },
+        {
+          "id": "vermilion_gym_battle",
+          "location": "vermilion_gym",
+          "trigger": "solve_puzzle_and_talk_to_surge",
+          "dialogue": [
+            { "speaker": "surge", "text": "나는 마티스! 번개의 미국인이지!" },
+            { "speaker": "surge", "text": "전쟁에서 전기 포켓몬에게 목숨을 구해 받았거든!" }
+          ],
+          "battle": {
+            "trainer": "surge",
+            "reward": {
+              "badge": "thunder_badge",
+              "money": 2772,
+              "tm": 124
+            }
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "surge", "text": "Good! 이건 오렌지뱃지! 공중날기를 쓸 수 있고 Lv.50까지 순종해!" }
+            ]
+          },
+          "setFlags": ["badge_thunder"]
+        }
+      ]
+    },
+    "chapter_7": {
+      "title": "포켓몬 타워와 로켓단",
+      "events": [
+        {
+          "id": "pokemon_tower_ghost",
+          "location": "pokemon_tower",
+          "trigger": "reach_floor_6",
+          "condition": { "item": 103, "negate": true },
+          "dialogue": [
+            { "speaker": "narrator", "text": "무언가가 나타났다!" },
+            { "speaker": "narrator", "text": "...하지만 정체를 알 수 없다!" },
+            { "speaker": "narrator", "text": "무서워서 도망칠 수밖에 없다!" }
+          ],
+          "actions": ["force_escape"]
+        },
+        {
+          "id": "rocket_hideout",
+          "location": "celadon_game_corner",
+          "trigger": "find_poster",
+          "dialogue": [
+            { "speaker": "narrator", "text": "포스터 뒤에 스위치가 있다!" },
+            { "speaker": "narrator", "text": "로켓단 아지트로 통하는 계단이 나타났다!" }
+          ],
+          "setFlags": ["found_rocket_hideout"]
+        },
+        {
+          "id": "rocket_boss_1",
+          "location": "rocket_hideout_b4f",
+          "trigger": "reach_boss_room",
+          "dialogue": [
+            { "speaker": "giovanni", "text": "나는 비주기! 로켓단의 보스다!" },
+            { "speaker": "giovanni", "text": "감히 우리 아지트에 쳐들어오다니... 후회하게 해주마!" }
+          ],
+          "battle": {
+            "trainer": "giovanni_1"
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "giovanni", "text": "흥... 이번은 봐주겠다!" },
+              { "speaker": "narrator", "text": "비주기는 실프스코프를 떨어뜨리고 도망쳤다!" }
+            ],
+            "items": [{ "item": 103, "action": "receive" }]
+          },
+          "setFlags": ["has_silph_scope", "cleared_rocket_hideout"]
+        },
+        {
+          "id": "pokemon_tower_reveal",
+          "location": "pokemon_tower",
+          "trigger": "reach_floor_6_with_scope",
+          "condition": { "item": 103 },
+          "dialogue": [
+            { "speaker": "narrator", "text": "실프스코프로 유령의 정체가 밝혀졌다!" },
+            { "speaker": "narrator", "text": "그것은 해골몬의 어머니 영혼이었다..." }
+          ],
+          "battle": {
+            "special": "ghost_marowak",
+            "cannotCatch": true
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "narrator", "text": "해골몬의 어머니 영혼이 성불했다..." }
+            ]
+          },
+          "setFlags": ["ghost_marowak_defeated"]
+        },
+        {
+          "id": "fuji_rescue",
+          "location": "pokemon_tower",
+          "trigger": "reach_top_floor",
+          "dialogue": [
+            { "speaker": "rocket", "text": "후지 노인은 넘겨줄 수 없어!" }
+          ],
+          "battle": {
+            "trainer": "rocket_grunt_tower"
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "fuji", "text": "고마워! 나를 구해주다니..." },
+              { "speaker": "fuji", "text": "나에게 감사의 선물이 있어. 포켓몬피리야." }
+            ],
+            "items": [{ "item": 102, "action": "receive" }]
+          },
+          "setFlags": ["rescued_fuji", "has_poke_flute"]
+        }
+      ]
+    },
+    "chapter_8": {
+      "title": "실프주식회사",
+      "events": [
+        {
+          "id": "saffron_blocked",
+          "location": "saffron_gate",
+          "trigger": "try_enter",
+          "condition": { "item": "drink", "negate": true },
+          "dialogue": [
+            { "speaker": "guard", "text": "목이 말라서 일할 수가 없어... 음료수 있으면 좀 줘..." }
+          ]
+        },
+        {
+          "id": "saffron_open",
+          "location": "saffron_gate",
+          "trigger": "give_drink",
+          "dialogue": [
+            { "speaker": "guard", "text": "오! 고마워! 이제 통과해도 돼!" },
+            { "speaker": "narrator", "text": "황금시티로 가는 모든 게이트가 열렸다!" }
+          ],
+          "setFlags": ["saffron_open"]
+        },
+        {
+          "id": "silph_co_rival",
+          "location": "silph_co",
+          "trigger": "reach_7f",
+          "dialogue": [
+            { "speaker": "rival", "text": "뭐야? 너도 로켓단을 쫓고 있어?" },
+            { "speaker": "rival", "text": "먼저 나부터 이기고 가!" }
+          ],
+          "battle": {
+            "trainer": "rival_5"
+          },
+          "setFlags": ["rival_battle_5"]
+        },
+        {
+          "id": "silph_co_boss",
+          "location": "silph_co",
+          "trigger": "reach_president_room",
+          "dialogue": [
+            { "speaker": "giovanni", "text": "또 너냐! 이번에는 봐주지 않겠다!" }
+          ],
+          "battle": {
+            "trainer": "giovanni_2"
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "giovanni", "text": "어리석은 녀석... 로켓단은 해체하겠다!" },
+              { "speaker": "president", "text": "고마워요! 회사를 구해주다니! 이건 마스터볼이에요!" }
+            ],
+            "items": [{ "item": 4, "action": "receive" }]
+          },
+          "setFlags": ["cleared_silph_co", "has_master_ball"]
+        },
+        {
+          "id": "silph_co_lapras",
+          "location": "silph_co_7f",
+          "trigger": "talk_to_employee",
+          "dialogue": [
+            { "speaker": "employee", "text": "로켓단을 물리쳐 줘서 고마워요! 이 포켓몬을 받아주세요." }
+          ],
+          "actions": ["receive_lapras"],
+          "setFlags": ["received_lapras"]
+        }
+      ]
+    },
+    "chapter_9": {
+      "title": "마지막 뱃지",
+      "events": [
+        {
+          "id": "viridian_gym_open",
+          "location": "viridian_gym",
+          "trigger": "try_enter",
+          "condition": { "badges": 7 },
+          "dialogue": [
+            { "speaker": "narrator", "text": "상록시티 체육관의 문이 열려 있다!" }
+          ]
+        },
+        {
+          "id": "viridian_gym_battle",
+          "location": "viridian_gym",
+          "trigger": "talk_to_leader",
+          "condition": { "badges": 7 },
+          "dialogue": [
+            { "speaker": "giovanni", "text": "...다시 만나게 될 줄은 몰랐군." },
+            { "speaker": "giovanni", "text": "나는 상록시티 체육관 관장이자... 로켓단의 보스 비주기다!" }
+          ],
+          "battle": {
+            "trainer": "giovanni_3",
+            "reward": {
+              "badge": "earth_badge",
+              "money": 5445,
+              "tm": 127
+            }
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "giovanni", "text": "패배를 인정하마... 이 뱃지를 가져가라." },
+              { "speaker": "giovanni", "text": "그린뱃지다. 이걸로 모든 포켓몬이 순종할 것이다." },
+              { "speaker": "giovanni", "text": "나는 여기서 떠나겠다... 언젠가 다시 로켓단을 재건할지도 모르지만..." }
+            ]
+          },
+          "setFlags": ["badge_earth", "giovanni_defeated"]
+        }
+      ]
+    },
+    "chapter_10": {
+      "title": "포켓몬 리그",
+      "events": [
+        {
+          "id": "victory_road_enter",
+          "location": "route_23",
+          "trigger": "try_enter",
+          "condition": { "badges": 8 },
+          "dialogue": [
+            { "speaker": "guard", "text": "모든 뱃지를 가지고 있군요! 통과하세요!" }
+          ]
+        },
+        {
+          "id": "elite_four_lorelei",
+          "location": "pokemon_league",
+          "trigger": "first_room",
+          "dialogue": [
+            { "speaker": "lorelei", "text": "나는 칸나. 사천왕의 첫 번째야." },
+            { "speaker": "lorelei", "text": "얼음 포켓몬의 아름다움을 보여줄게!" }
+          ],
+          "battle": {
+            "trainer": "lorelei",
+            "elite": true
+          },
+          "setFlags": ["defeated_lorelei"]
+        },
+        {
+          "id": "elite_four_bruno",
+          "location": "pokemon_league",
+          "trigger": "second_room",
+          "dialogue": [
+            { "speaker": "bruno", "text": "나는 시바. 격투의 달인이지." },
+            { "speaker": "bruno", "text": "네 포켓몬의 힘을 보여줘!" }
+          ],
+          "battle": {
+            "trainer": "bruno",
+            "elite": true
+          },
+          "setFlags": ["defeated_bruno"]
+        },
+        {
+          "id": "elite_four_agatha",
+          "location": "pokemon_league",
+          "trigger": "third_room",
+          "dialogue": [
+            { "speaker": "agatha", "text": "나는 국화... 오박사와는 옛날 라이벌이었지." },
+            { "speaker": "agatha", "text": "고스트 포켓몬으로 네 정신을 흔들어 놓겠어!" }
+          ],
+          "battle": {
+            "trainer": "agatha",
+            "elite": true
+          },
+          "setFlags": ["defeated_agatha"]
+        },
+        {
+          "id": "elite_four_lance",
+          "location": "pokemon_league",
+          "trigger": "fourth_room",
+          "dialogue": [
+            { "speaker": "lance", "text": "나는 목호! 사천왕의 리더야!" },
+            { "speaker": "lance", "text": "드래곤 포켓몬의 힘 앞에 무릎 꿇어라!" }
+          ],
+          "battle": {
+            "trainer": "lance",
+            "elite": true
+          },
+          "setFlags": ["defeated_lance"]
+        },
+        {
+          "id": "champion_room",
+          "location": "pokemon_league",
+          "trigger": "final_room",
+          "dialogue": [
+            { "speaker": "rival", "text": "어? {player}?" },
+            { "speaker": "rival", "text": "늦었구나! 내가 먼저 사천왕을 꺾고 챔피언이 됐어!" },
+            { "speaker": "rival", "text": "마지막으로 너를 쓰러뜨리면 완벽하겠군!" }
+          ],
+          "battle": {
+            "trainer": "champion",
+            "champion": true
+          },
+          "afterBattle": {
+            "dialogue": [
+              { "speaker": "rival", "text": "말도 안 돼...! 내가 지다니...!" },
+              { "speaker": "oak", "text": "축하한다 {player}! 드디어 챔피언이 되었구나!" },
+              { "speaker": "oak", "text": "너와 포켓몬들을 명예의 전당에 기록하마." }
+            ],
+            "actions": ["hall_of_fame", "credits"]
+          },
+          "setFlags": ["champion_defeated", "game_complete"]
+        }
+      ]
+    }
+  },
+
+  "legendaryEvents": {
+    "articuno": {
+      "location": "seafoam_islands",
+      "level": 50,
+      "dialogue": [
+        { "speaker": "narrator", "text": "얼음 전설의 새, 프리져가 나타났다!" }
+      ],
+      "requirements": ["has_surf", "has_strength"]
+    },
+    "zapdos": {
+      "location": "power_plant",
+      "level": 50,
+      "dialogue": [
+        { "speaker": "narrator", "text": "번개 전설의 새, 썬더가 나타났다!" }
+      ],
+      "requirements": ["has_surf"]
+    },
+    "moltres": {
+      "location": "victory_road",
+      "level": 50,
+      "dialogue": [
+        { "speaker": "narrator", "text": "불꽃 전설의 새, 파이어가 나타났다!" }
+      ],
+      "requirements": ["has_strength"]
+    },
+    "mewtwo": {
+      "location": "cerulean_cave",
+      "level": 70,
+      "dialogue": [
+        { "speaker": "narrator", "text": "유전자 포켓몬, 뮤츠가 나타났다!" }
+      ],
+      "requirements": ["game_complete"]
+    },
+    "snorlax_route12": {
+      "location": "route_12",
+      "level": 30,
+      "dialogue": [
+        { "speaker": "narrator", "text": "잠만보가 길을 막고 자고 있다!" },
+        { "speaker": "narrator", "text": "포켓몬피리를 사용했다!" },
+        { "speaker": "narrator", "text": "잠만보가 눈을 떴다! 화가 나서 공격해온다!" }
+      ],
+      "requirements": ["has_poke_flute"]
+    },
+    "snorlax_route16": {
+      "location": "route_16",
+      "level": 30,
+      "dialogue": [
+        { "speaker": "narrator", "text": "잠만보가 길을 막고 자고 있다!" },
+        { "speaker": "narrator", "text": "포켓몬피리를 사용했다!" },
+        { "speaker": "narrator", "text": "잠만보가 눈을 떴다! 화가 나서 공격해온다!" }
+      ],
+      "requirements": ["has_poke_flute"]
+    }
+  }
+}

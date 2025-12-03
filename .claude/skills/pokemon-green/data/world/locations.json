@@ -1,0 +1,496 @@
+{
+  "version": "1.0.0",
+  "description": "관동 지방 위치 데이터",
+
+  "towns": {
+    "pallet_town": {
+      "name": { "ko": "태초마을", "en": "Pallet Town" },
+      "description": "조용한 시작의 마을. 오박사 연구소가 있다.",
+      "connections": ["route_1"],
+      "buildings": ["player_house", "rival_house", "oak_lab"],
+      "hasPokeCenter": false,
+      "hasPokeMart": false,
+      "hasGym": false
+    },
+    "viridian_city": {
+      "name": { "ko": "상록시티", "en": "Viridian City" },
+      "description": "상록숲의 입구에 위치한 도시.",
+      "connections": ["route_1", "route_2", "route_22"],
+      "buildings": ["poke_center", "poke_mart", "viridian_gym", "trainer_school"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "giovanni",
+        "type": "ground",
+        "badge": "earth_badge",
+        "requiredBadges": 7
+      }
+    },
+    "pewter_city": {
+      "name": { "ko": "회색시티", "en": "Pewter City" },
+      "description": "돌과 바위로 유명한 도시. 박물관이 있다.",
+      "connections": ["route_2", "route_3"],
+      "buildings": ["poke_center", "poke_mart", "pewter_gym", "museum"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "brock",
+        "type": "rock",
+        "badge": "boulder_badge",
+        "requiredBadges": 0
+      }
+    },
+    "cerulean_city": {
+      "name": { "ko": "블루시티", "en": "Cerulean City" },
+      "description": "맑은 물의 도시. 해변이 가깝다.",
+      "connections": ["route_4", "route_5", "route_9", "route_24"],
+      "buildings": ["poke_center", "poke_mart", "cerulean_gym", "bike_shop", "bill_house"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "misty",
+        "type": "water",
+        "badge": "cascade_badge",
+        "requiredBadges": 1
+      }
+    },
+    "vermilion_city": {
+      "name": { "ko": "갈색시티", "en": "Vermilion City" },
+      "description": "항구 도시. SS앤호가 정박해 있다.",
+      "connections": ["route_6", "route_11"],
+      "buildings": ["poke_center", "poke_mart", "vermilion_gym", "ss_anne", "pokemon_fan_club"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "surge",
+        "type": "electric",
+        "badge": "thunder_badge",
+        "requiredBadges": 2
+      }
+    },
+    "lavender_town": {
+      "name": { "ko": "보라타운", "en": "Lavender Town" },
+      "description": "포켓몬 타워가 있는 조용한 마을.",
+      "connections": ["route_8", "route_10", "route_12"],
+      "buildings": ["poke_center", "poke_mart", "pokemon_tower", "mr_fuji_house", "name_rater"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": false
+    },
+    "celadon_city": {
+      "name": { "ko": "무지개시티", "en": "Celadon City" },
+      "description": "큰 백화점이 있는 화려한 도시.",
+      "connections": ["route_7", "route_16"],
+      "buildings": ["poke_center", "poke_mart", "celadon_gym", "department_store", "game_corner", "rocket_hideout", "celadon_mansion"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "erika",
+        "type": "grass",
+        "badge": "rainbow_badge",
+        "requiredBadges": 3
+      }
+    },
+    "fuchsia_city": {
+      "name": { "ko": "연보라시티", "en": "Fuchsia City" },
+      "description": "사파리존이 있는 자연 도시.",
+      "connections": ["route_15", "route_18", "route_19"],
+      "buildings": ["poke_center", "poke_mart", "fuchsia_gym", "safari_zone", "warden_house"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "koga",
+        "type": "poison",
+        "badge": "soul_badge",
+        "requiredBadges": 4
+      }
+    },
+    "saffron_city": {
+      "name": { "ko": "황금시티", "en": "Saffron City" },
+      "description": "관동 지방의 중심 도시. 실프주식회사가 있다.",
+      "connections": ["route_5", "route_6", "route_7", "route_8"],
+      "buildings": ["poke_center", "poke_mart", "saffron_gym", "silph_co", "fighting_dojo", "copycat_house"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "sabrina",
+        "type": "psychic",
+        "badge": "marsh_badge",
+        "requiredBadges": 5
+      }
+    },
+    "cinnabar_island": {
+      "name": { "ko": "홍련마을", "en": "Cinnabar Island" },
+      "description": "화산섬. 포켓몬 연구소가 있다.",
+      "connections": ["route_20", "route_21"],
+      "buildings": ["poke_center", "poke_mart", "cinnabar_gym", "pokemon_lab", "pokemon_mansion"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "blaine",
+        "type": "fire",
+        "badge": "volcano_badge",
+        "requiredBadges": 6
+      }
+    },
+    "indigo_plateau": {
+      "name": { "ko": "석영고원", "en": "Indigo Plateau" },
+      "description": "포켓몬 리그 본부.",
+      "connections": ["route_23"],
+      "buildings": ["poke_center", "pokemon_league"],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": false,
+      "isPokemonLeague": true
+    }
+  },
+
+  "routes": {
+    "route_1": {
+      "name": { "ko": "1번도로", "en": "Route 1" },
+      "connections": ["pallet_town", "viridian_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_2": {
+      "name": { "ko": "2번도로", "en": "Route 2" },
+      "connections": ["viridian_city", "viridian_forest", "pewter_city", "digletts_cave_south"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_3": {
+      "name": { "ko": "3번도로", "en": "Route 3" },
+      "connections": ["pewter_city", "mt_moon"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_4": {
+      "name": { "ko": "4번도로", "en": "Route 4" },
+      "connections": ["mt_moon", "cerulean_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_5": {
+      "name": { "ko": "5번도로", "en": "Route 5" },
+      "connections": ["cerulean_city", "saffron_city", "daycare"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_6": {
+      "name": { "ko": "6번도로", "en": "Route 6" },
+      "connections": ["saffron_city", "vermilion_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_7": {
+      "name": { "ko": "7번도로", "en": "Route 7" },
+      "connections": ["celadon_city", "saffron_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_8": {
+      "name": { "ko": "8번도로", "en": "Route 8" },
+      "connections": ["lavender_town", "saffron_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_9": {
+      "name": { "ko": "9번도로", "en": "Route 9" },
+      "connections": ["cerulean_city", "rock_tunnel"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_10": {
+      "name": { "ko": "10번도로", "en": "Route 10" },
+      "connections": ["rock_tunnel", "lavender_town", "power_plant"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_11": {
+      "name": { "ko": "11번도로", "en": "Route 11" },
+      "connections": ["vermilion_city", "digletts_cave_north", "route_12"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_12": {
+      "name": { "ko": "12번도로", "en": "Route 12" },
+      "description": "잠만보가 길을 막고 있다.",
+      "connections": ["lavender_town", "route_11", "route_13"],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "hasSurf": true,
+      "staticEncounter": "snorlax"
+    },
+    "route_13": {
+      "name": { "ko": "13번도로", "en": "Route 13" },
+      "connections": ["route_12", "route_14"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_14": {
+      "name": { "ko": "14번도로", "en": "Route 14" },
+      "connections": ["route_13", "route_15"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_15": {
+      "name": { "ko": "15번도로", "en": "Route 15" },
+      "connections": ["route_14", "fuchsia_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_16": {
+      "name": { "ko": "16번도로", "en": "Route 16" },
+      "description": "잠만보가 길을 막고 있다. 사이클링 로드 입구.",
+      "connections": ["celadon_city", "route_17"],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "staticEncounter": "snorlax",
+      "requiresCut": true
+    },
+    "route_17": {
+      "name": { "ko": "17번도로", "en": "Route 17" },
+      "description": "사이클링 로드. 자전거 필수.",
+      "connections": ["route_16", "route_18"],
+      "terrain": "road",
+      "hasWildPokemon": true,
+      "requiresBicycle": true
+    },
+    "route_18": {
+      "name": { "ko": "18번도로", "en": "Route 18" },
+      "connections": ["route_17", "fuchsia_city"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_19": {
+      "name": { "ko": "19번도로", "en": "Route 19" },
+      "connections": ["fuchsia_city", "seafoam_islands"],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_20": {
+      "name": { "ko": "20번도로", "en": "Route 20" },
+      "connections": ["seafoam_islands", "cinnabar_island"],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_21": {
+      "name": { "ko": "21번도로", "en": "Route 21" },
+      "connections": ["cinnabar_island", "pallet_town"],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_22": {
+      "name": { "ko": "22번도로", "en": "Route 22" },
+      "connections": ["viridian_city", "route_23"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_23": {
+      "name": { "ko": "23번도로", "en": "Route 23" },
+      "connections": ["route_22", "victory_road", "indigo_plateau"],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "requiresBadges": 8
+    },
+    "route_24": {
+      "name": { "ko": "24번도로", "en": "Route 24" },
+      "description": "너겟 브릿지. 트레이너 5명 연속 배틀.",
+      "connections": ["cerulean_city", "route_25"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_25": {
+      "name": { "ko": "25번도로", "en": "Route 25" },
+      "description": "마사키의 집으로 가는 길.",
+      "connections": ["route_24", "bills_house"],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    }
+  },
+
+  "dungeons": {
+    "viridian_forest": {
+      "name": { "ko": "상록숲", "en": "Viridian Forest" },
+      "connections": ["route_2"],
+      "terrain": "forest",
+      "hasWildPokemon": true
+    },
+    "mt_moon": {
+      "name": { "ko": "달맞이산", "en": "Mt. Moon" },
+      "connections": ["route_3", "route_4"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "floors": 3
+    },
+    "digletts_cave": {
+      "name": { "ko": "디그다 굴", "en": "Diglett's Cave" },
+      "connections": ["route_2", "route_11"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "entrances": {
+        "north": "route_11",
+        "south": "route_2"
+      }
+    },
+    "rock_tunnel": {
+      "name": { "ko": "돌산터널", "en": "Rock Tunnel" },
+      "connections": ["route_9", "route_10"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "requiresFlash": true
+    },
+    "ss_anne": {
+      "name": { "ko": "상트앤느호", "en": "S.S. Anne" },
+      "connections": ["vermilion_city"],
+      "terrain": "ship",
+      "hasWildPokemon": false,
+      "floors": 3,
+      "hasTrainers": true,
+      "event": "cut_hm"
+    },
+    "pokemon_tower": {
+      "name": { "ko": "포켓몬타워", "en": "Pokemon Tower" },
+      "connections": ["lavender_town"],
+      "terrain": "tower",
+      "hasWildPokemon": true,
+      "floors": 7,
+      "requiresSilphScope": true
+    },
+    "rocket_hideout": {
+      "name": { "ko": "로켓단 아지트", "en": "Rocket Hideout" },
+      "connections": ["celadon_city"],
+      "terrain": "hideout",
+      "hasWildPokemon": false,
+      "floors": 4,
+      "hasTrainers": true,
+      "boss": "giovanni",
+      "reward": "silph_scope"
+    },
+    "silph_co": {
+      "name": { "ko": "실프주식회사", "en": "Silph Co." },
+      "connections": ["saffron_city"],
+      "terrain": "building",
+      "hasWildPokemon": false,
+      "floors": 11,
+      "hasTrainers": true,
+      "boss": "giovanni",
+      "reward": "master_ball"
+    },
+    "safari_zone": {
+      "name": { "ko": "사파리존", "en": "Safari Zone" },
+      "connections": ["fuchsia_city"],
+      "terrain": "safari",
+      "hasWildPokemon": true,
+      "areas": 4,
+      "specialRules": true,
+      "rewards": ["surf_hm", "gold_teeth"]
+    },
+    "seafoam_islands": {
+      "name": { "ko": "쌍둥이섬", "en": "Seafoam Islands" },
+      "connections": ["route_19", "route_20"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "articuno",
+      "floors": 4,
+      "requiresStrength": true
+    },
+    "pokemon_mansion": {
+      "name": { "ko": "포켓몬저택", "en": "Pokemon Mansion" },
+      "connections": ["cinnabar_island"],
+      "terrain": "mansion",
+      "hasWildPokemon": true,
+      "floors": 4,
+      "reward": "secret_key"
+    },
+    "victory_road": {
+      "name": { "ko": "챔피언로드", "en": "Victory Road" },
+      "connections": ["route_23", "indigo_plateau"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "moltres",
+      "requiresBadges": 8,
+      "floors": 3,
+      "requiresStrength": true
+    },
+    "cerulean_cave": {
+      "name": { "ko": "하나동굴", "en": "Cerulean Cave" },
+      "connections": ["cerulean_city"],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "mewtwo",
+      "requiresEliteFour": true,
+      "floors": 3
+    },
+    "power_plant": {
+      "name": { "ko": "무인발전소", "en": "Power Plant" },
+      "connections": ["route_10"],
+      "terrain": "building",
+      "hasWildPokemon": true,
+      "hasLegendary": "zapdos",
+      "requiresSurf": true
+    }
+  },
+
+  "badges": {
+    "boulder_badge": {
+      "name": { "ko": "회색뱃지", "en": "Boulder Badge" },
+      "leader": "brock",
+      "city": "pewter_city",
+      "effect": "플래시 사용 가능"
+    },
+    "cascade_badge": {
+      "name": { "ko": "블루뱃지", "en": "Cascade Badge" },
+      "leader": "misty",
+      "city": "cerulean_city",
+      "effect": "풀베기 사용 가능, Lv.30까지 순종"
+    },
+    "thunder_badge": {
+      "name": { "ko": "오렌지뱃지", "en": "Thunder Badge" },
+      "leader": "surge",
+      "city": "vermilion_city",
+      "effect": "공중날기 사용 가능, Lv.50까지 순종"
+    },
+    "rainbow_badge": {
+      "name": { "ko": "레인보우뱃지", "en": "Rainbow Badge" },
+      "leader": "erika",
+      "city": "celadon_city",
+      "effect": "괴력 사용 가능, Lv.70까지 순종"
+    },
+    "soul_badge": {
+      "name": { "ko": "핑크뱃지", "en": "Soul Badge" },
+      "leader": "koga",
+      "city": "fuchsia_city",
+      "effect": "파도타기 사용 가능"
+    },
+    "marsh_badge": {
+      "name": { "ko": "골드뱃지", "en": "Marsh Badge" },
+      "leader": "sabrina",
+      "city": "saffron_city",
+      "effect": "Lv.70까지 순종"
+    },
+    "volcano_badge": {
+      "name": { "ko": "크림슨뱃지", "en": "Volcano Badge" },
+      "leader": "blaine",
+      "city": "cinnabar_island",
+      "effect": "Lv.80까지 순종"
+    },
+    "earth_badge": {
+      "name": { "ko": "그린뱃지", "en": "Earth Badge" },
+      "leader": "giovanni",
+      "city": "viridian_city",
+      "effect": "모든 레벨 순종"
+    }
+  }
+}

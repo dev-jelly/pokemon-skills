@@ -1,0 +1,291 @@
+{
+  "version": "1.0.0",
+  "description": "교환 시스템 - NPC 교환 및 연결의끈 (교환 진화 대체)",
+
+  "linkingCord": {
+    "id": "linking_cord",
+    "name": { "ko": "연결의끈", "en": "Linking Cord" },
+    "description": {
+      "ko": "특별한 끈. 교환으로 진화하는 포켓몬에게 사용하면 진화한다.",
+      "en": "A special cord. Makes certain Pokémon evolve when used."
+    },
+    "category": "evolution",
+    "effect": "trade_evolution",
+    "obtainMethods": [
+      {
+        "location": "celadon_department_store",
+        "floor": 4,
+        "price": 1000,
+        "description": "무지개 백화점 4층에서 구매"
+      },
+      {
+        "location": "silph_co",
+        "floor": 5,
+        "type": "hidden",
+        "description": "실프주식회사 5층 숨겨진 아이템"
+      },
+      {
+        "location": "cerulean_cave",
+        "floor": 2,
+        "type": "hidden",
+        "description": "하나동굴 2층 숨겨진 아이템"
+      }
+    ],
+    "eligiblePokemon": [
+      {
+        "from": 64,
+        "fromName": "윤겔라",
+        "to": 65,
+        "toName": "후딘"
+      },
+      {
+        "from": 67,
+        "fromName": "근육몬",
+        "to": 68,
+        "toName": "괴력몬"
+      },
+      {
+        "from": 75,
+        "fromName": "데구리",
+        "to": 76,
+        "toName": "딱구리"
+      },
+      {
+        "from": 93,
+        "fromName": "고우스트",
+        "to": 94,
+        "toName": "팬텀"
+      }
+    ]
+  },
+
+  "npcTrades": {
+    "route_2": {
+      "id": "trade_route2",
+      "location": "route_2",
+      "building": "trade_house",
+      "npcName": { "ko": "교환 아저씨", "en": "Trade NPC" },
+      "dialogue": {
+        "intro": "나는 클레페어리를 찾고 있어! 클레페어리 있으면 교환할래?",
+        "accept": "고마워! 이 아라리를 줄게!",
+        "decline": "그렇군... 클레페어리 있으면 다시 와 줘."
+      },
+      "offer": {
+        "pokemon": 102,
+        "name": "아라리",
+        "nickname": "나나",
+        "level": 15,
+        "otName": "교환",
+        "otId": 12345
+      },
+      "want": {
+        "pokemon": 35,
+        "name": "삐삐"
+      }
+    },
+    "route_5": {
+      "id": "trade_route5",
+      "location": "route_5",
+      "building": "underground_path_gate",
+      "npcName": { "ko": "꼬마", "en": "Youngster" },
+      "dialogue": {
+        "intro": "니드런♂ 갖고 있어? 내 니드런♀랑 바꾸자!",
+        "accept": "와! 고마워!",
+        "decline": "니드런♂ 있으면 와 줘!"
+      },
+      "offer": {
+        "pokemon": 29,
+        "name": "니드런♀",
+        "nickname": "테리",
+        "level": 12,
+        "otName": "교환",
+        "otId": 23456
+      },
+      "want": {
+        "pokemon": 32,
+        "name": "니드런♂"
+      }
+    },
+    "route_11": {
+      "id": "trade_route11",
+      "location": "route_11",
+      "building": "gate",
+      "npcName": { "ko": "낚시꾼", "en": "Fisherman" },
+      "dialogue": {
+        "intro": "야돈 있어? 내 질뻐기랑 바꾸지 않을래?",
+        "accept": "좋아! 여기 질뻐기야!",
+        "decline": "야돈 잡으면 다시 와 줘."
+      },
+      "offer": {
+        "pokemon": 89,
+        "name": "질뻐기",
+        "nickname": "끈적끈적",
+        "level": 23,
+        "otName": "교환",
+        "otId": 34567
+      },
+      "want": {
+        "pokemon": 79,
+        "name": "야돈"
+      }
+    },
+    "route_18": {
+      "id": "trade_route18",
+      "location": "route_18",
+      "building": "gate",
+      "npcName": { "ko": "폭주족", "en": "Biker" },
+      "dialogue": {
+        "intro": "덩쿠리! 덩쿠리 있으면 내 코뿌리랑 바꾸자!",
+        "accept": "오예! 코뿌리로 달려보자고!",
+        "decline": "덩쿠리... 사파리존에 있을 거야."
+      },
+      "offer": {
+        "pokemon": 112,
+        "name": "코뿌리",
+        "nickname": "진격",
+        "level": 40,
+        "otName": "교환",
+        "otId": 45678
+      },
+      "want": {
+        "pokemon": 114,
+        "name": "덩쿠리"
+      }
+    },
+    "vermilion_city": {
+      "id": "trade_vermilion",
+      "location": "vermilion_city",
+      "building": "trade_house",
+      "npcName": { "ko": "신사", "en": "Gentleman" },
+      "dialogue": {
+        "intro": "디그다를 구하고 있네. 내 팔도를 줄 테니 어떤가?",
+        "accept": "거래 성사야! 팔도를 잘 키워주게나.",
+        "decline": "디그다 굴에 가면 디그다가 많이 있다네."
+      },
+      "offer": {
+        "pokemon": 83,
+        "name": "파오리",
+        "nickname": "덕덕",
+        "level": 20,
+        "otName": "교환",
+        "otId": 56789
+      },
+      "want": {
+        "pokemon": 50,
+        "name": "디그다"
+      }
+    },
+    "cerulean_city": {
+      "id": "trade_cerulean",
+      "location": "cerulean_city",
+      "building": "trade_house",
+      "npcName": { "ko": "아가씨", "en": "Beauty" },
+      "dialogue": {
+        "intro": "구구를 찾고 있어요. 내 꼬마돌과 교환해요!",
+        "accept": "고마워요! 꼬마돌을 잘 키워줘요!",
+        "decline": "구구는 길에서 많이 볼 수 있어요."
+      },
+      "offer": {
+        "pokemon": 74,
+        "name": "꼬마돌",
+        "nickname": "마블",
+        "level": 14,
+        "otName": "교환",
+        "otId": 67890
+      },
+      "want": {
+        "pokemon": 16,
+        "name": "구구"
+      }
+    },
+    "cinnabar_lab_1": {
+      "id": "trade_cinnabar_1",
+      "location": "cinnabar_island",
+      "building": "pokemon_lab",
+      "room": "research_room_1",
+      "npcName": { "ko": "연구원", "en": "Scientist" },
+      "dialogue": {
+        "intro": "레트라 데이터가 필요해요. 레트라 있으면 붐볼로 교환해 드릴게요.",
+        "accept": "연구에 도움이 될 거예요! 붐볼을 잘 다뤄 주세요.",
+        "decline": "레트라는 어디서나 볼 수 있을 거예요."
+      },
+      "offer": {
+        "pokemon": 101,
+        "name": "붐볼",
+        "nickname": "폭탄",
+        "level": 35,
+        "otName": "교환",
+        "otId": 78901
+      },
+      "want": {
+        "pokemon": 20,
+        "name": "레트라"
+      }
+    },
+    "cinnabar_lab_2": {
+      "id": "trade_cinnabar_2",
+      "location": "cinnabar_island",
+      "building": "pokemon_lab",
+      "room": "research_room_2",
+      "npcName": { "ko": "연구원", "en": "Scientist" },
+      "dialogue": {
+        "intro": "베로링가 연구 중이에요. 베로링가 있으면 골뱃과 교환해요!",
+        "accept": "연구가 진전될 거예요! 감사합니다!",
+        "decline": "사파리존에서 베로링가를 찾아보세요."
+      },
+      "offer": {
+        "pokemon": 42,
+        "name": "골뱃",
+        "nickname": "나이트",
+        "level": 32,
+        "otName": "교환",
+        "otId": 89012
+      },
+      "want": {
+        "pokemon": 108,
+        "name": "베로링가"
+      }
+    },
+    "cinnabar_lab_3": {
+      "id": "trade_cinnabar_3",
+      "location": "cinnabar_island",
+      "building": "pokemon_lab",
+      "room": "research_room_3",
+      "npcName": { "ko": "연구원", "en": "Scientist" },
+      "dialogue": {
+        "intro": "칸디를 연구하고 싶어요! 칸디 있으면 텅구리와 교환할게요.",
+        "accept": "귀중한 데이터가 될 거예요! 텅구리를 잘 키워주세요.",
+        "decline": "칸디는... 쌍둥이섬이나 해변가에서 찾아보세요."
+      },
+      "offer": {
+        "pokemon": 105,
+        "name": "텅구리",
+        "nickname": "본즈",
+        "level": 30,
+        "otName": "교환",
+        "otId": 90123
+      },
+      "want": {
+        "pokemon": 86,
+        "name": "쥬쥬"
+      }
+    }
+  },
+
+  "tradeMessages": {
+    "confirmTrade": "{want}를 {offer}(으)로 교환하시겠습니까?",
+    "tradeComplete": "교환이 완료되었습니다! {offer}(을)를 받았다!",
+    "tradeCanceled": "교환이 취소되었습니다.",
+    "noPokemon": "{want}(이)가 파티에 없습니다.",
+    "linkingCordUse": "{pokemon}에게 연결의끈을 사용하시겠습니까?",
+    "linkingCordEvolve": "{from}(이)가 {to}(으)로 진화했다!",
+    "linkingCordFail": "연결의끈은 {pokemon}에게 효과가 없다..."
+  },
+
+  "tradeAnimationText": {
+    "sending": "{pokemon}(을)를 보내는 중...",
+    "receiving": "{pokemon}(을)를 받는 중...",
+    "goodbye": "{pokemon}, 잘 가!",
+    "welcome": "{nickname}, 반가워!"
+  }
+}

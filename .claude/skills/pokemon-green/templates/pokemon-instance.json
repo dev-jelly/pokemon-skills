@@ -1,0 +1,83 @@
+{
+  "$schema": "Pokemon Instance Schema",
+  "description": "파티 및 PC에 저장되는 개별 포켓몬 인스턴스 구조",
+
+  "pokemonInstance": {
+    "uid": "uuid-v4-string",
+    "speciesId": 25,
+    "nickname": null,
+    "level": 5,
+    "exp": 135,
+
+    "ivs": {
+      "hp": 15,
+      "attack": 12,
+      "defense": 10,
+      "special": 14,
+      "speed": 11
+    },
+
+    "statExp": {
+      "hp": 0,
+      "attack": 0,
+      "defense": 0,
+      "special": 0,
+      "speed": 0
+    },
+
+    "currentHp": 19,
+
+    "stats": {
+      "hp": 19,
+      "attack": 11,
+      "defense": 10,
+      "special": 12,
+      "speed": 16
+    },
+
+    "moves": [
+      { "id": "thunder_shock", "ppCurrent": 30, "ppMax": 30 },
+      { "id": "growl", "ppCurrent": 40, "ppMax": 40 },
+      null,
+      null
+    ],
+
+    "status": null,
+    "statusTurns": 0,
+
+    "originalTrainer": {
+      "name": "레드",
+      "id": "12345"
+    },
+
+    "caughtData": {
+      "ball": "poke_ball",
+      "location": "viridian_forest",
+      "level": 3
+    }
+  },
+
+  "statusTypes": [
+    "poison",
+    "burn",
+    "paralysis",
+    "freeze",
+    "sleep"
+  ],
+
+  "volatileStatus": [
+    "confusion",
+    "flinch",
+    "leech_seed",
+    "bound",
+    "nightmare"
+  ],
+
+  "notes": {
+    "ivRange": "0-15 (1세대)",
+    "statExpRange": "0-65535 (1세대 노력치)",
+    "maxMoves": 4,
+    "statusNull": "상태이상 없음을 나타냄",
+    "nicknameNull": "별명 없음 (종 이름 사용)"
+  }
+}

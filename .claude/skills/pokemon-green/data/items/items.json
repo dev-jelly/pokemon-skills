@@ -1,0 +1,524 @@
+{
+  "version": "1.0.0",
+  "description": "1세대 포켓몬 아이템 데이터",
+
+  "pokeballs": {
+    "1": {
+      "name": { "ko": "몬스터볼", "en": "Poke Ball" },
+      "description": "야생 포켓몬을 잡기 위해 던지는 볼. 캡슐식으로 되어 있다.",
+      "price": 200,
+      "catchModifier": 255
+    },
+    "2": {
+      "name": { "ko": "수퍼볼", "en": "Great Ball" },
+      "description": "몬스터볼보다 조금 더 성능이 좋은 볼.",
+      "price": 600,
+      "catchModifier": 200
+    },
+    "3": {
+      "name": { "ko": "하이퍼볼", "en": "Ultra Ball" },
+      "description": "수퍼볼보다 더 성능이 좋은 매우 뛰어난 볼.",
+      "price": 1200,
+      "catchModifier": 150
+    },
+    "4": {
+      "name": { "ko": "마스터볼", "en": "Master Ball" },
+      "description": "야생 포켓몬을 반드시 잡을 수 있는 최고 성능의 볼.",
+      "price": null,
+      "catchModifier": 0,
+      "guaranteed": true
+    },
+    "5": {
+      "name": { "ko": "사파리볼", "en": "Safari Ball" },
+      "description": "사파리존에서만 사용할 수 있는 특수한 볼.",
+      "price": null,
+      "catchModifier": 255,
+      "safariOnly": true
+    }
+  },
+
+  "potions": {
+    "10": {
+      "name": { "ko": "상처약", "en": "Potion" },
+      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 20만큼 회복한다.",
+      "price": 300,
+      "healAmount": 20
+    },
+    "11": {
+      "name": { "ko": "좋은상처약", "en": "Super Potion" },
+      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 50만큼 회복한다.",
+      "price": 700,
+      "healAmount": 50
+    },
+    "12": {
+      "name": { "ko": "고급상처약", "en": "Hyper Potion" },
+      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 200만큼 회복한다.",
+      "price": 1200,
+      "healAmount": 200
+    },
+    "13": {
+      "name": { "ko": "풀회복약", "en": "Max Potion" },
+      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 모두 회복한다.",
+      "price": 2500,
+      "healAmount": "full"
+    },
+    "14": {
+      "name": { "ko": "회복약", "en": "Full Restore" },
+      "description": "포켓몬 1마리의 HP와 상태이상을 모두 회복한다.",
+      "price": 3000,
+      "healAmount": "full",
+      "curesStatus": "all"
+    }
+  },
+
+  "statusHealers": {
+    "20": {
+      "name": { "ko": "해독제", "en": "Antidote" },
+      "description": "독 상태가 된 포켓몬을 치료한다.",
+      "price": 100,
+      "cures": ["poison", "badly_poisoned"]
+    },
+    "21": {
+      "name": { "ko": "화상치료제", "en": "Burn Heal" },
+      "description": "화상 상태가 된 포켓몬을 치료한다.",
+      "price": 250,
+      "cures": ["burn"]
+    },
+    "22": {
+      "name": { "ko": "얼음치료제", "en": "Ice Heal" },
+      "description": "얼음 상태가 된 포켓몬을 치료한다.",
+      "price": 250,
+      "cures": ["freeze"]
+    },
+    "23": {
+      "name": { "ko": "잠깨는약", "en": "Awakening" },
+      "description": "잠이 든 포켓몬을 깨운다.",
+      "price": 250,
+      "cures": ["sleep"]
+    },
+    "24": {
+      "name": { "ko": "마비치료제", "en": "Paralyz Heal" },
+      "description": "마비 상태가 된 포켓몬을 치료한다.",
+      "price": 200,
+      "cures": ["paralysis"]
+    },
+    "25": {
+      "name": { "ko": "만병통치제", "en": "Full Heal" },
+      "description": "포켓몬의 모든 상태이상을 치료한다.",
+      "price": 600,
+      "cures": ["all"]
+    }
+  },
+
+  "revives": {
+    "30": {
+      "name": { "ko": "기력의조각", "en": "Revive" },
+      "description": "기절한 포켓몬의 HP를 절반까지 회복한다.",
+      "price": 1500,
+      "reviveAmount": 0.5
+    },
+    "31": {
+      "name": { "ko": "기력의덩어리", "en": "Max Revive" },
+      "description": "기절한 포켓몬의 HP를 모두 회복한다.",
+      "price": null,
+      "reviveAmount": 1.0
+    }
+  },
+
+  "ppItems": {
+    "40": {
+      "name": { "ko": "PP에이드", "en": "Ether" },
+      "description": "포켓몬 기술 1개의 PP를 10 회복한다.",
+      "price": null,
+      "ppRestore": 10
+    },
+    "41": {
+      "name": { "ko": "PP리커버", "en": "Max Ether" },
+      "description": "포켓몬 기술 1개의 PP를 모두 회복한다.",
+      "price": null,
+      "ppRestore": "full"
+    },
+    "42": {
+      "name": { "ko": "PP에이더", "en": "Elixir" },
+      "description": "포켓몬의 모든 기술의 PP를 10씩 회복한다.",
+      "price": null,
+      "ppRestore": 10,
+      "allMoves": true
+    },
+    "43": {
+      "name": { "ko": "PP맥스", "en": "Max Elixir" },
+      "description": "포켓몬의 모든 기술의 PP를 모두 회복한다.",
+      "price": null,
+      "ppRestore": "full",
+      "allMoves": true
+    }
+  },
+
+  "battleItems": {
+    "50": {
+      "name": { "ko": "스피드업", "en": "X Speed" },
+      "description": "전투 중 사용하면 스피드가 올라간다.",
+      "price": 350,
+      "statBoost": { "speed": 1 }
+    },
+    "51": {
+      "name": { "ko": "스페셜업", "en": "X Special" },
+      "description": "전투 중 사용하면 특수가 올라간다.",
+      "price": 350,
+      "statBoost": { "special": 1 }
+    },
+    "52": {
+      "name": { "ko": "어택업", "en": "X Attack" },
+      "description": "전투 중 사용하면 공격이 올라간다.",
+      "price": 500,
+      "statBoost": { "attack": 1 }
+    },
+    "53": {
+      "name": { "ko": "디펜드업", "en": "X Defend" },
+      "description": "전투 중 사용하면 방어가 올라간다.",
+      "price": 550,
+      "statBoost": { "defense": 1 }
+    },
+    "54": {
+      "name": { "ko": "크리티컬커터", "en": "Dire Hit" },
+      "description": "전투 중 사용하면 급소율이 올라간다.",
+      "price": 650,
+      "effect": "criticalUp"
+    },
+    "55": {
+      "name": { "ko": "플러스파워", "en": "Guard Spec." },
+      "description": "전투 중 사용하면 5턴 동안 능력 저하를 막는다.",
+      "price": 700,
+      "effect": "guardSpec"
+    },
+    "56": {
+      "name": { "ko": "명중업", "en": "X Accuracy" },
+      "description": "전투 중 사용하면 명중률이 올라간다.",
+      "price": 950,
+      "statBoost": { "accuracy": 1 }
+    }
+  },
+
+  "repels": {
+    "60": {
+      "name": { "ko": "벌레스프레이", "en": "Repel" },
+      "description": "약한 야생 포켓몬이 100걸음 동안 나타나지 않는다.",
+      "price": 350,
+      "steps": 100
+    },
+    "61": {
+      "name": { "ko": "실버스프레이", "en": "Super Repel" },
+      "description": "약한 야생 포켓몬이 200걸음 동안 나타나지 않는다.",
+      "price": 500,
+      "steps": 200
+    },
+    "62": {
+      "name": { "ko": "골드스프레이", "en": "Max Repel" },
+      "description": "약한 야생 포켓몬이 250걸음 동안 나타나지 않는다.",
+      "price": 700,
+      "steps": 250
+    }
+  },
+
+  "escapeItems": {
+    "65": {
+      "name": { "ko": "동굴탈출로프", "en": "Escape Rope" },
+      "description": "동굴이나 던전의 입구로 순간이동할 수 있다.",
+      "price": 550,
+      "effect": "escapeDungeon"
+    },
+    "66": {
+      "name": { "ko": "인형", "en": "Poke Doll" },
+      "description": "야생 포켓몬의 주의를 끌어 반드시 도망칠 수 있다.",
+      "price": 1000,
+      "effect": "guaranteedEscape"
+    }
+  },
+
+  "specialEvolutionItems": {
+    "69": {
+      "name": { "ko": "연결의끈", "en": "Linking Cord" },
+      "description": "특별한 끈. 교환으로 진화하는 포켓몬에게 사용하면 진화한다.",
+      "price": 1000,
+      "effect": "trade_evolution",
+      "eligiblePokemon": [64, 67, 75, 93],
+      "note": "무지개 백화점, 실프주식회사, 하나동굴에서 획득 가능"
+    }
+  },
+
+  "evolutionStones": {
+    "70": {
+      "name": { "ko": "불꽃의돌", "en": "Fire Stone" },
+      "description": "특정 포켓몬을 진화시키는 불꽃의 돌.",
+      "price": 2100,
+      "evolutionType": "fire"
+    },
+    "71": {
+      "name": { "ko": "물의돌", "en": "Water Stone" },
+      "description": "특정 포켓몬을 진화시키는 물의 돌.",
+      "price": 2100,
+      "evolutionType": "water"
+    },
+    "72": {
+      "name": { "ko": "천둥의돌", "en": "Thunder Stone" },
+      "description": "특정 포켓몬을 진화시키는 천둥의 돌.",
+      "price": 2100,
+      "evolutionType": "thunder"
+    },
+    "73": {
+      "name": { "ko": "리프의돌", "en": "Leaf Stone" },
+      "description": "특정 포켓몬을 진화시키는 리프의 돌.",
+      "price": 2100,
+      "evolutionType": "leaf"
+    },
+    "74": {
+      "name": { "ko": "달의돌", "en": "Moon Stone" },
+      "description": "특정 포켓몬을 진화시키는 달의 돌.",
+      "price": null,
+      "evolutionType": "moon"
+    }
+  },
+
+  "vitamins": {
+    "80": {
+      "name": { "ko": "맥스업", "en": "HP Up" },
+      "description": "포켓몬의 HP 노력치를 올린다.",
+      "price": 9800,
+      "statExpBoost": { "hp": 2560 }
+    },
+    "81": {
+      "name": { "ko": "타우린", "en": "Protein" },
+      "description": "포켓몬의 공격 노력치를 올린다.",
+      "price": 9800,
+      "statExpBoost": { "attack": 2560 }
+    },
+    "82": {
+      "name": { "ko": "브로무헥신", "en": "Iron" },
+      "description": "포켓몬의 방어 노력치를 올린다.",
+      "price": 9800,
+      "statExpBoost": { "defense": 2560 }
+    },
+    "83": {
+      "name": { "ko": "리포비탄", "en": "Carbos" },
+      "description": "포켓몬의 스피드 노력치를 올린다.",
+      "price": 9800,
+      "statExpBoost": { "speed": 2560 }
+    },
+    "84": {
+      "name": { "ko": "키토산", "en": "Calcium" },
+      "description": "포켓몬의 특수 노력치를 올린다.",
+      "price": 9800,
+      "statExpBoost": { "special": 2560 }
+    },
+    "85": {
+      "name": { "ko": "이상한사탕", "en": "Rare Candy" },
+      "description": "포켓몬의 레벨을 1 올린다.",
+      "price": null,
+      "effect": "levelUp"
+    },
+    "86": {
+      "name": { "ko": "PP업", "en": "PP Up" },
+      "description": "포켓몬 기술 1개의 최대 PP를 올린다.",
+      "price": null,
+      "effect": "ppMaxUp"
+    }
+  },
+
+  "fossils": {
+    "90": {
+      "name": { "ko": "조개화석", "en": "Helix Fossil" },
+      "description": "고대 포켓몬의 화석. 복원하면 암나이트가 된다.",
+      "price": null,
+      "revivesTo": 138
+    },
+    "91": {
+      "name": { "ko": "돔화석", "en": "Dome Fossil" },
+      "description": "고대 포켓몬의 화석. 복원하면 투구가 된다.",
+      "price": null,
+      "revivesTo": 140
+    },
+    "92": {
+      "name": { "ko": "비밀의호박", "en": "Old Amber" },
+      "description": "고대 포켓몬의 화석. 복원하면 프테라가 된다.",
+      "price": null,
+      "revivesTo": 142
+    }
+  },
+
+  "keyItems": {
+    "100": {
+      "name": { "ko": "마을지도", "en": "Town Map" },
+      "description": "매우 편리한 지도. 현재 위치를 확인할 수 있다.",
+      "effect": "showMap"
+    },
+    "101": {
+      "name": { "ko": "자전거", "en": "Bicycle" },
+      "description": "접이식 자전거. 걷는 것보다 4배 빨리 이동할 수 있다.",
+      "effect": "rideBicycle"
+    },
+    "102": {
+      "name": { "ko": "포켓몬피리", "en": "Poke Flute" },
+      "description": "잠든 포켓몬을 깨우는 피리.",
+      "effect": "wakeUpSnorlax"
+    },
+    "103": {
+      "name": { "ko": "실프스코프", "en": "Silph Scope" },
+      "description": "유령의 정체를 밝힐 수 있는 장치.",
+      "effect": "identifyGhosts"
+    },
+    "104": {
+      "name": { "ko": "카드키", "en": "Card Key" },
+      "description": "실프주식회사의 문을 열 수 있는 카드키.",
+      "effect": "openSilphDoors"
+    },
+    "105": {
+      "name": { "ko": "비밀열쇠", "en": "Secret Key" },
+      "description": "홍련마을 체육관의 문을 여는 열쇠.",
+      "effect": "openCinnabarGym"
+    },
+    "106": {
+      "name": { "ko": "금니", "en": "Gold Teeth" },
+      "description": "사파리존 관장이 잃어버린 금니.",
+      "effect": "giveToWarden"
+    },
+    "107": {
+      "name": { "ko": "좋은낚싯대", "en": "Good Rod" },
+      "description": "낚시로 포켓몬을 잡을 수 있는 좋은 낚싯대.",
+      "effect": "fishing",
+      "fishingPower": 2
+    },
+    "108": {
+      "name": { "ko": "오래된낚싯대", "en": "Old Rod" },
+      "description": "낚시로 포켓몬을 잡을 수 있는 오래된 낚싯대.",
+      "effect": "fishing",
+      "fishingPower": 1
+    },
+    "109": {
+      "name": { "ko": "대단한낚싯대", "en": "Super Rod" },
+      "description": "낚시로 포켓몬을 잡을 수 있는 대단한 낚싯대.",
+      "effect": "fishing",
+      "fishingPower": 3
+    },
+    "110": {
+      "name": { "ko": "SS티켓", "en": "S.S. Ticket" },
+      "description": "SS앤호에 탈 수 있는 티켓.",
+      "effect": "boardSSAnne"
+    },
+    "111": {
+      "name": { "ko": "자전거상품권", "en": "Bike Voucher" },
+      "description": "자전거로 교환할 수 있는 상품권.",
+      "effect": "exchangeForBike"
+    },
+    "112": {
+      "name": { "ko": "오박사의소포", "en": "Oak's Parcel" },
+      "description": "오박사에게 가져다 줄 소포.",
+      "effect": "giveToOak"
+    },
+    "113": {
+      "name": { "ko": "도감", "en": "Pokedex" },
+      "description": "포켓몬 데이터를 기록하는 하이테크 도감.",
+      "effect": "viewPokedex"
+    },
+    "114": {
+      "name": { "ko": "동전케이스", "en": "Coin Case" },
+      "description": "게임코너의 코인을 넣는 케이스. 9999개까지 보관 가능.",
+      "effect": "storeCoins"
+    },
+    "115": {
+      "name": { "ko": "승강기열쇠", "en": "Lift Key" },
+      "description": "로켓단 아지트의 엘리베이터 열쇠.",
+      "effect": "useRocketElevator"
+    }
+  },
+
+  "hms": {
+    "201": {
+      "name": { "ko": "HM01", "en": "HM01" },
+      "move": 15,
+      "moveName": { "ko": "풀베기", "en": "Cut" },
+      "description": "작은 나무를 베어낼 수 있게 해주는 기술.",
+      "requiredBadge": "cascade_badge"
+    },
+    "202": {
+      "name": { "ko": "HM02", "en": "HM02" },
+      "move": 19,
+      "moveName": { "ko": "공중날기", "en": "Fly" },
+      "description": "가본 마을로 순간이동할 수 있게 해주는 기술.",
+      "requiredBadge": "thunder_badge"
+    },
+    "203": {
+      "name": { "ko": "HM03", "en": "HM03" },
+      "move": 57,
+      "moveName": { "ko": "파도타기", "en": "Surf" },
+      "description": "물 위를 이동할 수 있게 해주는 기술.",
+      "requiredBadge": "soul_badge"
+    },
+    "204": {
+      "name": { "ko": "HM04", "en": "HM04" },
+      "move": 70,
+      "moveName": { "ko": "괴력", "en": "Strength" },
+      "description": "바위를 밀어서 움직일 수 있게 해주는 기술.",
+      "requiredBadge": "rainbow_badge"
+    },
+    "205": {
+      "name": { "ko": "HM05", "en": "HM05" },
+      "move": 148,
+      "moveName": { "ko": "플래시", "en": "Flash" },
+      "description": "어두운 동굴을 밝힐 수 있게 해주는 기술.",
+      "requiredBadge": "boulder_badge"
+    }
+  },
+
+  "tms": {
+    "101": { "name": "TM01", "move": 5, "moveName": { "ko": "메가톤펀치", "en": "Mega Punch" }, "price": 3000 },
+    "102": { "name": "TM02", "move": 13, "moveName": { "ko": "칼바람", "en": "Razor Wind" }, "price": 2000 },
+    "103": { "name": "TM03", "move": 14, "moveName": { "ko": "칼춤", "en": "Swords Dance" }, "price": null },
+    "104": { "name": "TM04", "move": 18, "moveName": { "ko": "회오리", "en": "Whirlwind" }, "price": 1000 },
+    "105": { "name": "TM05", "move": 25, "moveName": { "ko": "메가톤킥", "en": "Mega Kick" }, "price": 3000 },
+    "106": { "name": "TM06", "move": 92, "moveName": { "ko": "맹독", "en": "Toxic" }, "price": null },
+    "107": { "name": "TM07", "move": 32, "moveName": { "ko": "뿔드릴", "en": "Horn Drill" }, "price": 2000 },
+    "108": { "name": "TM08", "move": 34, "moveName": { "ko": "몸통박치기", "en": "Body Slam" }, "price": 1000 },
+    "109": { "name": "TM09", "move": 36, "moveName": { "ko": "돌진", "en": "Take Down" }, "price": 3000 },
+    "110": { "name": "TM10", "move": 38, "moveName": { "ko": "이판사판태클", "en": "Double-Edge" }, "price": null },
+    "111": { "name": "TM11", "move": 61, "moveName": { "ko": "거품광선", "en": "Bubble Beam" }, "price": null },
+    "112": { "name": "TM12", "move": 55, "moveName": { "ko": "물대포", "en": "Water Gun" }, "price": 1000 },
+    "113": { "name": "TM13", "move": 58, "moveName": { "ko": "냉동빔", "en": "Ice Beam" }, "price": null },
+    "114": { "name": "TM14", "move": 59, "moveName": { "ko": "눈보라", "en": "Blizzard" }, "price": null },
+    "115": { "name": "TM15", "move": 63, "moveName": { "ko": "파괴광선", "en": "Hyper Beam" }, "price": null },
+    "116": { "name": "TM16", "move": 6, "moveName": { "ko": "급료", "en": "Pay Day" }, "price": 1000 },
+    "117": { "name": "TM17", "move": 66, "moveName": { "ko": "서브미션", "en": "Submission" }, "price": 3000 },
+    "118": { "name": "TM18", "move": 68, "moveName": { "ko": "카운터", "en": "Counter" }, "price": null },
+    "119": { "name": "TM19", "move": 69, "moveName": { "ko": "지구던지기", "en": "Seismic Toss" }, "price": null },
+    "120": { "name": "TM20", "move": 99, "moveName": { "ko": "분노", "en": "Rage" }, "price": 1000 },
+    "121": { "name": "TM21", "move": 72, "moveName": { "ko": "메가드레인", "en": "Mega Drain" }, "price": null },
+    "122": { "name": "TM22", "move": 76, "moveName": { "ko": "솔라빔", "en": "Solar Beam" }, "price": null },
+    "123": { "name": "TM23", "move": 82, "moveName": { "ko": "용의분노", "en": "Dragon Rage" }, "price": null },
+    "124": { "name": "TM24", "move": 85, "moveName": { "ko": "10만볼트", "en": "Thunderbolt" }, "price": null },
+    "125": { "name": "TM25", "move": 87, "moveName": { "ko": "번개", "en": "Thunder" }, "price": null },
+    "126": { "name": "TM26", "move": 89, "moveName": { "ko": "지진", "en": "Earthquake" }, "price": null },
+    "127": { "name": "TM27", "move": 90, "moveName": { "ko": "땅가르기", "en": "Fissure" }, "price": 2000 },
+    "128": { "name": "TM28", "move": 91, "moveName": { "ko": "구멍파기", "en": "Dig" }, "price": 2000 },
+    "129": { "name": "TM29", "move": 94, "moveName": { "ko": "사이코키네시스", "en": "Psychic" }, "price": null },
+    "130": { "name": "TM30", "move": 100, "moveName": { "ko": "텔레포트", "en": "Teleport" }, "price": 1000 },
+    "131": { "name": "TM31", "move": 102, "moveName": { "ko": "흉내내기", "en": "Mimic" }, "price": null },
+    "132": { "name": "TM32", "move": 104, "moveName": { "ko": "그림자분신", "en": "Double Team" }, "price": 1000 },
+    "133": { "name": "TM33", "move": 115, "moveName": { "ko": "리플렉터", "en": "Reflect" }, "price": 1000 },
+    "134": { "name": "TM34", "move": 117, "moveName": { "ko": "참기", "en": "Bide" }, "price": 1000 },
+    "135": { "name": "TM35", "move": 118, "moveName": { "ko": "손가락흔들기", "en": "Metronome" }, "price": null },
+    "136": { "name": "TM36", "move": 120, "moveName": { "ko": "자폭", "en": "Self-Destruct" }, "price": 1000 },
+    "137": { "name": "TM37", "move": 121, "moveName": { "ko": "알낳기", "en": "Egg Bomb" }, "price": 2000 },
+    "138": { "name": "TM38", "move": 126, "moveName": { "ko": "불대문자", "en": "Fire Blast" }, "price": null },
+    "139": { "name": "TM39", "move": 130, "moveName": { "ko": "스피드스타", "en": "Swift" }, "price": 1000 },
+    "140": { "name": "TM40", "move": 143, "moveName": { "ko": "조가비칼날", "en": "Skull Bash" }, "price": 2000 },
+    "141": { "name": "TM41", "move": 156, "moveName": { "ko": "연막", "en": "Soft-Boiled" }, "price": null },
+    "142": { "name": "TM42", "move": 95, "moveName": { "ko": "꿈먹기", "en": "Dream Eater" }, "price": null },
+    "143": { "name": "TM43", "move": 141, "moveName": { "ko": "하늘가르기", "en": "Sky Attack" }, "price": null },
+    "144": { "name": "TM44", "move": 156, "moveName": { "ko": "잠자기", "en": "Rest" }, "price": null },
+    "145": { "name": "TM45", "move": 86, "moveName": { "ko": "전기자석파", "en": "Thunder Wave" }, "price": null },
+    "146": { "name": "TM46", "move": 149, "moveName": { "ko": "사이코웨이브", "en": "Psywave" }, "price": null },
+    "147": { "name": "TM47", "move": 153, "moveName": { "ko": "대폭발", "en": "Explosion" }, "price": null },
+    "148": { "name": "TM48", "move": 157, "moveName": { "ko": "바위떨구기", "en": "Rock Slide" }, "price": null },
+    "149": { "name": "TM49", "move": 164, "moveName": { "ko": "트라이어택", "en": "Tri Attack" }, "price": 2000 },
+    "150": { "name": "TM50", "move": 160, "moveName": { "ko": "대타출동", "en": "Substitute" }, "price": 1000 }
+  }
+}
