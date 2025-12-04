@@ -1,0 +1,75 @@
+#!/bin/bash
+# Pokemon Gen 1 기술 효과음 다운로드 스크립트
+# 출처: https://downloads.khinsider.com/game-soundtracks/album/pokemon-sfx-gen-1-attack-moves-rby
+
+SKILL_PATH="$(dirname "$(dirname "$0")")"
+SFX_DIR="$SKILL_PATH/data/audio/sfx"
+
+echo "=== Pokemon Gen 1 기술 효과음 다운로드 ==="
+echo "저장 위치: $SFX_DIR"
+echo ""
+
+# sfx 디렉토리 생성
+mkdir -p "$SFX_DIR"
+
+# 주요 기술 효과음 목록 (소문자 파일명)
+MOVES=(
+  "tackle"
+  "scratch"
+  "bite"
+  "headbutt"
+  "bodyslam"
+  "doubleedge"
+  "hyperbeam"
+  "growl"
+  "tailwhip"
+  "leer"
+  "sandattack"
+  "ember"
+  "flamethrower"
+  "fireblast"
+  "watergun"
+  "bubble"
+  "bubblebeam"
+  "hydropump"
+  "surf"
+  "vinewhip"
+  "razorleaf"
+  "solarbeam"
+  "absorb"
+  "thundershock"
+  "thunderbolt"
+  "thunder"
+  "icebeam"
+  "blizzard"
+  "confusion"
+  "psychic"
+  "psybeam"
+  "earthquake"
+  "dig"
+  "rockthrow"
+  "gust"
+  "wingattack"
+  "stringshot"
+  "poisonsting"
+  "acid"
+  "sludge"
+  "lick"
+  "nightshade"
+  "dragonrage"
+  "sing"
+  "supersonic"
+)
+
+echo "수동 다운로드 방법:"
+echo "1. https://downloads.khinsider.com/game-soundtracks/album/pokemon-sfx-gen-1-attack-moves-rby 접속"
+echo "2. 원하는 효과음 MP3 다운로드"
+echo "3. $SFX_DIR 폴더에 저장"
+echo "4. 파일명을 소문자로 변환 (예: Tackle.mp3 → tackle.mp3)"
+echo ""
+echo "필요한 파일 목록:"
+for move in "${MOVES[@]}"; do
+  echo "  - ${move}.mp3"
+done
+echo ""
+echo "또는 전체 앨범을 다운로드하여 필요한 파일만 복사하세요."

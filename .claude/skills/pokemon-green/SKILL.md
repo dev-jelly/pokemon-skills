@@ -9,21 +9,53 @@ allowed-tools: Read, Write, Edit, Bash
 
 1세대 포켓몬 그린 버전을 텍스트 기반 RPG로 완전 재현한 클로드 스킬입니다.
 
+## When to Invoke
+
+이 스킬은 다음 상황에서 자동 활성화됩니다:
+
+- 사용자가 "포켓몬", "피카츄", "포켓몬스터" 언급 시
+- "새 게임", "이어하기", "게임 시작" 요청 시
+- "전투", "체육관", "야생", "도감" 관련 대화 시
+- "pokemon", "pikachu" 영어 키워드 사용 시
+
 ## 게임 특징
 
 - **151마리 포켓몬**: 이상해씨부터 뮤까지 완전 수록
 - **165개 기술**: 모든 1세대 기술 구현
-- **15타입 상성**: 1세대 고유 버그 포함 (에스퍼 vs 고스트 0배 등)
+- **15타입 상성**: 1세대 고유 버그 포함
 - **관동 지방**: 태초마을부터 포켓몬 리그까지
 - **8개 체육관**: 웅, 이슬, 마티스, 민화, 독수, 초련, 강연, 비주기
 - **세이브/로드**: 10개 슬롯 + 자동저장
-- **교환 시스템**: NPC 교환 + 연결의끈 (교환 진화 대체)
-- **BGM 자동재생**: 맵 이동/전투 시 배경음악 자동 재생 (macOS afplay)
-- **ASCII 아트**: 151마리 포켓몬 ASCII 스프라이트
+- **BGM 자동재생**: 45곡 (macOS afplay)
+- **ASCII 아트**: 151마리 포켓몬 스프라이트
+- **울음소리**: 151마리 포켓몬 울음소리
 
 ---
 
 ## 게임 시작
+
+### 스킬 초기화 (중요)
+스킬이 활성화되면 **즉시** 다음을 수행:
+```bash
+pkill -f 'pokemon-green.*bgm' 2>/dev/null
+```
+
+### BGM 재생 규칙 (필수)
+
+**⚠️ 중요: 모든 BGM/효과음 재생 시 반드시 Bash 도구의 `run_in_background: true` 파라미터를 사용해야 합니다!**
+
+- `run_in_background: true` 없이 실행하면 음악이 끝날 때까지 대화가 블로킹됩니다.
+- BGM 중지(`pkill`)는 일반 실행, BGM 재생(`afplay`, `while true`)은 반드시 백그라운드 실행
+
+```
+# 올바른 BGM 재생 예시 (Bash 도구 호출 시)
+command: "while true; do afplay [경로]/bgm/track.mp3; done"
+run_in_background: true  ← 필수!
+
+# 효과음 재생 예시
+command: "afplay [경로]/bgm/effect.mp3"
+run_in_background: true  ← 필수!
+```
 
 ### 새 게임
 ```
@@ -53,21 +85,51 @@ allowed-tools: Read, Write, Edit, Bash
 
 ### 전투 명령어
 
-| 명령어 | 설명 | 예시 |
-|--------|------|------|
-| 싸운다 | 기술 선택 모드 | "싸운다" |
-| [기술명] / [번호] | 기술 사용 | "덩굴채찍" 또는 "2" |
-| 가방 | 아이템 사용 | "가방" |
-| 포켓몬 | 포켓몬 교체 | "포켓몬 교체" |
-| 도망 | 야생 전투에서 도망 | "도망" |
+| 명령어 | 설명 |
+|--------|------|
+| 싸운다 | 기술 선택 모드 |
+| [기술명] / [번호] | 기술 사용 |
+| 가방 | 아이템 사용 |
+| 포켓몬 | 포켓몬 교체 |
+| 도망 | 야생 전투에서 도망 |
 
-### 포켓몬 관리
+### 오디오 명령어
 
 | 명령어 | 설명 |
 |--------|------|
-| [포켓몬] 상세 | 개별 포켓몬 정보 |
-| 순서 변경 | 파티 순서 변경 |
-| PC | PC 박스 접근 |
+| bgm 끄기 | BGM 중지 |
+| bgm 켜기 | BGM 재생 |
+| 볼륨 [0-100] | 볼륨 조절 |
+| 울음소리 | 포켓몬 울음소리 |
+
+### 기술 효과음 규칙 (필수)
+
+**⚠️ 중요: 전투 중 기술 사용 시 반드시 효과음을 재생해야 합니다!**
+
+```
+# 기술 사용 순서 (매 턴 필수)
+1. "[포켓몬]의 [기술]!" 메시지 표시
+2. 기술 효과음 재생 (run_in_background: true)
+   - data/audio/sfx-mapping.json에서 기술명으로 파일 조회
+   - 없으면 카테고리별 기본음 사용
+3. 데미지/효과 계산 결과 표시
+4. (효과 굉장함/별로일 때) 히트 효과음 재생
+```
+
+**효과음 파일 매핑**: `data/audio/sfx-mapping.json`
+```json
+{
+  "몸통박치기": { "file": "tackle.mp3" },
+  "울음소리": { "file": "growl.mp3" },
+  "실뿜기": { "file": "stringshot.mp3" }
+}
+```
+
+**효과음 재생 예시**:
+```bash
+# 기술 효과음 (run_in_background: true 필수!)
+afplay [skillPath]/data/audio/sfx/tackle.mp3
+```
 
 ---
 
@@ -79,10 +141,7 @@ allowed-tools: Read, Write, Edit, Bash
 3. 라이벌 이름 설정
 
 ### 태초마을
-1. 오박사 연구소에서 스타터 선택
-   - 이상해씨 (풀/독)
-   - 파이리 (불꽃)
-   - 꼬부기 (물)
+1. 오박사 연구소에서 스타터 선택 (이상해씨/파이리/꼬부기)
 2. 라이벌과 첫 배틀
 3. 상록시티 소포 심부름
 
@@ -93,6 +152,26 @@ allowed-tools: Read, Write, Edit, Bash
 ---
 
 ## 전투 시스템
+
+### ASCII 아트 표시 규칙 (필수)
+
+**⚠️ 중요: 전투 시작 시 반드시 전체 ASCII 아트를 표시해야 합니다!**
+
+| 상황 | 사용 파일 | 설명 |
+|------|----------|------|
+| **전투 시작** | `data/sprites/pokemon-ascii.json` | 상대 포켓몬 전체 아트 1회 표시 (필수!) |
+| **전투 진행 중** | `data/sprites/pokemon-ascii-mini.json` | 매 턴 축소 아트로 간결하게 |
+| **도감 확인** | `data/sprites/pokemon-ascii.json` | 전체 아트 + 상세 정보 |
+| **파티 확인** | `data/sprites/pokemon-ascii-mini.json` | 축소 아트 |
+
+```
+# 전투 시작 시 순서
+1. 기존 BGM 중지 (pkill)
+2. 상대 포켓몬 울음소리 재생 (run_in_background: true)
+3. 전투 BGM 재생 (run_in_background: true)
+4. pokemon-ascii.json에서 도감번호로 전체 아트 읽기
+5. 전체 아트와 함께 전투 화면 표시
+```
 
 ### 데미지 계산 (1세대 공식)
 ```
@@ -123,104 +202,18 @@ allowed-tools: Read, Write, Edit, Bash
 
 ---
 
-## 전투 인터페이스 예시
-
-```
-========================================
-  야생 피카츄 Lv.5
-  HP: ████████████░░░░ 28/35
-  상태: 정상
-========================================
-
-  VS
-
-  이상해씨 Lv.7
-  HP: ████████████████ 32/32
-  상태: 정상
-----------------------------------------
-  [1] 싸운다     [2] 가방
-  [3] 포켓몬     [4] 도망
-========================================
-```
-
-```
-  이상해씨의 기술:
-  [1] 몸통박치기 (노말) PP 30/35
-  [2] 덩굴채찍   (풀)  PP 20/25
-  [3] 성장       (노말) PP 15/20
-  [4] --
-```
-
----
-
 ## 세이브 시스템
 
 ### 저장
-- 수동 저장: "저장" 또는 "저장 [슬롯번호]" 명령어
+- 수동 저장: "저장" 또는 "저장 [슬롯번호]"
 - 자동 저장: 포켓몬 센터, 도시 진입, 전투 후
 
 ### 세이브 슬롯 (10개 + 자동저장)
-- 슬롯 1~10 (수동)
-- autosave (자동)
-- autosave_backup (자동저장 백업)
-
-### 슬롯 관리
 | 명령어 | 설명 |
 |--------|------|
-| 저장 | 현재 슬롯에 저장 |
 | 저장 [1-10] | 특정 슬롯에 저장 |
 | 불러오기 [1-10] | 특정 슬롯 불러오기 |
-| 세이브 목록 | 모든 세이브 슬롯 확인 |
-
-### 저장 위치
-```
-saves/
-├── slot1.json ~ slot10.json (수동)
-├── autosave.json (자동)
-└── autosave_backup.json (백업)
-```
-
-### 세이브 정보 표시
-각 슬롯에는 다음 정보가 표시됩니다:
-- 플레이어 이름, 뱃지 수, 도감 등록 수
-- 현재 위치, 플레이 시간, 저장 시간
-
----
-
-## 데이터 파일 참조
-
-### 포켓몬 데이터
-- `data/pokemon/species.json`: 151마리 종족 데이터 (통합)
-- `data/pokemon/species-index.json`: 빠른 검색 인덱스
-- `data/pokemon/learnsets.json`: 레벨업 기술
-- `data/pokemon/evolutions.json`: 진화 조건
-
-### 기술 데이터
-- `data/moves/moves.json`: 165개 기술 (통합)
-- `data/moves/moves-index.json`: 기술 검색 인덱스
-
-### 타입/상성
-- `data/types/chart.json`: 15타입 상성표
-
-### 월드 데이터
-- `data/world/locations.json`: 마을/도로
-- `data/world/encounters.json`: 야생 출현
-- `data/world/trainers.json`: 트레이너
-
-### 메시지
-- `data/messages/battle-kr.json`: 한국어 전투 대사
-
-### BGM 데이터
-- `data/audio/bgm-mapping.json`: 27곡 BGM 매핑
-
-### ASCII 아트
-- `data/sprites/sprites-index.json`: 스프라이트 인덱스
-- `data/sprites/gen1-front/`: 151마리 ASCII 아트
-
-### 게임 로직
-- `engine/battle-system.md`: 전투 시스템
-- `engine/damage-formula.md`: 데미지 공식
-- `engine/capture-formula.md`: 포획률
+| 세이브 목록 | 모든 슬롯 확인 |
 
 ---
 
@@ -239,12 +232,50 @@ saves/
 
 ---
 
+## 데이터 파일 참조
+
+### 포켓몬 데이터
+- `data/pokemon/species.json`: 151마리 종족 데이터
+- `data/pokemon/learnsets.json`: 레벨업 기술
+- `data/pokemon/evolutions.json`: 진화 조건
+
+### 기술/타입 데이터
+- `data/moves/moves.json`: 165개 기술
+- `data/types/chart.json`: 15타입 상성표
+
+### 월드 데이터
+- `data/world/locations.json`: 마을/도로
+- `data/world/encounters.json`: 야생 출현
+- `data/world/trainers.json`: 트레이너
+
+### 오디오 데이터
+- `data/audio/bgm-mapping.json`: 45곡 BGM 매핑
+- `data/audio/cries-mapping.json`: 151마리 울음소리
+
+### ASCII 아트
+- `data/sprites/pokemon-ascii.json`: 전체 아트
+- `data/sprites/pokemon-ascii-mini.json`: 축소 아트
+
+---
+
 ## 주의사항
 
 1. **세이브 필수**: 중요한 이벤트 전에 저장하세요
 2. **상성 확인**: 전투 전 타입 상성을 확인하세요
 3. **PP 관리**: 기술의 PP가 0이 되면 사용 불가
-4. **포켓몬 센터**: HP와 PP를 무료로 회복할 수 있습니다
+4. **포켓몬 센터**: HP와 PP를 무료로 회복
+
+---
+
+## References (상세 가이드)
+
+상세한 시스템 정보는 다음 문서를 참조하세요:
+
+- [BGM 시스템 가이드](references/bgm-guide.md) - BGM 자동재생, 명령어, 이벤트 매핑
+- [기술 효과음 가이드](references/sfx-guide.md) - 기술별 효과음, 다운로드 방법
+- [ASCII 아트 가이드](references/ascii-guide.md) - ASCII 아트 사용 규칙, 데이터 파일
+- [울음소리 가이드](references/cries-guide.md) - 울음소리 재생 시점, 명령어
+- [데이터 무결성 가이드](references/data-integrity.md) - 데이터 검증 규칙, 체크리스트
 
 ---
 
@@ -254,122 +285,3 @@ saves/
 - "도움말" - 명령어 목록
 - "현재 위치" - 현재 장소 정보
 - "진행 상황" - 스토리 진행도
-
----
-
-## BGM 시스템
-
-맵 이동, 전투 시작, 이벤트 발생 시 해당 BGM이 자동으로 재생됩니다.
-
-### BGM 재생 방식 (macOS afplay)
-```bash
-# BGM 재생 (기존 음악 중지 후 새 음악 재생)
-pkill -f 'afplay.*pokemon-green.*bgm' 2>/dev/null
-afplay [skillPath]/data/audio/bgm/[track].mp3 &
-```
-
-### BGM 명령어
-
-| 명령어 | 설명 |
-|--------|------|
-| bgm | 현재 재생 중인 BGM 표시 |
-| bgm 끄기 | BGM 재생 중지 |
-| bgm 켜기 | 현재 위치 BGM 재생 |
-| 볼륨 [0-100] | 볼륨 조절 |
-
-### 주요 BGM 목록
-
-| BGM | 사용 위치 |
-|-----|----------|
-| 태초마을 | 태초마을, 플레이어 집 |
-| 도로 테마 | 일반 도로/도시 |
-| 야생 전투 | 야생 포켓몬 전투 |
-| 트레이너 전투 | 트레이너 전투 |
-| 체육관장 전투 | 관장 전투 |
-| 포켓몬 센터 | 포켓몬 센터 |
-| 보라타운 | 보라타운, 포켓몬 타워 |
-| 동굴 | 달맞이산, 바위터널 등 |
-| 챔피언로드 | 챔피언로드, 포켓몬리그 |
-| 사천왕/챔피언 | 사천왕, 챔피언 전투 |
-
-### BGM 파일 위치
-```
-data/audio/bgm/
-├── pallet_town.mp3
-├── route_theme.mp3
-├── wild_battle.mp3
-├── trainer_battle.mp3
-├── gym_leader.mp3
-├── pokemon_center.mp3
-├── lavender_town.mp3
-├── cave.mp3
-├── elite_four.mp3
-└── ... (27곡)
-```
-
-### BGM 데이터 파일
-- `data/audio/bgm-mapping.json`: BGM 매핑 및 YouTube 링크
-
----
-
-## ASCII 아트 시스템
-
-151마리 포켓몬 ASCII 스프라이트가 전투, 도감, 상세 보기에 표시됩니다.
-
-### ASCII 아트 표시 예시
-
-```
-    /\_/\
-   ( o.o )     피카츄 Lv.25
-    > ^ <      HP: ████████████ 45/45
-   /|   |\     타입: 전기
-  (_|   |_)    상태: 정상
-```
-
-### 전투 화면 예시 (ASCII + BGM)
-
-```
-♪ Now Playing: 야생 전투 (Wild Battle)
-
-========================================
-      /\_/\
-     ( o.o )    야생 피카츄 Lv.5
-      > ^ <     HP: ████████████░░░░ 28/35
-     /|   |\    상태: 정상
-========================================
-
-  VS
-
-     _.-^^-._
-   .'        '.    이상해씨 Lv.7
-  /  ()    ()  \   HP: ████████████████ 32/32
- |    .____.    |  상태: 정상
-  \  ~~~~~~~~  /
-   '-.______.-'
-----------------------------------------
-  [1] 싸운다     [2] 가방
-  [3] 포켓몬     [4] 도망
-========================================
-```
-
-### ASCII 아트 명령어
-
-| 명령어 | 설명 |
-|--------|------|
-| 도감 [포켓몬] | 도감 정보 + ASCII 아트 |
-| [포켓몬] 상세 | 파티 포켓몬 상세 + ASCII 아트 |
-
-### ASCII 아트 데이터 파일
-```
-data/sprites/
-├── sprites-index.json
-└── gen1-front/
-    ├── 001-050.json   # 이상해씨 ~ 디그다
-    ├── 051-100.json   # 닥트리오 ~ 찌리리공
-    └── 101-151.json   # 붐볼 ~ 뮤
-```
-
-### ASCII 아트 규격
-- 크기: 12-18자 폭, 8-12줄 높이
-- 스타일: 1세대 게임보이 느낌
-- 문자셋: `/ \ | _ - ~ . o O @ # * ( ) [ ] { } < > ^ v`

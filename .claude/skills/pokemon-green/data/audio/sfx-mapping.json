@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "description": "1세대 포켓몬 기술 효과음 매핑",
+  "sfxPath": "data/audio/sfx",
+  "source": "https://downloads.khinsider.com/game-soundtracks/album/pokemon-sfx-gen-1-attack-moves-rby",
+
+  "moves": {
+    "몸통박치기": { "file": "tackle.mp3", "en": "Tackle" },
+    "할퀴기": { "file": "scratch.mp3", "en": "Scratch" },
+    "찌르기": { "file": "peck.mp3", "en": "Peck" },
+    "쪼기": { "file": "peck.mp3", "en": "Peck" },
+    "물기": { "file": "bite.mp3", "en": "Bite" },
+    "박치기": { "file": "headbutt.mp3", "en": "Headbutt" },
+    "뿔찌르기": { "file": "hornattack.mp3", "en": "Horn Attack" },
+    "메가톤킥": { "file": "megakick.mp3", "en": "Mega Kick" },
+    "메가톤펀치": { "file": "megapunch.mp3", "en": "Mega Punch" },
+    "회전베기": { "file": "slash.mp3", "en": "Slash" },
+    "연속뺨치기": { "file": "doubleslap.mp3", "en": "Double Slap" },
+    "돌려차기": { "file": "doublekick.mp3", "en": "Double Kick" },
+    "이판사판태클": { "file": "doubleedge.mp3", "en": "Double-Edge" },
+    "누르기": { "file": "bodyslam.mp3", "en": "Body Slam" },
+    "돌진": { "file": "takedown.mp3", "en": "Take Down" },
+    "파괴광선": { "file": "hyperbeam.mp3", "en": "Hyper Beam" },
+
+    "울음소리": { "file": "growl.mp3", "en": "Growl" },
+    "꼬리흔들기": { "file": "tailwhip.mp3", "en": "Tail Whip" },
+    "모래뿌리기": { "file": "sandattack.mp3", "en": "Sand Attack" },
+    "째려보기": { "file": "leer.mp3", "en": "Leer" },
+    "연막": { "file": "smokescreen.mp3", "en": "Smokescreen" },
+    "수면가루": { "file": "sleeppowder.mp3", "en": "Sleep Powder" },
+    "마비가루": { "file": "stunspore.mp3", "en": "Stun Spore" },
+    "독가루": { "file": "poisonpowder.mp3", "en": "Poison Powder" },
+
+    "불꽃세례": { "file": "ember.mp3", "en": "Ember" },
+    "화염방사": { "file": "flamethrower.mp3", "en": "Flamethrower" },
+    "불대문자": { "file": "fireblast.mp3", "en": "Fire Blast" },
+    "회오리불꽃": { "file": "firespin.mp3", "en": "Fire Spin" },
+
+    "물대포": { "file": "watergun.mp3", "en": "Water Gun" },
+    "거품": { "file": "bubble.mp3", "en": "Bubble" },
+    "거품광선": { "file": "bubblebeam.mp3", "en": "Bubble Beam" },
+    "하이드로펌프": { "file": "hydropump.mp3", "en": "Hydro Pump" },
+    "파도타기": { "file": "surf.mp3", "en": "Surf" },
+
+    "덩굴채찍": { "file": "vinewhip.mp3", "en": "Vine Whip" },
+    "잎날가르기": { "file": "razorleaf.mp3", "en": "Razor Leaf" },
+    "솔라빔": { "file": "solarbeam.mp3", "en": "Solar Beam" },
+    "흡수": { "file": "absorb.mp3", "en": "Absorb" },
+    "메가드레인": { "file": "megadrain.mp3", "en": "Mega Drain" },
+
+    "전기쇼크": { "file": "thundershock.mp3", "en": "Thunder Shock" },
+    "10만볼트": { "file": "thunderbolt.mp3", "en": "Thunderbolt" },
+    "번개": { "file": "thunder.mp3", "en": "Thunder" },
+    "전기자석파": { "file": "thunderwave.mp3", "en": "Thunder Wave" },
+
+    "냉동빔": { "file": "icebeam.mp3", "en": "Ice Beam" },
+    "눈보라": { "file": "blizzard.mp3", "en": "Blizzard" },
+    "오로라빔": { "file": "aurorabeam.mp3", "en": "Aurora Beam" },
+
+    "염동력": { "file": "confusion.mp3", "en": "Confusion" },
+    "사이코키네시스": { "file": "psychic.mp3", "en": "Psychic" },
+    "사이코빔": { "file": "psybeam.mp3", "en": "Psybeam" },
+    "최면술": { "file": "hypnosis.mp3", "en": "Hypnosis" },
+
+    "독침": { "file": "poisonsting.mp3", "en": "Poison Sting" },
+    "녹기": { "file": "acid.mp3", "en": "Acid" },
+    "오물공격": { "file": "sludge.mp3", "en": "Sludge" },
+
+    "지진": { "file": "earthquake.mp3", "en": "Earthquake" },
+    "구멍파기": { "file": "dig.mp3", "en": "Dig" },
+    "땅고르기": { "file": "bulldoze.mp3", "en": "Bulldoze" },
+
+    "바위떨구기": { "file": "rockthrow.mp3", "en": "Rock Throw" },
+    "암석낙하": { "file": "rockslide.mp3", "en": "Rock Slide" },
+
+    "실뿜기": { "file": "stringshot.mp3", "en": "String Shot" },
+    "핀미사일": { "file": "pinmissile.mp3", "en": "Pin Missile" },
+
+    "칼바람": { "file": "gust.mp3", "en": "Gust" },
+    "날개치기": { "file": "wingattack.mp3", "en": "Wing Attack" },
+
+    "섀도볼": { "file": "shadowball.mp3", "en": "Shadow Ball" },
+    "혀로핥기": { "file": "lick.mp3", "en": "Lick" },
+    "나이트헤드": { "file": "nightshade.mp3", "en": "Night Shade" },
+
+    "용의분노": { "file": "dragonrage.mp3", "en": "Dragon Rage" },
+
+    "노래하기": { "file": "sing.mp3", "en": "Sing" },
+    "초음파": { "file": "supersonic.mp3", "en": "Supersonic" },
+    "울부짖기": { "file": "roar.mp3", "en": "Roar" }
+  },
+
+  "categories": {
+    "physical": {
+      "description": "물리 공격",
+      "defaultFile": "tackle.mp3"
+    },
+    "special": {
+      "description": "특수 공격",
+      "defaultFile": "psychic.mp3"
+    },
+    "status": {
+      "description": "상태 변화",
+      "defaultFile": "growl.mp3"
+    },
+    "buff": {
+      "description": "능력 상승",
+      "defaultFile": "growth.mp3"
+    },
+    "debuff": {
+      "description": "능력 하락",
+      "defaultFile": "leer.mp3"
+    }
+  },
+
+  "battleSounds": {
+    "hit_normal": "hit_normal.mp3",
+    "hit_super_effective": "hit_super.mp3",
+    "hit_not_effective": "hit_weak.mp3",
+    "miss": "miss.mp3",
+    "critical_hit": "critical.mp3",
+    "faint": "faint.mp3",
+    "exp_gain": "exp.mp3",
+    "level_up": "level_up.mp3"
+  }
+}
