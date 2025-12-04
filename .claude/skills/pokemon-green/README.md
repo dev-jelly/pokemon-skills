@@ -25,16 +25,15 @@
 
 ### ASCII Art Sprites
 
-Pokemon ASCII art sprites are sourced from:
-
+**전체 아트** (전투 시작/도감용):
 - **GitHub Gist**: [MatheusFaria/pokedex_ascii.h](https://gist.github.com/MatheusFaria/4cbb8b6dbe33fd5605cf8b8f7130ba6d)
+- 원본 출처: fiikus.net, world-of-nintendo.com, text-image.com
+- 아티스트: "mh"
 
-Original ASCII art sources (as noted in the gist):
-- http://www.fiikus.net/?pokedex
-- http://www.world-of-nintendo.com/pictures/text/
-- http://www.text-image.com (for generation)
-
-Artist credit: "mh" (as signed in original artwork)
+**축소 아트** (전투 진행용):
+- 151마리 포켓몬 픽셀 스타일 ASCII 아트
+- 13줄 고정, 28자 너비
+- 문자: `.` `:` `-` `=` `+` `*` `#` `%` `@` 밀도 순
 
 ### BGM
 
