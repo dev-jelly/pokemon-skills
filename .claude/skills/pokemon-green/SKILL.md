@@ -82,6 +82,7 @@ run_in_background: true  ← 필수!
 | 도감 | 포켓몬 도감 | "도감 보기" |
 | 저장 | 게임 저장 | "저장" |
 | 말 걸기 | NPC 대화 | "말 걸기" |
+| NPC | NPC 정보 확인 | "NPC 목록" |
 
 ### 전투 명령어
 
@@ -164,6 +165,7 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 | **도감 확인** | `data/sprites/pokemon-ascii.json` | 전체 아트 + 상세 정보 |
 | **파티 확인** | `data/sprites/pokemon-ascii-mini.json` | 축소 아트 |
 | **NPC 대화** | `data/sprites/npc_ascii/[Name].json` | NPC 축소 아트 (방향별) |
+| **트레이너 전투 시작** | `data/sprites/npc_ascii/[Name].json` | 트레이너 스프라이트 표시 |
 
 ```
 # 전투 시작 시 순서
@@ -200,6 +202,57 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 1. 에스퍼 vs 고스트: 0배 (원래 2배)
 2. 포커스 에너지: 급소율 1/4 감소 (원래 증가)
 3. 독 vs 벌레: 2배 (원래 1배)
+
+---
+
+## NPC 대화 시스템
+
+### NPC 스프라이트 표시 규칙
+
+**⚠️ 중요: NPC 대화/트레이너 전투 시작 시 반드시 스프라이트를 표시해야 합니다!**
+
+| 상황 | 표시 | 방향 |
+|------|------|------|
+| NPC 대화 시작 | O (필수) | `down` |
+| 트레이너 전투 시작 | O (필수) | `down` |
+| 상점/포켓몬센터 | O | `down` |
+| 전투 진행 중 | X | - |
+
+### NPC 이름 매핑
+
+한글 이름 → 파일명 변환은 `data/sprites/npc-mapping.json` 참조:
+```json
+{
+  "체육관 관장": { "웅": "Brock", "이슬": "Misty", ... },
+  "시설 NPC": { "간호순": "Nurse_Joy", "상점직원": "Clerk", ... }
+}
+```
+
+### 대화 화면 형식
+
+```
+========================================
+  [NPC 스프라이트 - down 방향]
+
+  간호순:
+----------------------------------------
+  "어서오세요! 포켓몬센터입니다.
+   포켓몬을 쉬게 해드릴까요?"
+========================================
+  [1] 네    [2] 아니오
+========================================
+```
+
+### 트레이너 전투 시작
+
+```
+# 순서
+1. 트레이너 스프라이트 표시 (npc_ascii/[Name].json)
+2. "[클래스] [이름]이 승부를 걸어왔다!"
+3. 트레이너 대화 표시
+4. 전투 BGM 시작
+5. 포켓몬 스프라이트로 전환
+```
 
 ---
 
@@ -256,7 +309,8 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 ### ASCII 아트
 - `data/sprites/pokemon-ascii.json`: 전체 아트
 - `data/sprites/pokemon-ascii-mini.json`: 축소 아트
-- `data/sprites/npc_ascii/`: NPC 축소 아트 (개별 파일)
+- `data/sprites/npc_ascii/`: NPC 축소 아트 (94개 개별 파일)
+- `data/sprites/npc-mapping.json`: NPC 한글→파일명 매핑
 
 ---
 
@@ -276,6 +330,7 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 - [BGM 시스템 가이드](references/bgm-guide.md) - BGM 자동재생, 명령어, 이벤트 매핑
 - [기술 효과음 가이드](references/sfx-guide.md) - 기술별 효과음, 다운로드 방법
 - [ASCII 아트 가이드](references/ascii-guide.md) - ASCII 아트 사용 규칙, 데이터 파일
+- [NPC 시스템 가이드](references/npc-guide.md) - NPC 스프라이트 표시, 이름 매핑
 - [울음소리 가이드](references/cries-guide.md) - 울음소리 재생 시점, 명령어
 - [데이터 무결성 가이드](references/data-integrity.md) - 데이터 검증 규칙, 체크리스트
 
