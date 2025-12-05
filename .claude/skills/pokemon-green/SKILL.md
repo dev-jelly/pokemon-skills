@@ -163,6 +163,7 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 | **전투 진행 중** | `data/sprites/pokemon-ascii-mini.json` | 매 턴 축소 아트로 간결하게 |
 | **도감 확인** | `data/sprites/pokemon-ascii.json` | 전체 아트 + 상세 정보 |
 | **파티 확인** | `data/sprites/pokemon-ascii-mini.json` | 축소 아트 |
+| **NPC 대화** | `data/sprites/npc_ascii/[Name].json` | NPC 축소 아트 (방향별) |
 
 ```
 # 전투 시작 시 순서
@@ -255,6 +256,7 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 ### ASCII 아트
 - `data/sprites/pokemon-ascii.json`: 전체 아트
 - `data/sprites/pokemon-ascii-mini.json`: 축소 아트
+- `data/sprites/npc_ascii/`: NPC 축소 아트 (개별 파일)
 
 ---
 

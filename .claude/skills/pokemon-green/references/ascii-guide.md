@@ -130,6 +130,12 @@
   "025": ["피카츄 ASCII 아트..."],
   ...
 }
+
+**NPC 축소 아트**: `data/sprites/npc_ascii/[Name].json`
+- 70여종의 NPC 픽셀 스타일 ASCII 아트 (개별 파일)
+- 구조: `{"down": [...], "up": [...], "left": [...], ...}`
+- 방향별 스프라이트 (대기/걷기) 포함
+- 대화 시, 상점 이용 시 표시
 ```
 
 ## ASCII 아트 사용 규칙 (필수 준수)
@@ -141,6 +147,7 @@
 | **도감 확인** | `pokemon-ascii.json` | 상세 정보와 함께 전체 아트 표시 |
 | **파티 상태 확인** | `pokemon-ascii-mini.json` | 선두 포켓몬 축소 아트 |
 | **포켓몬 교체** | `pokemon-ascii-mini.json` | 교체 화면에서 축소 아트 |
+| **NPC 대화** | `npc_ascii/[Name].json` | 대화 상단에 NPC 축소 아트 (방향에 맞게) |
 
 ## ASCII 아트 사용법
 
@@ -160,6 +167,19 @@ for line in mini_art:
     print(line)
 ```
 
+**NPC 아트 표시 (대화 시)**:
+```python
+# NPC 이름 (예: "Professor Oak") -> 파일명 변환 필요 (공백 -> _, 점 제거 등)
+npc_name = "Professor_Oak"
+with open(f"data/sprites/npc_ascii/{npc_name}.json", "r") as f:
+    npc_sprites = json.load(f)
+
+# 방향에 맞는 스프라이트 선택 ("down", "up", "left", "right")
+npc_art = npc_sprites.get("down", []) 
+for line in npc_art:
+    print(line)
+```
+
 ## ASCII 아트 출처
 
 **전체 아트** (`pokemon-ascii.json`):
@@ -170,3 +190,8 @@ for line in mini_art:
 **축소 아트** (`pokemon-ascii-mini.json`):
 - 픽셀 스타일 ASCII 아트 (151마리)
 - 문자 밀도 순서: `.` < `:` < `-` < `=` < `+` < `*` < `#` < `%` < `@`
+
+**NPC 아트** (`data/sprites/npc_ascii/`):
+- 출처: [pret/pokered](https://github.com/pret/pokered) (Gen 1 Disassembly)
+- 변환: 16x16 스프라이트 시트 분할 및 ASCII 변환
+- 포함: 정지/걷기 프레임, 4방향 (좌우 반전 포함)

@@ -1,0 +1,1074 @@
+[
+  {
+    "name": "agatha.png",
+    "path": "gfx/sprites/agatha.png",
+    "sha": "e454197083cef86105c0638024b2c2765d931442",
+    "size": 289,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/agatha.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/agatha.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/e454197083cef86105c0638024b2c2765d931442",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/agatha.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/agatha.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/e454197083cef86105c0638024b2c2765d931442",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/agatha.png"
+    }
+  },
+  {
+    "name": "balding_guy.png",
+    "path": "gfx/sprites/balding_guy.png",
+    "sha": "a404f378e8b47772c55e5a952dffb5520cf57daa",
+    "size": 219,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/balding_guy.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/balding_guy.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/a404f378e8b47772c55e5a952dffb5520cf57daa",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/balding_guy.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/balding_guy.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/a404f378e8b47772c55e5a952dffb5520cf57daa",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/balding_guy.png"
+    }
+  },
+  {
+    "name": "beauty.png",
+    "path": "gfx/sprites/beauty.png",
+    "sha": "4e51040053f5c82a5ce641e6c76f44b6abb4b5d6",
+    "size": 260,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/beauty.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/beauty.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/4e51040053f5c82a5ce641e6c76f44b6abb4b5d6",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/beauty.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/beauty.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/4e51040053f5c82a5ce641e6c76f44b6abb4b5d6",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/beauty.png"
+    }
+  },
+  {
+    "name": "bike_shop_clerk.png",
+    "path": "gfx/sprites/bike_shop_clerk.png",
+    "sha": "1ea836852aaa33484fc422e737c021eddb9695ef",
+    "size": 213,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bike_shop_clerk.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/bike_shop_clerk.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/1ea836852aaa33484fc422e737c021eddb9695ef",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/bike_shop_clerk.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bike_shop_clerk.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/1ea836852aaa33484fc422e737c021eddb9695ef",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/bike_shop_clerk.png"
+    }
+  },
+  {
+    "name": "biker.png",
+    "path": "gfx/sprites/biker.png",
+    "sha": "5d056cf423a6bf7fee734775a4c670543baaaa0f",
+    "size": 346,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/biker.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/biker.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/5d056cf423a6bf7fee734775a4c670543baaaa0f",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/biker.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/biker.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/5d056cf423a6bf7fee734775a4c670543baaaa0f",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/biker.png"
+    }
+  },
+  {
+    "name": "bird.png",
+    "path": "gfx/sprites/bird.png",
+    "sha": "2210c37ce75b2b4d3d9f24ba4ec55d53e3e5f816",
+    "size": 354,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bird.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/bird.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/2210c37ce75b2b4d3d9f24ba4ec55d53e3e5f816",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/bird.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bird.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/2210c37ce75b2b4d3d9f24ba4ec55d53e3e5f816",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/bird.png"
+    }
+  },
+  {
+    "name": "blue.png",
+    "path": "gfx/sprites/blue.png",
+    "sha": "99a0ff6c085c084b669b19f3d0bbf7aa213d2ea6",
+    "size": 306,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/blue.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/blue.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/99a0ff6c085c084b669b19f3d0bbf7aa213d2ea6",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/blue.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/blue.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/99a0ff6c085c084b669b19f3d0bbf7aa213d2ea6",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/blue.png"
+    }
+  },
+  {
+    "name": "boulder.png",
+    "path": "gfx/sprites/boulder.png",
+    "sha": "03a12884247786cb41d50013b8caa6e29e53cb97",
+    "size": 139,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/boulder.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/boulder.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/03a12884247786cb41d50013b8caa6e29e53cb97",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/boulder.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/boulder.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/03a12884247786cb41d50013b8caa6e29e53cb97",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/boulder.png"
+    }
+  },
+  {
+    "name": "brunette_girl.png",
+    "path": "gfx/sprites/brunette_girl.png",
+    "sha": "f443d363be7193d57626a01345235dc02429bb96",
+    "size": 297,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/brunette_girl.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/brunette_girl.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/f443d363be7193d57626a01345235dc02429bb96",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/brunette_girl.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/brunette_girl.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/f443d363be7193d57626a01345235dc02429bb96",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/brunette_girl.png"
+    }
+  },
+  {
+    "name": "bruno.png",
+    "path": "gfx/sprites/bruno.png",
+    "sha": "5f77217ef6601ab9845b828f23c9eab06dcd1e98",
+    "size": 286,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bruno.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/bruno.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/5f77217ef6601ab9845b828f23c9eab06dcd1e98",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/bruno.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/bruno.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/5f77217ef6601ab9845b828f23c9eab06dcd1e98",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/bruno.png"
+    }
+  },
+  {
+    "name": "captain.png",
+    "path": "gfx/sprites/captain.png",
+    "sha": "d2967e0f178c9ffc9a0e692fe148ee97a957bb60",
+    "size": 221,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/captain.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/captain.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/d2967e0f178c9ffc9a0e692fe148ee97a957bb60",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/captain.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/captain.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/d2967e0f178c9ffc9a0e692fe148ee97a957bb60",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/captain.png"
+    }
+  },
+  {
+    "name": "channeler.png",
+    "path": "gfx/sprites/channeler.png",
+    "sha": "17f7603f89f224d352616465682a4f7377481599",
+    "size": 242,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/channeler.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/channeler.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/17f7603f89f224d352616465682a4f7377481599",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/channeler.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/channeler.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/17f7603f89f224d352616465682a4f7377481599",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/channeler.png"
+    }
+  },
+  {
+    "name": "clerk.png",
+    "path": "gfx/sprites/clerk.png",
+    "sha": "66448e775e374286297d9c0fd3e18a6fed42a308",
+    "size": 220,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/clerk.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/clerk.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/66448e775e374286297d9c0fd3e18a6fed42a308",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/clerk.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/clerk.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/66448e775e374286297d9c0fd3e18a6fed42a308",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/clerk.png"
+    }
+  },
+  {
+    "name": "clipboard.png",
+    "path": "gfx/sprites/clipboard.png",
+    "sha": "0fdc9bfe471d896b7c0663567cc3f5e89273a3b5",
+    "size": 108,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/clipboard.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/clipboard.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/0fdc9bfe471d896b7c0663567cc3f5e89273a3b5",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/clipboard.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/clipboard.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/0fdc9bfe471d896b7c0663567cc3f5e89273a3b5",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/clipboard.png"
+    }
+  },
+  {
+    "name": "cook.png",
+    "path": "gfx/sprites/cook.png",
+    "sha": "3dd57b6de243c201bf1ad13b02515697a557450f",
+    "size": 269,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cook.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/cook.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/3dd57b6de243c201bf1ad13b02515697a557450f",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/cook.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cook.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/3dd57b6de243c201bf1ad13b02515697a557450f",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/cook.png"
+    }
+  },
+  {
+    "name": "cooltrainer_f.png",
+    "path": "gfx/sprites/cooltrainer_f.png",
+    "sha": "53bf81b137d52b84ff8fdac7e64152c138d5bd8c",
+    "size": 349,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cooltrainer_f.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/cooltrainer_f.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/53bf81b137d52b84ff8fdac7e64152c138d5bd8c",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/cooltrainer_f.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cooltrainer_f.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/53bf81b137d52b84ff8fdac7e64152c138d5bd8c",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/cooltrainer_f.png"
+    }
+  },
+  {
+    "name": "cooltrainer_m.png",
+    "path": "gfx/sprites/cooltrainer_m.png",
+    "sha": "ffd94f410649464273bf5d2c4474800a67c4fb26",
+    "size": 286,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cooltrainer_m.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/cooltrainer_m.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/ffd94f410649464273bf5d2c4474800a67c4fb26",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/cooltrainer_m.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/cooltrainer_m.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/ffd94f410649464273bf5d2c4474800a67c4fb26",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/cooltrainer_m.png"
+    }
+  },
+  {
+    "name": "daisy.png",
+    "path": "gfx/sprites/daisy.png",
+    "sha": "9bad9116bb4c53ee404a815252ca909dcff4eb74",
+    "size": 276,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/daisy.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/daisy.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/9bad9116bb4c53ee404a815252ca909dcff4eb74",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/daisy.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/daisy.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/9bad9116bb4c53ee404a815252ca909dcff4eb74",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/daisy.png"
+    }
+  },
+  {
+    "name": "fairy.png",
+    "path": "gfx/sprites/fairy.png",
+    "sha": "06fe00768a46b2f1c9cccfcb75c10a6a5bd50ef4",
+    "size": 317,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fairy.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/fairy.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/06fe00768a46b2f1c9cccfcb75c10a6a5bd50ef4",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/fairy.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fairy.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/06fe00768a46b2f1c9cccfcb75c10a6a5bd50ef4",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/fairy.png"
+    }
+  },
+  {
+    "name": "fisher.png",
+    "path": "gfx/sprites/fisher.png",
+    "sha": "a84a2e3716887c48f7590239d27bb933af8fa8d3",
+    "size": 308,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fisher.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/fisher.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/a84a2e3716887c48f7590239d27bb933af8fa8d3",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/fisher.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fisher.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/a84a2e3716887c48f7590239d27bb933af8fa8d3",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/fisher.png"
+    }
+  },
+  {
+    "name": "fishing_guru.png",
+    "path": "gfx/sprites/fishing_guru.png",
+    "sha": "ef3f864b8814757a8e4f09c414c570c24f0bef5d",
+    "size": 213,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fishing_guru.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/fishing_guru.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/ef3f864b8814757a8e4f09c414c570c24f0bef5d",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/fishing_guru.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fishing_guru.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/ef3f864b8814757a8e4f09c414c570c24f0bef5d",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/fishing_guru.png"
+    }
+  },
+  {
+    "name": "fossil.png",
+    "path": "gfx/sprites/fossil.png",
+    "sha": "9dd1e5c503be43e7636655680569b16e045b3c07",
+    "size": 140,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fossil.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/fossil.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/9dd1e5c503be43e7636655680569b16e045b3c07",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/fossil.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/fossil.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/9dd1e5c503be43e7636655680569b16e045b3c07",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/fossil.png"
+    }
+  },
+  {
+    "name": "gambler.png",
+    "path": "gfx/sprites/gambler.png",
+    "sha": "d7b3cb1beeca31b3794d1202f5d87e8ea5e6c029",
+    "size": 269,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gambler.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gambler.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/d7b3cb1beeca31b3794d1202f5d87e8ea5e6c029",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gambler.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gambler.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/d7b3cb1beeca31b3794d1202f5d87e8ea5e6c029",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gambler.png"
+    }
+  },
+  {
+    "name": "gambler_asleep.png",
+    "path": "gfx/sprites/gambler_asleep.png",
+    "sha": "43a9f8dff8971e83fa842e9e1ba98576ab86d833",
+    "size": 124,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gambler_asleep.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gambler_asleep.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/43a9f8dff8971e83fa842e9e1ba98576ab86d833",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gambler_asleep.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gambler_asleep.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/43a9f8dff8971e83fa842e9e1ba98576ab86d833",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gambler_asleep.png"
+    }
+  },
+  {
+    "name": "gameboy_kid.png",
+    "path": "gfx/sprites/gameboy_kid.png",
+    "sha": "0ca4acef975b2f984f70938a241954513b2f7405",
+    "size": 209,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gameboy_kid.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gameboy_kid.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/0ca4acef975b2f984f70938a241954513b2f7405",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gameboy_kid.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gameboy_kid.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/0ca4acef975b2f984f70938a241954513b2f7405",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gameboy_kid.png"
+    }
+  },
+  {
+    "name": "gentleman.png",
+    "path": "gfx/sprites/gentleman.png",
+    "sha": "38a6125d2afea487604cdc5c106e6fefb3648588",
+    "size": 264,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gentleman.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gentleman.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/38a6125d2afea487604cdc5c106e6fefb3648588",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gentleman.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gentleman.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/38a6125d2afea487604cdc5c106e6fefb3648588",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gentleman.png"
+    }
+  },
+  {
+    "name": "giovanni.png",
+    "path": "gfx/sprites/giovanni.png",
+    "sha": "2e625e157cc346ba68ce892fccf18932ec0a765a",
+    "size": 265,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/giovanni.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/giovanni.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/2e625e157cc346ba68ce892fccf18932ec0a765a",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/giovanni.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/giovanni.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/2e625e157cc346ba68ce892fccf18932ec0a765a",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/giovanni.png"
+    }
+  },
+  {
+    "name": "girl.png",
+    "path": "gfx/sprites/girl.png",
+    "sha": "d965e5652c04eacdfc301693c4cc84453be33902",
+    "size": 289,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/girl.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/girl.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/d965e5652c04eacdfc301693c4cc84453be33902",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/girl.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/girl.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/d965e5652c04eacdfc301693c4cc84453be33902",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/girl.png"
+    }
+  },
+  {
+    "name": "gramps.png",
+    "path": "gfx/sprites/gramps.png",
+    "sha": "729092dba9305250858a7a61e03bd2b663ca538c",
+    "size": 239,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gramps.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gramps.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/729092dba9305250858a7a61e03bd2b663ca538c",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gramps.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gramps.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/729092dba9305250858a7a61e03bd2b663ca538c",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gramps.png"
+    }
+  },
+  {
+    "name": "granny.png",
+    "path": "gfx/sprites/granny.png",
+    "sha": "fe771c0f0dd8cedcfa37a084a087cb4364b7cdb8",
+    "size": 202,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/granny.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/granny.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/fe771c0f0dd8cedcfa37a084a087cb4364b7cdb8",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/granny.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/granny.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/fe771c0f0dd8cedcfa37a084a087cb4364b7cdb8",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/granny.png"
+    }
+  },
+  {
+    "name": "guard.png",
+    "path": "gfx/sprites/guard.png",
+    "sha": "f641bbf51d57aea1719bb5ce006edc14c53f6dcc",
+    "size": 224,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/guard.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/guard.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/f641bbf51d57aea1719bb5ce006edc14c53f6dcc",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/guard.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/guard.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/f641bbf51d57aea1719bb5ce006edc14c53f6dcc",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/guard.png"
+    }
+  },
+  {
+    "name": "gym_guide.png",
+    "path": "gfx/sprites/gym_guide.png",
+    "sha": "15d83d9ce55f47179104a6b411e314603d18c4e3",
+    "size": 214,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gym_guide.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/gym_guide.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/15d83d9ce55f47179104a6b411e314603d18c4e3",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/gym_guide.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/gym_guide.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/15d83d9ce55f47179104a6b411e314603d18c4e3",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/gym_guide.png"
+    }
+  },
+  {
+    "name": "hiker.png",
+    "path": "gfx/sprites/hiker.png",
+    "sha": "c8df8a544fa6224406f8b07777fe88d97cc36918",
+    "size": 287,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/hiker.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/hiker.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/c8df8a544fa6224406f8b07777fe88d97cc36918",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/hiker.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/hiker.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/c8df8a544fa6224406f8b07777fe88d97cc36918",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/hiker.png"
+    }
+  },
+  {
+    "name": "koga.png",
+    "path": "gfx/sprites/koga.png",
+    "sha": "56a64e3160822f7427ba7589ec8ac3c12b720098",
+    "size": 271,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/koga.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/koga.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/56a64e3160822f7427ba7589ec8ac3c12b720098",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/koga.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/koga.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/56a64e3160822f7427ba7589ec8ac3c12b720098",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/koga.png"
+    }
+  },
+  {
+    "name": "lance.png",
+    "path": "gfx/sprites/lance.png",
+    "sha": "5a2372dfa2f882dba1b697e7537c38653fe6ee08",
+    "size": 287,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/lance.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/lance.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/5a2372dfa2f882dba1b697e7537c38653fe6ee08",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/lance.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/lance.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/5a2372dfa2f882dba1b697e7537c38653fe6ee08",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/lance.png"
+    }
+  },
+  {
+    "name": "link_receptionist.png",
+    "path": "gfx/sprites/link_receptionist.png",
+    "sha": "3858c52f6f381a7691eb9f44537deb30ecbbfeb3",
+    "size": 218,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/link_receptionist.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/link_receptionist.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/3858c52f6f381a7691eb9f44537deb30ecbbfeb3",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/link_receptionist.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/link_receptionist.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/3858c52f6f381a7691eb9f44537deb30ecbbfeb3",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/link_receptionist.png"
+    }
+  },
+  {
+    "name": "little_boy.png",
+    "path": "gfx/sprites/little_boy.png",
+    "sha": "24996549bf35e1a63278c8aa25b70abed9aa1bb3",
+    "size": 185,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/little_boy.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/little_boy.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/24996549bf35e1a63278c8aa25b70abed9aa1bb3",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/little_boy.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/little_boy.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/24996549bf35e1a63278c8aa25b70abed9aa1bb3",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/little_boy.png"
+    }
+  },
+  {
+    "name": "little_girl.png",
+    "path": "gfx/sprites/little_girl.png",
+    "sha": "5c871b5f34c2c996a350126bb5868bb24b6fccb8",
+    "size": 259,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/little_girl.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/little_girl.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/5c871b5f34c2c996a350126bb5868bb24b6fccb8",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/little_girl.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/little_girl.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/5c871b5f34c2c996a350126bb5868bb24b6fccb8",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/little_girl.png"
+    }
+  },
+  {
+    "name": "lorelei.png",
+    "path": "gfx/sprites/lorelei.png",
+    "sha": "a5247c7768c50b11fbec47dd33b4ca530e843d4c",
+    "size": 294,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/lorelei.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/lorelei.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/a5247c7768c50b11fbec47dd33b4ca530e843d4c",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/lorelei.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/lorelei.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/a5247c7768c50b11fbec47dd33b4ca530e843d4c",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/lorelei.png"
+    }
+  },
+  {
+    "name": "middle_aged_man.png",
+    "path": "gfx/sprites/middle_aged_man.png",
+    "sha": "fea7979d32cb4ce477d97d7620cbe2f78ee69e73",
+    "size": 289,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/middle_aged_man.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/middle_aged_man.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/fea7979d32cb4ce477d97d7620cbe2f78ee69e73",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/middle_aged_man.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/middle_aged_man.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/fea7979d32cb4ce477d97d7620cbe2f78ee69e73",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/middle_aged_man.png"
+    }
+  },
+  {
+    "name": "middle_aged_woman.png",
+    "path": "gfx/sprites/middle_aged_woman.png",
+    "sha": "c9b556eab7028a76f89f07d5bbce30bb77d544ff",
+    "size": 289,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/middle_aged_woman.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/middle_aged_woman.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/c9b556eab7028a76f89f07d5bbce30bb77d544ff",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/middle_aged_woman.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/middle_aged_woman.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/c9b556eab7028a76f89f07d5bbce30bb77d544ff",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/middle_aged_woman.png"
+    }
+  },
+  {
+    "name": "mom.png",
+    "path": "gfx/sprites/mom.png",
+    "sha": "c415b49cbee2a7e024349094d480a0d112485153",
+    "size": 219,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/mom.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/mom.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/c415b49cbee2a7e024349094d480a0d112485153",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/mom.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/mom.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/c415b49cbee2a7e024349094d480a0d112485153",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/mom.png"
+    }
+  },
+  {
+    "name": "monster.png",
+    "path": "gfx/sprites/monster.png",
+    "sha": "80d615b2e8ed0142ac577a026f1ba3f8e18c5ace",
+    "size": 350,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/monster.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/monster.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/80d615b2e8ed0142ac577a026f1ba3f8e18c5ace",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/monster.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/monster.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/80d615b2e8ed0142ac577a026f1ba3f8e18c5ace",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/monster.png"
+    }
+  },
+  {
+    "name": "mr_fuji.png",
+    "path": "gfx/sprites/mr_fuji.png",
+    "sha": "90b499f162eb0dbc9076fc34cea5469070d00263",
+    "size": 319,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/mr_fuji.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/mr_fuji.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/90b499f162eb0dbc9076fc34cea5469070d00263",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/mr_fuji.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/mr_fuji.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/90b499f162eb0dbc9076fc34cea5469070d00263",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/mr_fuji.png"
+    }
+  },
+  {
+    "name": "nurse.png",
+    "path": "gfx/sprites/nurse.png",
+    "sha": "b49768c8d38d8bb0431de370a221c03b63181cc1",
+    "size": 233,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/nurse.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/nurse.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/b49768c8d38d8bb0431de370a221c03b63181cc1",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/nurse.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/nurse.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/b49768c8d38d8bb0431de370a221c03b63181cc1",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/nurse.png"
+    }
+  },
+  {
+    "name": "oak.png",
+    "path": "gfx/sprites/oak.png",
+    "sha": "7a76574d0929ee373f08c2f3dfc1366e924c99fd",
+    "size": 305,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/oak.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/oak.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/7a76574d0929ee373f08c2f3dfc1366e924c99fd",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/oak.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/oak.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/7a76574d0929ee373f08c2f3dfc1366e924c99fd",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/oak.png"
+    }
+  },
+  {
+    "name": "old_amber.png",
+    "path": "gfx/sprites/old_amber.png",
+    "sha": "6f6c41f5a03c8ff0a0ead35dca8e4fbb3ce5a175",
+    "size": 115,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/old_amber.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/old_amber.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/6f6c41f5a03c8ff0a0ead35dca8e4fbb3ce5a175",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/old_amber.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/old_amber.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/6f6c41f5a03c8ff0a0ead35dca8e4fbb3ce5a175",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/old_amber.png"
+    }
+  },
+  {
+    "name": "paper.png",
+    "path": "gfx/sprites/paper.png",
+    "sha": "675183b6607a8485d54bf4fcf3d66b12d6a51355",
+    "size": 107,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/paper.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/paper.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/675183b6607a8485d54bf4fcf3d66b12d6a51355",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/paper.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/paper.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/675183b6607a8485d54bf4fcf3d66b12d6a51355",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/paper.png"
+    }
+  },
+  {
+    "name": "poke_ball.png",
+    "path": "gfx/sprites/poke_ball.png",
+    "sha": "dcce4700b1e571bd4f71d5cfb25db2fd9af6d3e5",
+    "size": 114,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/poke_ball.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/poke_ball.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/dcce4700b1e571bd4f71d5cfb25db2fd9af6d3e5",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/poke_ball.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/poke_ball.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/dcce4700b1e571bd4f71d5cfb25db2fd9af6d3e5",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/poke_ball.png"
+    }
+  },
+  {
+    "name": "pokedex.png",
+    "path": "gfx/sprites/pokedex.png",
+    "sha": "605549795dcd8846efc05ff766ea38f0a17f965f",
+    "size": 116,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/pokedex.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/pokedex.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/605549795dcd8846efc05ff766ea38f0a17f965f",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/pokedex.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/pokedex.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/605549795dcd8846efc05ff766ea38f0a17f965f",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/pokedex.png"
+    }
+  },
+  {
+    "name": "red.png",
+    "path": "gfx/sprites/red.png",
+    "sha": "018b676f52d8a0af03c1b9b5eaf789d331cc8743",
+    "size": 294,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/red.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/red.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/018b676f52d8a0af03c1b9b5eaf789d331cc8743",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/red.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/red.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/018b676f52d8a0af03c1b9b5eaf789d331cc8743",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/red.png"
+    }
+  },
+  {
+    "name": "red_bike.png",
+    "path": "gfx/sprites/red_bike.png",
+    "sha": "ed117d0b11c3d3fd9a75a9afac64eff1bd8cc3d4",
+    "size": 373,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/red_bike.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/red_bike.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/ed117d0b11c3d3fd9a75a9afac64eff1bd8cc3d4",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/red_bike.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/red_bike.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/ed117d0b11c3d3fd9a75a9afac64eff1bd8cc3d4",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/red_bike.png"
+    }
+  },
+  {
+    "name": "rocker.png",
+    "path": "gfx/sprites/rocker.png",
+    "sha": "9634d31fc323aebcbbc239e58f2f45da1e8bfa9b",
+    "size": 309,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/rocker.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/rocker.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/9634d31fc323aebcbbc239e58f2f45da1e8bfa9b",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/rocker.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/rocker.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/9634d31fc323aebcbbc239e58f2f45da1e8bfa9b",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/rocker.png"
+    }
+  },
+  {
+    "name": "rocket.png",
+    "path": "gfx/sprites/rocket.png",
+    "sha": "ebb4a5145321d3e2f9152ec0572df88ff856a0f1",
+    "size": 245,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/rocket.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/rocket.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/ebb4a5145321d3e2f9152ec0572df88ff856a0f1",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/rocket.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/rocket.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/ebb4a5145321d3e2f9152ec0572df88ff856a0f1",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/rocket.png"
+    }
+  },
+  {
+    "name": "safari_zone_worker.png",
+    "path": "gfx/sprites/safari_zone_worker.png",
+    "sha": "e55dab9d4d85aa8a0f43a7e9d7aad05912e81ee8",
+    "size": 210,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/safari_zone_worker.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/safari_zone_worker.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/e55dab9d4d85aa8a0f43a7e9d7aad05912e81ee8",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/safari_zone_worker.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/safari_zone_worker.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/e55dab9d4d85aa8a0f43a7e9d7aad05912e81ee8",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/safari_zone_worker.png"
+    }
+  },
+  {
+    "name": "sailor.png",
+    "path": "gfx/sprites/sailor.png",
+    "sha": "ddf80ef052f8d78a04dd282855f77192b94e3684",
+    "size": 281,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/sailor.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/sailor.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/ddf80ef052f8d78a04dd282855f77192b94e3684",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/sailor.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/sailor.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/ddf80ef052f8d78a04dd282855f77192b94e3684",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/sailor.png"
+    }
+  },
+  {
+    "name": "scientist.png",
+    "path": "gfx/sprites/scientist.png",
+    "sha": "a91708e6e2df1a8d493816ed198b08359ba3f4bc",
+    "size": 281,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/scientist.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/scientist.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/a91708e6e2df1a8d493816ed198b08359ba3f4bc",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/scientist.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/scientist.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/a91708e6e2df1a8d493816ed198b08359ba3f4bc",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/scientist.png"
+    }
+  },
+  {
+    "name": "seel.png",
+    "path": "gfx/sprites/seel.png",
+    "sha": "06ef575d29e2ddaac04848363c9629ee3cee8eaa",
+    "size": 343,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/seel.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/seel.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/06ef575d29e2ddaac04848363c9629ee3cee8eaa",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/seel.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/seel.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/06ef575d29e2ddaac04848363c9629ee3cee8eaa",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/seel.png"
+    }
+  },
+  {
+    "name": "silph_president.png",
+    "path": "gfx/sprites/silph_president.png",
+    "sha": "81818568316f3fc25ead6d440b31b3420d1f3d95",
+    "size": 212,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_president.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_president.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/81818568316f3fc25ead6d440b31b3420d1f3d95",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/silph_president.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_president.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/81818568316f3fc25ead6d440b31b3420d1f3d95",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_president.png"
+    }
+  },
+  {
+    "name": "silph_worker_f.png",
+    "path": "gfx/sprites/silph_worker_f.png",
+    "sha": "37f2e5da109e10b9f961ab954503357d9811b9e5",
+    "size": 257,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_worker_f.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_worker_f.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/37f2e5da109e10b9f961ab954503357d9811b9e5",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/silph_worker_f.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_worker_f.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/37f2e5da109e10b9f961ab954503357d9811b9e5",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_worker_f.png"
+    }
+  },
+  {
+    "name": "silph_worker_m.png",
+    "path": "gfx/sprites/silph_worker_m.png",
+    "sha": "00f369fde6cf538cc46ae5a160f945146801198b",
+    "size": 210,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_worker_m.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_worker_m.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/00f369fde6cf538cc46ae5a160f945146801198b",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/silph_worker_m.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/silph_worker_m.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/00f369fde6cf538cc46ae5a160f945146801198b",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/silph_worker_m.png"
+    }
+  },
+  {
+    "name": "snorlax.png",
+    "path": "gfx/sprites/snorlax.png",
+    "sha": "347ee781e14471df0fea6c7a4e4295303dcd1abb",
+    "size": 145,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/snorlax.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/snorlax.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/347ee781e14471df0fea6c7a4e4295303dcd1abb",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/snorlax.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/snorlax.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/347ee781e14471df0fea6c7a4e4295303dcd1abb",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/snorlax.png"
+    }
+  },
+  {
+    "name": "super_nerd.png",
+    "path": "gfx/sprites/super_nerd.png",
+    "sha": "7d1b0ddd2559689935e39d7903e9ca372ebfa312",
+    "size": 291,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/super_nerd.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/super_nerd.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/7d1b0ddd2559689935e39d7903e9ca372ebfa312",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/super_nerd.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/super_nerd.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/7d1b0ddd2559689935e39d7903e9ca372ebfa312",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/super_nerd.png"
+    }
+  },
+  {
+    "name": "swimmer.png",
+    "path": "gfx/sprites/swimmer.png",
+    "sha": "4c1818b2bca7bfc0c87e3694a1534a45f2a938f8",
+    "size": 303,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/swimmer.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/swimmer.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/4c1818b2bca7bfc0c87e3694a1534a45f2a938f8",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/swimmer.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/swimmer.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/4c1818b2bca7bfc0c87e3694a1534a45f2a938f8",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/swimmer.png"
+    }
+  },
+  {
+    "name": "waiter.png",
+    "path": "gfx/sprites/waiter.png",
+    "sha": "747f62a3f7f4ff8cce424b496a0dd833d35be4c8",
+    "size": 285,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/waiter.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/waiter.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/747f62a3f7f4ff8cce424b496a0dd833d35be4c8",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/waiter.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/waiter.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/747f62a3f7f4ff8cce424b496a0dd833d35be4c8",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/waiter.png"
+    }
+  },
+  {
+    "name": "warden.png",
+    "path": "gfx/sprites/warden.png",
+    "sha": "0aaccae41c56cf33246e18ca1b15540a9e5a6218",
+    "size": 234,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/warden.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/warden.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/0aaccae41c56cf33246e18ca1b15540a9e5a6218",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/warden.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/warden.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/0aaccae41c56cf33246e18ca1b15540a9e5a6218",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/warden.png"
+    }
+  },
+  {
+    "name": "youngster.png",
+    "path": "gfx/sprites/youngster.png",
+    "sha": "da64ee1c279dc8274379fbb1cb0824129d35a7c4",
+    "size": 291,
+    "url": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/youngster.png?ref=master",
+    "html_url": "https://github.com/pret/pokered/blob/master/gfx/sprites/youngster.png",
+    "git_url": "https://api.github.com/repos/pret/pokered/git/blobs/da64ee1c279dc8274379fbb1cb0824129d35a7c4",
+    "download_url": "https://raw.githubusercontent.com/pret/pokered/master/gfx/sprites/youngster.png",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/pret/pokered/contents/gfx/sprites/youngster.png?ref=master",
+      "git": "https://api.github.com/repos/pret/pokered/git/blobs/da64ee1c279dc8274379fbb1cb0824129d35a7c4",
+      "html": "https://github.com/pret/pokered/blob/master/gfx/sprites/youngster.png"
+    }
+  }
+]
