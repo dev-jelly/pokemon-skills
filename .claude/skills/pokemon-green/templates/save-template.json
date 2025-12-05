@@ -105,6 +105,7 @@
   },
 
   "options": {
+    "language": "ko",
     "textSpeed": "medium",
     "battleAnimation": true,
     "battleStyle": "shift",

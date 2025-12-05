@@ -1,7 +1,7 @@
 ---
 name: pokemon-green
-description: "포켓몬 그린 버전 텍스트 RPG. 1세대 151마리 포켓몬, 165개 기술, 관동 지방 완전 재현. 사용자가 '포켓몬', '피카츄', '전투', '체육관', '야생', '도감', '새 게임', '이어하기' 등의 키워드를 사용할 때 활성화됩니다."
-trigger-keywords: 포켓몬, pokemon, 피카츄, 체육관, 전투, 야생, 도감, 포켓몬스터, 새 게임, 이어하기, 포켓몬 그린
+description: "포켓몬 그린 버전 텍스트 RPG. 1세대 151마리 포켓몬, 165개 기술, 관동 지방 완전 재현. 한국어/영어 지원. 사용자가 '포켓몬', '피카츄', '전투', '체육관', '야생', '도감', '새 게임', '이어하기' 등의 키워드를 사용할 때 활성화됩니다."
+trigger-keywords: 포켓몬, pokemon, pikachu, 체육관, gym, 전투, battle, 야생, wild, 도감, pokedex, 포켓몬스터, 새 게임, new game, 이어하기, continue, 포켓몬 그린
 allowed-tools: Read, Write, Edit, Bash
 ---
 
@@ -336,9 +336,54 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 
 ---
 
+## 언어 설정 (Language Settings)
+
+### 언어 선택
+게임은 한국어(ko)와 영어(en)를 지원합니다.
+
+| 명령어 (KO) | Command (EN) | 설명 |
+|-------------|--------------|------|
+| 언어 영어 | language english | 영어로 전환 |
+| 언어 한국어 | language korean | 한국어로 전환 |
+
+### 새 게임 시작 시
+```
+언어를 선택하세요 / Select language:
+[1] 한국어    [2] English
+```
+
+### 영어 명령어 (English Commands)
+
+| Field Commands | Battle Commands | Audio Commands |
+|----------------|-----------------|----------------|
+| north/south/east/west | fight | bgm on/off |
+| go to [location] | [move name] | volume [0-100] |
+| status / party | bag | cry |
+| bag | pokemon | |
+| pokedex | run | |
+| save | | |
+| talk | | |
+
+### 데이터 파일 구조
+
+모든 이름/메시지는 이중 언어 구조로 저장됩니다:
+```json
+{
+  "name": { "ko": "이상해씨", "en": "Bulbasaur" },
+  "text": { "ko": "야생 포켓몬이 나타났다!", "en": "A wild Pokemon appeared!" }
+}
+```
+
+메시지 파일:
+- `data/messages/battle-kr.json` - 한국어 전투 메시지
+- `data/messages/battle-en.json` - 영어 전투 메시지
+- `data/messages/messages-index.json` - 언어 인덱스
+
+---
+
 ## 도움말
 
 게임 중 언제든지 다음 명령어를 사용할 수 있습니다:
-- "도움말" - 명령어 목록
-- "현재 위치" - 현재 장소 정보
-- "진행 상황" - 스토리 진행도
+- "도움말" / "help" - 명령어 목록
+- "현재 위치" / "location" - 현재 장소 정보
+- "진행 상황" / "progress" - 스토리 진행도

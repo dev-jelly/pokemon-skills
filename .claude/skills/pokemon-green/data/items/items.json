@@ -1,472 +1,118 @@
 {
   "version": "1.0.0",
-  "description": "1세대 포켓몬 아이템 데이터",
+  "description": { "ko": "1세대 포켓몬 아이템 데이터", "en": "Generation 1 Pokemon item data" },
 
   "pokeballs": {
-    "1": {
-      "name": { "ko": "몬스터볼", "en": "Poke Ball" },
-      "description": "야생 포켓몬을 잡기 위해 던지는 볼. 캡슐식으로 되어 있다.",
-      "price": 200,
-      "catchModifier": 255
-    },
-    "2": {
-      "name": { "ko": "수퍼볼", "en": "Great Ball" },
-      "description": "몬스터볼보다 조금 더 성능이 좋은 볼.",
-      "price": 600,
-      "catchModifier": 200
-    },
-    "3": {
-      "name": { "ko": "하이퍼볼", "en": "Ultra Ball" },
-      "description": "수퍼볼보다 더 성능이 좋은 매우 뛰어난 볼.",
-      "price": 1200,
-      "catchModifier": 150
-    },
-    "4": {
-      "name": { "ko": "마스터볼", "en": "Master Ball" },
-      "description": "야생 포켓몬을 반드시 잡을 수 있는 최고 성능의 볼.",
-      "price": null,
-      "catchModifier": 0,
-      "guaranteed": true
-    },
-    "5": {
-      "name": { "ko": "사파리볼", "en": "Safari Ball" },
-      "description": "사파리존에서만 사용할 수 있는 특수한 볼.",
-      "price": null,
-      "catchModifier": 255,
-      "safariOnly": true
-    }
+    "1": { "name": { "ko": "몬스터볼", "en": "Poke Ball" }, "description": { "ko": "야생 포켓몬을 잡기 위해 던지는 볼. 캡슐식으로 되어 있다.", "en": "A Ball thrown to catch a wild Pokemon. It is designed as a capsule." }, "price": 200, "catchModifier": 255 },
+    "2": { "name": { "ko": "수퍼볼", "en": "Great Ball" }, "description": { "ko": "몬스터볼보다 조금 더 성능이 좋은 볼.", "en": "A Ball with a slightly better catch rate than a Poke Ball." }, "price": 600, "catchModifier": 200 },
+    "3": { "name": { "ko": "하이퍼볼", "en": "Ultra Ball" }, "description": { "ko": "수퍼볼보다 더 성능이 좋은 매우 뛰어난 볼.", "en": "An ultra-performance Ball with a higher catch rate than a Great Ball." }, "price": 1200, "catchModifier": 150 },
+    "4": { "name": { "ko": "마스터볼", "en": "Master Ball" }, "description": { "ko": "야생 포켓몬을 반드시 잡을 수 있는 최고 성능의 볼.", "en": "The best Ball that catches any wild Pokemon without fail." }, "price": null, "catchModifier": 0, "guaranteed": true },
+    "5": { "name": { "ko": "사파리볼", "en": "Safari Ball" }, "description": { "ko": "사파리존에서만 사용할 수 있는 특수한 볼.", "en": "A special Ball that can only be used in the Safari Zone." }, "price": null, "catchModifier": 255, "safariOnly": true }
   },
 
   "potions": {
-    "10": {
-      "name": { "ko": "상처약", "en": "Potion" },
-      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 20만큼 회복한다.",
-      "price": 300,
-      "healAmount": 20
-    },
-    "11": {
-      "name": { "ko": "좋은상처약", "en": "Super Potion" },
-      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 50만큼 회복한다.",
-      "price": 700,
-      "healAmount": 50
-    },
-    "12": {
-      "name": { "ko": "고급상처약", "en": "Hyper Potion" },
-      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 200만큼 회복한다.",
-      "price": 1200,
-      "healAmount": 200
-    },
-    "13": {
-      "name": { "ko": "풀회복약", "en": "Max Potion" },
-      "description": "스프레이식 상처약. 포켓몬 1마리의 HP를 모두 회복한다.",
-      "price": 2500,
-      "healAmount": "full"
-    },
-    "14": {
-      "name": { "ko": "회복약", "en": "Full Restore" },
-      "description": "포켓몬 1마리의 HP와 상태이상을 모두 회복한다.",
-      "price": 3000,
-      "healAmount": "full",
-      "curesStatus": "all"
-    }
+    "10": { "name": { "ko": "상처약", "en": "Potion" }, "description": { "ko": "스프레이식 상처약. 포켓몬 1마리의 HP를 20만큼 회복한다.", "en": "A spray-type wound medicine. Restores 20 HP to a single Pokemon." }, "price": 300, "healAmount": 20 },
+    "11": { "name": { "ko": "좋은상처약", "en": "Super Potion" }, "description": { "ko": "스프레이식 상처약. 포켓몬 1마리의 HP를 50만큼 회복한다.", "en": "A spray-type wound medicine. Restores 50 HP to a single Pokemon." }, "price": 700, "healAmount": 50 },
+    "12": { "name": { "ko": "고급상처약", "en": "Hyper Potion" }, "description": { "ko": "스프레이식 상처약. 포켓몬 1마리의 HP를 200만큼 회복한다.", "en": "A spray-type wound medicine. Restores 200 HP to a single Pokemon." }, "price": 1200, "healAmount": 200 },
+    "13": { "name": { "ko": "풀회복약", "en": "Max Potion" }, "description": { "ko": "스프레이식 상처약. 포켓몬 1마리의 HP를 모두 회복한다.", "en": "A spray-type wound medicine. Fully restores HP of a single Pokemon." }, "price": 2500, "healAmount": "full" },
+    "14": { "name": { "ko": "회복약", "en": "Full Restore" }, "description": { "ko": "포켓몬 1마리의 HP와 상태이상을 모두 회복한다.", "en": "Fully restores the HP and heals any status conditions of a single Pokemon." }, "price": 3000, "healAmount": "full", "curesStatus": "all" }
   },
 
   "statusHealers": {
-    "20": {
-      "name": { "ko": "해독제", "en": "Antidote" },
-      "description": "독 상태가 된 포켓몬을 치료한다.",
-      "price": 100,
-      "cures": ["poison", "badly_poisoned"]
-    },
-    "21": {
-      "name": { "ko": "화상치료제", "en": "Burn Heal" },
-      "description": "화상 상태가 된 포켓몬을 치료한다.",
-      "price": 250,
-      "cures": ["burn"]
-    },
-    "22": {
-      "name": { "ko": "얼음치료제", "en": "Ice Heal" },
-      "description": "얼음 상태가 된 포켓몬을 치료한다.",
-      "price": 250,
-      "cures": ["freeze"]
-    },
-    "23": {
-      "name": { "ko": "잠깨는약", "en": "Awakening" },
-      "description": "잠이 든 포켓몬을 깨운다.",
-      "price": 250,
-      "cures": ["sleep"]
-    },
-    "24": {
-      "name": { "ko": "마비치료제", "en": "Paralyz Heal" },
-      "description": "마비 상태가 된 포켓몬을 치료한다.",
-      "price": 200,
-      "cures": ["paralysis"]
-    },
-    "25": {
-      "name": { "ko": "만병통치제", "en": "Full Heal" },
-      "description": "포켓몬의 모든 상태이상을 치료한다.",
-      "price": 600,
-      "cures": ["all"]
-    }
+    "20": { "name": { "ko": "해독제", "en": "Antidote" }, "description": { "ko": "독 상태가 된 포켓몬을 치료한다.", "en": "Cures a Pokemon that has been poisoned." }, "price": 100, "cures": ["poison", "badly_poisoned"] },
+    "21": { "name": { "ko": "화상치료제", "en": "Burn Heal" }, "description": { "ko": "화상 상태가 된 포켓몬을 치료한다.", "en": "Cures a Pokemon that has been burned." }, "price": 250, "cures": ["burn"] },
+    "22": { "name": { "ko": "얼음치료제", "en": "Ice Heal" }, "description": { "ko": "얼음 상태가 된 포켓몬을 치료한다.", "en": "Cures a Pokemon that has been frozen solid." }, "price": 250, "cures": ["freeze"] },
+    "23": { "name": { "ko": "잠깨는약", "en": "Awakening" }, "description": { "ko": "잠이 든 포켓몬을 깨운다.", "en": "Wakes a Pokemon from sleep." }, "price": 250, "cures": ["sleep"] },
+    "24": { "name": { "ko": "마비치료제", "en": "Paralyz Heal" }, "description": { "ko": "마비 상태가 된 포켓몬을 치료한다.", "en": "Cures a Pokemon that has been paralyzed." }, "price": 200, "cures": ["paralysis"] },
+    "25": { "name": { "ko": "만병통치제", "en": "Full Heal" }, "description": { "ko": "포켓몬의 모든 상태이상을 치료한다.", "en": "Cures all status conditions of a single Pokemon." }, "price": 600, "cures": ["all"] }
   },
 
   "revives": {
-    "30": {
-      "name": { "ko": "기력의조각", "en": "Revive" },
-      "description": "기절한 포켓몬의 HP를 절반까지 회복한다.",
-      "price": 1500,
-      "reviveAmount": 0.5
-    },
-    "31": {
-      "name": { "ko": "기력의덩어리", "en": "Max Revive" },
-      "description": "기절한 포켓몬의 HP를 모두 회복한다.",
-      "price": null,
-      "reviveAmount": 1.0
-    }
+    "30": { "name": { "ko": "기력의조각", "en": "Revive" }, "description": { "ko": "기절한 포켓몬의 HP를 절반까지 회복한다.", "en": "Revives a fainted Pokemon and restores half its HP." }, "price": 1500, "reviveAmount": 0.5 },
+    "31": { "name": { "ko": "기력의덩어리", "en": "Max Revive" }, "description": { "ko": "기절한 포켓몬의 HP를 모두 회복한다.", "en": "Revives a fainted Pokemon and fully restores its HP." }, "price": null, "reviveAmount": 1.0 }
   },
 
   "ppItems": {
-    "40": {
-      "name": { "ko": "PP에이드", "en": "Ether" },
-      "description": "포켓몬 기술 1개의 PP를 10 회복한다.",
-      "price": null,
-      "ppRestore": 10
-    },
-    "41": {
-      "name": { "ko": "PP리커버", "en": "Max Ether" },
-      "description": "포켓몬 기술 1개의 PP를 모두 회복한다.",
-      "price": null,
-      "ppRestore": "full"
-    },
-    "42": {
-      "name": { "ko": "PP에이더", "en": "Elixir" },
-      "description": "포켓몬의 모든 기술의 PP를 10씩 회복한다.",
-      "price": null,
-      "ppRestore": 10,
-      "allMoves": true
-    },
-    "43": {
-      "name": { "ko": "PP맥스", "en": "Max Elixir" },
-      "description": "포켓몬의 모든 기술의 PP를 모두 회복한다.",
-      "price": null,
-      "ppRestore": "full",
-      "allMoves": true
-    }
+    "40": { "name": { "ko": "PP에이드", "en": "Ether" }, "description": { "ko": "포켓몬 기술 1개의 PP를 10 회복한다.", "en": "Restores 10 PP to a single move of a Pokemon." }, "price": null, "ppRestore": 10 },
+    "41": { "name": { "ko": "PP리커버", "en": "Max Ether" }, "description": { "ko": "포켓몬 기술 1개의 PP를 모두 회복한다.", "en": "Fully restores PP to a single move of a Pokemon." }, "price": null, "ppRestore": "full" },
+    "42": { "name": { "ko": "PP에이더", "en": "Elixir" }, "description": { "ko": "포켓몬의 모든 기술의 PP를 10씩 회복한다.", "en": "Restores 10 PP to all moves of a Pokemon." }, "price": null, "ppRestore": 10, "allMoves": true },
+    "43": { "name": { "ko": "PP맥스", "en": "Max Elixir" }, "description": { "ko": "포켓몬의 모든 기술의 PP를 모두 회복한다.", "en": "Fully restores PP to all moves of a Pokemon." }, "price": null, "ppRestore": "full", "allMoves": true }
   },
 
   "battleItems": {
-    "50": {
-      "name": { "ko": "스피드업", "en": "X Speed" },
-      "description": "전투 중 사용하면 스피드가 올라간다.",
-      "price": 350,
-      "statBoost": { "speed": 1 }
-    },
-    "51": {
-      "name": { "ko": "스페셜업", "en": "X Special" },
-      "description": "전투 중 사용하면 특수가 올라간다.",
-      "price": 350,
-      "statBoost": { "special": 1 }
-    },
-    "52": {
-      "name": { "ko": "어택업", "en": "X Attack" },
-      "description": "전투 중 사용하면 공격이 올라간다.",
-      "price": 500,
-      "statBoost": { "attack": 1 }
-    },
-    "53": {
-      "name": { "ko": "디펜드업", "en": "X Defend" },
-      "description": "전투 중 사용하면 방어가 올라간다.",
-      "price": 550,
-      "statBoost": { "defense": 1 }
-    },
-    "54": {
-      "name": { "ko": "크리티컬커터", "en": "Dire Hit" },
-      "description": "전투 중 사용하면 급소율이 올라간다.",
-      "price": 650,
-      "effect": "criticalUp"
-    },
-    "55": {
-      "name": { "ko": "플러스파워", "en": "Guard Spec." },
-      "description": "전투 중 사용하면 5턴 동안 능력 저하를 막는다.",
-      "price": 700,
-      "effect": "guardSpec"
-    },
-    "56": {
-      "name": { "ko": "명중업", "en": "X Accuracy" },
-      "description": "전투 중 사용하면 명중률이 올라간다.",
-      "price": 950,
-      "statBoost": { "accuracy": 1 }
-    }
+    "50": { "name": { "ko": "스피드업", "en": "X Speed" }, "description": { "ko": "전투 중 사용하면 스피드가 올라간다.", "en": "Raises Speed in battle." }, "price": 350, "statBoost": { "speed": 1 } },
+    "51": { "name": { "ko": "스페셜업", "en": "X Special" }, "description": { "ko": "전투 중 사용하면 특수가 올라간다.", "en": "Raises Special in battle." }, "price": 350, "statBoost": { "special": 1 } },
+    "52": { "name": { "ko": "어택업", "en": "X Attack" }, "description": { "ko": "전투 중 사용하면 공격이 올라간다.", "en": "Raises Attack in battle." }, "price": 500, "statBoost": { "attack": 1 } },
+    "53": { "name": { "ko": "디펜드업", "en": "X Defend" }, "description": { "ko": "전투 중 사용하면 방어가 올라간다.", "en": "Raises Defense in battle." }, "price": 550, "statBoost": { "defense": 1 } },
+    "54": { "name": { "ko": "크리티컬커터", "en": "Dire Hit" }, "description": { "ko": "전투 중 사용하면 급소율이 올라간다.", "en": "Raises critical hit ratio in battle." }, "price": 650, "effect": "criticalUp" },
+    "55": { "name": { "ko": "플러스파워", "en": "Guard Spec." }, "description": { "ko": "전투 중 사용하면 5턴 동안 능력 저하를 막는다.", "en": "Prevents stat reduction for 5 turns in battle." }, "price": 700, "effect": "guardSpec" },
+    "56": { "name": { "ko": "명중업", "en": "X Accuracy" }, "description": { "ko": "전투 중 사용하면 명중률이 올라간다.", "en": "Raises accuracy in battle." }, "price": 950, "statBoost": { "accuracy": 1 } }
   },
 
   "repels": {
-    "60": {
-      "name": { "ko": "벌레스프레이", "en": "Repel" },
-      "description": "약한 야생 포켓몬이 100걸음 동안 나타나지 않는다.",
-      "price": 350,
-      "steps": 100
-    },
-    "61": {
-      "name": { "ko": "실버스프레이", "en": "Super Repel" },
-      "description": "약한 야생 포켓몬이 200걸음 동안 나타나지 않는다.",
-      "price": 500,
-      "steps": 200
-    },
-    "62": {
-      "name": { "ko": "골드스프레이", "en": "Max Repel" },
-      "description": "약한 야생 포켓몬이 250걸음 동안 나타나지 않는다.",
-      "price": 700,
-      "steps": 250
-    }
+    "60": { "name": { "ko": "벌레스프레이", "en": "Repel" }, "description": { "ko": "약한 야생 포켓몬이 100걸음 동안 나타나지 않는다.", "en": "Prevents weak wild Pokemon from appearing for 100 steps." }, "price": 350, "steps": 100 },
+    "61": { "name": { "ko": "실버스프레이", "en": "Super Repel" }, "description": { "ko": "약한 야생 포켓몬이 200걸음 동안 나타나지 않는다.", "en": "Prevents weak wild Pokemon from appearing for 200 steps." }, "price": 500, "steps": 200 },
+    "62": { "name": { "ko": "골드스프레이", "en": "Max Repel" }, "description": { "ko": "약한 야생 포켓몬이 250걸음 동안 나타나지 않는다.", "en": "Prevents weak wild Pokemon from appearing for 250 steps." }, "price": 700, "steps": 250 }
   },
 
   "escapeItems": {
-    "65": {
-      "name": { "ko": "동굴탈출로프", "en": "Escape Rope" },
-      "description": "동굴이나 던전의 입구로 순간이동할 수 있다.",
-      "price": 550,
-      "effect": "escapeDungeon"
-    },
-    "66": {
-      "name": { "ko": "인형", "en": "Poke Doll" },
-      "description": "야생 포켓몬의 주의를 끌어 반드시 도망칠 수 있다.",
-      "price": 1000,
-      "effect": "guaranteedEscape"
-    }
+    "65": { "name": { "ko": "동굴탈출로프", "en": "Escape Rope" }, "description": { "ko": "동굴이나 던전의 입구로 순간이동할 수 있다.", "en": "Teleports you to the entrance of a cave or dungeon." }, "price": 550, "effect": "escapeDungeon" },
+    "66": { "name": { "ko": "인형", "en": "Poke Doll" }, "description": { "ko": "야생 포켓몬의 주의를 끌어 반드시 도망칠 수 있다.", "en": "Attracts the attention of wild Pokemon, allowing guaranteed escape." }, "price": 1000, "effect": "guaranteedEscape" }
   },
 
   "specialEvolutionItems": {
-    "69": {
-      "name": { "ko": "연결의끈", "en": "Linking Cord" },
-      "description": "특별한 끈. 교환으로 진화하는 포켓몬에게 사용하면 진화한다.",
-      "price": 1000,
-      "effect": "trade_evolution",
-      "eligiblePokemon": [64, 67, 75, 93],
-      "note": "무지개 백화점, 실프주식회사, 하나동굴에서 획득 가능"
-    }
+    "69": { "name": { "ko": "연결의끈", "en": "Linking Cord" }, "description": { "ko": "특별한 끈. 교환으로 진화하는 포켓몬에게 사용하면 진화한다.", "en": "A special cord. Evolves Pokemon that normally evolve by trading." }, "price": 1000, "effect": "trade_evolution", "eligiblePokemon": [64, 67, 75, 93], "note": "무지개 백화점, 실프주식회사, 하나동굴에서 획득 가능" }
   },
 
   "evolutionStones": {
-    "70": {
-      "name": { "ko": "불꽃의돌", "en": "Fire Stone" },
-      "description": "특정 포켓몬을 진화시키는 불꽃의 돌.",
-      "price": 2100,
-      "evolutionType": "fire"
-    },
-    "71": {
-      "name": { "ko": "물의돌", "en": "Water Stone" },
-      "description": "특정 포켓몬을 진화시키는 물의 돌.",
-      "price": 2100,
-      "evolutionType": "water"
-    },
-    "72": {
-      "name": { "ko": "천둥의돌", "en": "Thunder Stone" },
-      "description": "특정 포켓몬을 진화시키는 천둥의 돌.",
-      "price": 2100,
-      "evolutionType": "thunder"
-    },
-    "73": {
-      "name": { "ko": "리프의돌", "en": "Leaf Stone" },
-      "description": "특정 포켓몬을 진화시키는 리프의 돌.",
-      "price": 2100,
-      "evolutionType": "leaf"
-    },
-    "74": {
-      "name": { "ko": "달의돌", "en": "Moon Stone" },
-      "description": "특정 포켓몬을 진화시키는 달의 돌.",
-      "price": null,
-      "evolutionType": "moon"
-    }
+    "70": { "name": { "ko": "불꽃의돌", "en": "Fire Stone" }, "description": { "ko": "특정 포켓몬을 진화시키는 불꽃의 돌.", "en": "A peculiar stone that evolves certain Fire-type Pokemon." }, "price": 2100, "evolutionType": "fire" },
+    "71": { "name": { "ko": "물의돌", "en": "Water Stone" }, "description": { "ko": "특정 포켓몬을 진화시키는 물의 돌.", "en": "A peculiar stone that evolves certain Water-type Pokemon." }, "price": 2100, "evolutionType": "water" },
+    "72": { "name": { "ko": "천둥의돌", "en": "Thunder Stone" }, "description": { "ko": "특정 포켓몬을 진화시키는 천둥의 돌.", "en": "A peculiar stone that evolves certain Electric-type Pokemon." }, "price": 2100, "evolutionType": "thunder" },
+    "73": { "name": { "ko": "리프의돌", "en": "Leaf Stone" }, "description": { "ko": "특정 포켓몬을 진화시키는 리프의 돌.", "en": "A peculiar stone that evolves certain Grass-type Pokemon." }, "price": 2100, "evolutionType": "leaf" },
+    "74": { "name": { "ko": "달의돌", "en": "Moon Stone" }, "description": { "ko": "특정 포켓몬을 진화시키는 달의 돌.", "en": "A peculiar stone that evolves certain Pokemon." }, "price": null, "evolutionType": "moon" }
   },
 
   "vitamins": {
-    "80": {
-      "name": { "ko": "맥스업", "en": "HP Up" },
-      "description": "포켓몬의 HP 노력치를 올린다.",
-      "price": 9800,
-      "statExpBoost": { "hp": 2560 }
-    },
-    "81": {
-      "name": { "ko": "타우린", "en": "Protein" },
-      "description": "포켓몬의 공격 노력치를 올린다.",
-      "price": 9800,
-      "statExpBoost": { "attack": 2560 }
-    },
-    "82": {
-      "name": { "ko": "브로무헥신", "en": "Iron" },
-      "description": "포켓몬의 방어 노력치를 올린다.",
-      "price": 9800,
-      "statExpBoost": { "defense": 2560 }
-    },
-    "83": {
-      "name": { "ko": "리포비탄", "en": "Carbos" },
-      "description": "포켓몬의 스피드 노력치를 올린다.",
-      "price": 9800,
-      "statExpBoost": { "speed": 2560 }
-    },
-    "84": {
-      "name": { "ko": "키토산", "en": "Calcium" },
-      "description": "포켓몬의 특수 노력치를 올린다.",
-      "price": 9800,
-      "statExpBoost": { "special": 2560 }
-    },
-    "85": {
-      "name": { "ko": "이상한사탕", "en": "Rare Candy" },
-      "description": "포켓몬의 레벨을 1 올린다.",
-      "price": null,
-      "effect": "levelUp"
-    },
-    "86": {
-      "name": { "ko": "PP업", "en": "PP Up" },
-      "description": "포켓몬 기술 1개의 최대 PP를 올린다.",
-      "price": null,
-      "effect": "ppMaxUp"
-    }
+    "80": { "name": { "ko": "맥스업", "en": "HP Up" }, "description": { "ko": "포켓몬의 HP 노력치를 올린다.", "en": "Raises the HP stat exp of a Pokemon." }, "price": 9800, "statExpBoost": { "hp": 2560 } },
+    "81": { "name": { "ko": "타우린", "en": "Protein" }, "description": { "ko": "포켓몬의 공격 노력치를 올린다.", "en": "Raises the Attack stat exp of a Pokemon." }, "price": 9800, "statExpBoost": { "attack": 2560 } },
+    "82": { "name": { "ko": "브로무헥신", "en": "Iron" }, "description": { "ko": "포켓몬의 방어 노력치를 올린다.", "en": "Raises the Defense stat exp of a Pokemon." }, "price": 9800, "statExpBoost": { "defense": 2560 } },
+    "83": { "name": { "ko": "리포비탄", "en": "Carbos" }, "description": { "ko": "포켓몬의 스피드 노력치를 올린다.", "en": "Raises the Speed stat exp of a Pokemon." }, "price": 9800, "statExpBoost": { "speed": 2560 } },
+    "84": { "name": { "ko": "키토산", "en": "Calcium" }, "description": { "ko": "포켓몬의 특수 노력치를 올린다.", "en": "Raises the Special stat exp of a Pokemon." }, "price": 9800, "statExpBoost": { "special": 2560 } },
+    "85": { "name": { "ko": "이상한사탕", "en": "Rare Candy" }, "description": { "ko": "포켓몬의 레벨을 1 올린다.", "en": "Raises the level of a Pokemon by one." }, "price": null, "effect": "levelUp" },
+    "86": { "name": { "ko": "PP업", "en": "PP Up" }, "description": { "ko": "포켓몬 기술 1개의 최대 PP를 올린다.", "en": "Raises the max PP of a selected move." }, "price": null, "effect": "ppMaxUp" }
   },
 
   "fossils": {
-    "90": {
-      "name": { "ko": "조개화석", "en": "Helix Fossil" },
-      "description": "고대 포켓몬의 화석. 복원하면 암나이트가 된다.",
-      "price": null,
-      "revivesTo": 138
-    },
-    "91": {
-      "name": { "ko": "돔화석", "en": "Dome Fossil" },
-      "description": "고대 포켓몬의 화석. 복원하면 투구가 된다.",
-      "price": null,
-      "revivesTo": 140
-    },
-    "92": {
-      "name": { "ko": "비밀의호박", "en": "Old Amber" },
-      "description": "고대 포켓몬의 화석. 복원하면 프테라가 된다.",
-      "price": null,
-      "revivesTo": 142
-    }
+    "90": { "name": { "ko": "조개화석", "en": "Helix Fossil" }, "description": { "ko": "고대 포켓몬의 화석. 복원하면 암나이트가 된다.", "en": "An ancient fossil. When restored, it becomes Omanyte." }, "price": null, "revivesTo": 138 },
+    "91": { "name": { "ko": "돔화석", "en": "Dome Fossil" }, "description": { "ko": "고대 포켓몬의 화석. 복원하면 투구가 된다.", "en": "An ancient fossil. When restored, it becomes Kabuto." }, "price": null, "revivesTo": 140 },
+    "92": { "name": { "ko": "비밀의호박", "en": "Old Amber" }, "description": { "ko": "고대 포켓몬의 화석. 복원하면 프테라가 된다.", "en": "An ancient fossil. When restored, it becomes Aerodactyl." }, "price": null, "revivesTo": 142 }
   },
 
   "keyItems": {
-    "100": {
-      "name": { "ko": "마을지도", "en": "Town Map" },
-      "description": "매우 편리한 지도. 현재 위치를 확인할 수 있다.",
-      "effect": "showMap"
-    },
-    "101": {
-      "name": { "ko": "자전거", "en": "Bicycle" },
-      "description": "접이식 자전거. 걷는 것보다 4배 빨리 이동할 수 있다.",
-      "effect": "rideBicycle"
-    },
-    "102": {
-      "name": { "ko": "포켓몬피리", "en": "Poke Flute" },
-      "description": "잠든 포켓몬을 깨우는 피리.",
-      "effect": "wakeUpSnorlax"
-    },
-    "103": {
-      "name": { "ko": "실프스코프", "en": "Silph Scope" },
-      "description": "유령의 정체를 밝힐 수 있는 장치.",
-      "effect": "identifyGhosts"
-    },
-    "104": {
-      "name": { "ko": "카드키", "en": "Card Key" },
-      "description": "실프주식회사의 문을 열 수 있는 카드키.",
-      "effect": "openSilphDoors"
-    },
-    "105": {
-      "name": { "ko": "비밀열쇠", "en": "Secret Key" },
-      "description": "홍련마을 체육관의 문을 여는 열쇠.",
-      "effect": "openCinnabarGym"
-    },
-    "106": {
-      "name": { "ko": "금니", "en": "Gold Teeth" },
-      "description": "사파리존 관장이 잃어버린 금니.",
-      "effect": "giveToWarden"
-    },
-    "107": {
-      "name": { "ko": "좋은낚싯대", "en": "Good Rod" },
-      "description": "낚시로 포켓몬을 잡을 수 있는 좋은 낚싯대.",
-      "effect": "fishing",
-      "fishingPower": 2
-    },
-    "108": {
-      "name": { "ko": "오래된낚싯대", "en": "Old Rod" },
-      "description": "낚시로 포켓몬을 잡을 수 있는 오래된 낚싯대.",
-      "effect": "fishing",
-      "fishingPower": 1
-    },
-    "109": {
-      "name": { "ko": "대단한낚싯대", "en": "Super Rod" },
-      "description": "낚시로 포켓몬을 잡을 수 있는 대단한 낚싯대.",
-      "effect": "fishing",
-      "fishingPower": 3
-    },
-    "110": {
-      "name": { "ko": "SS티켓", "en": "S.S. Ticket" },
-      "description": "SS앤호에 탈 수 있는 티켓.",
-      "effect": "boardSSAnne"
-    },
-    "111": {
-      "name": { "ko": "자전거상품권", "en": "Bike Voucher" },
-      "description": "자전거로 교환할 수 있는 상품권.",
-      "effect": "exchangeForBike"
-    },
-    "112": {
-      "name": { "ko": "오박사의소포", "en": "Oak's Parcel" },
-      "description": "오박사에게 가져다 줄 소포.",
-      "effect": "giveToOak"
-    },
-    "113": {
-      "name": { "ko": "도감", "en": "Pokedex" },
-      "description": "포켓몬 데이터를 기록하는 하이테크 도감.",
-      "effect": "viewPokedex"
-    },
-    "114": {
-      "name": { "ko": "동전케이스", "en": "Coin Case" },
-      "description": "게임코너의 코인을 넣는 케이스. 9999개까지 보관 가능.",
-      "effect": "storeCoins"
-    },
-    "115": {
-      "name": { "ko": "승강기열쇠", "en": "Lift Key" },
-      "description": "로켓단 아지트의 엘리베이터 열쇠.",
-      "effect": "useRocketElevator"
-    }
+    "100": { "name": { "ko": "마을지도", "en": "Town Map" }, "description": { "ko": "매우 편리한 지도. 현재 위치를 확인할 수 있다.", "en": "A very handy map. You can check your current location." }, "effect": "showMap" },
+    "101": { "name": { "ko": "자전거", "en": "Bicycle" }, "description": { "ko": "접이식 자전거. 걷는 것보다 4배 빨리 이동할 수 있다.", "en": "A folding bike. Travel 4 times faster than walking." }, "effect": "rideBicycle" },
+    "102": { "name": { "ko": "포켓몬피리", "en": "Poke Flute" }, "description": { "ko": "잠든 포켓몬을 깨우는 피리.", "en": "A flute that awakens sleeping Pokemon." }, "effect": "wakeUpSnorlax" },
+    "103": { "name": { "ko": "실프스코프", "en": "Silph Scope" }, "description": { "ko": "유령의 정체를 밝힐 수 있는 장치.", "en": "A device that can identify ghosts." }, "effect": "identifyGhosts" },
+    "104": { "name": { "ko": "카드키", "en": "Card Key" }, "description": { "ko": "실프주식회사의 문을 열 수 있는 카드키.", "en": "A card key that opens doors in Silph Co." }, "effect": "openSilphDoors" },
+    "105": { "name": { "ko": "비밀열쇠", "en": "Secret Key" }, "description": { "ko": "홍련마을 체육관의 문을 여는 열쇠.", "en": "A key that opens the Cinnabar Gym door." }, "effect": "openCinnabarGym" },
+    "106": { "name": { "ko": "금니", "en": "Gold Teeth" }, "description": { "ko": "사파리존 관장이 잃어버린 금니.", "en": "Gold teeth lost by the Safari Zone Warden." }, "effect": "giveToWarden" },
+    "107": { "name": { "ko": "좋은낚싯대", "en": "Good Rod" }, "description": { "ko": "낚시로 포켓몬을 잡을 수 있는 좋은 낚싯대.", "en": "A good fishing rod for catching Pokemon." }, "effect": "fishing", "fishingPower": 2 },
+    "108": { "name": { "ko": "오래된낚싯대", "en": "Old Rod" }, "description": { "ko": "낚시로 포켓몬을 잡을 수 있는 오래된 낚싯대.", "en": "An old fishing rod for catching Pokemon." }, "effect": "fishing", "fishingPower": 1 },
+    "109": { "name": { "ko": "대단한낚싯대", "en": "Super Rod" }, "description": { "ko": "낚시로 포켓몬을 잡을 수 있는 대단한 낚싯대.", "en": "A great fishing rod for catching Pokemon." }, "effect": "fishing", "fishingPower": 3 },
+    "110": { "name": { "ko": "SS티켓", "en": "S.S. Ticket" }, "description": { "ko": "SS앤호에 탈 수 있는 티켓.", "en": "A ticket for boarding the S.S. Anne." }, "effect": "boardSSAnne" },
+    "111": { "name": { "ko": "자전거상품권", "en": "Bike Voucher" }, "description": { "ko": "자전거로 교환할 수 있는 상품권.", "en": "A voucher that can be exchanged for a bicycle." }, "effect": "exchangeForBike" },
+    "112": { "name": { "ko": "오박사의소포", "en": "Oak's Parcel" }, "description": { "ko": "오박사에게 가져다 줄 소포.", "en": "A parcel to deliver to Prof. Oak." }, "effect": "giveToOak" },
+    "113": { "name": { "ko": "도감", "en": "Pokedex" }, "description": { "ko": "포켓몬 데이터를 기록하는 하이테크 도감.", "en": "A high-tech encyclopedia that records Pokemon data." }, "effect": "viewPokedex" },
+    "114": { "name": { "ko": "동전케이스", "en": "Coin Case" }, "description": { "ko": "게임코너의 코인을 넣는 케이스. 9999개까지 보관 가능.", "en": "A case for storing Game Corner coins. Holds up to 9999." }, "effect": "storeCoins" },
+    "115": { "name": { "ko": "승강기열쇠", "en": "Lift Key" }, "description": { "ko": "로켓단 아지트의 엘리베이터 열쇠.", "en": "A key for the elevator in Rocket Hideout." }, "effect": "useRocketElevator" }
   },
 
   "hms": {
-    "201": {
-      "name": { "ko": "HM01", "en": "HM01" },
-      "move": 15,
-      "moveName": { "ko": "풀베기", "en": "Cut" },
-      "description": "작은 나무를 베어낼 수 있게 해주는 기술.",
-      "requiredBadge": "cascade_badge"
-    },
-    "202": {
-      "name": { "ko": "HM02", "en": "HM02" },
-      "move": 19,
-      "moveName": { "ko": "공중날기", "en": "Fly" },
-      "description": "가본 마을로 순간이동할 수 있게 해주는 기술.",
-      "requiredBadge": "thunder_badge"
-    },
-    "203": {
-      "name": { "ko": "HM03", "en": "HM03" },
-      "move": 57,
-      "moveName": { "ko": "파도타기", "en": "Surf" },
-      "description": "물 위를 이동할 수 있게 해주는 기술.",
-      "requiredBadge": "soul_badge"
-    },
-    "204": {
-      "name": { "ko": "HM04", "en": "HM04" },
-      "move": 70,
-      "moveName": { "ko": "괴력", "en": "Strength" },
-      "description": "바위를 밀어서 움직일 수 있게 해주는 기술.",
-      "requiredBadge": "rainbow_badge"
-    },
-    "205": {
-      "name": { "ko": "HM05", "en": "HM05" },
-      "move": 148,
-      "moveName": { "ko": "플래시", "en": "Flash" },
-      "description": "어두운 동굴을 밝힐 수 있게 해주는 기술.",
-      "requiredBadge": "boulder_badge"
-    }
+    "201": { "name": { "ko": "HM01", "en": "HM01" }, "move": 15, "moveName": { "ko": "풀베기", "en": "Cut" }, "description": { "ko": "작은 나무를 베어낼 수 있게 해주는 기술.", "en": "A move that cuts down small trees." }, "requiredBadge": "cascade_badge" },
+    "202": { "name": { "ko": "HM02", "en": "HM02" }, "move": 19, "moveName": { "ko": "공중날기", "en": "Fly" }, "description": { "ko": "가본 마을로 순간이동할 수 있게 해주는 기술.", "en": "A move that lets you fly to visited towns." }, "requiredBadge": "thunder_badge" },
+    "203": { "name": { "ko": "HM03", "en": "HM03" }, "move": 57, "moveName": { "ko": "파도타기", "en": "Surf" }, "description": { "ko": "물 위를 이동할 수 있게 해주는 기술.", "en": "A move that lets you travel on water." }, "requiredBadge": "soul_badge" },
+    "204": { "name": { "ko": "HM04", "en": "HM04" }, "move": 70, "moveName": { "ko": "괴력", "en": "Strength" }, "description": { "ko": "바위를 밀어서 움직일 수 있게 해주는 기술.", "en": "A move that lets you push boulders." }, "requiredBadge": "rainbow_badge" },
+    "205": { "name": { "ko": "HM05", "en": "HM05" }, "move": 148, "moveName": { "ko": "플래시", "en": "Flash" }, "description": { "ko": "어두운 동굴을 밝힐 수 있게 해주는 기술.", "en": "A move that lights up dark caves." }, "requiredBadge": "boulder_badge" }
   },
 
   "tms": {

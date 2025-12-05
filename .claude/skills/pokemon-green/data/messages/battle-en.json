@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "language": "en",
+
+  "encounter": {
+    "wild": "A wild {pokemon} appeared!",
+    "trainer": "{trainer} wants to battle!",
+    "gymLeader": "Gym Leader {trainer} wants to battle!",
+    "elite": "Elite Four {trainer} wants to battle!",
+    "champion": "Champion {trainer} wants to battle!"
+  },
+
+  "sendOut": {
+    "player": "Go! {pokemon}!",
+    "playerFirst": "{pokemon}! I choose you!",
+    "enemy": "{trainer} sent out {pokemon}!",
+    "enemyWild": null
+  },
+
+  "return": {
+    "player": "{pokemon}! That's enough!",
+    "playerSwitch": "{pokemon}! Come back!",
+    "enemy": "{trainer} withdrew {pokemon}!"
+  },
+
+  "attack": {
+    "use": "{pokemon} used {move}!",
+    "missed": "{pokemon}'s attack missed!",
+    "failed": "But it failed!",
+    "noEffect": "It doesn't affect {target}...",
+    "noPP": "{move} has no PP left!",
+    "disabled": "{move} is disabled!"
+  },
+
+  "damage": {
+    "hit": "{pokemon} took {damage} damage!",
+    "superEffective": "It's super effective!",
+    "notVeryEffective": "It's not very effective...",
+    "noEffect": "It had no effect...",
+    "critical": "A critical hit!",
+    "ohko": "It's a one-hit KO!"
+  },
+
+  "multiHit": {
+    "hit": "Hit {count} times!"
+  },
+
+  "recoil": {
+    "damage": "{pokemon} is hit with recoil!"
+  },
+
+  "drain": {
+    "heal": "{pokemon} had its energy drained!"
+  },
+
+  "status": {
+    "poison": {
+      "inflict": "{pokemon} was poisoned!",
+      "damage": "{pokemon} is hurt by poison!",
+      "immune": "It doesn't affect {pokemon}!"
+    },
+    "badPoison": {
+      "inflict": "{pokemon} was badly poisoned!",
+      "damage": "{pokemon} is hurt by poison!"
+    },
+    "burn": {
+      "inflict": "{pokemon} was burned!",
+      "damage": "{pokemon} is hurt by its burn!",
+      "immune": "It doesn't affect {pokemon}!"
+    },
+    "paralysis": {
+      "inflict": "{pokemon} is paralyzed! It may be unable to move!",
+      "cantMove": "{pokemon} is paralyzed! It can't move!",
+      "immune": "It doesn't affect {pokemon}!"
+    },
+    "freeze": {
+      "inflict": "{pokemon} was frozen solid!",
+      "cantMove": "{pokemon} is frozen solid!",
+      "thaw": "{pokemon} thawed out!",
+      "immune": "It doesn't affect {pokemon}!"
+    },
+    "sleep": {
+      "inflict": "{pokemon} fell asleep!",
+      "sleeping": "{pokemon} is fast asleep.",
+      "wakeUp": "{pokemon} woke up!"
+    },
+    "confusion": {
+      "inflict": "{pokemon} became confused!",
+      "active": "{pokemon} is confused!",
+      "selfHit": "It hurt itself in its confusion!",
+      "snapOut": "{pokemon} snapped out of confusion!"
+    },
+    "alreadyStatus": "{pokemon} is already {status}!",
+    "cure": "{pokemon}'s {status} was cured!"
+  },
+
+  "statChange": {
+    "rise": {
+      "1": "{pokemon}'s {stat} rose!",
+      "2": "{pokemon}'s {stat} sharply rose!",
+      "3": "{pokemon}'s {stat} drastically rose!"
+    },
+    "fall": {
+      "1": "{pokemon}'s {stat} fell!",
+      "2": "{pokemon}'s {stat} harshly fell!",
+      "3": "{pokemon}'s {stat} severely fell!"
+    },
+    "max": "{pokemon}'s {stat} won't go any higher!",
+    "min": "{pokemon}'s {stat} won't go any lower!",
+    "stats": {
+      "attack": "Attack",
+      "defense": "Defense",
+      "special": "Special",
+      "speed": "Speed",
+      "accuracy": "accuracy",
+      "evasion": "evasiveness"
+    }
+  },
+
+  "faint": {
+    "wild": "Wild {pokemon} fainted!",
+    "enemy": "Foe {pokemon} fainted!",
+    "player": "{pokemon} fainted!",
+    "askSwitch": "Use next Pokemon?"
+  },
+
+  "exp": {
+    "gain": "{pokemon} gained {exp} Exp. Points!",
+    "levelUp": "{pokemon} grew to Lv. {level}!",
+    "statIncrease": "{stat} went from {old} to {new}!"
+  },
+
+  "evolution": {
+    "start": "What? {pokemon} is evolving!",
+    "complete": "Congratulations! Your {pokemon} evolved into {evolved}!",
+    "cancel": "Huh? It stopped evolving!"
+  },
+
+  "newMove": {
+    "learn": "{pokemon} learned {move}!",
+    "tryLearn": "{pokemon} is trying to learn {move}!",
+    "full": "But {pokemon} can't learn more than four moves!",
+    "forget": "Should a move be forgotten to make room for {move}?",
+    "forgot": "{pokemon} forgot {oldMove}!",
+    "didNotLearn": "{pokemon} did not learn {move}."
+  },
+
+  "capture": {
+    "throw": "{player} threw a {ball}!",
+    "shake1": "Wobble...",
+    "shake2": "Wobble...",
+    "shake3": "Wobble...",
+    "click": "Click!",
+    "success": "Gotcha! {pokemon} was caught!",
+    "fail": "Oh no! It broke free!",
+    "almostHad": "Aww! It appeared to be caught!",
+    "soClose": "Shoot! It was so close, too!",
+    "nickname": "Give a nickname to {pokemon}?",
+    "sent": "{pokemon} was sent to the PC."
+  },
+
+  "escape": {
+    "success": "Got away safely!",
+    "fail": "Can't escape!",
+    "trainerBlock": "No! There's no running from a Trainer battle!"
+  },
+
+  "item": {
+    "use": "{player} used {item}!",
+    "heal": "{pokemon}'s HP was restored!",
+    "healFull": "{pokemon}'s HP was fully restored!",
+    "statusHeal": "{pokemon}'s {status} was cured!",
+    "ppRestore": "{move}'s PP was restored!",
+    "noEffect": "It won't have any effect now!"
+  },
+
+  "victory": {
+    "wild": "You defeated wild {pokemon}!",
+    "trainer": "You defeated {trainer}!",
+    "money": "You got ${money} for winning!",
+    "gym": "You defeated Gym Leader {trainer}!",
+    "badge": "You got the {badge}!",
+    "tm": "You received {tm} from {trainer}!"
+  },
+
+  "defeat": {
+    "blackout": "{player} blacked out!",
+    "moneyLoss": "You lost ${money}...",
+    "warpTo": "{player} rushed to {location}..."
+  },
+
+  "weather": {
+    "none": null
+  },
+
+  "moves": {
+    "struggle": "{pokemon} used Struggle!",
+    "recharge": "{pokemon} must recharge!",
+    "charging": "{pokemon} is charging up!",
+    "bide": "{pokemon} unleashed energy!",
+    "wrap": "{target} was wrapped by {pokemon}!",
+    "wrapDamage": "{pokemon} is hurt by Wrap!",
+    "wrapEnd": "{pokemon} was released!",
+    "leechSeed": "{target} was seeded!",
+    "leechSeedDrain": "{target} had its health sapped!",
+    "substitute": "{pokemon} made a substitute!",
+    "substituteFade": "{pokemon}'s substitute faded!",
+    "mist": "{pokemon} is shrouded in mist!",
+    "lightScreen": "{pokemon} set up Light Screen!",
+    "reflect": "{pokemon} set up Reflect!",
+    "focusEnergy": "{pokemon} is getting pumped!",
+    "transform": "{pokemon} transformed into {target}!",
+    "rest": "{pokemon} fell asleep and became healthy!",
+    "conversion": "{pokemon}'s type changed!",
+    "haze": "All stat changes were eliminated!",
+    "disable": "{target}'s {move} was disabled!",
+    "mimic": "{pokemon} learned {move}!",
+    "metronome": "{pokemon} waggled a finger!"
+  },
+
+  "ability": {},
+
+  "field": {
+    "wildAppear": "A wild Pokemon appeared!"
+  }
+}
