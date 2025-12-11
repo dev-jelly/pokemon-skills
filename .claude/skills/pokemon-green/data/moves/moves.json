@@ -1,1784 +1,2148 @@
 {
+  "v": "1.0.0",
+  "_keys": "i=id,n=name,t=type(N/F/W/G/E/I/K/P/R/Y/S/B/O/H/D),c=cat(P/S/X),p=power,a=acc,pp=pp,pr=priority,ef=effect",
   "pound": {
-    "id": 1,
-    "name": { "ko": "막치기", "en": "Pound" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 1,
+    "n": {
+      "ko": "막치기",
+      "en": "Pound"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
   },
   "karate_chop": {
-    "id": 2,
-    "name": { "ko": "태권당수", "en": "Karate Chop" },
-    "type": "normal",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 100,
+    "i": 2,
+    "n": {
+      "ko": "태권당수",
+      "en": "Karate Chop"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
     "pp": 25,
-    "priority": 0,
-    "effect": { "type": "high_critical", "chance": 100 }
+    "ef": {
+      "type": "high_critical",
+      "chance": 100
+    }
   },
   "double_slap": {
-    "id": 3,
-    "name": { "ko": "연속뺨치기", "en": "Double Slap" },
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 85,
+    "i": 3,
+    "n": {
+      "ko": "연속뺨치기",
+      "en": "Double Slap"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
     "pp": 10,
-    "priority": 0,
-    "effect": { "type": "multi_hit", "min_hits": 2, "max_hits": 5 }
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
   },
   "comet_punch": {
-    "id": 4,
-    "name": { "ko": "연속펀치", "en": "Comet Punch" },
-    "type": "normal",
-    "category": "physical",
-    "power": 18,
-    "accuracy": 85,
+    "i": 4,
+    "n": {
+      "ko": "연속펀치",
+      "en": "Comet Punch"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 85,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "multi_hit", "min_hits": 2, "max_hits": 5 }
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
   },
   "mega_punch": {
-    "id": 5,
-    "name": { "ko": "메가톤펀치", "en": "Mega Punch" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 85,
-    "pp": 20,
-    "priority": 0,
-    "effect": null
+    "i": 5,
+    "n": {
+      "ko": "메가톤펀치",
+      "en": "Mega Punch"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 85,
+    "pp": 20
   },
   "pay_day": {
-    "id": 6,
-    "name": { "ko": "물지불기", "en": "Pay Day" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
+    "i": 6,
+    "n": {
+      "ko": "물지불기",
+      "en": "Pay Day"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "scatter_coins" }
+    "ef": {
+      "type": "scatter_coins"
+    }
   },
   "fire_punch": {
-    "id": 7,
-    "name": { "ko": "불꽃펀치", "en": "Fire Punch" },
-    "type": "fire",
-    "category": "special",
-    "power": 75,
-    "accuracy": 100,
+    "i": 7,
+    "n": {
+      "ko": "불꽃펀치",
+      "en": "Fire Punch"
+    },
+    "t": "F",
+    "c": "S",
+    "p": 75,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "burn", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
   },
   "ice_punch": {
-    "id": 8,
-    "name": { "ko": "냉동펀치", "en": "Ice Punch" },
-    "type": "ice",
-    "category": "special",
-    "power": 75,
-    "accuracy": 100,
+    "i": 8,
+    "n": {
+      "ko": "냉동펀치",
+      "en": "Ice Punch"
+    },
+    "t": "I",
+    "c": "S",
+    "p": 75,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "freeze", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
   },
   "thunder_punch": {
-    "id": 9,
-    "name": { "ko": "번개펀치", "en": "Thunder Punch" },
-    "type": "electric",
-    "category": "special",
-    "power": 75,
-    "accuracy": 100,
+    "i": 9,
+    "n": {
+      "ko": "번개펀치",
+      "en": "Thunder Punch"
+    },
+    "t": "E",
+    "c": "S",
+    "p": 75,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "paralysis", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 10
+    }
   },
   "scratch": {
-    "id": 10,
-    "name": { "ko": "할퀴기", "en": "Scratch" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 10,
+    "n": {
+      "ko": "할퀴기",
+      "en": "Scratch"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
   },
   "vice_grip": {
-    "id": 11,
-    "name": { "ko": "집게집기", "en": "Vice Grip" },
-    "type": "normal",
-    "category": "physical",
-    "power": 55,
-    "accuracy": 100,
-    "pp": 30,
-    "priority": 0,
-    "effect": null
+    "i": 11,
+    "n": {
+      "ko": "집게집기",
+      "en": "Vice Grip"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 55,
+    "a": 100,
+    "pp": 30
   },
   "guillotine": {
-    "id": 12,
-    "name": { "ko": "가위자르기", "en": "Guillotine" },
-    "type": "normal",
-    "category": "physical",
-    "power": 0,
-    "accuracy": 30,
+    "i": 12,
+    "n": {
+      "ko": "가위자르기",
+      "en": "Guillotine"
+    },
+    "t": "N",
+    "c": "P",
+    "a": 30,
     "pp": 5,
-    "priority": 0,
-    "effect": { "type": "ohko" }
+    "ef": {
+      "type": "ohko"
+    }
   },
   "razor_wind": {
-    "id": 13,
-    "name": { "ko": "칼바람", "en": "Razor Wind" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 100,
+    "i": 13,
+    "n": {
+      "ko": "칼바람",
+      "en": "Razor Wind"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": { "type": "charge", "charge_turn": 1 }
+    "ef": {
+      "type": "charge",
+      "charge_turn": 1
+    }
   },
   "swords_dance": {
-    "id": 14,
-    "name": { "ko": "칼춤", "en": "Swords Dance" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 0,
+    "i": 14,
+    "n": {
+      "ko": "칼춤",
+      "en": "Swords Dance"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "attack", "stages": 2 }
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": 2
+    }
   },
   "cut": {
-    "id": 15,
-    "name": { "ko": "풀베기", "en": "Cut" },
-    "type": "normal",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 95,
-    "pp": 30,
-    "priority": 0,
-    "effect": null
+    "i": 15,
+    "n": {
+      "ko": "풀베기",
+      "en": "Cut"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 95,
+    "pp": 30
   },
   "gust": {
-    "id": 16,
-    "name": { "ko": "바람일으키기", "en": "Gust" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 16,
+    "n": {
+      "ko": "바람일으키기",
+      "en": "Gust"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
   },
   "wing_attack": {
-    "id": 17,
-    "name": { "ko": "날개치기", "en": "Wing Attack" },
-    "type": "flying",
-    "category": "physical",
-    "power": 60,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 17,
+    "n": {
+      "ko": "날개치기",
+      "en": "Wing Attack"
+    },
+    "t": "Y",
+    "c": "P",
+    "p": 60,
+    "a": 100,
+    "pp": 35
   },
   "whirlwind": {
-    "id": 18,
-    "name": { "ko": "회오리", "en": "Whirlwind" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 0,
+    "i": 18,
+    "n": {
+      "ko": "회오리",
+      "en": "Whirlwind"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 20,
-    "priority": -6,
-    "effect": { "type": "force_switch" }
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
   },
   "fly": {
-    "id": 19,
-    "name": { "ko": "공중날기", "en": "Fly" },
-    "type": "flying",
-    "category": "physical",
-    "power": 90,
-    "accuracy": 95,
+    "i": 19,
+    "n": {
+      "ko": "공중날기",
+      "en": "Fly"
+    },
+    "t": "Y",
+    "c": "P",
+    "p": 90,
+    "a": 95,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "semi_invulnerable", "charge_turn": 1 }
+    "ef": {
+      "type": "semi_invulnerable",
+      "charge_turn": 1
+    }
   },
   "bind": {
-    "id": 20,
-    "name": { "ko": "조이기", "en": "Bind" },
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 85,
+    "i": 20,
+    "n": {
+      "ko": "조이기",
+      "en": "Bind"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "trap", "duration": "2-5" }
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
   },
   "slam": {
-    "id": 21,
-    "name": { "ko": "힘껏치기", "en": "Slam" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 75,
-    "pp": 20,
-    "priority": 0,
-    "effect": null
+    "i": 21,
+    "n": {
+      "ko": "힘껏치기",
+      "en": "Slam"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 75,
+    "pp": 20
   },
   "vine_whip": {
-    "id": 22,
-    "name": { "ko": "덩굴채찍", "en": "Vine Whip" },
-    "type": "grass",
-    "category": "special",
-    "power": 45,
-    "accuracy": 100,
-    "pp": 25,
-    "priority": 0,
-    "effect": null
+    "i": 22,
+    "n": {
+      "ko": "덩굴채찍",
+      "en": "Vine Whip"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 45,
+    "a": 100,
+    "pp": 25
   },
   "stomp": {
-    "id": 23,
-    "name": { "ko": "짓밟기", "en": "Stomp" },
-    "type": "normal",
-    "category": "physical",
-    "power": 65,
-    "accuracy": 100,
+    "i": 23,
+    "n": {
+      "ko": "짓밟기",
+      "en": "Stomp"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "flinch", "chance": 30 }
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
   },
   "double_kick": {
-    "id": 24,
-    "name": { "ko": "두번차기", "en": "Double Kick" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 30,
-    "accuracy": 100,
+    "i": 24,
+    "n": {
+      "ko": "두번차기",
+      "en": "Double Kick"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 30,
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": { "type": "multi_hit", "hits": 2 }
+    "ef": {
+      "type": "multi_hit",
+      "hits": 2
+    }
   },
   "mega_kick": {
-    "id": 25,
-    "name": { "ko": "메가톤킥", "en": "Mega Kick" },
-    "type": "normal",
-    "category": "physical",
-    "power": 120,
-    "accuracy": 75,
-    "pp": 5,
-    "priority": 0,
-    "effect": null
+    "i": 25,
+    "n": {
+      "ko": "메가톤킥",
+      "en": "Mega Kick"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 75,
+    "pp": 5
   },
   "jump_kick": {
-    "id": 26,
-    "name": { "ko": "점프킥", "en": "Jump Kick" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 100,
-    "accuracy": 95,
+    "i": 26,
+    "n": {
+      "ko": "점프킥",
+      "en": "Jump Kick"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 100,
+    "a": 95,
     "pp": 10,
-    "priority": 0,
-    "effect": { "type": "crash_damage", "damage": "1hp" }
+    "ef": {
+      "type": "crash_damage",
+      "damage": "1hp"
+    }
   },
   "rolling_kick": {
-    "id": 27,
-    "name": { "ko": "돌려차기", "en": "Rolling Kick" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 60,
-    "accuracy": 85,
+    "i": 27,
+    "n": {
+      "ko": "돌려차기",
+      "en": "Rolling Kick"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 60,
+    "a": 85,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "flinch", "chance": 30 }
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
   },
   "sand_attack": {
-    "id": 28,
-    "name": { "ko": "모래뿌리기", "en": "Sand Attack" },
-    "type": "ground",
-    "category": "status",
-    "power": 0,
-    "accuracy": 100,
+    "i": 28,
+    "n": {
+      "ko": "모래뿌리기",
+      "en": "Sand Attack"
+    },
+    "t": "R",
+    "c": "X",
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "accuracy", "stages": -1, "target": "opponent" }
+    "ef": {
+      "type": "stat_change",
+      "stat": "accuracy",
+      "stages": -1,
+      "target": "opponent"
+    }
   },
   "headbutt": {
-    "id": 29,
-    "name": { "ko": "박치기", "en": "Headbutt" },
-    "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "accuracy": 100,
+    "i": 29,
+    "n": {
+      "ko": "박치기",
+      "en": "Headbutt"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "flinch", "chance": 30 }
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
   },
   "horn_attack": {
-    "id": 30,
-    "name": { "ko": "뿔찌르기", "en": "Horn Attack" },
-    "type": "normal",
-    "category": "physical",
-    "power": 65,
-    "accuracy": 100,
-    "pp": 25,
-    "priority": 0,
-    "effect": null
+    "i": 30,
+    "n": {
+      "ko": "뿔찌르기",
+      "en": "Horn Attack"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 25
   },
   "fury_attack": {
-    "id": 31,
-    "name": { "ko": "분노", "en": "Fury Attack" },
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 85,
+    "i": 31,
+    "n": {
+      "ko": "분노",
+      "en": "Fury Attack"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "multi_hit", "min_hits": 2, "max_hits": 5 }
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
   },
   "horn_drill": {
-    "id": 32,
-    "name": { "ko": "뿔드릴", "en": "Horn Drill" },
-    "type": "normal",
-    "category": "physical",
-    "power": 0,
-    "accuracy": 30,
+    "i": 32,
+    "n": {
+      "ko": "뿔드릴",
+      "en": "Horn Drill"
+    },
+    "t": "N",
+    "c": "P",
+    "a": 30,
     "pp": 5,
-    "priority": 0,
-    "effect": { "type": "ohko" }
+    "ef": {
+      "type": "ohko"
+    }
   },
   "tackle": {
-    "id": 33,
-    "name": { "ko": "몸통박치기", "en": "Tackle" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 33,
+    "n": {
+      "ko": "몸통박치기",
+      "en": "Tackle"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
   },
   "body_slam": {
-    "id": 34,
-    "name": { "ko": "누르기", "en": "Body Slam" },
-    "type": "normal",
-    "category": "physical",
-    "power": 85,
-    "accuracy": 100,
+    "i": 34,
+    "n": {
+      "ko": "누르기",
+      "en": "Body Slam"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 85,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "paralysis", "chance": 30 }
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 30
+    }
   },
   "wrap": {
-    "id": 35,
-    "name": { "ko": "감기", "en": "Wrap" },
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 90,
+    "i": 35,
+    "n": {
+      "ko": "감기",
+      "en": "Wrap"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 90,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "trap", "duration": "2-5" }
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
   },
   "take_down": {
-    "id": 36,
-    "name": { "ko": "돌진", "en": "Take Down" },
-    "type": "normal",
-    "category": "physical",
-    "power": 90,
-    "accuracy": 85,
+    "i": 36,
+    "n": {
+      "ko": "돌진",
+      "en": "Take Down"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 90,
+    "a": 85,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "recoil", "percent": 25 }
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
   },
   "thrash": {
-    "id": 37,
-    "name": { "ko": "난동부리기", "en": "Thrash" },
-    "type": "normal",
-    "category": "physical",
-    "power": 120,
-    "accuracy": 100,
+    "i": 37,
+    "n": {
+      "ko": "난동부리기",
+      "en": "Thrash"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": { "type": "rampage", "duration": "2-3", "confuse_after": true }
+    "ef": {
+      "type": "rampage",
+      "duration": "2-3",
+      "confuse_after": true
+    }
   },
   "double_edge": {
-    "id": 38,
-    "name": { "ko": "이판사판태클", "en": "Double-Edge" },
-    "type": "normal",
-    "category": "physical",
-    "power": 120,
-    "accuracy": 100,
+    "i": 38,
+    "n": {
+      "ko": "이판사판태클",
+      "en": "Double-Edge"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "recoil", "percent": 25 }
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
   },
   "tail_whip": {
-    "id": 39,
-    "name": { "ko": "꼬리흔들기", "en": "Tail Whip" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 100,
+    "i": 39,
+    "n": {
+      "ko": "꼬리흔들기",
+      "en": "Tail Whip"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "defense", "stages": -1, "target": "opponent" }
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
   },
   "poison_sting": {
-    "id": 40,
-    "name": { "ko": "독침", "en": "Poison Sting" },
-    "type": "poison",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 100,
+    "i": 40,
+    "n": {
+      "ko": "독침",
+      "en": "Poison Sting"
+    },
+    "t": "P",
+    "c": "P",
+    "p": 15,
+    "a": 100,
     "pp": 35,
-    "priority": 0,
-    "effect": { "type": "status", "status": "poison", "chance": 20 }
+    "ef": {
+      "type": "status",
+      "status": "poison",
+      "chance": 20
+    }
   },
   "twineedle": {
-    "id": 41,
-    "name": { "ko": "더블니들", "en": "Twineedle" },
-    "type": "bug",
-    "category": "physical",
-    "power": 25,
-    "accuracy": 100,
+    "i": 41,
+    "n": {
+      "ko": "더블니들",
+      "en": "Twineedle"
+    },
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "multi_hit_poison", "hits": 2, "poison_chance": 20 }
+    "ef": {
+      "type": "multi_hit_poison",
+      "hits": 2,
+      "poison_chance": 20
+    }
   },
   "pin_missile": {
-    "id": 42,
-    "name": { "ko": "바늘미사일", "en": "Pin Missile" },
-    "type": "bug",
-    "category": "physical",
-    "power": 25,
-    "accuracy": 95,
+    "i": 42,
+    "n": {
+      "ko": "바늘미사일",
+      "en": "Pin Missile"
+    },
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 95,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "multi_hit", "min_hits": 2, "max_hits": 5 }
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
   },
   "leer": {
-    "id": 43,
-    "name": { "ko": "째려보기", "en": "Leer" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 100,
+    "i": 43,
+    "n": {
+      "ko": "째려보기",
+      "en": "Leer"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "defense", "stages": -1, "target": "opponent" }
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
   },
   "bite": {
-    "id": 44,
-    "name": { "ko": "물기", "en": "Bite" },
-    "type": "normal",
-    "category": "physical",
-    "power": 60,
-    "accuracy": 100,
+    "i": 44,
+    "n": {
+      "ko": "물기",
+      "en": "Bite"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 60,
+    "a": 100,
     "pp": 25,
-    "priority": 0,
-    "effect": { "type": "flinch", "chance": 10 }
+    "ef": {
+      "type": "flinch",
+      "chance": 10
+    }
   },
   "growl": {
-    "id": 45,
-    "name": { "ko": "울음소리", "en": "Growl" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 100,
+    "i": 45,
+    "n": {
+      "ko": "울음소리",
+      "en": "Growl"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 40,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "attack", "stages": -1, "target": "opponent" }
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": -1,
+      "target": "opponent"
+    }
   },
   "roar": {
-    "id": 46,
-    "name": { "ko": "울부짖기", "en": "Roar" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 0,
+    "i": 46,
+    "n": {
+      "ko": "울부짖기",
+      "en": "Roar"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 20,
-    "priority": -6,
-    "effect": { "type": "force_switch" }
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
   },
   "sing": {
-    "id": 47,
-    "name": { "ko": "노래하기", "en": "Sing" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 55,
+    "i": 47,
+    "n": {
+      "ko": "노래하기",
+      "en": "Sing"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 55,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "sleep", "chance": 100 }
+    "ef": {
+      "type": "status",
+      "status": "sleep",
+      "chance": 100
+    }
   },
   "supersonic": {
-    "id": 48,
-    "name": { "ko": "초음파", "en": "Supersonic" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 55,
+    "i": 48,
+    "n": {
+      "ko": "초음파",
+      "en": "Supersonic"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 55,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "confuse", "chance": 100 }
+    "ef": {
+      "type": "confuse",
+      "chance": 100
+    }
   },
   "sonic_boom": {
-    "id": 49,
-    "name": { "ko": "소닉붐", "en": "Sonic Boom" },
-    "type": "normal",
-    "category": "physical",
-    "power": 0,
-    "accuracy": 90,
+    "i": 49,
+    "n": {
+      "ko": "소닉붐",
+      "en": "Sonic Boom"
+    },
+    "t": "N",
+    "c": "P",
+    "a": 90,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "fixed_damage", "damage": 20 }
+    "ef": {
+      "type": "fixed_damage",
+      "damage": 20
+    }
   },
   "disable": {
-    "id": 50,
-    "name": { "ko": "사슬묶기", "en": "Disable" },
-    "type": "normal",
-    "category": "status",
-    "power": 0,
-    "accuracy": 100,
+    "i": 50,
+    "n": {
+      "ko": "사슬묶기",
+      "en": "Disable"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": { "type": "disable_move", "duration": "0-6" }
+    "ef": {
+      "type": "disable_move",
+      "duration": "0-6"
+    }
   },
   "acid": {
-    "id": 51,
-    "name": { "ko": "용해액", "en": "Acid" },
-    "type": "poison",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
+    "i": 51,
+    "n": {
+      "ko": "용해액",
+      "en": "Acid"
+    },
+    "t": "P",
+    "c": "P",
+    "p": 40,
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": { "type": "stat_change", "stat": "defense", "stages": -1, "target": "opponent", "chance": 33 }
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent",
+      "chance": 33
+    }
   },
   "ember": {
-    "id": 52,
-    "name": { "ko": "불꽃세례", "en": "Ember" },
-    "type": "fire",
-    "category": "special",
-    "power": 40,
-    "accuracy": 100,
+    "i": 52,
+    "n": {
+      "ko": "불꽃세례",
+      "en": "Ember"
+    },
+    "t": "F",
+    "c": "S",
+    "p": 40,
+    "a": 100,
     "pp": 25,
-    "priority": 0,
-    "effect": { "type": "status", "status": "burn", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
   },
   "flamethrower": {
-    "id": 53,
-    "name": { "ko": "화염방사", "en": "Flamethrower" },
-    "type": "fire",
-    "category": "special",
-    "power": 90,
-    "accuracy": 100,
+    "i": 53,
+    "n": {
+      "ko": "화염방사",
+      "en": "Flamethrower"
+    },
+    "t": "F",
+    "c": "S",
+    "p": 90,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": { "type": "status", "status": "burn", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
   },
   "ice_beam": {
-    "id": 54,
-    "name": { "ko": "냉동빔", "en": "Ice Beam" },
-    "type": "ice",
-    "category": "special",
-    "power": 90,
-    "accuracy": 100,
+    "i": 54,
+    "n": {
+      "ko": "냉동빔",
+      "en": "Ice Beam"
+    },
+    "t": "I",
+    "c": "S",
+    "p": 90,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": { "type": "status", "status": "freeze", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
   },
   "blizzard": {
-    "id": 55,
-    "name": { "ko": "눈보라", "en": "Blizzard" },
-    "type": "ice",
-    "category": "special",
-    "power": 110,
-    "accuracy": 90,
+    "i": 55,
+    "n": {
+      "ko": "눈보라",
+      "en": "Blizzard"
+    },
+    "t": "I",
+    "c": "S",
+    "p": 110,
+    "a": 90,
     "pp": 5,
-    "priority": 0,
-    "effect": { "type": "status", "status": "freeze", "chance": 10 }
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
   },
   "psybeam": {
-    "id": 56,
-    "name": { "ko": "사이키네시스", "en": "Psybeam" },
-    "type": "psychic",
-    "category": "special",
-    "power": 65,
-    "accuracy": 100,
+    "i": 56,
+    "n": {
+      "ko": "사이키네시스",
+      "en": "Psybeam"
+    },
+    "t": "S",
+    "c": "S",
+    "p": 65,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "10% chance to confuse target"
+    "ef": "10% chance to confuse target"
   },
   "bubble_beam": {
-    "id": 57,
-    "name": { "ko": "버블광선", "en": "Bubble Beam" },
-    "type": "water",
-    "category": "special",
-    "power": 65,
-    "accuracy": 100,
+    "i": 57,
+    "n": {
+      "ko": "버블광선",
+      "en": "Bubble Beam"
+    },
+    "t": "W",
+    "c": "S",
+    "p": 65,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "10% chance to lower target's Speed by 1 stage"
+    "ef": "10% chance to lower target's Speed by 1 stage"
   },
   "aurora_beam": {
-    "id": 58,
-    "name": { "ko": "오로라빔", "en": "Aurora Beam" },
-    "type": "ice",
-    "category": "special",
-    "power": 65,
-    "accuracy": 100,
+    "i": 58,
+    "n": {
+      "ko": "오로라빔",
+      "en": "Aurora Beam"
+    },
+    "t": "I",
+    "c": "S",
+    "p": 65,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "10% chance to lower target's Attack by 1 stage"
+    "ef": "10% chance to lower target's Attack by 1 stage"
   },
   "hyper_beam": {
-    "id": 59,
-    "name": { "ko": "파괴광선", "en": "Hyper Beam" },
-    "type": "normal",
-    "category": "physical",
-    "power": 150,
-    "accuracy": 90,
+    "i": 59,
+    "n": {
+      "ko": "파괴광선",
+      "en": "Hyper Beam"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 150,
+    "a": 90,
     "pp": 5,
-    "priority": 0,
-    "effect": "User must recharge next turn (unless target faints)"
+    "ef": "User must recharge next turn (unless target faints)"
   },
   "peck": {
-    "id": 60,
-    "name": { "ko": "쪼기", "en": "Peck" },
-    "type": "flying",
-    "category": "physical",
-    "power": 35,
-    "accuracy": 100,
-    "pp": 35,
-    "priority": 0,
-    "effect": null
+    "i": 60,
+    "n": {
+      "ko": "쪼기",
+      "en": "Peck"
+    },
+    "t": "Y",
+    "c": "P",
+    "p": 35,
+    "a": 100,
+    "pp": 35
   },
   "drill_peck": {
-    "id": 61,
-    "name": { "ko": "드릴부리", "en": "Drill Peck" },
-    "type": "flying",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 100,
-    "pp": 20,
-    "priority": 0,
-    "effect": null
+    "i": 61,
+    "n": {
+      "ko": "드릴부리",
+      "en": "Drill Peck"
+    },
+    "t": "Y",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 20
   },
   "submission": {
-    "id": 62,
-    "name": { "ko": "수수께끼의힘", "en": "Submission" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 80,
+    "i": 62,
+    "n": {
+      "ko": "수수께끼의힘",
+      "en": "Submission"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 80,
+    "a": 80,
     "pp": 20,
-    "priority": 0,
-    "effect": "User takes 1/4 of damage dealt as recoil"
+    "ef": "User takes 1/4 of damage dealt as recoil"
   },
   "low_kick": {
-    "id": 63,
-    "name": { "ko": "지옥의바퀴", "en": "Low Kick" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 100,
+    "i": 63,
+    "n": {
+      "ko": "지옥의바퀴",
+      "en": "Low Kick"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 50,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "30% chance to flinch target"
+    "ef": "30% chance to flinch target"
   },
   "counter": {
-    "id": 64,
-    "name": { "ko": "카운터", "en": "Counter" },
-    "type": "fighting",
-    "category": "physical",
-    "power": null,
-    "accuracy": 100,
+    "i": 64,
+    "n": {
+      "ko": "카운터",
+      "en": "Counter"
+    },
+    "t": "K",
+    "c": "P",
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "Returns double the damage of physical attacks received"
+    "ef": "Returns double the damage of physical attacks received"
   },
   "seismic_toss": {
-    "id": 65,
-    "name": { "ko": "지구던지기", "en": "Seismic Toss" },
-    "type": "fighting",
-    "category": "physical",
-    "power": null,
-    "accuracy": 100,
+    "i": 65,
+    "n": {
+      "ko": "지구던지기",
+      "en": "Seismic Toss"
+    },
+    "t": "K",
+    "c": "P",
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "Deals damage equal to user's level"
+    "ef": "Deals damage equal to user's level"
   },
   "strength": {
-    "id": 66,
-    "name": { "ko": "힘", "en": "Strength" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 100,
-    "pp": 15,
-    "priority": 0,
-    "effect": null
+    "i": 66,
+    "n": {
+      "ko": "힘",
+      "en": "Strength"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 15
   },
   "absorb": {
-    "id": 67,
-    "name": { "ko": "흡수", "en": "Absorb" },
-    "type": "grass",
-    "category": "special",
-    "power": 20,
-    "accuracy": 100,
+    "i": 67,
+    "n": {
+      "ko": "흡수",
+      "en": "Absorb"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 20,
+    "a": 100,
     "pp": 25,
-    "priority": 0,
-    "effect": "User recovers half the damage dealt"
+    "ef": "User recovers half the damage dealt"
   },
   "mega_drain": {
-    "id": 68,
-    "name": { "ko": "메가드레인", "en": "Mega Drain" },
-    "type": "grass",
-    "category": "special",
-    "power": 40,
-    "accuracy": 100,
+    "i": 68,
+    "n": {
+      "ko": "메가드레인",
+      "en": "Mega Drain"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 40,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "User recovers half the damage dealt"
+    "ef": "User recovers half the damage dealt"
   },
   "leech_seed": {
-    "id": 69,
-    "name": { "ko": "씨뿌리기", "en": "Leech Seed" },
-    "type": "grass",
-    "category": "status",
-    "power": null,
-    "accuracy": 90,
+    "i": 69,
+    "n": {
+      "ko": "씨뿌리기",
+      "en": "Leech Seed"
+    },
+    "t": "G",
+    "c": "X",
+    "a": 90,
     "pp": 10,
-    "priority": 0,
-    "effect": "Drains 1/16 of target's max HP each turn"
+    "ef": "Drains 1/16 of target's max HP each turn"
   },
   "growth": {
-    "id": 70,
-    "name": { "ko": "성장", "en": "Growth" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 70,
+    "n": {
+      "ko": "성장",
+      "en": "Growth"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": "Raises user's Special by 1 stage"
+    "ef": "Raises user's Special by 1 stage"
   },
   "razor_leaf": {
-    "id": 71,
-    "name": { "ko": "잎날가르기", "en": "Razor Leaf" },
-    "type": "grass",
-    "category": "special",
-    "power": 55,
-    "accuracy": 95,
+    "i": 71,
+    "n": {
+      "ko": "잎날가르기",
+      "en": "Razor Leaf"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 55,
+    "a": 95,
     "pp": 25,
-    "priority": 0,
-    "effect": "High critical hit ratio"
+    "ef": "High critical hit ratio"
   },
   "solar_beam": {
-    "id": 72,
-    "name": { "ko": "솔라빔", "en": "Solar Beam" },
-    "type": "grass",
-    "category": "special",
-    "power": 120,
-    "accuracy": 100,
+    "i": 72,
+    "n": {
+      "ko": "솔라빔",
+      "en": "Solar Beam"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Charges first turn, attacks second turn"
+    "ef": "Charges first turn, attacks second turn"
   },
   "poison_powder": {
-    "id": 73,
-    "name": { "ko": "독가루", "en": "Poison Powder" },
-    "type": "poison",
-    "category": "status",
-    "power": null,
-    "accuracy": 75,
+    "i": 73,
+    "n": {
+      "ko": "독가루",
+      "en": "Poison Powder"
+    },
+    "t": "P",
+    "c": "X",
+    "a": 75,
     "pp": 35,
-    "priority": 0,
-    "effect": "Poisons target"
+    "ef": "Poisons target"
   },
   "stun_spore": {
-    "id": 74,
-    "name": { "ko": "저리가루", "en": "Stun Spore" },
-    "type": "grass",
-    "category": "status",
-    "power": null,
-    "accuracy": 75,
+    "i": 74,
+    "n": {
+      "ko": "저리가루",
+      "en": "Stun Spore"
+    },
+    "t": "G",
+    "c": "X",
+    "a": 75,
     "pp": 30,
-    "priority": 0,
-    "effect": "Paralyzes target"
+    "ef": "Paralyzes target"
   },
   "sleep_powder": {
-    "id": 75,
-    "name": { "ko": "수면가루", "en": "Sleep Powder" },
-    "type": "grass",
-    "category": "status",
-    "power": null,
-    "accuracy": 75,
+    "i": 75,
+    "n": {
+      "ko": "수면가루",
+      "en": "Sleep Powder"
+    },
+    "t": "G",
+    "c": "X",
+    "a": 75,
     "pp": 15,
-    "priority": 0,
-    "effect": "Puts target to sleep"
+    "ef": "Puts target to sleep"
   },
   "petal_dance": {
-    "id": 76,
-    "name": { "ko": "꽃잎춤", "en": "Petal Dance" },
-    "type": "grass",
-    "category": "special",
-    "power": 120,
-    "accuracy": 100,
+    "i": 76,
+    "n": {
+      "ko": "꽃잎춤",
+      "en": "Petal Dance"
+    },
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Attacks for 2-3 turns, then user becomes confused"
+    "ef": "Attacks for 2-3 turns, then user becomes confused"
   },
   "string_shot": {
-    "id": 77,
-    "name": { "ko": "실뿜기", "en": "String Shot" },
-    "type": "bug",
-    "category": "status",
-    "power": null,
-    "accuracy": 95,
+    "i": 77,
+    "n": {
+      "ko": "실뿜기",
+      "en": "String Shot"
+    },
+    "t": "B",
+    "c": "X",
+    "a": 95,
     "pp": 40,
-    "priority": 0,
-    "effect": "Lowers target's Speed by 1 stage"
+    "ef": "Lowers target's Speed by 1 stage"
   },
   "dragon_rage": {
-    "id": 78,
-    "name": { "ko": "용의분노", "en": "Dragon Rage" },
-    "type": "dragon",
-    "category": "special",
-    "power": null,
-    "accuracy": 100,
+    "i": 78,
+    "n": {
+      "ko": "용의분노",
+      "en": "Dragon Rage"
+    },
+    "t": "D",
+    "c": "S",
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Always deals 40 HP damage"
+    "ef": "Always deals 40 HP damage"
   },
   "fire_spin": {
-    "id": 79,
-    "name": { "ko": "불꽃소용돌이", "en": "Fire Spin" },
-    "type": "fire",
-    "category": "special",
-    "power": 35,
-    "accuracy": 85,
+    "i": 79,
+    "n": {
+      "ko": "불꽃소용돌이",
+      "en": "Fire Spin"
+    },
+    "t": "F",
+    "c": "S",
+    "p": 35,
+    "a": 85,
     "pp": 15,
-    "priority": 0,
-    "effect": "Traps and damages target for 2-5 turns"
+    "ef": "Traps and damages target for 2-5 turns"
   },
   "thunder_shock": {
-    "id": 80,
-    "name": { "ko": "전기쇼크", "en": "Thunder Shock" },
-    "type": "electric",
-    "category": "special",
-    "power": 40,
-    "accuracy": 100,
+    "i": 80,
+    "n": {
+      "ko": "전기쇼크",
+      "en": "Thunder Shock"
+    },
+    "t": "E",
+    "c": "S",
+    "p": 40,
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": "10% chance to paralyze target"
+    "ef": "10% chance to paralyze target"
   },
   "thunderbolt": {
-    "id": 81,
-    "name": { "ko": "10만볼트", "en": "Thunderbolt" },
-    "type": "electric",
-    "category": "special",
-    "power": 90,
-    "accuracy": 100,
+    "i": 81,
+    "n": {
+      "ko": "10만볼트",
+      "en": "Thunderbolt"
+    },
+    "t": "E",
+    "c": "S",
+    "p": 90,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "10% chance to paralyze target"
+    "ef": "10% chance to paralyze target"
   },
   "thunder_wave": {
-    "id": 82,
-    "name": { "ko": "전기자석파", "en": "Thunder Wave" },
-    "type": "electric",
-    "category": "status",
-    "power": null,
-    "accuracy": 90,
+    "i": 82,
+    "n": {
+      "ko": "전기자석파",
+      "en": "Thunder Wave"
+    },
+    "t": "E",
+    "c": "X",
+    "a": 90,
     "pp": 20,
-    "priority": 0,
-    "effect": "Paralyzes target"
+    "ef": "Paralyzes target"
   },
   "thunder": {
-    "id": 83,
-    "name": { "ko": "번개", "en": "Thunder" },
-    "type": "electric",
-    "category": "special",
-    "power": 110,
-    "accuracy": 70,
+    "i": 83,
+    "n": {
+      "ko": "번개",
+      "en": "Thunder"
+    },
+    "t": "E",
+    "c": "S",
+    "p": 110,
+    "a": 70,
     "pp": 10,
-    "priority": 0,
-    "effect": "10% chance to paralyze target; 30% accuracy during rain"
+    "ef": "10% chance to paralyze target; 30% accuracy during rain"
   },
   "rock_throw": {
-    "id": 84,
-    "name": { "ko": "락스로우", "en": "Rock Throw" },
-    "type": "rock",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 90,
-    "pp": 15,
-    "priority": 0,
-    "effect": null
+    "i": 84,
+    "n": {
+      "ko": "락스로우",
+      "en": "Rock Throw"
+    },
+    "t": "O",
+    "c": "P",
+    "p": 50,
+    "a": 90,
+    "pp": 15
   },
   "earthquake": {
-    "id": 85,
-    "name": { "ko": "지진", "en": "Earthquake" },
-    "type": "ground",
-    "category": "physical",
-    "power": 100,
-    "accuracy": 100,
+    "i": 85,
+    "n": {
+      "ko": "지진",
+      "en": "Earthquake"
+    },
+    "t": "R",
+    "c": "P",
+    "p": 100,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Double damage to Pokemon using Dig"
+    "ef": "Double damage to Pokemon using Dig"
   },
   "fissure": {
-    "id": 86,
-    "name": { "ko": "땅가르기", "en": "Fissure" },
-    "type": "ground",
-    "category": "physical",
-    "power": null,
-    "accuracy": 30,
+    "i": 86,
+    "n": {
+      "ko": "땅가르기",
+      "en": "Fissure"
+    },
+    "t": "R",
+    "c": "P",
+    "a": 30,
     "pp": 5,
-    "priority": 0,
-    "effect": "One-hit KO; fails if target's Speed is higher"
+    "ef": "One-hit KO; fails if target's Speed is higher"
   },
   "dig": {
-    "id": 87,
-    "name": { "ko": "구멍파기", "en": "Dig" },
-    "type": "ground",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 100,
+    "i": 87,
+    "n": {
+      "ko": "구멍파기",
+      "en": "Dig"
+    },
+    "t": "R",
+    "c": "P",
+    "p": 80,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Digs underground first turn, attacks second turn"
+    "ef": "Digs underground first turn, attacks second turn"
   },
   "toxic": {
-    "id": 88,
-    "name": { "ko": "맹독", "en": "Toxic" },
-    "type": "poison",
-    "category": "status",
-    "power": null,
-    "accuracy": 90,
+    "i": 88,
+    "n": {
+      "ko": "맹독",
+      "en": "Toxic"
+    },
+    "t": "P",
+    "c": "X",
+    "a": 90,
     "pp": 10,
-    "priority": 0,
-    "effect": "Badly poisons target (damage increases each turn)"
+    "ef": "Badly poisons target (damage increases each turn)"
   },
   "confusion": {
-    "id": 89,
-    "name": { "ko": "염동력", "en": "Confusion" },
-    "type": "psychic",
-    "category": "special",
-    "power": 50,
-    "accuracy": 100,
+    "i": 89,
+    "n": {
+      "ko": "염동력",
+      "en": "Confusion"
+    },
+    "t": "S",
+    "c": "S",
+    "p": 50,
+    "a": 100,
     "pp": 25,
-    "priority": 0,
-    "effect": "10% chance to confuse target"
+    "ef": "10% chance to confuse target"
   },
   "psychic": {
-    "id": 90,
-    "name": { "ko": "사이코키네시스", "en": "Psychic" },
-    "type": "psychic",
-    "category": "special",
-    "power": 90,
-    "accuracy": 100,
+    "i": 90,
+    "n": {
+      "ko": "사이코키네시스",
+      "en": "Psychic"
+    },
+    "t": "S",
+    "c": "S",
+    "p": 90,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "30% chance to lower target's Special by 1 stage"
+    "ef": "30% chance to lower target's Special by 1 stage"
   },
   "hypnosis": {
-    "id": 91,
-    "name": { "ko": "최면술", "en": "Hypnosis" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": 60,
+    "i": 91,
+    "n": {
+      "ko": "최면술",
+      "en": "Hypnosis"
+    },
+    "t": "S",
+    "c": "X",
+    "a": 60,
     "pp": 20,
-    "priority": 0,
-    "effect": "Puts target to sleep"
+    "ef": "Puts target to sleep"
   },
   "meditate": {
-    "id": 92,
-    "name": { "ko": "명상", "en": "Meditate" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 92,
+    "n": {
+      "ko": "명상",
+      "en": "Meditate"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 40,
-    "priority": 0,
-    "effect": "Raises user's Attack by 1 stage"
+    "ef": "Raises user's Attack by 1 stage"
   },
   "agility": {
-    "id": 93,
-    "name": { "ko": "고속이동", "en": "Agility" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 93,
+    "n": {
+      "ko": "고속이동",
+      "en": "Agility"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Raises user's Speed by 2 stages"
+    "ef": "Raises user's Speed by 2 stages"
   },
   "quick_attack": {
-    "id": 94,
-    "name": { "ko": "전광석화", "en": "Quick Attack" },
-    "type": "normal",
-    "category": "physical",
-    "power": 40,
-    "accuracy": 100,
+    "i": 94,
+    "n": {
+      "ko": "전광석화",
+      "en": "Quick Attack"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
     "pp": 30,
-    "priority": 1,
-    "effect": "Always goes first"
+    "pr": 1,
+    "ef": "Always goes first"
   },
   "rage": {
-    "id": 95,
-    "name": { "ko": "분노", "en": "Rage" },
-    "type": "normal",
-    "category": "physical",
-    "power": 20,
-    "accuracy": 100,
+    "i": 95,
+    "n": {
+      "ko": "분노",
+      "en": "Rage"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "Raises user's Attack by 1 stage when hit"
+    "ef": "Raises user's Attack by 1 stage when hit"
   },
   "teleport": {
-    "id": 96,
-    "name": { "ko": "순간이동", "en": "Teleport" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 96,
+    "n": {
+      "ko": "순간이동",
+      "en": "Teleport"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": "Escapes from wild Pokemon battles"
+    "ef": "Escapes from wild Pokemon battles"
   },
   "night_shade": {
-    "id": 97,
-    "name": { "ko": "나이트헤드", "en": "Night Shade" },
-    "type": "ghost",
-    "category": "physical",
-    "power": null,
-    "accuracy": 100,
+    "i": 97,
+    "n": {
+      "ko": "나이트헤드",
+      "en": "Night Shade"
+    },
+    "t": "H",
+    "c": "P",
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "Deals damage equal to user's level"
+    "ef": "Deals damage equal to user's level"
   },
   "mimic": {
-    "id": 98,
-    "name": { "ko": "흉내내기", "en": "Mimic" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 98,
+    "n": {
+      "ko": "흉내내기",
+      "en": "Mimic"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "Copies target's last used move"
+    "ef": "Copies target's last used move"
   },
   "screech": {
-    "id": 99,
-    "name": { "ko": "꿰뚫어보기", "en": "Screech" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 85,
+    "i": 99,
+    "n": {
+      "ko": "꿰뚫어보기",
+      "en": "Screech"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 85,
     "pp": 40,
-    "priority": 0,
-    "effect": "Lowers target's Defense by 2 stages"
+    "ef": "Lowers target's Defense by 2 stages"
   },
   "double_team": {
-    "id": 100,
-    "name": { "ko": "그림자분신", "en": "Double Team" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 100,
+    "n": {
+      "ko": "그림자분신",
+      "en": "Double Team"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 15,
-    "priority": 0,
-    "effect": "Raises user's Evasion by 1 stage"
+    "ef": "Raises user's Evasion by 1 stage"
   },
   "recover": {
-    "id": 101,
-    "name": { "ko": "자기회복", "en": "Recover" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 101,
+    "n": {
+      "ko": "자기회복",
+      "en": "Recover"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 5,
-    "priority": 0,
-    "effect": "Restores 50% of user's max HP"
+    "ef": "Restores 50% of user's max HP"
   },
   "harden": {
-    "id": 102,
-    "name": { "ko": "방어", "en": "Harden" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 102,
+    "n": {
+      "ko": "방어",
+      "en": "Harden"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Raises user's Defense by 1 stage"
+    "ef": "Raises user's Defense by 1 stage"
   },
   "minimize": {
-    "id": 103,
-    "name": { "ko": "웅크리기", "en": "Minimize" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 103,
+    "n": {
+      "ko": "웅크리기",
+      "en": "Minimize"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "Raises user's Evasion by 2 stages"
+    "ef": "Raises user's Evasion by 2 stages"
   },
   "smokescreen": {
-    "id": 104,
-    "name": { "ko": "연막", "en": "Smokescreen" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 100,
+    "i": 104,
+    "n": {
+      "ko": "연막",
+      "en": "Smokescreen"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "Lowers target's Accuracy by 1 stage"
+    "ef": "Lowers target's Accuracy by 1 stage"
   },
   "confuse_ray": {
-    "id": 105,
-    "name": { "ko": "도깨비불", "en": "Confuse Ray" },
-    "type": "ghost",
-    "category": "status",
-    "power": null,
-    "accuracy": 100,
+    "i": 105,
+    "n": {
+      "ko": "도깨비불",
+      "en": "Confuse Ray"
+    },
+    "t": "H",
+    "c": "X",
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Confuses target"
+    "ef": "Confuses target"
   },
   "withdraw": {
-    "id": 106,
-    "name": { "ko": "껍질에숨기", "en": "Withdraw" },
-    "type": "water",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 106,
+    "n": {
+      "ko": "껍질에숨기",
+      "en": "Withdraw"
+    },
+    "t": "W",
+    "c": "X",
     "pp": 40,
-    "priority": 0,
-    "effect": "Raises user's Defense by 1 stage"
+    "ef": "Raises user's Defense by 1 stage"
   },
   "defense_curl": {
-    "id": 107,
-    "name": { "ko": "뱅글뱅글", "en": "Defense Curl" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 107,
+    "n": {
+      "ko": "뱅글뱅글",
+      "en": "Defense Curl"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 40,
-    "priority": 0,
-    "effect": "Raises user's Defense by 1 stage"
+    "ef": "Raises user's Defense by 1 stage"
   },
   "light_screen": {
-    "id": 108,
-    "name": { "ko": "빛의장막", "en": "Light Screen" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 108,
+    "n": {
+      "ko": "빛의장막",
+      "en": "Light Screen"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Reduces special damage by 50% for 5 turns"
+    "ef": "Reduces special damage by 50% for 5 turns"
   },
   "mist": {
-    "id": 109,
-    "name": { "ko": "안개", "en": "Mist" },
-    "type": "ice",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 109,
+    "n": {
+      "ko": "안개",
+      "en": "Mist"
+    },
+    "t": "I",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Prevents stat reduction for 5 turns"
+    "ef": "Prevents stat reduction for 5 turns"
   },
   "reflect": {
-    "id": 110,
-    "name": { "ko": "리플렉터", "en": "Reflect" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 110,
+    "n": {
+      "ko": "리플렉터",
+      "en": "Reflect"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": "Reduces physical damage by 50% for 5 turns"
+    "ef": "Reduces physical damage by 50% for 5 turns"
   },
   "focus_energy": {
-    "id": 116,
-    "name": { "ko": "기합모으기", "en": "Focus Energy" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 116,
+    "n": {
+      "ko": "기합모으기",
+      "en": "Focus Energy"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Increases critical hit ratio (Gen 1 bug: actually divides by 4)"
+    "ef": "Increases critical hit ratio (Gen 1 bug: actually divides by 4)"
   },
   "bide": {
-    "id": 117,
-    "name": { "ko": "버티기", "en": "Bide" },
-    "type": "normal",
-    "category": "physical",
-    "power": null,
-    "accuracy": 100,
+    "i": 117,
+    "n": {
+      "ko": "버티기",
+      "en": "Bide"
+    },
+    "t": "N",
+    "c": "P",
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "User takes damage for 2 turns, then returns double damage"
+    "ef": "User takes damage for 2 turns, then returns double damage"
   },
   "metronome": {
-    "id": 118,
-    "name": { "ko": "손가락흔들기", "en": "Metronome" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 118,
+    "n": {
+      "ko": "손가락흔들기",
+      "en": "Metronome"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "Randomly uses any move in the game"
+    "ef": "Randomly uses any move in the game"
   },
   "mirror_move": {
-    "id": 119,
-    "name": { "ko": "따라하기", "en": "Mirror Move" },
-    "type": "flying",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 119,
+    "n": {
+      "ko": "따라하기",
+      "en": "Mirror Move"
+    },
+    "t": "Y",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": "User performs the opponent's last move"
+    "ef": "User performs the opponent's last move"
   },
   "self_destruct": {
-    "id": 120,
-    "name": { "ko": "자폭", "en": "Self-Destruct" },
-    "type": "normal",
-    "category": "physical",
-    "power": 130,
-    "accuracy": 100,
+    "i": 120,
+    "n": {
+      "ko": "자폭",
+      "en": "Self-Destruct"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 130,
+    "a": 100,
     "pp": 5,
-    "priority": 0,
-    "effect": "User faints. Halves target's Defense during damage calculation"
+    "ef": "User faints. Halves target's Defense during damage calculation"
   },
   "egg_bomb": {
-    "id": 121,
-    "name": { "ko": "알폭탄", "en": "Egg Bomb" },
-    "type": "normal",
-    "category": "physical",
-    "power": 100,
-    "accuracy": 75,
-    "pp": 10,
-    "priority": 0,
-    "effect": null
+    "i": 121,
+    "n": {
+      "ko": "알폭탄",
+      "en": "Egg Bomb"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 75,
+    "pp": 10
   },
   "lick": {
-    "id": 122,
-    "name": { "ko": "핥기", "en": "Lick" },
-    "type": "ghost",
-    "category": "physical",
-    "power": 20,
-    "accuracy": 100,
+    "i": 122,
+    "n": {
+      "ko": "핥기",
+      "en": "Lick"
+    },
+    "t": "H",
+    "c": "P",
+    "p": 20,
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": "30% chance to paralyze the target"
+    "ef": "30% chance to paralyze the target"
   },
   "smog": {
-    "id": 123,
-    "name": { "ko": "스모그", "en": "Smog" },
-    "type": "poison",
-    "category": "physical",
-    "power": 20,
-    "accuracy": 70,
+    "i": 123,
+    "n": {
+      "ko": "스모그",
+      "en": "Smog"
+    },
+    "t": "P",
+    "c": "P",
+    "p": 20,
+    "a": 70,
     "pp": 20,
-    "priority": 0,
-    "effect": "40% chance to poison the target"
+    "ef": "40% chance to poison the target"
   },
   "sludge": {
-    "id": 124,
-    "name": { "ko": "진흙뿌리기", "en": "Sludge" },
-    "type": "poison",
-    "category": "physical",
-    "power": 65,
-    "accuracy": 100,
+    "i": 124,
+    "n": {
+      "ko": "진흙뿌리기",
+      "en": "Sludge"
+    },
+    "t": "P",
+    "c": "P",
+    "p": 65,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "40% chance to poison the target"
+    "ef": "40% chance to poison the target"
   },
   "bone_club": {
-    "id": 125,
-    "name": { "ko": "뼈다귀치기", "en": "Bone Club" },
-    "type": "ground",
-    "category": "physical",
-    "power": 65,
-    "accuracy": 85,
+    "i": 125,
+    "n": {
+      "ko": "뼈다귀치기",
+      "en": "Bone Club"
+    },
+    "t": "R",
+    "c": "P",
+    "p": 65,
+    "a": 85,
     "pp": 20,
-    "priority": 0,
-    "effect": "10% chance to flinch the target"
+    "ef": "10% chance to flinch the target"
   },
   "fire_blast": {
-    "id": 126,
-    "name": { "ko": "불대문자", "en": "Fire Blast" },
-    "type": "fire",
-    "category": "special",
-    "power": 120,
-    "accuracy": 85,
+    "i": 126,
+    "n": {
+      "ko": "불대문자",
+      "en": "Fire Blast"
+    },
+    "t": "F",
+    "c": "S",
+    "p": 120,
+    "a": 85,
     "pp": 5,
-    "priority": 0,
-    "effect": "30% chance to burn the target"
+    "ef": "30% chance to burn the target"
   },
   "waterfall": {
-    "id": 127,
-    "name": { "ko": "폭포오르기", "en": "Waterfall" },
-    "type": "water",
-    "category": "special",
-    "power": 80,
-    "accuracy": 100,
-    "pp": 15,
-    "priority": 0,
-    "effect": null
+    "i": 127,
+    "n": {
+      "ko": "폭포오르기",
+      "en": "Waterfall"
+    },
+    "t": "W",
+    "c": "S",
+    "p": 80,
+    "a": 100,
+    "pp": 15
   },
   "clamp": {
-    "id": 128,
-    "name": { "ko": "껍질끼우기", "en": "Clamp" },
-    "type": "water",
-    "category": "special",
-    "power": 35,
-    "accuracy": 75,
+    "i": 128,
+    "n": {
+      "ko": "껍질끼우기",
+      "en": "Clamp"
+    },
+    "t": "W",
+    "c": "S",
+    "p": 35,
+    "a": 75,
     "pp": 10,
-    "priority": 0,
-    "effect": "Traps opponent for 2-5 turns"
+    "ef": "Traps opponent for 2-5 turns"
   },
   "swift": {
-    "id": 129,
-    "name": { "ko": "스피드스타", "en": "Swift" },
-    "type": "normal",
-    "category": "physical",
-    "power": 60,
-    "accuracy": null,
+    "i": 129,
+    "n": {
+      "ko": "스피드스타",
+      "en": "Swift"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 60,
     "pp": 20,
-    "priority": 0,
-    "effect": "Never misses"
+    "ef": "Never misses"
   },
   "skull_bash": {
-    "id": 130,
-    "name": { "ko": "로켓박치기", "en": "Skull Bash" },
-    "type": "normal",
-    "category": "physical",
-    "power": 100,
-    "accuracy": 100,
+    "i": 130,
+    "n": {
+      "ko": "로켓박치기",
+      "en": "Skull Bash"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "Raises Defense on first turn, attacks on second turn"
+    "ef": "Raises Defense on first turn, attacks on second turn"
   },
   "spike_cannon": {
-    "id": 131,
-    "name": { "ko": "바늘지옥", "en": "Spike Cannon" },
-    "type": "normal",
-    "category": "physical",
-    "power": 20,
-    "accuracy": 100,
+    "i": 131,
+    "n": {
+      "ko": "바늘지옥",
+      "en": "Spike Cannon"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "Hits 2-5 times in one turn"
+    "ef": "Hits 2-5 times in one turn"
   },
   "constrict": {
-    "id": 132,
-    "name": { "ko": "조이기", "en": "Constrict" },
-    "type": "normal",
-    "category": "physical",
-    "power": 10,
-    "accuracy": 100,
+    "i": 132,
+    "n": {
+      "ko": "조이기",
+      "en": "Constrict"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 10,
+    "a": 100,
     "pp": 35,
-    "priority": 0,
-    "effect": "10% chance to lower target's Speed by 1 stage"
+    "ef": "10% chance to lower target's Speed by 1 stage"
   },
   "amnesia": {
-    "id": 133,
-    "name": { "ko": "자기암시", "en": "Amnesia" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 133,
+    "n": {
+      "ko": "자기암시",
+      "en": "Amnesia"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 20,
-    "priority": 0,
-    "effect": "Raises user's Special by 2 stages"
+    "ef": "Raises user's Special by 2 stages"
   },
   "kinesis": {
-    "id": 134,
-    "name": { "ko": "염력", "en": "Kinesis" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": 80,
+    "i": 134,
+    "n": {
+      "ko": "염력",
+      "en": "Kinesis"
+    },
+    "t": "S",
+    "c": "X",
+    "a": 80,
     "pp": 15,
-    "priority": 0,
-    "effect": "Lowers target's Accuracy by 1 stage"
+    "ef": "Lowers target's Accuracy by 1 stage"
   },
   "soft_boiled": {
-    "id": 135,
-    "name": { "ko": "알낳기", "en": "Soft-Boiled" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 135,
+    "n": {
+      "ko": "알낳기",
+      "en": "Soft-Boiled"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "User recovers half its max HP"
+    "ef": "User recovers half its max HP"
   },
   "hi_jump_kick": {
-    "id": 136,
-    "name": { "ko": "무릎차기", "en": "Hi Jump Kick" },
-    "type": "fighting",
-    "category": "physical",
-    "power": 85,
-    "accuracy": 90,
+    "i": 136,
+    "n": {
+      "ko": "무릎차기",
+      "en": "Hi Jump Kick"
+    },
+    "t": "K",
+    "c": "P",
+    "p": 85,
+    "a": 90,
     "pp": 20,
-    "priority": 0,
-    "effect": "If miss, user takes 1 HP damage"
+    "ef": "If miss, user takes 1 HP damage"
   },
   "glare": {
-    "id": 137,
-    "name": { "ko": "쏘아붙이기", "en": "Glare" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 75,
+    "i": 137,
+    "n": {
+      "ko": "쏘아붙이기",
+      "en": "Glare"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 75,
     "pp": 30,
-    "priority": 0,
-    "effect": "Paralyzes the target"
+    "ef": "Paralyzes the target"
   },
   "dream_eater": {
-    "id": 138,
-    "name": { "ko": "꿈먹기", "en": "Dream Eater" },
-    "type": "psychic",
-    "category": "special",
-    "power": 100,
-    "accuracy": 100,
+    "i": 138,
+    "n": {
+      "ko": "꿈먹기",
+      "en": "Dream Eater"
+    },
+    "t": "S",
+    "c": "S",
+    "p": 100,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "Only works on sleeping target. User recovers half the damage dealt"
+    "ef": "Only works on sleeping target. User recovers half the damage dealt"
   },
   "poison_gas": {
-    "id": 139,
-    "name": { "ko": "독가스", "en": "Poison Gas" },
-    "type": "poison",
-    "category": "status",
-    "power": null,
-    "accuracy": 55,
+    "i": 139,
+    "n": {
+      "ko": "독가스",
+      "en": "Poison Gas"
+    },
+    "t": "P",
+    "c": "X",
+    "a": 55,
     "pp": 40,
-    "priority": 0,
-    "effect": "Poisons the target"
+    "ef": "Poisons the target"
   },
   "barrage": {
-    "id": 140,
-    "name": { "ko": "구슬굴리기", "en": "Barrage" },
-    "type": "normal",
-    "category": "physical",
-    "power": 15,
-    "accuracy": 85,
+    "i": 140,
+    "n": {
+      "ko": "구슬굴리기",
+      "en": "Barrage"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
     "pp": 20,
-    "priority": 0,
-    "effect": "Hits 2-5 times in one turn"
+    "ef": "Hits 2-5 times in one turn"
   },
   "leech_life": {
-    "id": 141,
-    "name": { "ko": "흡혈", "en": "Leech Life" },
-    "type": "bug",
-    "category": "physical",
-    "power": 20,
-    "accuracy": 100,
+    "i": 141,
+    "n": {
+      "ko": "흡혈",
+      "en": "Leech Life"
+    },
+    "t": "B",
+    "c": "P",
+    "p": 20,
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "User recovers half the damage dealt"
+    "ef": "User recovers half the damage dealt"
   },
   "lovely_kiss": {
-    "id": 142,
-    "name": { "ko": "악마의키스", "en": "Lovely Kiss" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 75,
+    "i": 142,
+    "n": {
+      "ko": "악마의키스",
+      "en": "Lovely Kiss"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 75,
     "pp": 10,
-    "priority": 0,
-    "effect": "Puts the target to sleep"
+    "ef": "Puts the target to sleep"
   },
   "sky_attack": {
-    "id": 143,
-    "name": { "ko": "하늘에서떨어지기", "en": "Sky Attack" },
-    "type": "flying",
-    "category": "physical",
-    "power": 140,
-    "accuracy": 90,
+    "i": 143,
+    "n": {
+      "ko": "하늘에서떨어지기",
+      "en": "Sky Attack"
+    },
+    "t": "Y",
+    "c": "P",
+    "p": 140,
+    "a": 90,
     "pp": 5,
-    "priority": 0,
-    "effect": "Charges on first turn, attacks on second turn"
+    "ef": "Charges on first turn, attacks on second turn"
   },
   "transform": {
-    "id": 144,
-    "name": { "ko": "변신", "en": "Transform" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 100,
+    "i": 144,
+    "n": {
+      "ko": "변신",
+      "en": "Transform"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "User takes on the form and moves of the target"
+    "ef": "User takes on the form and moves of the target"
   },
   "bubble": {
-    "id": 145,
-    "name": { "ko": "거품", "en": "Bubble" },
-    "type": "water",
-    "category": "special",
-    "power": 20,
-    "accuracy": 100,
+    "i": 145,
+    "n": {
+      "ko": "거품",
+      "en": "Bubble"
+    },
+    "t": "W",
+    "c": "S",
+    "p": 20,
+    "a": 100,
     "pp": 30,
-    "priority": 0,
-    "effect": "10% chance to lower target's Speed by 1 stage"
+    "ef": "10% chance to lower target's Speed by 1 stage"
   },
   "dizzy_punch": {
-    "id": 146,
-    "name": { "ko": "일격필살", "en": "Dizzy Punch" },
-    "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "accuracy": 100,
-    "pp": 10,
-    "priority": 0,
-    "effect": null
+    "i": 146,
+    "n": {
+      "ko": "일격필살",
+      "en": "Dizzy Punch"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 10
   },
   "spore": {
-    "id": 147,
-    "name": { "ko": "포자", "en": "Spore" },
-    "type": "grass",
-    "category": "status",
-    "power": null,
-    "accuracy": 100,
+    "i": 147,
+    "n": {
+      "ko": "포자",
+      "en": "Spore"
+    },
+    "t": "G",
+    "c": "X",
+    "a": 100,
     "pp": 15,
-    "priority": 0,
-    "effect": "Puts the target to sleep"
+    "ef": "Puts the target to sleep"
   },
   "flash": {
-    "id": 148,
-    "name": { "ko": "플래시", "en": "Flash" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": 70,
+    "i": 148,
+    "n": {
+      "ko": "플래시",
+      "en": "Flash"
+    },
+    "t": "N",
+    "c": "X",
+    "a": 70,
     "pp": 20,
-    "priority": 0,
-    "effect": "Lowers target's Accuracy by 1 stage"
+    "ef": "Lowers target's Accuracy by 1 stage"
   },
   "psywave": {
-    "id": 149,
-    "name": { "ko": "사이코웨이브", "en": "Psywave" },
-    "type": "psychic",
-    "category": "special",
-    "power": null,
-    "accuracy": 80,
+    "i": 149,
+    "n": {
+      "ko": "사이코웨이브",
+      "en": "Psywave"
+    },
+    "t": "S",
+    "c": "S",
+    "a": 80,
     "pp": 15,
-    "priority": 0,
-    "effect": "Inflicts damage equal to user's level x (0.5-1.5)"
+    "ef": "Inflicts damage equal to user's level x (0.5-1.5)"
   },
   "splash": {
-    "id": 150,
-    "name": { "ko": "튀어오르기", "en": "Splash" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 150,
+    "n": {
+      "ko": "튀어오르기",
+      "en": "Splash"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 40,
-    "priority": 0,
-    "effect": "Doesn't do anything"
+    "ef": "Doesn't do anything"
   },
   "acid_armor": {
-    "id": 151,
-    "name": { "ko": "녹기", "en": "Acid Armor" },
-    "type": "poison",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 151,
+    "n": {
+      "ko": "녹기",
+      "en": "Acid Armor"
+    },
+    "t": "P",
+    "c": "X",
     "pp": 40,
-    "priority": 0,
-    "effect": "Raises user's Defense by 2 stages"
+    "ef": "Raises user's Defense by 2 stages"
   },
   "crabhammer": {
-    "id": 152,
-    "name": { "ko": "크랩해머", "en": "Crabhammer" },
-    "type": "water",
-    "category": "special",
-    "power": 90,
-    "accuracy": 85,
+    "i": 152,
+    "n": {
+      "ko": "크랩해머",
+      "en": "Crabhammer"
+    },
+    "t": "W",
+    "c": "S",
+    "p": 90,
+    "a": 85,
     "pp": 10,
-    "priority": 0,
-    "effect": "High critical hit ratio"
+    "ef": "High critical hit ratio"
   },
   "explosion": {
-    "id": 153,
-    "name": { "ko": "대폭발", "en": "Explosion" },
-    "type": "normal",
-    "category": "physical",
-    "power": 170,
-    "accuracy": 100,
+    "i": 153,
+    "n": {
+      "ko": "대폭발",
+      "en": "Explosion"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 170,
+    "a": 100,
     "pp": 5,
-    "priority": 0,
-    "effect": "User faints. Halves target's Defense during damage calculation"
+    "ef": "User faints. Halves target's Defense during damage calculation"
   },
   "fury_swipes": {
-    "id": 154,
-    "name": { "ko": "연속할퀴기", "en": "Fury Swipes" },
-    "type": "normal",
-    "category": "physical",
-    "power": 18,
-    "accuracy": 80,
+    "i": 154,
+    "n": {
+      "ko": "연속할퀴기",
+      "en": "Fury Swipes"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 80,
     "pp": 15,
-    "priority": 0,
-    "effect": "Hits 2-5 times in one turn"
+    "ef": "Hits 2-5 times in one turn"
   },
   "bonemerang": {
-    "id": 155,
-    "name": { "ko": "뼈다귀부메랑", "en": "Bonemerang" },
-    "type": "ground",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 90,
+    "i": 155,
+    "n": {
+      "ko": "뼈다귀부메랑",
+      "en": "Bonemerang"
+    },
+    "t": "R",
+    "c": "P",
+    "p": 50,
+    "a": 90,
     "pp": 10,
-    "priority": 0,
-    "effect": "Hits twice in one turn"
+    "ef": "Hits twice in one turn"
   },
   "rest": {
-    "id": 156,
-    "name": { "ko": "잠자기", "en": "Rest" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 156,
+    "n": {
+      "ko": "잠자기",
+      "en": "Rest"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "User sleeps for 2 turns and is fully healed"
+    "ef": "User sleeps for 2 turns and is fully healed"
   },
   "rock_slide": {
-    "id": 157,
-    "name": { "ko": "락슬라이드", "en": "Rock Slide" },
-    "type": "rock",
-    "category": "physical",
-    "power": 75,
-    "accuracy": 90,
+    "i": 157,
+    "n": {
+      "ko": "락슬라이드",
+      "en": "Rock Slide"
+    },
+    "t": "O",
+    "c": "P",
+    "p": 75,
+    "a": 90,
     "pp": 10,
-    "priority": 0,
-    "effect": "30% chance to flinch the target"
+    "ef": "30% chance to flinch the target"
   },
   "hyper_fang": {
-    "id": 158,
-    "name": { "ko": "날카로운이빨", "en": "Hyper Fang" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 90,
+    "i": 158,
+    "n": {
+      "ko": "날카로운이빨",
+      "en": "Hyper Fang"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 90,
     "pp": 15,
-    "priority": 0,
-    "effect": "10% chance to flinch the target"
+    "ef": "10% chance to flinch the target"
   },
   "sharpen": {
-    "id": 159,
-    "name": { "ko": "각지기", "en": "Sharpen" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 159,
+    "n": {
+      "ko": "각지기",
+      "en": "Sharpen"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Raises user's Attack by 1 stage"
+    "ef": "Raises user's Attack by 1 stage"
   },
   "conversion": {
-    "id": 160,
-    "name": { "ko": "테크니컬", "en": "Conversion" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 160,
+    "n": {
+      "ko": "테크니컬",
+      "en": "Conversion"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Changes user's type to that of its first move"
+    "ef": "Changes user's type to that of its first move"
   },
   "tri_attack": {
-    "id": 161,
-    "name": { "ko": "트라이어택", "en": "Tri Attack" },
-    "type": "normal",
-    "category": "physical",
-    "power": 80,
-    "accuracy": 100,
-    "pp": 10,
-    "priority": 0,
-    "effect": null
+    "i": 161,
+    "n": {
+      "ko": "트라이어택",
+      "en": "Tri Attack"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10
   },
   "super_fang": {
-    "id": 162,
-    "name": { "ko": "분노의앞니", "en": "Super Fang" },
-    "type": "normal",
-    "category": "physical",
-    "power": null,
-    "accuracy": 90,
+    "i": 162,
+    "n": {
+      "ko": "분노의앞니",
+      "en": "Super Fang"
+    },
+    "t": "N",
+    "c": "P",
+    "a": 90,
     "pp": 10,
-    "priority": 0,
-    "effect": "Inflicts damage equal to half the target's HP"
+    "ef": "Inflicts damage equal to half the target's HP"
   },
   "slash": {
-    "id": 163,
-    "name": { "ko": "칼등치기", "en": "Slash" },
-    "type": "normal",
-    "category": "physical",
-    "power": 70,
-    "accuracy": 100,
+    "i": 163,
+    "n": {
+      "ko": "칼등치기",
+      "en": "Slash"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
     "pp": 20,
-    "priority": 0,
-    "effect": "High critical hit ratio"
+    "ef": "High critical hit ratio"
   },
   "substitute": {
-    "id": 164,
-    "name": { "ko": "분신술", "en": "Substitute" },
-    "type": "normal",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 164,
+    "n": {
+      "ko": "분신술",
+      "en": "Substitute"
+    },
+    "t": "N",
+    "c": "X",
     "pp": 10,
-    "priority": 0,
-    "effect": "User takes 1/4 HP to create a substitute that absorbs damage"
+    "ef": "User takes 1/4 HP to create a substitute that absorbs damage"
   },
   "struggle": {
-    "id": 165,
-    "name": { "ko": "발버둥", "en": "Struggle" },
-    "type": "normal",
-    "category": "physical",
-    "power": 50,
-    "accuracy": 100,
+    "i": 165,
+    "n": {
+      "ko": "발버둥",
+      "en": "Struggle"
+    },
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
     "pp": 10,
-    "priority": 0,
-    "effect": "Used when all moves run out of PP. User takes recoil damage"
+    "ef": "Used when all moves run out of PP. User takes recoil damage"
   },
   "barrier": {
-    "id": 112,
-    "name": { "ko": "배리어", "en": "Barrier" },
-    "type": "psychic",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 112,
+    "n": {
+      "ko": "배리어",
+      "en": "Barrier"
+    },
+    "t": "S",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Raises user's Defense by 2 stages"
+    "ef": "Raises user's Defense by 2 stages"
   },
   "haze": {
-    "id": 114,
-    "name": { "ko": "흑안개", "en": "Haze" },
-    "type": "ice",
-    "category": "status",
-    "power": null,
-    "accuracy": null,
+    "i": 114,
+    "n": {
+      "ko": "흑안개",
+      "en": "Haze"
+    },
+    "t": "I",
+    "c": "X",
     "pp": 30,
-    "priority": 0,
-    "effect": "Resets all stat stage changes"
+    "ef": "Resets all stat stage changes"
   }
 }

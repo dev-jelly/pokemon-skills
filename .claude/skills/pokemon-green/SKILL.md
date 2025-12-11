@@ -314,6 +314,126 @@ afplay [skillPath]/data/audio/sfx/tackle.mp3
 
 ---
 
+## 데이터 키 매핑 (최적화 형식)
+
+### species.json
+```
+n=name, t=types, s=stats[hp,atk,def,spc,spd], c=catchRate, e=baseExp
+g=growthRate(ms=medium_slow,mf=medium_fast,s=slow,f=fast), hw=[height,weight]
+```
+
+### moves.json
+```
+i=id, n=name, t=type, c=category, p=power, a=accuracy, pp=pp, pr=priority, ef=effect
+타입코드: N=Normal,F=Fire,W=Water,G=Grass,E=Electric,I=Ice,K=Fighting,P=Poison,R=Ground,Y=Flying,S=Psychic,B=Bug,O=Rock,H=Ghost,D=Dragon
+카테고리: P=Physical, S=Special, X=Status
+```
+
+### learnsets.json
+```
+lv=levelUp[[level,move]], tm=[번호], hm=[번호]
+```
+
+### encounters.json
+```
+g=grass, c=cave, w=water, f=fishing
+포맷: [[포켓몬ID, minLv, maxLv, 출현율]]
+```
+
+### trainers.json
+```
+n=name, ti=title, g=gym, c=city, ty=type, b=badge, r=reward, tm=tmReward
+o=order, d=dialogue, p=team[[id,lv,[moves]]], cl=class
+gl=gymLeaders, e4=eliteFour, ch=champion, rt=routeTrainers
+```
+
+### items.json
+```
+n=name, d=desc, p=price, cm=catchMod, ha=heal, c=cures, ra=revive
+ppr=ppRestore, am=allMoves, sb=statBoost, ef=effect, st=steps, et=evoType
+카테고리: pb=pokeballs, pt=potions, sh=statusHealers, rv=revives, pp=ppItems
+bt=battleItems, rp=repels, es=escapeItems, ev=evolutionStones, vi=vitamins
+```
+
+---
+
+## 데이터 로딩 규칙 (필수)
+
+**⚠️ JSON 데이터는 반드시 jq로 필요한 부분만 추출합니다!**
+
+### 기본 원칙
+1. **Read 도구로 전체 JSON 파일 로드 금지**
+2. **Bash + jq로 필요한 키만 추출**
+3. 대용량 파일(스프라이트)은 특히 엄격히 준수
+
+### jq 사용 패턴
+
+```bash
+# 포켓몬 종족값 (도감번호 25)
+jq '.["25"]' data/pokemon/species.json
+
+# 기술 정보
+jq '.thunderbolt' data/moves/moves.json
+
+# 레벨업 기술
+jq '.d["25"].lv' data/pokemon/learnsets.json
+
+# 야생 출현
+jq '.e.viridian_forest' data/world/encounters.json
+
+# 체육관 관장
+jq '.gl.brock' data/world/trainers.json
+
+# 아이템
+jq '.pt["10"]' data/items/items.json
+
+# 포켓몬 스프라이트 (필수! 3자리 키)
+jq '.["025"]' data/sprites/pokemon-ascii.json
+```
+
+### 올바른 사용 vs 잘못된 사용
+
+| 상황 | ✓ 올바름 | ✗ 잘못됨 |
+|------|---------|---------|
+| 피카츄 정보 | `jq '.["25"]' species.json` | `Read species.json` |
+| 10만볼트 | `jq '.thunderbolt' moves.json` | `Read moves.json` |
+| 스프라이트 | `jq '.["025"]' pokemon-ascii.json` | `Read pokemon-ascii.json` |
+
+### 전투 시 데이터 로드 예시
+
+```bash
+# 1. 상대 포켓몬 정보 (species: 숫자 키)
+jq '.["25"]' data/pokemon/species.json
+
+# 2. 상대 포켓몬 스프라이트 (sprites: 3자리 키)
+jq '.["025"]' data/sprites/pokemon-ascii.json
+
+# 3. 기술 정보 (여러 개)
+jq '.thunder_shock, .growl' data/moves/moves.json
+
+# 4. 레벨업 기술 확인 (learnsets: 숫자 키)
+jq '.d["25"].lv' data/pokemon/learnsets.json
+```
+
+### 키 형식 주의
+- `species.json`, `learnsets.json`: 숫자 키 ("1", "25", "151")
+- `pokemon-ascii*.json`: 3자리 키 ("001", "025", "151")
+
+### 대용량 파일 (전체 로드 절대 금지)
+- `pokemon-ascii.json` (345KB)
+- `npc-ascii-mini.json` (470KB)
+- `pokemon-ascii-mini.json` (73KB)
+- `species.json` (40KB)
+- `moves.json` (35KB)
+
+### NPC 스프라이트 (개별 파일)
+```bash
+# NPC는 개별 파일이므로 cat 또는 jq 사용
+cat data/sprites/npc_ascii/Nurse_Joy.json
+```
+
+---
+
 ## 주의사항
 
 1. **세이브 필수**: 중요한 이벤트 전에 저장하세요

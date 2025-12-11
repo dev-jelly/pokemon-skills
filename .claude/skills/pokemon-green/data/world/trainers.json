@@ -1,444 +1,491 @@
 {
-  "version": "1.0.0",
-  "description": { "ko": "체육관 관장 및 주요 트레이너 데이터", "en": "Gym Leaders and major trainer data" },
-
-  "gymLeaders": {
+  "v": "1.0.0",
+  "_keys": "n=name,ti=title,g=gym,c=city,ty=type,b=badge,r=reward,tm=tmReward,o=order,d=dialogue,p=team[[id,lv,[moves]]],cl=class",
+  "gl": {
     "brock": {
-      "name": { "ko": "웅", "en": "Brock" },
-      "title": { "ko": "돌같은 의지를 가진 사나이", "en": "The Rock-Solid Pokemon Trainer" },
-      "gym": "pewter_gym",
-      "city": "pewter_city",
-      "type": "rock",
-      "badge": "boulder_badge",
-      "reward": 1386,
-      "tmReward": "tm34",
-      "dialogue": {
-        "intro": { "ko": "나는 웅! 회색시티 체육관의 관장이야!", "en": "I'm Brock! Pewter City Gym Leader!" },
-        "battle": { "ko": "바위처럼 단단한 나의 포켓몬을 상대해봐!", "en": "Take on my rock-hard Pokemon!" },
-        "defeat": { "ko": "네 포켓몬의 열정에 놀랐어!", "en": "Your Pokemon's passion surprised me!" },
-        "badge": { "ko": "이 회색뱃지를 받아 가렴!", "en": "Take this Boulder Badge!" }
-      },
-      "team": [
-        { "pokemon": 74, "level": 12, "moves": ["tackle", "defense_curl"] },
-        { "pokemon": 95, "level": 14, "moves": ["tackle", "screech", "bide", "bind"] }
-      ]
+      "n": {"ko":"웅","en":"Brock"},
+      "ti": {"ko":"돌같은 의지를 가진 사나이","en":"The Rock-Solid Pokemon Trainer"},
+      "g": "pewter_gym",
+      "c": "pewter_city",
+      "ty": "rock",
+      "b": "boulder_badge",
+      "r": 1386,
+      "tm": "tm34",
+      "d": {"intro":{"ko":"나는 웅! 회색시티 체육관의 관장이야!","en":"I'm Brock! Pewter City Gym Leader!"},"battle":{"ko":"바위처럼 단단한 나의 포켓몬을 상대해봐!","en":"Take on my rock-hard Pokemon!"},"defeat":{"ko":"네 포켓몬의 열정에 놀랐어!","en":"Your Pokemon's passion surprised me!"},"badge":{"ko":"이 회색뱃지를 받아 가렴!","en":"Take this Boulder Badge!"}},
+      "p": [[74,12,["tackle","defense_curl"]],[95,14,["tackle","screech","bide","bind"]]]
     },
     "misty": {
-      "name": { "ko": "이슬", "en": "Misty" },
-      "title": { "ko": "물처럼 맑은 소녀", "en": "The Tomboyish Mermaid" },
-      "gym": "cerulean_gym",
-      "city": "cerulean_city",
-      "type": "water",
-      "badge": "cascade_badge",
-      "reward": 2079,
-      "tmReward": "tm11",
-      "dialogue": {
-        "intro": { "ko": "안녕! 나는 이슬이야!", "en": "Hi! I'm Misty!" },
-        "battle": { "ko": "물의 위력을 보여줄게!", "en": "I'll show you the power of water!" },
-        "defeat": { "ko": "와... 대단해!", "en": "Wow... You're amazing!" },
-        "badge": { "ko": "블루뱃지는 네 것이야!", "en": "The Cascade Badge is yours!" }
-      },
-      "team": [
-        { "pokemon": 120, "level": 18, "moves": ["tackle", "water_gun", "harden"] },
-        { "pokemon": 121, "level": 21, "moves": ["tackle", "water_gun", "bubble_beam", "swift"] }
-      ]
+      "n": {"ko":"이슬","en":"Misty"},
+      "ti": {"ko":"물처럼 맑은 소녀","en":"The Tomboyish Mermaid"},
+      "g": "cerulean_gym",
+      "c": "cerulean_city",
+      "ty": "water",
+      "b": "cascade_badge",
+      "r": 2079,
+      "tm": "tm11",
+      "d": {"intro":{"ko":"안녕! 나는 이슬이야!","en":"Hi! I'm Misty!"},"battle":{"ko":"물의 위력을 보여줄게!","en":"I'll show you the power of water!"},"defeat":{"ko":"와... 대단해!","en":"Wow... You're amazing!"},"badge":{"ko":"블루뱃지는 네 것이야!","en":"The Cascade Badge is yours!"}},
+      "p": [[120,18,["tackle","water_gun","harden"]],[121,21,["tackle","water_gun","bubble_beam","swift"]]]
     },
     "surge": {
-      "name": { "ko": "마티스", "en": "Lt. Surge" },
-      "title": { "ko": "번개 미국인", "en": "The Lightning American" },
-      "gym": "vermilion_gym",
-      "city": "vermilion_city",
-      "type": "electric",
-      "badge": "thunder_badge",
-      "reward": 2376,
-      "tmReward": "tm24",
-      "dialogue": {
-        "intro": { "ko": "나는 마티스! 번개 미국인이라고 불려!", "en": "I'm Lt. Surge! The Lightning American!" },
-        "battle": { "ko": "전기 충격을 받아봐!", "en": "Feel the electric shock!" },
-        "defeat": { "ko": "썬더 쇼크! 지고 말았어!", "en": "Thunder Shock! I lost!" },
-        "badge": { "ko": "오렌지뱃지를 받아!", "en": "Take the Thunder Badge!" }
-      },
-      "team": [
-        { "pokemon": 100, "level": 21, "moves": ["tackle", "screech", "sonic_boom"] },
-        { "pokemon": 25, "level": 18, "moves": ["thunder_wave", "quick_attack", "swift"] },
-        { "pokemon": 26, "level": 24, "moves": ["thunder_wave", "mega_punch", "mega_kick", "thunderbolt"] }
-      ]
+      "n": {"ko":"마티스","en":"Lt. Surge"},
+      "ti": {"ko":"번개 미국인","en":"The Lightning American"},
+      "g": "vermilion_gym",
+      "c": "vermilion_city",
+      "ty": "electric",
+      "b": "thunder_badge",
+      "r": 2376,
+      "tm": "tm24",
+      "d": {"intro":{"ko":"나는 마티스! 번개 미국인이라고 불려!","en":"I'm Lt. Surge! The Lightning American!"},"battle":{"ko":"전기 충격을 받아봐!","en":"Feel the electric shock!"},"defeat":{"ko":"썬더 쇼크! 지고 말았어!","en":"Thunder Shock! I lost!"},"badge":{"ko":"오렌지뱃지를 받아!","en":"Take the Thunder Badge!"}},
+      "p": [[100,21,["tackle","screech","sonic_boom"]],[25,18,["thunder_wave","quick_attack","swift"]],[26,24,["thunder_wave","mega_punch","mega_kick","thunderbolt"]]]
     },
     "erika": {
-      "name": { "ko": "민화", "en": "Erika" },
-      "title": { "ko": "자연을 사랑하는 공주님", "en": "The Nature-Loving Princess" },
-      "gym": "celadon_gym",
-      "city": "celadon_city",
-      "type": "grass",
-      "badge": "rainbow_badge",
-      "reward": 2871,
-      "tmReward": "tm21",
-      "dialogue": {
-        "intro": { "ko": "저는 민화라고 해요...", "en": "My name is Erika..." },
-        "battle": { "ko": "풀 타입 포켓몬의 매력을 보여드릴게요!", "en": "I'll show you the charm of Grass Pokemon!" },
-        "defeat": { "ko": "아... 아름다운 승부였어요...", "en": "What... a beautiful battle..." },
-        "badge": { "ko": "레인보우뱃지... 받아 주세요...", "en": "Please take the Rainbow Badge..." }
-      },
-      "team": [
-        { "pokemon": 71, "level": 29, "moves": ["poison_powder", "sleep_powder", "acid", "razor_leaf"] },
-        { "pokemon": 114, "level": 24, "moves": ["constrict", "bind", "mega_drain"] },
-        { "pokemon": 45, "level": 29, "moves": ["sleep_powder", "petal_dance", "mega_drain"] }
-      ]
+      "n": {"ko":"민화","en":"Erika"},
+      "ti": {"ko":"자연을 사랑하는 공주님","en":"The Nature-Loving Princess"},
+      "g": "celadon_gym",
+      "c": "celadon_city",
+      "ty": "grass",
+      "b": "rainbow_badge",
+      "r": 2871,
+      "tm": "tm21",
+      "d": {"intro":{"ko":"저는 민화라고 해요...","en":"My name is Erika..."},"battle":{"ko":"풀 타입 포켓몬의 매력을 보여드릴게요!","en":"I'll show you the charm of Grass Pokemon!"},"defeat":{"ko":"아... 아름다운 승부였어요...","en":"What... a beautiful battle..."},"badge":{"ko":"레인보우뱃지... 받아 주세요...","en":"Please take the Rainbow Badge..."}},
+      "p": [[71,29,["poison_powder","sleep_powder","acid","razor_leaf"]],[114,24,["constrict","bind","mega_drain"]],[45,29,["sleep_powder","petal_dance","mega_drain"]]]
     },
     "koga": {
-      "name": { "ko": "독수", "en": "Koga" },
-      "title": { "ko": "닌자의 후예", "en": "The Poisonous Ninja Master" },
-      "gym": "fuchsia_gym",
-      "city": "fuchsia_city",
-      "type": "poison",
-      "badge": "soul_badge",
-      "reward": 4257,
-      "tmReward": "tm06",
-      "dialogue": {
-        "intro": { "ko": "나는 독수! 독의 닌자다!", "en": "I am Koga! The Poison Ninja!" },
-        "battle": { "ko": "독의 기술을 맛봐라!", "en": "Taste my poison techniques!" },
-        "defeat": { "ko": "내 닌자술이 통하지 않다니...!", "en": "My ninja arts didn't work...!" },
-        "badge": { "ko": "핑크뱃지를 주마!", "en": "Take the Soul Badge!" }
-      },
-      "team": [
-        { "pokemon": 109, "level": 37, "moves": ["tackle", "sludge", "smokescreen", "self_destruct"] },
-        { "pokemon": 89, "level": 37, "moves": ["disable", "poison_gas", "minimize", "sludge"] },
-        { "pokemon": 109, "level": 37, "moves": ["tackle", "sludge", "smokescreen", "self_destruct"] },
-        { "pokemon": 110, "level": 43, "moves": ["tackle", "sludge", "smokescreen", "self_destruct"] }
-      ]
+      "n": {"ko":"독수","en":"Koga"},
+      "ti": {"ko":"닌자의 후예","en":"The Poisonous Ninja Master"},
+      "g": "fuchsia_gym",
+      "c": "fuchsia_city",
+      "ty": "poison",
+      "b": "soul_badge",
+      "r": 4257,
+      "tm": "tm06",
+      "d": {"intro":{"ko":"나는 독수! 독의 닌자다!","en":"I am Koga! The Poison Ninja!"},"battle":{"ko":"독의 기술을 맛봐라!","en":"Taste my poison techniques!"},"defeat":{"ko":"내 닌자술이 통하지 않다니...!","en":"My ninja arts didn't work...!"},"badge":{"ko":"핑크뱃지를 주마!","en":"Take the Soul Badge!"}},
+      "p": [[109,37,["tackle","sludge","smokescreen","self_destruct"]],[89,37,["disable","poison_gas","minimize","sludge"]],[109,37,["tackle","sludge","smokescreen","self_destruct"]],[110,43,["tackle","sludge","smokescreen","self_destruct"]]]
     },
     "sabrina": {
-      "name": { "ko": "초련", "en": "Sabrina" },
-      "title": { "ko": "초능력 소녀", "en": "The Master of Psychic Pokemon" },
-      "gym": "saffron_gym",
-      "city": "saffron_city",
-      "type": "psychic",
-      "badge": "marsh_badge",
-      "reward": 4257,
-      "tmReward": "tm46",
-      "dialogue": {
-        "intro": { "ko": "나는 초련... 네가 올 것을 알고 있었어...", "en": "I am Sabrina... I knew you would come..." },
-        "battle": { "ko": "나의 초능력을 상대해봐!", "en": "Face my psychic powers!" },
-        "defeat": { "ko": "내 초능력으로도 예측하지 못했어...", "en": "Even my powers couldn't predict this..." },
-        "badge": { "ko": "골드뱃지... 가져가...", "en": "Take the Marsh Badge..." }
-      },
-      "team": [
-        { "pokemon": 63, "level": 38, "moves": ["flash", "psywave", "recover"] },
-        { "pokemon": 64, "level": 37, "moves": ["psybeam", "psywave", "recover"] },
-        { "pokemon": 122, "level": 38, "moves": ["confusion", "barrier", "light_screen", "double_slap"] },
-        { "pokemon": 65, "level": 43, "moves": ["psybeam", "recover", "psychic"] }
-      ]
+      "n": {"ko":"초련","en":"Sabrina"},
+      "ti": {"ko":"초능력 소녀","en":"The Master of Psychic Pokemon"},
+      "g": "saffron_gym",
+      "c": "saffron_city",
+      "ty": "psychic",
+      "b": "marsh_badge",
+      "r": 4257,
+      "tm": "tm46",
+      "d": {"intro":{"ko":"나는 초련... 네가 올 것을 알고 있었어...","en":"I am Sabrina... I knew you would come..."},"battle":{"ko":"나의 초능력을 상대해봐!","en":"Face my psychic powers!"},"defeat":{"ko":"내 초능력으로도 예측하지 못했어...","en":"Even my powers couldn't predict this..."},"badge":{"ko":"골드뱃지... 가져가...","en":"Take the Marsh Badge..."}},
+      "p": [[63,38,["flash","psywave","recover"]],[64,37,["psybeam","psywave","recover"]],[122,38,["confusion","barrier","light_screen","double_slap"]],[65,43,["psybeam","recover","psychic"]]]
     },
     "blaine": {
-      "name": { "ko": "강연", "en": "Blaine" },
-      "title": { "ko": "불타는 퀴즈왕", "en": "The Hotheaded Quiz Master" },
-      "gym": "cinnabar_gym",
-      "city": "cinnabar_island",
-      "type": "fire",
-      "badge": "volcano_badge",
-      "reward": 4653,
-      "tmReward": "tm38",
-      "dialogue": {
-        "intro": { "ko": "나는 강연! 뜨거운 퀴즈왕이지!", "en": "I am Blaine! The hotheaded quiz master!" },
-        "battle": { "ko": "불꽃의 열정을 보여주마!", "en": "I'll show you my fiery passion!" },
-        "defeat": { "ko": "내 열정이 식어버렸군...!", "en": "My fire has been extinguished...!" },
-        "badge": { "ko": "크림슨뱃지는 네 것이다!", "en": "The Volcano Badge is yours!" }
-      },
-      "team": [
-        { "pokemon": 58, "level": 42, "moves": ["ember", "leer", "take_down", "flamethrower"] },
-        { "pokemon": 77, "level": 40, "moves": ["stomp", "tail_whip", "fire_spin"] },
-        { "pokemon": 78, "level": 42, "moves": ["stomp", "fire_spin", "take_down"] },
-        { "pokemon": 59, "level": 47, "moves": ["roar", "ember", "take_down", "fire_blast"] }
-      ]
+      "n": {"ko":"강연","en":"Blaine"},
+      "ti": {"ko":"불타는 퀴즈왕","en":"The Hotheaded Quiz Master"},
+      "g": "cinnabar_gym",
+      "c": "cinnabar_island",
+      "ty": "fire",
+      "b": "volcano_badge",
+      "r": 4653,
+      "tm": "tm38",
+      "d": {"intro":{"ko":"나는 강연! 뜨거운 퀴즈왕이지!","en":"I am Blaine! The hotheaded quiz master!"},"battle":{"ko":"불꽃의 열정을 보여주마!","en":"I'll show you my fiery passion!"},"defeat":{"ko":"내 열정이 식어버렸군...!","en":"My fire has been extinguished...!"},"badge":{"ko":"크림슨뱃지는 네 것이다!","en":"The Volcano Badge is yours!"}},
+      "p": [[58,42,["ember","leer","take_down","flamethrower"]],[77,40,["stomp","tail_whip","fire_spin"]],[78,42,["stomp","fire_spin","take_down"]],[59,47,["roar","ember","take_down","fire_blast"]]]
     },
     "giovanni": {
-      "name": { "ko": "비주기", "en": "Giovanni" },
-      "title": { "ko": "로켓단 보스", "en": "The Self-Proclaimed Strongest Trainer" },
-      "gym": "viridian_gym",
-      "city": "viridian_city",
-      "type": "ground",
-      "badge": "earth_badge",
-      "reward": 4950,
-      "tmReward": "tm27",
-      "dialogue": {
-        "intro": { "ko": "나는 비주기... 로켓단의 보스이자 상록시티 관장이다!", "en": "I am Giovanni... Boss of Team Rocket and Viridian Gym Leader!" },
-        "battle": { "ko": "땅의 파워를 보여주마!", "en": "I'll show you the power of ground!" },
-        "defeat": { "ko": "이런... 다시 한번 지다니...", "en": "What... I lost again..." },
-        "badge": { "ko": "그린뱃지... 가져가라...", "en": "Take the Earth Badge..." }
-      },
-      "team": [
-        { "pokemon": 111, "level": 45, "moves": ["stomp", "fissure", "horn_attack", "leer"] },
-        { "pokemon": 51, "level": 42, "moves": ["slash", "sand_attack", "dig", "earthquake"] },
-        { "pokemon": 31, "level": 44, "moves": ["double_kick", "body_slam", "earthquake"] },
-        { "pokemon": 34, "level": 45, "moves": ["double_kick", "thrash", "earthquake"] },
-        { "pokemon": 112, "level": 50, "moves": ["horn_attack", "stomp", "earthquake", "horn_drill"] }
-      ]
+      "n": {"ko":"비주기","en":"Giovanni"},
+      "ti": {"ko":"로켓단 보스","en":"The Self-Proclaimed Strongest Trainer"},
+      "g": "viridian_gym",
+      "c": "viridian_city",
+      "ty": "ground",
+      "b": "earth_badge",
+      "r": 4950,
+      "tm": "tm27",
+      "d": {"intro":{"ko":"나는 비주기... 로켓단의 보스이자 상록시티 관장이다!","en":"I am Giovanni... Boss of Team Rocket and Viridian Gym Leader!"},"battle":{"ko":"땅의 파워를 보여주마!","en":"I'll show you the power of ground!"},"defeat":{"ko":"이런... 다시 한번 지다니...","en":"What... I lost again..."},"badge":{"ko":"그린뱃지... 가져가라...","en":"Take the Earth Badge..."}},
+      "p": [[111,45,["stomp","fissure","horn_attack","leer"]],[51,42,["slash","sand_attack","dig","earthquake"]],[31,44,["double_kick","body_slam","earthquake"]],[34,45,["double_kick","thrash","earthquake"]],[112,50,["horn_attack","stomp","earthquake","horn_drill"]]]
     }
   },
-
-  "eliteFour": {
+  "e4": {
     "lorelei": {
-      "name": { "ko": "감두", "en": "Lorelei" },
-      "title": { "ko": "얼음의 여왕", "en": "The Ice Queen" },
-      "type": "ice",
-      "order": 1,
-      "reward": 5544,
-      "dialogue": {
-        "intro": { "ko": "나는 감두. 사천왕 중 첫 번째야.", "en": "I am Lorelei of the Elite Four." },
-        "battle": { "ko": "얼음의 차가움을 느껴봐!", "en": "Feel the chill of ice!" },
-        "defeat": { "ko": "차갑게 식어버렸네...", "en": "I've gone cold..." }
-      },
-      "team": [
-        { "pokemon": 87, "level": 54, "moves": ["aurora_beam", "bubble_beam", "body_slam", "rest"] },
-        { "pokemon": 91, "level": 53, "moves": ["clamp", "supersonic", "aurora_beam", "ice_beam"] },
-        { "pokemon": 80, "level": 54, "moves": ["water_gun", "withdraw", "amnesia", "psychic"] },
-        { "pokemon": 124, "level": 56, "moves": ["double_slap", "ice_punch", "body_slam", "blizzard"] },
-        { "pokemon": 131, "level": 56, "moves": ["body_slam", "confuse_ray", "blizzard", "hydro_pump"] }
-      ]
+      "n": {"ko":"감두","en":"Lorelei"},
+      "ti": {"ko":"얼음의 여왕","en":"The Ice Queen"},
+      "ty": "ice",
+      "r": 5544,
+      "o": 1,
+      "d": {"intro":{"ko":"나는 감두. 사천왕 중 첫 번째야.","en":"I am Lorelei of the Elite Four."},"battle":{"ko":"얼음의 차가움을 느껴봐!","en":"Feel the chill of ice!"},"defeat":{"ko":"차갑게 식어버렸네...","en":"I've gone cold..."}},
+      "p": [[87,54,["aurora_beam","bubble_beam","body_slam","rest"]],[91,53,["clamp","supersonic","aurora_beam","ice_beam"]],[80,54,["water_gun","withdraw","amnesia","psychic"]],[124,56,["double_slap","ice_punch","body_slam","blizzard"]],[131,56,["body_slam","confuse_ray","blizzard","hydro_pump"]]]
     },
     "bruno": {
-      "name": { "ko": "시바", "en": "Bruno" },
-      "title": { "ko": "격투의 달인", "en": "The Fighting Master" },
-      "type": "fighting",
-      "order": 2,
-      "reward": 5742,
-      "dialogue": {
-        "intro": { "ko": "나는 시바. 격투 타입의 달인!", "en": "I am Bruno of the Elite Four!" },
-        "battle": { "ko": "나의 근육을 봐라!", "en": "Behold my muscles!" },
-        "defeat": { "ko": "수련이 부족했군...", "en": "I need more training..." }
-      },
-      "team": [
-        { "pokemon": 95, "level": 53, "moves": ["rock_throw", "screech", "bind", "slam"] },
-        { "pokemon": 107, "level": 55, "moves": ["comet_punch", "agility", "fire_punch", "counter"] },
-        { "pokemon": 106, "level": 55, "moves": ["double_kick", "meditate", "high_jump_kick", "mega_kick"] },
-        { "pokemon": 95, "level": 56, "moves": ["rock_throw", "screech", "bind", "slam"] },
-        { "pokemon": 68, "level": 58, "moves": ["leer", "focus_energy", "fissure", "submission"] }
-      ]
+      "n": {"ko":"시바","en":"Bruno"},
+      "ti": {"ko":"격투의 달인","en":"The Fighting Master"},
+      "ty": "fighting",
+      "r": 5742,
+      "o": 2,
+      "d": {"intro":{"ko":"나는 시바. 격투 타입의 달인!","en":"I am Bruno of the Elite Four!"},"battle":{"ko":"나의 근육을 봐라!","en":"Behold my muscles!"},"defeat":{"ko":"수련이 부족했군...","en":"I need more training..."}},
+      "p": [[95,53,["rock_throw","screech","bind","slam"]],[107,55,["comet_punch","agility","fire_punch","counter"]],[106,55,["double_kick","meditate","high_jump_kick","mega_kick"]],[95,56,["rock_throw","screech","bind","slam"]],[68,58,["leer","focus_energy","fissure","submission"]]]
     },
     "agatha": {
-      "name": { "ko": "국화", "en": "Agatha" },
-      "title": { "ko": "고스트의 노파", "en": "The Ghost Master" },
-      "type": "ghost",
-      "order": 3,
-      "reward": 5940,
-      "dialogue": {
-        "intro": { "ko": "나는 국화... 오박사의 라이벌이었지...", "en": "I am Agatha... Oak's old rival..." },
-        "battle": { "ko": "내 고스트들을 만나봐!", "en": "Meet my Ghost Pokemon!" },
-        "defeat": { "ko": "내가 늙었나 보군...", "en": "I must be getting old..." }
-      },
-      "team": [
-        { "pokemon": 94, "level": 56, "moves": ["confuse_ray", "night_shade", "hypnosis", "dream_eater"] },
-        { "pokemon": 42, "level": 56, "moves": ["screech", "wing_attack", "confuse_ray", "haze"] },
-        { "pokemon": 93, "level": 55, "moves": ["confuse_ray", "night_shade", "hypnosis", "dream_eater"] },
-        { "pokemon": 24, "level": 58, "moves": ["bite", "glare", "screech", "acid"] },
-        { "pokemon": 94, "level": 60, "moves": ["confuse_ray", "toxic", "hypnosis", "dream_eater"] }
-      ]
+      "n": {"ko":"국화","en":"Agatha"},
+      "ti": {"ko":"고스트의 노파","en":"The Ghost Master"},
+      "ty": "ghost",
+      "r": 5940,
+      "o": 3,
+      "d": {"intro":{"ko":"나는 국화... 오박사의 라이벌이었지...","en":"I am Agatha... Oak's old rival..."},"battle":{"ko":"내 고스트들을 만나봐!","en":"Meet my Ghost Pokemon!"},"defeat":{"ko":"내가 늙었나 보군...","en":"I must be getting old..."}},
+      "p": [[94,56,["confuse_ray","night_shade","hypnosis","dream_eater"]],[42,56,["screech","wing_attack","confuse_ray","haze"]],[93,55,["confuse_ray","night_shade","hypnosis","dream_eater"]],[24,58,["bite","glare","screech","acid"]],[94,60,["confuse_ray","toxic","hypnosis","dream_eater"]]]
     },
     "lance": {
-      "name": { "ko": "목호", "en": "Lance" },
-      "title": { "ko": "드래곤 마스터", "en": "The Dragon Master" },
-      "type": "dragon",
-      "order": 4,
-      "reward": 6138,
-      "dialogue": {
-        "intro": { "ko": "나는 목호. 사천왕의 마지막이자 드래곤 마스터!", "en": "I am Lance! The Dragon Master and leader of the Elite Four!" },
-        "battle": { "ko": "드래곤의 힘을 봐라!", "en": "Behold the power of Dragons!" },
-        "defeat": { "ko": "네가 챔피언이 될 자격이 있군...", "en": "You are worthy of being Champion..." }
-      },
-      "team": [
-        { "pokemon": 130, "level": 58, "moves": ["hydro_pump", "dragon_rage", "leer", "hyper_beam"] },
-        { "pokemon": 148, "level": 56, "moves": ["slam", "agility", "dragon_rage", "hyper_beam"] },
-        { "pokemon": 148, "level": 56, "moves": ["wrap", "thunder_wave", "slam", "hyper_beam"] },
-        { "pokemon": 142, "level": 60, "moves": ["supersonic", "take_down", "fly", "hyper_beam"] },
-        { "pokemon": 149, "level": 62, "moves": ["agility", "slam", "barrier", "hyper_beam"] }
-      ]
+      "n": {"ko":"목호","en":"Lance"},
+      "ti": {"ko":"드래곤 마스터","en":"The Dragon Master"},
+      "ty": "dragon",
+      "r": 6138,
+      "o": 4,
+      "d": {"intro":{"ko":"나는 목호. 사천왕의 마지막이자 드래곤 마스터!","en":"I am Lance! The Dragon Master and leader of the Elite Four!"},"battle":{"ko":"드래곤의 힘을 봐라!","en":"Behold the power of Dragons!"},"defeat":{"ko":"네가 챔피언이 될 자격이 있군...","en":"You are worthy of being Champion..."}},
+      "p": [[130,58,["hydro_pump","dragon_rage","leer","hyper_beam"]],[148,56,["slam","agility","dragon_rage","hyper_beam"]],[148,56,["wrap","thunder_wave","slam","hyper_beam"]],[142,60,["supersonic","take_down","fly","hyper_beam"]],[149,62,["agility","slam","barrier","hyper_beam"]]]
     }
   },
-
-  "champion": {
+  "ch": {
     "rival": {
-      "name": { "ko": "라이벌", "en": "Rival" },
-      "title": { "ko": "챔피언", "en": "Champion" },
-      "reward": 6435,
-      "dialogue": {
-        "intro": { "ko": "드디어 왔군! 나는 이미 챔피언이 됐어!", "en": "You finally made it! I'm already the Champion!" },
-        "battle": { "ko": "마지막 승부야!", "en": "This is the final battle!" },
-        "defeat": { "ko": "믿을 수 없어... 내가 지다니...", "en": "I can't believe it... I lost..." }
-      },
-      "teams": {
-        "bulbasaur": [
-          { "pokemon": 18, "level": 61, "moves": ["whirlwind", "wing_attack", "sky_attack", "mirror_move"] },
-          { "pokemon": 65, "level": 59, "moves": ["psybeam", "recover", "psychic"] },
-          { "pokemon": 112, "level": 61, "moves": ["leer", "tail_whip", "fury_attack", "horn_drill"] },
-          { "pokemon": 59, "level": 63, "moves": ["ember", "leer", "take_down", "fire_blast"] },
-          { "pokemon": 103, "level": 61, "moves": ["hypnosis", "stomp", "barrage"] },
-          { "pokemon": 9, "level": 65, "moves": ["bubble_beam", "withdraw", "skull_bash", "hydro_pump"] }
-        ],
-        "charmander": [
-          { "pokemon": 18, "level": 61, "moves": ["whirlwind", "wing_attack", "sky_attack", "mirror_move"] },
-          { "pokemon": 65, "level": 59, "moves": ["psybeam", "recover", "psychic"] },
-          { "pokemon": 112, "level": 61, "moves": ["leer", "tail_whip", "fury_attack", "horn_drill"] },
-          { "pokemon": 130, "level": 63, "moves": ["dragon_rage", "leer", "hydro_pump", "hyper_beam"] },
-          { "pokemon": 103, "level": 61, "moves": ["hypnosis", "stomp", "barrage"] },
-          { "pokemon": 3, "level": 65, "moves": ["razor_leaf", "growth", "sleep_powder", "solar_beam"] }
-        ],
-        "squirtle": [
-          { "pokemon": 18, "level": 61, "moves": ["whirlwind", "wing_attack", "sky_attack", "mirror_move"] },
-          { "pokemon": 65, "level": 59, "moves": ["psybeam", "recover", "psychic"] },
-          { "pokemon": 112, "level": 61, "moves": ["leer", "tail_whip", "fury_attack", "horn_drill"] },
-          { "pokemon": 103, "level": 63, "moves": ["hypnosis", "stomp", "barrage"] },
-          { "pokemon": 59, "level": 61, "moves": ["ember", "leer", "take_down", "fire_blast"] },
-          { "pokemon": 6, "level": 65, "moves": ["rage", "slash", "fire_spin", "flamethrower"] }
-        ]
+      "n": {"ko":"라이벌","en":"Rival"},
+      "ti": {"ko":"챔피언","en":"Champion"},
+      "r": 6435,
+      "d": {"intro":{"ko":"드디어 왔군! 나는 이미 챔피언이 됐어!","en":"You finally made it! I'm already the Champion!"},"battle":{"ko":"마지막 승부야!","en":"This is the final battle!"},"defeat":{"ko":"믿을 수 없어... 내가 지다니...","en":"I can't believe it... I lost..."}},
+      "p": {
+        "bulbasaur": [[18,61,["whirlwind","wing_attack","sky_attack","mirror_move"]],[65,59,["psybeam","recover","psychic"]],[112,61,["leer","tail_whip","fury_attack","horn_drill"]],[59,63,["ember","leer","take_down","fire_blast"]],[103,61,["hypnosis","stomp","barrage"]],[9,65,["bubble_beam","withdraw","skull_bash","hydro_pump"]]],
+        "charmander": [[18,61,["whirlwind","wing_attack","sky_attack","mirror_move"]],[65,59,["psybeam","recover","psychic"]],[112,61,["leer","tail_whip","fury_attack","horn_drill"]],[130,63,["dragon_rage","leer","hydro_pump","hyper_beam"]],[103,61,["hypnosis","stomp","barrage"]],[3,65,["razor_leaf","growth","sleep_powder","solar_beam"]]],
+        "squirtle": [[18,61,["whirlwind","wing_attack","sky_attack","mirror_move"]],[65,59,["psybeam","recover","psychic"]],[112,61,["leer","tail_whip","fury_attack","horn_drill"]],[103,63,["hypnosis","stomp","barrage"]],[59,61,["ember","leer","take_down","fire_blast"]],[6,65,["rage","slash","fire_spin","flamethrower"]]]
       }
     }
   },
-
-  "routeTrainers": {
+  "rt": {
     "viridian_forest": [
-      { "id": "bug_catcher_1", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 60, "team": [{ "pokemon": 13, "level": 6, "moves": ["poison_sting", "string_shot"] }] },
-      { "id": "bug_catcher_2", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 70, "team": [{ "pokemon": 10, "level": 7, "moves": ["tackle", "string_shot"] }, { "pokemon": 10, "level": 7, "moves": ["tackle", "string_shot"] }] },
-      { "id": "bug_catcher_3", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 90, "team": [{ "pokemon": 13, "level": 9, "moves": ["poison_sting", "string_shot"] }] }
+      {
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 60,
+        "p": [[13,6,["poison_sting","string_shot"]]],
+        "id": "bug_catcher_1",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 70,
+        "p": [[10,7,["tackle","string_shot"]],[10,7,["tackle","string_shot"]]],
+        "id": "bug_catcher_2",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 90,
+        "p": [[13,9,["poison_sting","string_shot"]]],
+        "id": "bug_catcher_3",
+        "cl": "bug_catcher"
+      }
     ],
     "route_3": [
-      { "id": "lass_1", "class": "lass", "name": { "ko": "소녀", "en": "Lass" }, "reward": 135, "team": [{ "pokemon": 16, "level": 9, "moves": ["gust"] }, { "pokemon": 16, "level": 9, "moves": ["gust"] }] },
-      { "id": "youngster_1", "class": "youngster", "name": { "ko": "소년", "en": "Youngster" }, "reward": 165, "team": [{ "pokemon": 19, "level": 11, "moves": ["tackle", "tail_whip", "quick_attack"] }] },
-      { "id": "bug_catcher_4", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 100, "team": [{ "pokemon": 10, "level": 10, "moves": ["tackle", "string_shot"] }, { "pokemon": 13, "level": 10, "moves": ["poison_sting", "string_shot"] }] },
-      { "id": "youngster_2", "class": "youngster", "name": { "ko": "소년", "en": "Youngster" }, "reward": 140, "team": [{ "pokemon": 21, "level": 14, "moves": ["peck", "leer", "fury_attack"] }] }
+      {
+        "n": {"ko":"소녀","en":"Lass"},
+        "r": 135,
+        "p": [[16,9,["gust"]],[16,9,["gust"]]],
+        "id": "lass_1",
+        "cl": "lass"
+      },
+      {
+        "n": {"ko":"소년","en":"Youngster"},
+        "r": 165,
+        "p": [[19,11,["tackle","tail_whip","quick_attack"]]],
+        "id": "youngster_1",
+        "cl": "youngster"
+      },
+      {
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 100,
+        "p": [[10,10,["tackle","string_shot"]],[13,10,["poison_sting","string_shot"]]],
+        "id": "bug_catcher_4",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"소년","en":"Youngster"},
+        "r": 140,
+        "p": [[21,14,["peck","leer","fury_attack"]]],
+        "id": "youngster_2",
+        "cl": "youngster"
+      }
     ],
     "route_24": [
-      { "id": "bug_catcher_5", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 140, "team": [{ "pokemon": 10, "level": 14, "moves": ["tackle", "string_shot"] }, { "pokemon": 13, "level": 14, "moves": ["poison_sting", "string_shot"] }] },
-      { "id": "lass_2", "class": "lass", "name": { "ko": "소녀", "en": "Lass" }, "reward": 195, "team": [{ "pokemon": 16, "level": 13, "moves": ["gust", "sand_attack"] }, { "pokemon": 29, "level": 13, "moves": ["scratch", "growl", "poison_sting"] }] },
-      { "id": "youngster_3", "class": "youngster", "name": { "ko": "소년", "en": "Youngster" }, "reward": 210, "team": [{ "pokemon": 19, "level": 14, "moves": ["tackle", "tail_whip", "quick_attack", "hyper_fang"] }, { "pokemon": 23, "level": 14, "moves": ["wrap", "leer", "poison_sting"] }] },
-      { "id": "lass_3", "class": "lass", "name": { "ko": "소녀", "en": "Lass" }, "reward": 225, "team": [{ "pokemon": 32, "level": 15, "moves": ["leer", "horn_attack", "poison_sting"] }] },
-      { "id": "jr_trainer_m_1", "class": "jr_trainer_m", "name": { "ko": "주니어 트레이너♂", "en": "Jr. Trainer♂" }, "reward": 280, "team": [{ "pokemon": 19, "level": 14, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 23, "level": 14, "moves": ["wrap", "leer", "poison_sting"] }] },
       {
-        "id": "rocket_nugget", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 560,
-        "dialogue": {
-          "intro": { "ko": "너겟 브릿지를 다 깼다고? 어디 한번 상대해볼까!", "en": "You beat Nugget Bridge? Let's see what you've got!" },
-          "defeat": { "ko": "으악! 로켓단 가입 안 할래?", "en": "Argh! Want to join Team Rocket?" }
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 140,
+        "p": [[10,14,["tackle","string_shot"]],[13,14,["poison_sting","string_shot"]]],
+        "id": "bug_catcher_5",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"소녀","en":"Lass"},
+        "r": 195,
+        "p": [[16,13,["gust","sand_attack"]],[29,13,["scratch","growl","poison_sting"]]],
+        "id": "lass_2",
+        "cl": "lass"
+      },
+      {
+        "n": {"ko":"소년","en":"Youngster"},
+        "r": 210,
+        "p": [[19,14,["tackle","tail_whip","quick_attack","hyper_fang"]],[23,14,["wrap","leer","poison_sting"]]],
+        "id": "youngster_3",
+        "cl": "youngster"
+      },
+      {
+        "n": {"ko":"소녀","en":"Lass"},
+        "r": 225,
+        "p": [[32,15,["leer","horn_attack","poison_sting"]]],
+        "id": "lass_3",
+        "cl": "lass"
+      },
+      {
+        "n": {"ko":"주니어 트레이너♂","en":"Jr. Trainer♂"},
+        "r": 280,
+        "p": [[19,14,["tackle","tail_whip","quick_attack"]],[23,14,["wrap","leer","poison_sting"]]],
+        "id": "jr_trainer_m_1",
+        "cl": "jr_trainer_m"
+      },
+      {
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 560,
+        "d": {
+          "intro": {"ko":"너겟 브릿지를 다 깼다고? 어디 한번 상대해볼까!","en":"You beat Nugget Bridge? Let's see what you've got!"},
+          "defeat": {"ko":"으악! 로켓단 가입 안 할래?","en":"Argh! Want to join Team Rocket?"}
         },
-        "team": [{ "pokemon": 19, "level": 15, "moves": ["tackle", "quick_attack", "hyper_fang"] }, { "pokemon": 41, "level": 15, "moves": ["leech_life", "supersonic", "bite"] }]
+        "p": [[19,15,["tackle","quick_attack","hyper_fang"]],[41,15,["leech_life","supersonic","bite"]]],
+        "id": "rocket_nugget",
+        "cl": "rocket"
       }
     ],
     "route_25": [
-      { "id": "hiker_1", "class": "hiker", "name": { "ko": "등산가", "en": "Hiker" }, "reward": 525, "team": [{ "pokemon": 74, "level": 15, "moves": ["tackle", "defense_curl"] }] },
-      { "id": "youngster_4", "class": "youngster", "name": { "ko": "소년", "en": "Youngster" }, "reward": 240, "team": [{ "pokemon": 19, "level": 15, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 21, "level": 15, "moves": ["peck", "leer", "fury_attack"] }] },
-      { "id": "lass_4", "class": "lass", "name": { "ko": "소녀", "en": "Lass" }, "reward": 225, "team": [{ "pokemon": 29, "level": 15, "moves": ["scratch", "growl", "poison_sting"] }, { "pokemon": 30, "level": 15, "moves": ["scratch", "growl", "poison_sting", "bite"] }] }
+      {
+        "n": {"ko":"등산가","en":"Hiker"},
+        "r": 525,
+        "p": [[74,15,["tackle","defense_curl"]]],
+        "id": "hiker_1",
+        "cl": "hiker"
+      },
+      {
+        "n": {"ko":"소년","en":"Youngster"},
+        "r": 240,
+        "p": [[19,15,["tackle","tail_whip","quick_attack"]],[21,15,["peck","leer","fury_attack"]]],
+        "id": "youngster_4",
+        "cl": "youngster"
+      },
+      {
+        "n": {"ko":"소녀","en":"Lass"},
+        "r": 225,
+        "p": [[29,15,["scratch","growl","poison_sting"]],[30,15,["scratch","growl","poison_sting","bite"]]],
+        "id": "lass_4",
+        "cl": "lass"
+      }
     ],
     "mt_moon": [
-      { "id": "bug_catcher_mt1", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 110, "team": [{ "pokemon": 13, "level": 11, "moves": ["poison_sting", "string_shot"] }, { "pokemon": 14, "level": 11, "moves": ["harden"] }] },
-      { "id": "lass_mt1", "class": "lass", "name": { "ko": "소녀", "en": "Lass" }, "reward": 165, "team": [{ "pokemon": 35, "level": 11, "moves": ["pound", "growl", "sing"] }, { "pokemon": 35, "level": 11, "moves": ["pound", "growl", "sing"] }] },
-      { "id": "hiker_mt1", "class": "hiker", "name": { "ko": "등산가", "en": "Hiker" }, "reward": 350, "team": [{ "pokemon": 74, "level": 10, "moves": ["tackle", "defense_curl"] }, { "pokemon": 74, "level": 10, "moves": ["tackle", "defense_curl"] }, { "pokemon": 95, "level": 10, "moves": ["tackle", "screech", "bind"] }] },
-      { "id": "rocket_mt1", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 390, "team": [{ "pokemon": 27, "level": 11, "moves": ["scratch", "sand_attack"] }, { "pokemon": 19, "level": 11, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 41, "level": 11, "moves": ["leech_life", "supersonic"] }] },
-      { "id": "rocket_mt2", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 455, "team": [{ "pokemon": 19, "level": 13, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 41, "level": 13, "moves": ["leech_life", "supersonic", "bite"] }] },
       {
-        "id": "super_nerd_mt1", "class": "super_nerd", "name": { "ko": "과학자", "en": "Super Nerd" }, "reward": 300,
-        "dialogue": {
-          "intro": { "ko": "달맞이산의 화석은 내 거야!", "en": "The fossils in Mt. Moon are mine!" },
-          "defeat": { "ko": "화석이...!", "en": "My fossils...!" }
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 110,
+        "p": [[13,11,["poison_sting","string_shot"]],[14,11,["harden"]]],
+        "id": "bug_catcher_mt1",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"소녀","en":"Lass"},
+        "r": 165,
+        "p": [[35,11,["pound","growl","sing"]],[35,11,["pound","growl","sing"]]],
+        "id": "lass_mt1",
+        "cl": "lass"
+      },
+      {
+        "n": {"ko":"등산가","en":"Hiker"},
+        "r": 350,
+        "p": [[74,10,["tackle","defense_curl"]],[74,10,["tackle","defense_curl"]],[95,10,["tackle","screech","bind"]]],
+        "id": "hiker_mt1",
+        "cl": "hiker"
+      },
+      {
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 390,
+        "p": [[27,11,["scratch","sand_attack"]],[19,11,["tackle","tail_whip","quick_attack"]],[41,11,["leech_life","supersonic"]]],
+        "id": "rocket_mt1",
+        "cl": "rocket"
+      },
+      {
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 455,
+        "p": [[19,13,["tackle","tail_whip","quick_attack"]],[41,13,["leech_life","supersonic","bite"]]],
+        "id": "rocket_mt2",
+        "cl": "rocket"
+      },
+      {
+        "n": {"ko":"과학자","en":"Super Nerd"},
+        "r": 300,
+        "d": {
+          "intro": {"ko":"달맞이산의 화석은 내 거야!","en":"The fossils in Mt. Moon are mine!"},
+          "defeat": {"ko":"화석이...!","en":"My fossils...!"}
         },
-        "team": [{ "pokemon": 81, "level": 12, "moves": ["tackle", "sonic_boom", "thunder_shock"] }, { "pokemon": 100, "level": 12, "moves": ["tackle", "screech", "sonic_boom"] }]
+        "p": [[81,12,["tackle","sonic_boom","thunder_shock"]],[100,12,["tackle","screech","sonic_boom"]]],
+        "id": "super_nerd_mt1",
+        "cl": "super_nerd"
       }
     ],
     "route_6": [
-      { "id": "jr_trainer_f_1", "class": "jr_trainer_f", "name": { "ko": "주니어 트레이너♀", "en": "Jr. Trainer♀" }, "reward": 320, "team": [{ "pokemon": 43, "level": 16, "moves": ["absorb", "poison_powder", "stun_spore"] }] },
-      { "id": "bug_catcher_6", "class": "bug_catcher", "name": { "ko": "충잡이", "en": "Bug Catcher" }, "reward": 160, "team": [{ "pokemon": 13, "level": 16, "moves": ["poison_sting", "string_shot"] }, { "pokemon": 10, "level": 16, "moves": ["tackle", "string_shot"] }] },
-      { "id": "jr_trainer_m_2", "class": "jr_trainer_m", "name": { "ko": "주니어 트레이너♂", "en": "Jr. Trainer♂" }, "reward": 340, "team": [{ "pokemon": 21, "level": 17, "moves": ["peck", "leer", "fury_attack"] }] }
+      {
+        "n": {"ko":"주니어 트레이너♀","en":"Jr. Trainer♀"},
+        "r": 320,
+        "p": [[43,16,["absorb","poison_powder","stun_spore"]]],
+        "id": "jr_trainer_f_1",
+        "cl": "jr_trainer_f"
+      },
+      {
+        "n": {"ko":"충잡이","en":"Bug Catcher"},
+        "r": 160,
+        "p": [[13,16,["poison_sting","string_shot"]],[10,16,["tackle","string_shot"]]],
+        "id": "bug_catcher_6",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": {"ko":"주니어 트레이너♂","en":"Jr. Trainer♂"},
+        "r": 340,
+        "p": [[21,17,["peck","leer","fury_attack"]]],
+        "id": "jr_trainer_m_2",
+        "cl": "jr_trainer_m"
+      }
     ],
     "ss_anne": [
-      { "id": "sailor_1", "class": "sailor", "name": { "ko": "선원", "en": "Sailor" }, "reward": 525, "team": [{ "pokemon": 66, "level": 17, "moves": ["low_kick", "leer", "focus_energy"] }, { "pokemon": 66, "level": 17, "moves": ["low_kick", "leer", "focus_energy"] }] },
-      { "id": "sailor_2", "class": "sailor", "name": { "ko": "선원", "en": "Sailor" }, "reward": 555, "team": [{ "pokemon": 72, "level": 18, "moves": ["poison_sting", "supersonic", "wrap", "acid"] }] },
-      { "id": "gentleman_1", "class": "gentleman", "name": { "ko": "신사", "en": "Gentleman" }, "reward": 1260, "team": [{ "pokemon": 58, "level": 18, "moves": ["ember", "leer", "take_down"] }, { "pokemon": 77, "level": 18, "moves": ["ember", "tail_whip", "stomp"] }] },
       {
-        "id": "rival_ss_anne", "class": "rival", "name": { "ko": "라이벌", "en": "Rival" }, "reward": 1125,
-        "dialogue": {
-          "intro": { "ko": "오! 너 여기서 뭐해?", "en": "Oh! What are you doing here?" },
-          "battle": { "ko": "상트앤느호에서 한판 붙자!", "en": "Let's battle on the S.S. Anne!" },
-          "defeat": { "ko": "으악! 또 졌어!", "en": "Argh! I lost again!" }
+        "n": {"ko":"선원","en":"Sailor"},
+        "r": 525,
+        "p": [[66,17,["low_kick","leer","focus_energy"]],[66,17,["low_kick","leer","focus_energy"]]],
+        "id": "sailor_1",
+        "cl": "sailor"
+      },
+      {
+        "n": {"ko":"선원","en":"Sailor"},
+        "r": 555,
+        "p": [[72,18,["poison_sting","supersonic","wrap","acid"]]],
+        "id": "sailor_2",
+        "cl": "sailor"
+      },
+      {
+        "n": {"ko":"신사","en":"Gentleman"},
+        "r": 1260,
+        "p": [[58,18,["ember","leer","take_down"]],[77,18,["ember","tail_whip","stomp"]]],
+        "id": "gentleman_1",
+        "cl": "gentleman"
+      },
+      {
+        "n": {"ko":"라이벌","en":"Rival"},
+        "r": 1125,
+        "d": {"intro":{"ko":"오! 너 여기서 뭐해?","en":"Oh! What are you doing here?"},"battle":{"ko":"상트앤느호에서 한판 붙자!","en":"Let's battle on the S.S. Anne!"},"defeat":{"ko":"으악! 또 졌어!","en":"Argh! I lost again!"}},
+        "p": {
+          "bulbasaur": [[18,19,["gust","sand_attack","quick_attack"]],[19,16,["tackle","tail_whip","quick_attack"]],[63,18,["teleport"]],[9,20,["tackle","tail_whip","bubble","water_gun"]]],
+          "charmander": [[18,19,["gust","sand_attack","quick_attack"]],[19,16,["tackle","tail_whip","quick_attack"]],[63,18,["teleport"]],[3,20,["tackle","growl","leech_seed","vine_whip"]]],
+          "squirtle": [[18,19,["gust","sand_attack","quick_attack"]],[19,16,["tackle","tail_whip","quick_attack"]],[63,18,["teleport"]],[6,20,["scratch","growl","ember","leer"]]]
         },
-        "teams": {
-          "bulbasaur": [{ "pokemon": 18, "level": 19, "moves": ["gust", "sand_attack", "quick_attack"] }, { "pokemon": 19, "level": 16, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 63, "level": 18, "moves": ["teleport"] }, { "pokemon": 9, "level": 20, "moves": ["tackle", "tail_whip", "bubble", "water_gun"] }],
-          "charmander": [{ "pokemon": 18, "level": 19, "moves": ["gust", "sand_attack", "quick_attack"] }, { "pokemon": 19, "level": 16, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 63, "level": 18, "moves": ["teleport"] }, { "pokemon": 3, "level": 20, "moves": ["tackle", "growl", "leech_seed", "vine_whip"] }],
-          "squirtle": [{ "pokemon": 18, "level": 19, "moves": ["gust", "sand_attack", "quick_attack"] }, { "pokemon": 19, "level": 16, "moves": ["tackle", "tail_whip", "quick_attack"] }, { "pokemon": 63, "level": 18, "moves": ["teleport"] }, { "pokemon": 6, "level": 20, "moves": ["scratch", "growl", "ember", "leer"] }]
-        }
+        "id": "rival_ss_anne",
+        "cl": "rival"
       }
     ],
     "rock_tunnel": [
-      { "id": "hiker_rt1", "class": "hiker", "name": { "ko": "등산가", "en": "Hiker" }, "reward": 665, "team": [{ "pokemon": 74, "level": 19, "moves": ["tackle", "defense_curl", "rock_throw"] }] },
-      { "id": "hiker_rt2", "class": "hiker", "name": { "ko": "등산가", "en": "Hiker" }, "reward": 595, "team": [{ "pokemon": 74, "level": 17, "moves": ["tackle", "defense_curl"] }, { "pokemon": 95, "level": 17, "moves": ["tackle", "screech", "bind"] }] },
-      { "id": "pokemaniac_rt1", "class": "pokemaniac", "name": { "ko": "포켓몬 매니아", "en": "Pokemaniac" }, "reward": 570, "team": [{ "pokemon": 104, "level": 19, "moves": ["growl", "bone_club", "leer"] }, { "pokemon": 79, "level": 19, "moves": ["confusion", "disable", "headbutt"] }] }
+      {
+        "n": {"ko":"등산가","en":"Hiker"},
+        "r": 665,
+        "p": [[74,19,["tackle","defense_curl","rock_throw"]]],
+        "id": "hiker_rt1",
+        "cl": "hiker"
+      },
+      {
+        "n": {"ko":"등산가","en":"Hiker"},
+        "r": 595,
+        "p": [[74,17,["tackle","defense_curl"]],[95,17,["tackle","screech","bind"]]],
+        "id": "hiker_rt2",
+        "cl": "hiker"
+      },
+      {
+        "n": {"ko":"포켓몬 매니아","en":"Pokemaniac"},
+        "r": 570,
+        "p": [[104,19,["growl","bone_club","leer"]],[79,19,["confusion","disable","headbutt"]]],
+        "id": "pokemaniac_rt1",
+        "cl": "pokemaniac"
+      }
     ],
     "pokemon_tower": [
-      { "id": "channeler_1", "class": "channeler", "name": { "ko": "무녀", "en": "Channeler" }, "reward": 736, "team": [{ "pokemon": 92, "level": 23, "moves": ["lick", "confuse_ray", "night_shade"] }] },
-      { "id": "channeler_2", "class": "channeler", "name": { "ko": "무녀", "en": "Channeler" }, "reward": 768, "team": [{ "pokemon": 92, "level": 24, "moves": ["lick", "confuse_ray", "night_shade"] }] },
-      { "id": "channeler_3", "class": "channeler", "name": { "ko": "무녀", "en": "Channeler" }, "reward": 800, "team": [{ "pokemon": 93, "level": 25, "moves": ["lick", "confuse_ray", "night_shade", "hypnosis"] }] }
+      {
+        "n": {"ko":"무녀","en":"Channeler"},
+        "r": 736,
+        "p": [[92,23,["lick","confuse_ray","night_shade"]]],
+        "id": "channeler_1",
+        "cl": "channeler"
+      },
+      {
+        "n": {"ko":"무녀","en":"Channeler"},
+        "r": 768,
+        "p": [[92,24,["lick","confuse_ray","night_shade"]]],
+        "id": "channeler_2",
+        "cl": "channeler"
+      },
+      {
+        "n": {"ko":"무녀","en":"Channeler"},
+        "r": 800,
+        "p": [[93,25,["lick","confuse_ray","night_shade","hypnosis"]]],
+        "id": "channeler_3",
+        "cl": "channeler"
+      }
     ],
     "rocket_hideout": [
-      { "id": "rocket_rh1", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 700, "team": [{ "pokemon": 19, "level": 20, "moves": ["tackle", "tail_whip", "quick_attack", "hyper_fang"] }, { "pokemon": 41, "level": 20, "moves": ["leech_life", "supersonic", "bite", "confuse_ray"] }] },
-      { "id": "rocket_rh2", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 665, "team": [{ "pokemon": 88, "level": 19, "moves": ["pound", "disable", "poison_gas", "minimize"] }, { "pokemon": 109, "level": 19, "moves": ["tackle", "smog", "sludge"] }] },
       {
-        "id": "giovanni_hideout", "class": "boss", "name": { "ko": "비주기", "en": "Giovanni" }, "reward": 2975,
-        "dialogue": {
-          "intro": { "ko": "로켓단 보스 비주기다. 감히 여기까지 오다니!", "en": "I am Giovanni, the Boss of Team Rocket. How dare you come here!" },
-          "battle": { "ko": "한 수 가르쳐주마!", "en": "I'll teach you a lesson!" },
-          "defeat": { "ko": "후후... 재미있는 녀석이군. 다시 만나자.", "en": "Heh... You're an interesting one. We'll meet again." }
-        },
-        "team": [{ "pokemon": 95, "level": 25, "moves": ["tackle", "bind", "rock_throw", "screech"] }, { "pokemon": 111, "level": 24, "moves": ["horn_attack", "stomp", "tail_whip"] }, { "pokemon": 31, "level": 29, "moves": ["scratch", "tail_whip", "poison_sting", "body_slam"] }]
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 700,
+        "p": [[19,20,["tackle","tail_whip","quick_attack","hyper_fang"]],[41,20,["leech_life","supersonic","bite","confuse_ray"]]],
+        "id": "rocket_rh1",
+        "cl": "rocket"
+      },
+      {
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 665,
+        "p": [[88,19,["pound","disable","poison_gas","minimize"]],[109,19,["tackle","smog","sludge"]]],
+        "id": "rocket_rh2",
+        "cl": "rocket"
+      },
+      {
+        "n": {"ko":"비주기","en":"Giovanni"},
+        "r": 2975,
+        "d": {"intro":{"ko":"로켓단 보스 비주기다. 감히 여기까지 오다니!","en":"I am Giovanni, the Boss of Team Rocket. How dare you come here!"},"battle":{"ko":"한 수 가르쳐주마!","en":"I'll teach you a lesson!"},"defeat":{"ko":"후후... 재미있는 녀석이군. 다시 만나자.","en":"Heh... You're an interesting one. We'll meet again."}},
+        "p": [[95,25,["tackle","bind","rock_throw","screech"]],[111,24,["horn_attack","stomp","tail_whip"]],[31,29,["scratch","tail_whip","poison_sting","body_slam"]]],
+        "id": "giovanni_hideout",
+        "cl": "boss"
       }
     ],
     "silph_co": [
-      { "id": "rocket_sc1", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 875, "team": [{ "pokemon": 20, "level": 25, "moves": ["tackle", "tail_whip", "quick_attack", "hyper_fang"] }, { "pokemon": 42, "level": 25, "moves": ["leech_life", "supersonic", "bite", "confuse_ray"] }] },
-      { "id": "rocket_sc2", "class": "rocket", "name": { "ko": "로켓단", "en": "Team Rocket" }, "reward": 875, "team": [{ "pokemon": 89, "level": 25, "moves": ["pound", "disable", "poison_gas", "minimize"] }, { "pokemon": 110, "level": 25, "moves": ["tackle", "smog", "sludge", "self_destruct"] }] },
       {
-        "id": "rival_silph", "class": "rival", "name": { "ko": "라이벌", "en": "Rival" }, "reward": 2310,
-        "dialogue": {
-          "intro": { "ko": "여기서 또 만나네!", "en": "We meet again here!" },
-          "battle": { "ko": "실프주식회사에서 승부다!", "en": "Let's battle at Silph Co.!" },
-          "defeat": { "ko": "크... 또 졌군...", "en": "Ugh... I lost again..." }
-        },
-        "teams": {
-          "bulbasaur": [{ "pokemon": 18, "level": 37, "moves": ["wing_attack", "quick_attack", "whirlwind", "feather_dance"] }, { "pokemon": 20, "level": 35, "moves": ["quick_attack", "hyper_fang", "pursuit"] }, { "pokemon": 59, "level": 35, "moves": ["ember", "take_down", "flame_wheel"] }, { "pokemon": 64, "level": 35, "moves": ["confusion", "psybeam", "recover"] }, { "pokemon": 9, "level": 40, "moves": ["water_gun", "bite", "ice_beam", "skull_bash"] }],
-          "charmander": [{ "pokemon": 18, "level": 37, "moves": ["wing_attack", "quick_attack", "whirlwind", "feather_dance"] }, { "pokemon": 20, "level": 35, "moves": ["quick_attack", "hyper_fang", "pursuit"] }, { "pokemon": 103, "level": 35, "moves": ["confusion", "hypnosis", "stomp"] }, { "pokemon": 64, "level": 35, "moves": ["confusion", "psybeam", "recover"] }, { "pokemon": 3, "level": 40, "moves": ["vine_whip", "razor_leaf", "sleep_powder", "growth"] }],
-          "squirtle": [{ "pokemon": 18, "level": 37, "moves": ["wing_attack", "quick_attack", "whirlwind", "feather_dance"] }, { "pokemon": 20, "level": 35, "moves": ["quick_attack", "hyper_fang", "pursuit"] }, { "pokemon": 130, "level": 35, "moves": ["bite", "dragon_rage", "twister"] }, { "pokemon": 64, "level": 35, "moves": ["confusion", "psybeam", "recover"] }, { "pokemon": 6, "level": 40, "moves": ["ember", "slash", "fire_spin", "wing_attack"] }]
-        }
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 875,
+        "p": [[20,25,["tackle","tail_whip","quick_attack","hyper_fang"]],[42,25,["leech_life","supersonic","bite","confuse_ray"]]],
+        "id": "rocket_sc1",
+        "cl": "rocket"
       },
       {
-        "id": "giovanni_silph", "class": "boss", "name": { "ko": "비주기", "en": "Giovanni" }, "reward": 4059,
-        "dialogue": {
-          "intro": { "ko": "또 만났군. 실프주식회사의 마스터볼은 내 것이야!", "en": "We meet again. The Master Ball from Silph Co. is mine!" },
-          "battle": { "ko": "이번엔 봐주지 않겠다!", "en": "I won't go easy on you this time!" },
-          "defeat": { "ko": "쿠... 로켓단은 해산이다...", "en": "Gah... Team Rocket is finished..." }
+        "n": {"ko":"로켓단","en":"Team Rocket"},
+        "r": 875,
+        "p": [[89,25,["pound","disable","poison_gas","minimize"]],[110,25,["tackle","smog","sludge","self_destruct"]]],
+        "id": "rocket_sc2",
+        "cl": "rocket"
+      },
+      {
+        "n": {"ko":"라이벌","en":"Rival"},
+        "r": 2310,
+        "d": {"intro":{"ko":"여기서 또 만나네!","en":"We meet again here!"},"battle":{"ko":"실프주식회사에서 승부다!","en":"Let's battle at Silph Co.!"},"defeat":{"ko":"크... 또 졌군...","en":"Ugh... I lost again..."}},
+        "p": {
+          "bulbasaur": [[18,37,["wing_attack","quick_attack","whirlwind","feather_dance"]],[20,35,["quick_attack","hyper_fang","pursuit"]],[59,35,["ember","take_down","flame_wheel"]],[64,35,["confusion","psybeam","recover"]],[9,40,["water_gun","bite","ice_beam","skull_bash"]]],
+          "charmander": [[18,37,["wing_attack","quick_attack","whirlwind","feather_dance"]],[20,35,["quick_attack","hyper_fang","pursuit"]],[103,35,["confusion","hypnosis","stomp"]],[64,35,["confusion","psybeam","recover"]],[3,40,["vine_whip","razor_leaf","sleep_powder","growth"]]],
+          "squirtle": [[18,37,["wing_attack","quick_attack","whirlwind","feather_dance"]],[20,35,["quick_attack","hyper_fang","pursuit"]],[130,35,["bite","dragon_rage","twister"]],[64,35,["confusion","psybeam","recover"]],[6,40,["ember","slash","fire_spin","wing_attack"]]]
         },
-        "team": [{ "pokemon": 34, "level": 37, "moves": ["thrash", "horn_attack", "poison_sting"] }, { "pokemon": 31, "level": 37, "moves": ["body_slam", "double_kick", "poison_sting"] }, { "pokemon": 112, "level": 37, "moves": ["stomp", "horn_attack", "fury_attack"] }, { "pokemon": 111, "level": 35, "moves": ["horn_attack", "stomp", "tail_whip"] }]
+        "id": "rival_silph",
+        "cl": "rival"
+      },
+      {
+        "n": {"ko":"비주기","en":"Giovanni"},
+        "r": 4059,
+        "d": {"intro":{"ko":"또 만났군. 실프주식회사의 마스터볼은 내 것이야!","en":"We meet again. The Master Ball from Silph Co. is mine!"},"battle":{"ko":"이번엔 봐주지 않겠다!","en":"I won't go easy on you this time!"},"defeat":{"ko":"쿠... 로켓단은 해산이다...","en":"Gah... Team Rocket is finished..."}},
+        "p": [[34,37,["thrash","horn_attack","poison_sting"]],[31,37,["body_slam","double_kick","poison_sting"]],[112,37,["stomp","horn_attack","fury_attack"]],[111,35,["horn_attack","stomp","tail_whip"]]],
+        "id": "giovanni_silph",
+        "cl": "boss"
       }
     ]
-  },
-
-  "trainerClasses": {
-    "bug_catcher": { "name": { "ko": "충잡이", "en": "Bug Catcher" }, "baseReward": 10 },
-    "youngster": { "name": { "ko": "소년", "en": "Youngster" }, "baseReward": 15 },
-    "lass": { "name": { "ko": "소녀", "en": "Lass" }, "baseReward": 15 },
-    "jr_trainer_m": { "name": { "ko": "주니어 트레이너♂", "en": "Jr. Trainer♂" }, "baseReward": 20 },
-    "jr_trainer_f": { "name": { "ko": "주니어 트레이너♀", "en": "Jr. Trainer♀" }, "baseReward": 20 },
-    "hiker": { "name": { "ko": "등산가", "en": "Hiker" }, "baseReward": 35 },
-    "super_nerd": { "name": { "ko": "과학자", "en": "Super Nerd" }, "baseReward": 25 },
-    "sailor": { "name": { "ko": "선원", "en": "Sailor" }, "baseReward": 30 },
-    "gentleman": { "name": { "ko": "신사", "en": "Gentleman" }, "baseReward": 70 },
-    "channeler": { "name": { "ko": "무녀", "en": "Channeler" }, "baseReward": 32 },
-    "rocket": { "name": { "ko": "로켓단", "en": "Team Rocket" }, "baseReward": 35 },
-    "pokemaniac": { "name": { "ko": "포켓몬 매니아", "en": "Pokemaniac" }, "baseReward": 30 },
-    "swimmer": { "name": { "ko": "수영선수", "en": "Swimmer" }, "baseReward": 20 },
-    "biker": { "name": { "ko": "폭주족", "en": "Biker" }, "baseReward": 20 },
-    "burglar": { "name": { "ko": "도둑", "en": "Burglar" }, "baseReward": 88 },
-    "psychic": { "name": { "ko": "싸이키커", "en": "Psychic" }, "baseReward": 35 },
-    "beauty": { "name": { "ko": "아가씨", "en": "Beauty" }, "baseReward": 70 },
-    "blackbelt": { "name": { "ko": "유도왕", "en": "Blackbelt" }, "baseReward": 25 },
-    "ace_trainer_m": { "name": { "ko": "에이스 트레이너♂", "en": "Ace Trainer♂" }, "baseReward": 42 },
-    "ace_trainer_f": { "name": { "ko": "에이스 트레이너♀", "en": "Ace Trainer♀" }, "baseReward": 42 },
-    "tamer": { "name": { "ko": "조련사", "en": "Tamer" }, "baseReward": 40 },
-    "bird_keeper": { "name": { "ko": "조류 연구가", "en": "Bird Keeper" }, "baseReward": 25 },
-    "juggler": { "name": { "ko": "저글러", "en": "Juggler" }, "baseReward": 35 },
-    "boss": { "name": { "ko": "보스", "en": "Boss" }, "baseReward": 99 }
   }
 }
