@@ -1,0 +1,931 @@
+{
+  "version": "1.0.0",
+  "description": "1세대 포켓몬 진화 조건",
+
+  "evolutionMethods": {
+    "level": "레벨 도달 시 진화",
+    "item": "특정 아이템 사용 시 진화",
+    "trade": "통신 교환 시 진화"
+  },
+
+  "evolutionItems": {
+    "fire_stone": { "ko": "불꽃의돌", "en": "Fire Stone" },
+    "water_stone": { "ko": "물의돌", "en": "Water Stone" },
+    "thunder_stone": { "ko": "천둥의돌", "en": "Thunder Stone" },
+    "leaf_stone": { "ko": "리프의돌", "en": "Leaf Stone" },
+    "moon_stone": { "ko": "달의돌", "en": "Moon Stone" }
+  },
+
+  "evolutions": {
+    "1": {
+      "from": null,
+      "to": 2,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "2": {
+      "from": 1,
+      "to": 3,
+      "method": "level",
+      "condition": { "level": 32 }
+    },
+    "3": {
+      "from": 2,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "4": {
+      "from": null,
+      "to": 5,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "5": {
+      "from": 4,
+      "to": 6,
+      "method": "level",
+      "condition": { "level": 36 }
+    },
+    "6": {
+      "from": 5,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "7": {
+      "from": null,
+      "to": 8,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "8": {
+      "from": 7,
+      "to": 9,
+      "method": "level",
+      "condition": { "level": 36 }
+    },
+    "9": {
+      "from": 8,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "10": {
+      "from": null,
+      "to": 11,
+      "method": "level",
+      "condition": { "level": 7 }
+    },
+    "11": {
+      "from": 10,
+      "to": 12,
+      "method": "level",
+      "condition": { "level": 10 }
+    },
+    "12": {
+      "from": 11,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "13": {
+      "from": null,
+      "to": 14,
+      "method": "level",
+      "condition": { "level": 7 }
+    },
+    "14": {
+      "from": 13,
+      "to": 15,
+      "method": "level",
+      "condition": { "level": 10 }
+    },
+    "15": {
+      "from": 14,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "16": {
+      "from": null,
+      "to": 17,
+      "method": "level",
+      "condition": { "level": 18 }
+    },
+    "17": {
+      "from": 16,
+      "to": 18,
+      "method": "level",
+      "condition": { "level": 36 }
+    },
+    "18": {
+      "from": 17,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "19": {
+      "from": null,
+      "to": 20,
+      "method": "level",
+      "condition": { "level": 20 }
+    },
+    "20": {
+      "from": 19,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "21": {
+      "from": null,
+      "to": 22,
+      "method": "level",
+      "condition": { "level": 20 }
+    },
+    "22": {
+      "from": 21,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "23": {
+      "from": null,
+      "to": 24,
+      "method": "level",
+      "condition": { "level": 22 }
+    },
+    "24": {
+      "from": 23,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "25": {
+      "from": null,
+      "to": 26,
+      "method": "item",
+      "condition": { "item": "thunder_stone" }
+    },
+    "26": {
+      "from": 25,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "27": {
+      "from": null,
+      "to": 28,
+      "method": "level",
+      "condition": { "level": 22 }
+    },
+    "28": {
+      "from": 27,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "29": {
+      "from": null,
+      "to": 30,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "30": {
+      "from": 29,
+      "to": 31,
+      "method": "item",
+      "condition": { "item": "moon_stone" }
+    },
+    "31": {
+      "from": 30,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "32": {
+      "from": null,
+      "to": 33,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "33": {
+      "from": 32,
+      "to": 34,
+      "method": "item",
+      "condition": { "item": "moon_stone" }
+    },
+    "34": {
+      "from": 33,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "35": {
+      "from": null,
+      "to": 36,
+      "method": "item",
+      "condition": { "item": "moon_stone" }
+    },
+    "36": {
+      "from": 35,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "37": {
+      "from": null,
+      "to": 38,
+      "method": "item",
+      "condition": { "item": "fire_stone" }
+    },
+    "38": {
+      "from": 37,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "39": {
+      "from": null,
+      "to": 40,
+      "method": "item",
+      "condition": { "item": "moon_stone" }
+    },
+    "40": {
+      "from": 39,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "41": {
+      "from": null,
+      "to": 42,
+      "method": "level",
+      "condition": { "level": 22 }
+    },
+    "42": {
+      "from": 41,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "43": {
+      "from": null,
+      "to": 44,
+      "method": "level",
+      "condition": { "level": 21 }
+    },
+    "44": {
+      "from": 43,
+      "to": 45,
+      "method": "item",
+      "condition": { "item": "leaf_stone" }
+    },
+    "45": {
+      "from": 44,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "46": {
+      "from": null,
+      "to": 47,
+      "method": "level",
+      "condition": { "level": 24 }
+    },
+    "47": {
+      "from": 46,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "48": {
+      "from": null,
+      "to": 49,
+      "method": "level",
+      "condition": { "level": 31 }
+    },
+    "49": {
+      "from": 48,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "50": {
+      "from": null,
+      "to": 51,
+      "method": "level",
+      "condition": { "level": 26 }
+    },
+    "51": {
+      "from": 50,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "52": {
+      "from": null,
+      "to": 53,
+      "method": "level",
+      "condition": { "level": 28 }
+    },
+    "53": {
+      "from": 52,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "54": {
+      "from": null,
+      "to": 55,
+      "method": "level",
+      "condition": { "level": 33 }
+    },
+    "55": {
+      "from": 54,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "56": {
+      "from": null,
+      "to": 57,
+      "method": "level",
+      "condition": { "level": 28 }
+    },
+    "57": {
+      "from": 56,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "58": {
+      "from": null,
+      "to": 59,
+      "method": "item",
+      "condition": { "item": "fire_stone" }
+    },
+    "59": {
+      "from": 58,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "60": {
+      "from": null,
+      "to": 61,
+      "method": "level",
+      "condition": { "level": 25 }
+    },
+    "61": {
+      "from": 60,
+      "to": 62,
+      "method": "item",
+      "condition": { "item": "water_stone" }
+    },
+    "62": {
+      "from": 61,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "63": {
+      "from": null,
+      "to": 64,
+      "method": "level",
+      "condition": { "level": 16 }
+    },
+    "64": {
+      "from": 63,
+      "to": 65,
+      "method": "trade",
+      "condition": {}
+    },
+    "65": {
+      "from": 64,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "66": {
+      "from": null,
+      "to": 67,
+      "method": "level",
+      "condition": { "level": 28 }
+    },
+    "67": {
+      "from": 66,
+      "to": 68,
+      "method": "trade",
+      "condition": {}
+    },
+    "68": {
+      "from": 67,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "69": {
+      "from": null,
+      "to": 70,
+      "method": "level",
+      "condition": { "level": 21 }
+    },
+    "70": {
+      "from": 69,
+      "to": 71,
+      "method": "item",
+      "condition": { "item": "leaf_stone" }
+    },
+    "71": {
+      "from": 70,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "72": {
+      "from": null,
+      "to": 73,
+      "method": "level",
+      "condition": { "level": 30 }
+    },
+    "73": {
+      "from": 72,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "74": {
+      "from": null,
+      "to": 75,
+      "method": "level",
+      "condition": { "level": 25 }
+    },
+    "75": {
+      "from": 74,
+      "to": 76,
+      "method": "trade",
+      "condition": {}
+    },
+    "76": {
+      "from": 75,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "77": {
+      "from": null,
+      "to": 78,
+      "method": "level",
+      "condition": { "level": 40 }
+    },
+    "78": {
+      "from": 77,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "79": {
+      "from": null,
+      "to": 80,
+      "method": "level",
+      "condition": { "level": 37 }
+    },
+    "80": {
+      "from": 79,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "81": {
+      "from": null,
+      "to": 82,
+      "method": "level",
+      "condition": { "level": 30 }
+    },
+    "82": {
+      "from": 81,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "83": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "84": {
+      "from": null,
+      "to": 85,
+      "method": "level",
+      "condition": { "level": 31 }
+    },
+    "85": {
+      "from": 84,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "86": {
+      "from": null,
+      "to": 87,
+      "method": "level",
+      "condition": { "level": 34 }
+    },
+    "87": {
+      "from": 86,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "88": {
+      "from": null,
+      "to": 89,
+      "method": "level",
+      "condition": { "level": 38 }
+    },
+    "89": {
+      "from": 88,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "90": {
+      "from": null,
+      "to": 91,
+      "method": "item",
+      "condition": { "item": "water_stone" }
+    },
+    "91": {
+      "from": 90,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "92": {
+      "from": null,
+      "to": 93,
+      "method": "level",
+      "condition": { "level": 25 }
+    },
+    "93": {
+      "from": 92,
+      "to": 94,
+      "method": "trade",
+      "condition": {}
+    },
+    "94": {
+      "from": 93,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "95": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "96": {
+      "from": null,
+      "to": 97,
+      "method": "level",
+      "condition": { "level": 26 }
+    },
+    "97": {
+      "from": 96,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "98": {
+      "from": null,
+      "to": 99,
+      "method": "level",
+      "condition": { "level": 28 }
+    },
+    "99": {
+      "from": 98,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "100": {
+      "from": null,
+      "to": 101,
+      "method": "level",
+      "condition": { "level": 30 }
+    },
+    "101": {
+      "from": 100,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "102": {
+      "from": null,
+      "to": 103,
+      "method": "item",
+      "condition": { "item": "leaf_stone" }
+    },
+    "103": {
+      "from": 102,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "104": {
+      "from": null,
+      "to": 105,
+      "method": "level",
+      "condition": { "level": 28 }
+    },
+    "105": {
+      "from": 104,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "106": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "107": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "108": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "109": {
+      "from": null,
+      "to": 110,
+      "method": "level",
+      "condition": { "level": 35 }
+    },
+    "110": {
+      "from": 109,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "111": {
+      "from": null,
+      "to": 112,
+      "method": "level",
+      "condition": { "level": 42 }
+    },
+    "112": {
+      "from": 111,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "113": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "114": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "115": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "116": {
+      "from": null,
+      "to": 117,
+      "method": "level",
+      "condition": { "level": 32 }
+    },
+    "117": {
+      "from": 116,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "118": {
+      "from": null,
+      "to": 119,
+      "method": "level",
+      "condition": { "level": 33 }
+    },
+    "119": {
+      "from": 118,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "120": {
+      "from": null,
+      "to": 121,
+      "method": "item",
+      "condition": { "item": "water_stone" }
+    },
+    "121": {
+      "from": 120,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "122": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "123": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "124": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "125": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "126": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "127": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "128": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "129": {
+      "from": null,
+      "to": 130,
+      "method": "level",
+      "condition": { "level": 20 }
+    },
+    "130": {
+      "from": 129,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "131": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "132": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "133": {
+      "from": null,
+      "to": [134, 135, 136],
+      "method": "item",
+      "conditions": [
+        { "item": "water_stone", "result": 134 },
+        { "item": "thunder_stone", "result": 135 },
+        { "item": "fire_stone", "result": 136 }
+      ]
+    },
+    "134": {
+      "from": 133,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "135": {
+      "from": 133,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "136": {
+      "from": 133,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "137": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "138": {
+      "from": null,
+      "to": 139,
+      "method": "level",
+      "condition": { "level": 40 }
+    },
+    "139": {
+      "from": 138,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "140": {
+      "from": null,
+      "to": 141,
+      "method": "level",
+      "condition": { "level": 40 }
+    },
+    "141": {
+      "from": 140,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "142": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "143": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "144": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "145": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "146": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "147": {
+      "from": null,
+      "to": 148,
+      "method": "level",
+      "condition": { "level": 30 }
+    },
+    "148": {
+      "from": 147,
+      "to": 149,
+      "method": "level",
+      "condition": { "level": 55 }
+    },
+    "149": {
+      "from": 148,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "150": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    },
+    "151": {
+      "from": null,
+      "to": null,
+      "method": null,
+      "condition": null
+    }
+  }
+}

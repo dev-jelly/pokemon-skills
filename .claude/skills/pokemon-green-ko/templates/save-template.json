@@ -1,0 +1,121 @@
+{
+  "_comment": "세이브 파일 템플릿. 슬롯 1~10 수동저장, autosave 자동저장",
+  "meta": {
+    "version": "1.0.0",
+    "savedAt": null,
+    "playTime": 0,
+    "saveSlot": 1,
+    "slotRange": "1-10",
+    "playerName": "",
+    "badgeCount": 0,
+    "pokedexCount": 0,
+    "locationName": ""
+  },
+
+  "player": {
+    "name": "",
+    "rivalName": "",
+    "gender": "male",
+    "money": 3000,
+    "badges": [],
+    "location": {
+      "area": "pallet_town",
+      "building": "player_house",
+      "floor": 2
+    },
+    "lastHealLocation": "pallet_town"
+  },
+
+  "party": [],
+
+  "pcBoxes": {
+    "1": { "name": "BOX 1", "pokemon": [] },
+    "2": { "name": "BOX 2", "pokemon": [] },
+    "3": { "name": "BOX 3", "pokemon": [] },
+    "4": { "name": "BOX 4", "pokemon": [] },
+    "5": { "name": "BOX 5", "pokemon": [] },
+    "6": { "name": "BOX 6", "pokemon": [] },
+    "7": { "name": "BOX 7", "pokemon": [] },
+    "8": { "name": "BOX 8", "pokemon": [] },
+    "9": { "name": "BOX 9", "pokemon": [] },
+    "10": { "name": "BOX 10", "pokemon": [] },
+    "11": { "name": "BOX 11", "pokemon": [] },
+    "12": { "name": "BOX 12", "pokemon": [] }
+  },
+
+  "bag": {
+    "items": {},
+    "keyItems": [],
+    "pokeballs": {
+      "poke_ball": 0
+    },
+    "tmHm": []
+  },
+
+  "pokedex": {
+    "owned": false,
+    "seen": [],
+    "caught": []
+  },
+
+  "storyFlags": {
+    "game_started": false,
+    "received_starter": false,
+    "rival_battle_1": false,
+    "received_parcel": false,
+    "delivered_parcel": false,
+    "received_pokedex": false,
+    "rival_battle_route22": false,
+    "beat_brock": false,
+    "beat_misty": false,
+    "ss_anne_visited": false,
+    "ss_anne_departed": false,
+    "cut_obtained": false,
+    "beat_surge": false,
+    "rock_tunnel_completed": false,
+    "beat_erika": false,
+    "rocket_hideout_cleared": false,
+    "silph_scope_obtained": false,
+    "pokemon_tower_cleared": false,
+    "poke_flute_obtained": false,
+    "beat_koga": false,
+    "strength_obtained": false,
+    "surf_obtained": false,
+    "silph_co_cleared": false,
+    "beat_sabrina": false,
+    "beat_blaine": false,
+    "beat_giovanni": false,
+    "victory_road_completed": false,
+    "elite_four_lorelei": false,
+    "elite_four_bruno": false,
+    "elite_four_agatha": false,
+    "elite_four_lance": false,
+    "champion_defeated": false,
+    "hall_of_fame": false,
+    "mewtwo_caught": false
+  },
+
+  "defeatedTrainers": [],
+
+  "legendsCaught": {
+    "articuno": false,
+    "zapdos": false,
+    "moltres": false,
+    "mewtwo": false
+  },
+
+  "options": {
+    "language": "ko",
+    "textSpeed": "medium",
+    "battleAnimation": true,
+    "battleStyle": "shift",
+    "bgm": {
+      "enabled": true,
+      "volume": 50
+    },
+    "sfx": {
+      "enabled": true,
+      "volume": 50
+    }
+  }
+}

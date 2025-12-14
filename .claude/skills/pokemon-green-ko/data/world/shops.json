@@ -1,0 +1,289 @@
+{
+  "version": "1.0.0",
+  "description": "프렌드리숍 및 상점 데이터",
+
+  "pokeMarts": {
+    "viridian_city": {
+      "name": "상록시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 1, "price": 200, "quantity": -1 },
+        { "itemId": 10, "price": 300, "quantity": -1 },
+        { "itemId": 20, "price": 100, "quantity": -1 },
+        { "itemId": 24, "price": 200, "quantity": -1 }
+      ],
+      "notes": "게임 초반에는 오박사의 소포만 구입 가능"
+    },
+    "pewter_city": {
+      "name": "회색시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 1, "price": 200, "quantity": -1 },
+        { "itemId": 10, "price": 300, "quantity": -1 },
+        { "itemId": 65, "price": 550, "quantity": -1 },
+        { "itemId": 20, "price": 100, "quantity": -1 },
+        { "itemId": 24, "price": 200, "quantity": -1 },
+        { "itemId": 21, "price": 250, "quantity": -1 },
+        { "itemId": 23, "price": 250, "quantity": -1 }
+      ]
+    },
+    "cerulean_city": {
+      "name": "블루시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 1, "price": 200, "quantity": -1 },
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 10, "price": 300, "quantity": -1 },
+        { "itemId": 11, "price": 700, "quantity": -1 },
+        { "itemId": 60, "price": 350, "quantity": -1 },
+        { "itemId": 20, "price": 100, "quantity": -1 },
+        { "itemId": 23, "price": 250, "quantity": -1 },
+        { "itemId": 24, "price": 200, "quantity": -1 }
+      ]
+    },
+    "vermilion_city": {
+      "name": "갈색시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 1, "price": 200, "quantity": -1 },
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 11, "price": 700, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 61, "price": 500, "quantity": -1 },
+        { "itemId": 65, "price": 550, "quantity": -1 }
+      ]
+    },
+    "lavender_town": {
+      "name": "보라타운 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 11, "price": 700, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 },
+        { "itemId": 65, "price": 550, "quantity": -1 },
+        { "itemId": 61, "price": 500, "quantity": -1 },
+        { "itemId": 20, "price": 100, "quantity": -1 },
+        { "itemId": 21, "price": 250, "quantity": -1 },
+        { "itemId": 24, "price": 200, "quantity": -1 }
+      ]
+    },
+    "celadon_city": {
+      "name": "무지개시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 3, "price": 1200, "quantity": -1 },
+        { "itemId": 12, "price": 1200, "quantity": -1 },
+        { "itemId": 14, "price": 3000, "quantity": -1 },
+        { "itemId": 62, "price": 700, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 }
+      ]
+    },
+    "fuchsia_city": {
+      "name": "연보라시티 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 3, "price": 1200, "quantity": -1 },
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 12, "price": 1200, "quantity": -1 },
+        { "itemId": 14, "price": 3000, "quantity": -1 },
+        { "itemId": 62, "price": 700, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 }
+      ]
+    },
+    "saffron_city": {
+      "name": "황금시티 프렌드리숍",
+      "available": "after_silph_clear",
+      "inventory": [
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 3, "price": 1200, "quantity": -1 },
+        { "itemId": 12, "price": 1200, "quantity": -1 },
+        { "itemId": 62, "price": 700, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 52, "price": 500, "quantity": -1 }
+      ]
+    },
+    "cinnabar_island": {
+      "name": "홍련마을 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 3, "price": 1200, "quantity": -1 },
+        { "itemId": 2, "price": 600, "quantity": -1 },
+        { "itemId": 12, "price": 1200, "quantity": -1 },
+        { "itemId": 14, "price": 3000, "quantity": -1 },
+        { "itemId": 62, "price": 700, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 }
+      ]
+    },
+    "indigo_plateau": {
+      "name": "석영고원 프렌드리숍",
+      "available": "always",
+      "inventory": [
+        { "itemId": 3, "price": 1200, "quantity": -1 },
+        { "itemId": 13, "price": 2500, "quantity": -1 },
+        { "itemId": 14, "price": 3000, "quantity": -1 },
+        { "itemId": 62, "price": 700, "quantity": -1 },
+        { "itemId": 25, "price": 600, "quantity": -1 },
+        { "itemId": 30, "price": 1500, "quantity": -1 }
+      ]
+    }
+  },
+
+  "departmentStore": {
+    "location": "celadon_city",
+    "name": "무지개 백화점",
+    "floors": {
+      "1F": {
+        "name": "안내 데스크",
+        "service": "info"
+      },
+      "2F": {
+        "name": "트레이너 마켓",
+        "inventory": [
+          { "itemId": 2, "price": 600, "quantity": -1 },
+          { "itemId": 3, "price": 1200, "quantity": -1 },
+          { "itemId": 11, "price": 700, "quantity": -1 },
+          { "itemId": 12, "price": 1200, "quantity": -1 },
+          { "itemId": 13, "price": 2500, "quantity": -1 },
+          { "itemId": 14, "price": 3000, "quantity": -1 },
+          { "itemId": 30, "price": 1500, "quantity": -1 },
+          { "itemId": 20, "price": 100, "quantity": -1 },
+          { "itemId": 21, "price": 250, "quantity": -1 },
+          { "itemId": 22, "price": 250, "quantity": -1 },
+          { "itemId": 23, "price": 250, "quantity": -1 },
+          { "itemId": 24, "price": 200, "quantity": -1 },
+          { "itemId": 25, "price": 600, "quantity": -1 }
+        ]
+      },
+      "3F": {
+        "name": "TV게임",
+        "inventory": [
+          { "itemId": 109, "price": 3000 },
+          { "itemId": 107, "price": 2000 },
+          { "itemId": 137, "price": 2000 }
+        ]
+      },
+      "4F": {
+        "name": "진화의 돌",
+        "inventory": [
+          { "itemId": 70, "price": 2100, "quantity": -1 },
+          { "itemId": 71, "price": 2100, "quantity": -1 },
+          { "itemId": 72, "price": 2100, "quantity": -1 },
+          { "itemId": 73, "price": 2100, "quantity": -1 },
+          { "itemId": 66, "price": 1000, "quantity": -1 }
+        ]
+      },
+      "5F": {
+        "name": "드링크 자판기",
+        "inventory": [
+          { "item": "fresh_water", "price": 200, "healAmount": 50, "description": "신선한 물. HP를 50 회복." },
+          { "item": "soda_pop", "price": 300, "healAmount": 60, "description": "톡 쏘는 탄산음료. HP를 60 회복." },
+          { "item": "lemonade", "price": 350, "healAmount": 80, "description": "레모네이드. HP를 80 회복." }
+        ],
+        "special": "목마른 경비원에게 음료를 주면 황금시티로 가는 길이 열림"
+      },
+      "6F": {
+        "name": "드링크 코너",
+        "service": "rest_area"
+      },
+      "옥상": {
+        "name": "자판기",
+        "special": "TM 판매: TM13 냉동빔, TM48 바위떨구기"
+      }
+    }
+  },
+
+  "gameCorner": {
+    "location": "celadon_city",
+    "name": "로켓 게임코너",
+    "coinPrice": 50,
+    "prizes": {
+      "pokemon": [
+        { "pokemon": 63, "name": "캐이시", "coins": 180 },
+        { "pokemon": 35, "name": "삐삐", "coins": 500 },
+        { "pokemon": 147, "name": "미뇽", "coins": 2800 },
+        { "pokemon": 123, "name": "스라크", "coins": 5500 },
+        { "pokemon": 127, "name": "쁘사이저", "coins": 6500 },
+        { "pokemon": 137, "name": "폴리곤", "coins": 9999 }
+      ],
+      "tms": [
+        { "tm": 123, "name": "TM23 용의분노", "coins": 3300 },
+        { "tm": 115, "name": "TM15 파괴광선", "coins": 5500 },
+        { "tm": 150, "name": "TM50 대타출동", "coins": 7700 }
+      ]
+    }
+  },
+
+  "bikeShop": {
+    "location": "cerulean_city",
+    "name": "기적의 자전거",
+    "prices": {
+      "bicycle": {
+        "price": 1000000,
+        "note": "비싸서 살 수 없음",
+        "voucher": true
+      }
+    }
+  },
+
+  "specialShops": {
+    "safari_zone_entrance": {
+      "name": "사파리존 입구",
+      "entryFee": 500,
+      "safariBallsGiven": 30,
+      "stepLimit": 500
+    },
+    "pokemon_lab_cinnabar": {
+      "name": "홍련마을 포켓몬 연구소",
+      "services": ["fossil_revival"],
+      "notes": "화석을 포켓몬으로 복원해 줌"
+    },
+    "name_rater": {
+      "name": "별명 심사관",
+      "location": "lavender_town",
+      "service": "rename_pokemon",
+      "notes": "교환받은 포켓몬은 이름 변경 불가"
+    },
+    "move_deleter": {
+      "name": "기술 망각가",
+      "location": "fuchsia_city",
+      "service": "forget_move",
+      "notes": "HM 기술도 잊게 해 줌"
+    }
+  },
+
+  "itemLocations": {
+    "hidden_items": [
+      { "location": "viridian_forest", "item": 10, "position": "중앙 나무 옆" },
+      { "location": "mt_moon", "item": 74, "position": "B2F 숨겨진 방" },
+      { "location": "cerulean_city", "item": 85, "position": "뒤쪽 정원", "hidden": true },
+      { "location": "ss_anne", "item": 85, "position": "쓰레기통" },
+      { "location": "pokemon_tower", "item": 85, "position": "4층 묘비 뒤" },
+      { "location": "power_plant", "item": 72, "position": "발전기 옆", "hidden": true },
+      { "location": "silph_co", "item": 85, "position": "5층 화분", "hidden": true }
+    ],
+    "visible_items": [
+      { "location": "viridian_forest", "item": 10, "description": "풀숲 사이" },
+      { "location": "mt_moon", "item": 85, "description": "B1F 바닥" },
+      { "location": "cerulean_cave", "item": 13, "description": "1층 여러 곳" },
+      { "location": "power_plant", "item": 72, "description": "전기 타입 기술머신" }
+    ],
+    "gift_items": [
+      { "npc": "오박사", "item": 113, "trigger": "스타터 선택 후" },
+      { "npc": "경쟁자 누나", "item": 100, "trigger": "게임 시작" },
+      { "npc": "SS앤호 선장", "item": 201, "trigger": "뱃멀미 치료" },
+      { "npc": "로켓단 보스", "item": 103, "trigger": "게임코너 클리어" },
+      { "npc": "실프주식회사 사장", "item": 4, "trigger": "로켓단 격퇴" },
+      { "npc": "실프주식회사 직원", "item": "lapras", "trigger": "사무실에서 대화" },
+      { "npc": "후지 노인", "item": 102, "trigger": "포켓몬 타워 클리어" },
+      { "npc": "사파리존 관장", "item": 204, "trigger": "금니 전달" },
+      { "npc": "낚시꾼 (상록시티)", "item": 108, "trigger": "대화" },
+      { "npc": "낚시꾼 (연보라시티)", "item": 107, "trigger": "대화" },
+      { "npc": "낚시꾼 (12번도로)", "item": 109, "trigger": "대화" }
+    ]
+  }
+}

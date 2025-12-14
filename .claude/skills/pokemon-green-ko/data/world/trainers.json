@@ -1,0 +1,2141 @@
+{
+  "v": "1.0.0",
+  "_keys": "n=name,ti=title,g=gym,c=city,ty=type,b=badge,r=reward,tm=tmReward,o=order,d=dialogue,p=team[[id,lv,[moves]]],cl=class",
+  "gl": {
+    "brock": {
+      "n": "웅",
+      "ti": "돌같은 의지를 가진 사나이",
+      "g": "pewter_gym",
+      "c": "pewter_city",
+      "ty": "rock",
+      "b": "boulder_badge",
+      "r": 1386,
+      "tm": "tm34",
+      "d": {
+        "intro": "나는 웅! 회색시티 체육관의 관장이야!",
+        "battle": "바위처럼 단단한 나의 포켓몬을 상대해봐!",
+        "defeat": "네 포켓몬의 열정에 놀랐어!",
+        "badge": "이 회색뱃지를 받아 가렴!"
+      },
+      "p": [
+        [
+          74,
+          12,
+          [
+            "tackle",
+            "defense_curl"
+          ]
+        ],
+        [
+          95,
+          14,
+          [
+            "tackle",
+            "screech",
+            "bide",
+            "bind"
+          ]
+        ]
+      ]
+    },
+    "misty": {
+      "n": "이슬",
+      "ti": "물처럼 맑은 소녀",
+      "g": "cerulean_gym",
+      "c": "cerulean_city",
+      "ty": "water",
+      "b": "cascade_badge",
+      "r": 2079,
+      "tm": "tm11",
+      "d": {
+        "intro": "안녕! 나는 이슬이야!",
+        "battle": "물의 위력을 보여줄게!",
+        "defeat": "와... 대단해!",
+        "badge": "블루뱃지는 네 것이야!"
+      },
+      "p": [
+        [
+          120,
+          18,
+          [
+            "tackle",
+            "water_gun",
+            "harden"
+          ]
+        ],
+        [
+          121,
+          21,
+          [
+            "tackle",
+            "water_gun",
+            "bubble_beam",
+            "swift"
+          ]
+        ]
+      ]
+    },
+    "surge": {
+      "n": "마티스",
+      "ti": "번개 미국인",
+      "g": "vermilion_gym",
+      "c": "vermilion_city",
+      "ty": "electric",
+      "b": "thunder_badge",
+      "r": 2376,
+      "tm": "tm24",
+      "d": {
+        "intro": "나는 마티스! 번개 미국인이라고 불려!",
+        "battle": "전기 충격을 받아봐!",
+        "defeat": "썬더 쇼크! 지고 말았어!",
+        "badge": "오렌지뱃지를 받아!"
+      },
+      "p": [
+        [
+          100,
+          21,
+          [
+            "tackle",
+            "screech",
+            "sonic_boom"
+          ]
+        ],
+        [
+          25,
+          18,
+          [
+            "thunder_wave",
+            "quick_attack",
+            "swift"
+          ]
+        ],
+        [
+          26,
+          24,
+          [
+            "thunder_wave",
+            "mega_punch",
+            "mega_kick",
+            "thunderbolt"
+          ]
+        ]
+      ]
+    },
+    "erika": {
+      "n": "민화",
+      "ti": "자연을 사랑하는 공주님",
+      "g": "celadon_gym",
+      "c": "celadon_city",
+      "ty": "grass",
+      "b": "rainbow_badge",
+      "r": 2871,
+      "tm": "tm21",
+      "d": {
+        "intro": "저는 민화라고 해요...",
+        "battle": "풀 타입 포켓몬의 매력을 보여드릴게요!",
+        "defeat": "아... 아름다운 승부였어요...",
+        "badge": "레인보우뱃지... 받아 주세요..."
+      },
+      "p": [
+        [
+          71,
+          29,
+          [
+            "poison_powder",
+            "sleep_powder",
+            "acid",
+            "razor_leaf"
+          ]
+        ],
+        [
+          114,
+          24,
+          [
+            "constrict",
+            "bind",
+            "mega_drain"
+          ]
+        ],
+        [
+          45,
+          29,
+          [
+            "sleep_powder",
+            "petal_dance",
+            "mega_drain"
+          ]
+        ]
+      ]
+    },
+    "koga": {
+      "n": "독수",
+      "ti": "닌자의 후예",
+      "g": "fuchsia_gym",
+      "c": "fuchsia_city",
+      "ty": "poison",
+      "b": "soul_badge",
+      "r": 4257,
+      "tm": "tm06",
+      "d": {
+        "intro": "나는 독수! 독의 닌자다!",
+        "battle": "독의 기술을 맛봐라!",
+        "defeat": "내 닌자술이 통하지 않다니...!",
+        "badge": "핑크뱃지를 주마!"
+      },
+      "p": [
+        [
+          109,
+          37,
+          [
+            "tackle",
+            "sludge",
+            "smokescreen",
+            "self_destruct"
+          ]
+        ],
+        [
+          89,
+          37,
+          [
+            "disable",
+            "poison_gas",
+            "minimize",
+            "sludge"
+          ]
+        ],
+        [
+          109,
+          37,
+          [
+            "tackle",
+            "sludge",
+            "smokescreen",
+            "self_destruct"
+          ]
+        ],
+        [
+          110,
+          43,
+          [
+            "tackle",
+            "sludge",
+            "smokescreen",
+            "self_destruct"
+          ]
+        ]
+      ]
+    },
+    "sabrina": {
+      "n": "초련",
+      "ti": "초능력 소녀",
+      "g": "saffron_gym",
+      "c": "saffron_city",
+      "ty": "psychic",
+      "b": "marsh_badge",
+      "r": 4257,
+      "tm": "tm46",
+      "d": {
+        "intro": "나는 초련... 네가 올 것을 알고 있었어...",
+        "battle": "나의 초능력을 상대해봐!",
+        "defeat": "내 초능력으로도 예측하지 못했어...",
+        "badge": "골드뱃지... 가져가..."
+      },
+      "p": [
+        [
+          63,
+          38,
+          [
+            "flash",
+            "psywave",
+            "recover"
+          ]
+        ],
+        [
+          64,
+          37,
+          [
+            "psybeam",
+            "psywave",
+            "recover"
+          ]
+        ],
+        [
+          122,
+          38,
+          [
+            "confusion",
+            "barrier",
+            "light_screen",
+            "double_slap"
+          ]
+        ],
+        [
+          65,
+          43,
+          [
+            "psybeam",
+            "recover",
+            "psychic"
+          ]
+        ]
+      ]
+    },
+    "blaine": {
+      "n": "강연",
+      "ti": "불타는 퀴즈왕",
+      "g": "cinnabar_gym",
+      "c": "cinnabar_island",
+      "ty": "fire",
+      "b": "volcano_badge",
+      "r": 4653,
+      "tm": "tm38",
+      "d": {
+        "intro": "나는 강연! 뜨거운 퀴즈왕이지!",
+        "battle": "불꽃의 열정을 보여주마!",
+        "defeat": "내 열정이 식어버렸군...!",
+        "badge": "크림슨뱃지는 네 것이다!"
+      },
+      "p": [
+        [
+          58,
+          42,
+          [
+            "ember",
+            "leer",
+            "take_down",
+            "flamethrower"
+          ]
+        ],
+        [
+          77,
+          40,
+          [
+            "stomp",
+            "tail_whip",
+            "fire_spin"
+          ]
+        ],
+        [
+          78,
+          42,
+          [
+            "stomp",
+            "fire_spin",
+            "take_down"
+          ]
+        ],
+        [
+          59,
+          47,
+          [
+            "roar",
+            "ember",
+            "take_down",
+            "fire_blast"
+          ]
+        ]
+      ]
+    },
+    "giovanni": {
+      "n": "비주기",
+      "ti": "로켓단 보스",
+      "g": "viridian_gym",
+      "c": "viridian_city",
+      "ty": "ground",
+      "b": "earth_badge",
+      "r": 4950,
+      "tm": "tm27",
+      "d": {
+        "intro": "나는 비주기... 로켓단의 보스이자 상록시티 관장이다!",
+        "battle": "땅의 파워를 보여주마!",
+        "defeat": "이런... 다시 한번 지다니...",
+        "badge": "그린뱃지... 가져가라..."
+      },
+      "p": [
+        [
+          111,
+          45,
+          [
+            "stomp",
+            "fissure",
+            "horn_attack",
+            "leer"
+          ]
+        ],
+        [
+          51,
+          42,
+          [
+            "slash",
+            "sand_attack",
+            "dig",
+            "earthquake"
+          ]
+        ],
+        [
+          31,
+          44,
+          [
+            "double_kick",
+            "body_slam",
+            "earthquake"
+          ]
+        ],
+        [
+          34,
+          45,
+          [
+            "double_kick",
+            "thrash",
+            "earthquake"
+          ]
+        ],
+        [
+          112,
+          50,
+          [
+            "horn_attack",
+            "stomp",
+            "earthquake",
+            "horn_drill"
+          ]
+        ]
+      ]
+    }
+  },
+  "e4": {
+    "lorelei": {
+      "n": "감두",
+      "ti": "얼음의 여왕",
+      "ty": "ice",
+      "r": 5544,
+      "o": 1,
+      "d": {
+        "intro": "나는 감두. 사천왕 중 첫 번째야.",
+        "battle": "얼음의 차가움을 느껴봐!",
+        "defeat": "차갑게 식어버렸네..."
+      },
+      "p": [
+        [
+          87,
+          54,
+          [
+            "aurora_beam",
+            "bubble_beam",
+            "body_slam",
+            "rest"
+          ]
+        ],
+        [
+          91,
+          53,
+          [
+            "clamp",
+            "supersonic",
+            "aurora_beam",
+            "ice_beam"
+          ]
+        ],
+        [
+          80,
+          54,
+          [
+            "water_gun",
+            "withdraw",
+            "amnesia",
+            "psychic"
+          ]
+        ],
+        [
+          124,
+          56,
+          [
+            "double_slap",
+            "ice_punch",
+            "body_slam",
+            "blizzard"
+          ]
+        ],
+        [
+          131,
+          56,
+          [
+            "body_slam",
+            "confuse_ray",
+            "blizzard",
+            "hydro_pump"
+          ]
+        ]
+      ]
+    },
+    "bruno": {
+      "n": "시바",
+      "ti": "격투의 달인",
+      "ty": "fighting",
+      "r": 5742,
+      "o": 2,
+      "d": {
+        "intro": "나는 시바. 격투 타입의 달인!",
+        "battle": "나의 근육을 봐라!",
+        "defeat": "수련이 부족했군..."
+      },
+      "p": [
+        [
+          95,
+          53,
+          [
+            "rock_throw",
+            "screech",
+            "bind",
+            "slam"
+          ]
+        ],
+        [
+          107,
+          55,
+          [
+            "comet_punch",
+            "agility",
+            "fire_punch",
+            "counter"
+          ]
+        ],
+        [
+          106,
+          55,
+          [
+            "double_kick",
+            "meditate",
+            "high_jump_kick",
+            "mega_kick"
+          ]
+        ],
+        [
+          95,
+          56,
+          [
+            "rock_throw",
+            "screech",
+            "bind",
+            "slam"
+          ]
+        ],
+        [
+          68,
+          58,
+          [
+            "leer",
+            "focus_energy",
+            "fissure",
+            "submission"
+          ]
+        ]
+      ]
+    },
+    "agatha": {
+      "n": "국화",
+      "ti": "고스트의 노파",
+      "ty": "ghost",
+      "r": 5940,
+      "o": 3,
+      "d": {
+        "intro": "나는 국화... 오박사의 라이벌이었지...",
+        "battle": "내 고스트들을 만나봐!",
+        "defeat": "내가 늙었나 보군..."
+      },
+      "p": [
+        [
+          94,
+          56,
+          [
+            "confuse_ray",
+            "night_shade",
+            "hypnosis",
+            "dream_eater"
+          ]
+        ],
+        [
+          42,
+          56,
+          [
+            "screech",
+            "wing_attack",
+            "confuse_ray",
+            "haze"
+          ]
+        ],
+        [
+          93,
+          55,
+          [
+            "confuse_ray",
+            "night_shade",
+            "hypnosis",
+            "dream_eater"
+          ]
+        ],
+        [
+          24,
+          58,
+          [
+            "bite",
+            "glare",
+            "screech",
+            "acid"
+          ]
+        ],
+        [
+          94,
+          60,
+          [
+            "confuse_ray",
+            "toxic",
+            "hypnosis",
+            "dream_eater"
+          ]
+        ]
+      ]
+    },
+    "lance": {
+      "n": "목호",
+      "ti": "드래곤 마스터",
+      "ty": "dragon",
+      "r": 6138,
+      "o": 4,
+      "d": {
+        "intro": "나는 목호. 사천왕의 마지막이자 드래곤 마스터!",
+        "battle": "드래곤의 힘을 봐라!",
+        "defeat": "네가 챔피언이 될 자격이 있군..."
+      },
+      "p": [
+        [
+          130,
+          58,
+          [
+            "hydro_pump",
+            "dragon_rage",
+            "leer",
+            "hyper_beam"
+          ]
+        ],
+        [
+          148,
+          56,
+          [
+            "slam",
+            "agility",
+            "dragon_rage",
+            "hyper_beam"
+          ]
+        ],
+        [
+          148,
+          56,
+          [
+            "wrap",
+            "thunder_wave",
+            "slam",
+            "hyper_beam"
+          ]
+        ],
+        [
+          142,
+          60,
+          [
+            "supersonic",
+            "take_down",
+            "fly",
+            "hyper_beam"
+          ]
+        ],
+        [
+          149,
+          62,
+          [
+            "agility",
+            "slam",
+            "barrier",
+            "hyper_beam"
+          ]
+        ]
+      ]
+    }
+  },
+  "ch": {
+    "rival": {
+      "n": "라이벌",
+      "ti": "챔피언",
+      "r": 6435,
+      "d": {
+        "intro": "드디어 왔군! 나는 이미 챔피언이 됐어!",
+        "battle": "마지막 승부야!",
+        "defeat": "믿을 수 없어... 내가 지다니..."
+      },
+      "p": {
+        "bulbasaur": [
+          [
+            18,
+            61,
+            [
+              "whirlwind",
+              "wing_attack",
+              "sky_attack",
+              "mirror_move"
+            ]
+          ],
+          [
+            65,
+            59,
+            [
+              "psybeam",
+              "recover",
+              "psychic"
+            ]
+          ],
+          [
+            112,
+            61,
+            [
+              "leer",
+              "tail_whip",
+              "fury_attack",
+              "horn_drill"
+            ]
+          ],
+          [
+            59,
+            63,
+            [
+              "ember",
+              "leer",
+              "take_down",
+              "fire_blast"
+            ]
+          ],
+          [
+            103,
+            61,
+            [
+              "hypnosis",
+              "stomp",
+              "barrage"
+            ]
+          ],
+          [
+            9,
+            65,
+            [
+              "bubble_beam",
+              "withdraw",
+              "skull_bash",
+              "hydro_pump"
+            ]
+          ]
+        ],
+        "charmander": [
+          [
+            18,
+            61,
+            [
+              "whirlwind",
+              "wing_attack",
+              "sky_attack",
+              "mirror_move"
+            ]
+          ],
+          [
+            65,
+            59,
+            [
+              "psybeam",
+              "recover",
+              "psychic"
+            ]
+          ],
+          [
+            112,
+            61,
+            [
+              "leer",
+              "tail_whip",
+              "fury_attack",
+              "horn_drill"
+            ]
+          ],
+          [
+            130,
+            63,
+            [
+              "dragon_rage",
+              "leer",
+              "hydro_pump",
+              "hyper_beam"
+            ]
+          ],
+          [
+            103,
+            61,
+            [
+              "hypnosis",
+              "stomp",
+              "barrage"
+            ]
+          ],
+          [
+            3,
+            65,
+            [
+              "razor_leaf",
+              "growth",
+              "sleep_powder",
+              "solar_beam"
+            ]
+          ]
+        ],
+        "squirtle": [
+          [
+            18,
+            61,
+            [
+              "whirlwind",
+              "wing_attack",
+              "sky_attack",
+              "mirror_move"
+            ]
+          ],
+          [
+            65,
+            59,
+            [
+              "psybeam",
+              "recover",
+              "psychic"
+            ]
+          ],
+          [
+            112,
+            61,
+            [
+              "leer",
+              "tail_whip",
+              "fury_attack",
+              "horn_drill"
+            ]
+          ],
+          [
+            103,
+            63,
+            [
+              "hypnosis",
+              "stomp",
+              "barrage"
+            ]
+          ],
+          [
+            59,
+            61,
+            [
+              "ember",
+              "leer",
+              "take_down",
+              "fire_blast"
+            ]
+          ],
+          [
+            6,
+            65,
+            [
+              "rage",
+              "slash",
+              "fire_spin",
+              "flamethrower"
+            ]
+          ]
+        ]
+      }
+    }
+  },
+  "rt": {
+    "viridian_forest": [
+      {
+        "n": "충잡이",
+        "r": 60,
+        "p": [
+          [
+            13,
+            6,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_1",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "충잡이",
+        "r": 70,
+        "p": [
+          [
+            10,
+            7,
+            [
+              "tackle",
+              "string_shot"
+            ]
+          ],
+          [
+            10,
+            7,
+            [
+              "tackle",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_2",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "충잡이",
+        "r": 90,
+        "p": [
+          [
+            13,
+            9,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_3",
+        "cl": "bug_catcher"
+      }
+    ],
+    "route_3": [
+      {
+        "n": "소녀",
+        "r": 135,
+        "p": [
+          [
+            16,
+            9,
+            [
+              "gust"
+            ]
+          ],
+          [
+            16,
+            9,
+            [
+              "gust"
+            ]
+          ]
+        ],
+        "id": "lass_1",
+        "cl": "lass"
+      },
+      {
+        "n": "소년",
+        "r": 165,
+        "p": [
+          [
+            19,
+            11,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack"
+            ]
+          ]
+        ],
+        "id": "youngster_1",
+        "cl": "youngster"
+      },
+      {
+        "n": "충잡이",
+        "r": 100,
+        "p": [
+          [
+            10,
+            10,
+            [
+              "tackle",
+              "string_shot"
+            ]
+          ],
+          [
+            13,
+            10,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_4",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "소년",
+        "r": 140,
+        "p": [
+          [
+            21,
+            14,
+            [
+              "peck",
+              "leer",
+              "fury_attack"
+            ]
+          ]
+        ],
+        "id": "youngster_2",
+        "cl": "youngster"
+      }
+    ],
+    "route_24": [
+      {
+        "n": "충잡이",
+        "r": 140,
+        "p": [
+          [
+            10,
+            14,
+            [
+              "tackle",
+              "string_shot"
+            ]
+          ],
+          [
+            13,
+            14,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_5",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "소녀",
+        "r": 195,
+        "p": [
+          [
+            16,
+            13,
+            [
+              "gust",
+              "sand_attack"
+            ]
+          ],
+          [
+            29,
+            13,
+            [
+              "scratch",
+              "growl",
+              "poison_sting"
+            ]
+          ]
+        ],
+        "id": "lass_2",
+        "cl": "lass"
+      },
+      {
+        "n": "소년",
+        "r": 210,
+        "p": [
+          [
+            19,
+            14,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack",
+              "hyper_fang"
+            ]
+          ],
+          [
+            23,
+            14,
+            [
+              "wrap",
+              "leer",
+              "poison_sting"
+            ]
+          ]
+        ],
+        "id": "youngster_3",
+        "cl": "youngster"
+      },
+      {
+        "n": "소녀",
+        "r": 225,
+        "p": [
+          [
+            32,
+            15,
+            [
+              "leer",
+              "horn_attack",
+              "poison_sting"
+            ]
+          ]
+        ],
+        "id": "lass_3",
+        "cl": "lass"
+      },
+      {
+        "n": "주니어 트레이너♂",
+        "r": 280,
+        "p": [
+          [
+            19,
+            14,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack"
+            ]
+          ],
+          [
+            23,
+            14,
+            [
+              "wrap",
+              "leer",
+              "poison_sting"
+            ]
+          ]
+        ],
+        "id": "jr_trainer_m_1",
+        "cl": "jr_trainer_m"
+      },
+      {
+        "n": "로켓단",
+        "r": 560,
+        "d": {
+          "intro": "너겟 브릿지를 다 깼다고? 어디 한번 상대해볼까!",
+          "defeat": "으악! 로켓단 가입 안 할래?"
+        },
+        "p": [
+          [
+            19,
+            15,
+            [
+              "tackle",
+              "quick_attack",
+              "hyper_fang"
+            ]
+          ],
+          [
+            41,
+            15,
+            [
+              "leech_life",
+              "supersonic",
+              "bite"
+            ]
+          ]
+        ],
+        "id": "rocket_nugget",
+        "cl": "rocket"
+      }
+    ],
+    "route_25": [
+      {
+        "n": "등산가",
+        "r": 525,
+        "p": [
+          [
+            74,
+            15,
+            [
+              "tackle",
+              "defense_curl"
+            ]
+          ]
+        ],
+        "id": "hiker_1",
+        "cl": "hiker"
+      },
+      {
+        "n": "소년",
+        "r": 240,
+        "p": [
+          [
+            19,
+            15,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack"
+            ]
+          ],
+          [
+            21,
+            15,
+            [
+              "peck",
+              "leer",
+              "fury_attack"
+            ]
+          ]
+        ],
+        "id": "youngster_4",
+        "cl": "youngster"
+      },
+      {
+        "n": "소녀",
+        "r": 225,
+        "p": [
+          [
+            29,
+            15,
+            [
+              "scratch",
+              "growl",
+              "poison_sting"
+            ]
+          ],
+          [
+            30,
+            15,
+            [
+              "scratch",
+              "growl",
+              "poison_sting",
+              "bite"
+            ]
+          ]
+        ],
+        "id": "lass_4",
+        "cl": "lass"
+      }
+    ],
+    "mt_moon": [
+      {
+        "n": "충잡이",
+        "r": 110,
+        "p": [
+          [
+            13,
+            11,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ],
+          [
+            14,
+            11,
+            [
+              "harden"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_mt1",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "소녀",
+        "r": 165,
+        "p": [
+          [
+            35,
+            11,
+            [
+              "pound",
+              "growl",
+              "sing"
+            ]
+          ],
+          [
+            35,
+            11,
+            [
+              "pound",
+              "growl",
+              "sing"
+            ]
+          ]
+        ],
+        "id": "lass_mt1",
+        "cl": "lass"
+      },
+      {
+        "n": "등산가",
+        "r": 350,
+        "p": [
+          [
+            74,
+            10,
+            [
+              "tackle",
+              "defense_curl"
+            ]
+          ],
+          [
+            74,
+            10,
+            [
+              "tackle",
+              "defense_curl"
+            ]
+          ],
+          [
+            95,
+            10,
+            [
+              "tackle",
+              "screech",
+              "bind"
+            ]
+          ]
+        ],
+        "id": "hiker_mt1",
+        "cl": "hiker"
+      },
+      {
+        "n": "로켓단",
+        "r": 390,
+        "p": [
+          [
+            27,
+            11,
+            [
+              "scratch",
+              "sand_attack"
+            ]
+          ],
+          [
+            19,
+            11,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack"
+            ]
+          ],
+          [
+            41,
+            11,
+            [
+              "leech_life",
+              "supersonic"
+            ]
+          ]
+        ],
+        "id": "rocket_mt1",
+        "cl": "rocket"
+      },
+      {
+        "n": "로켓단",
+        "r": 455,
+        "p": [
+          [
+            19,
+            13,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack"
+            ]
+          ],
+          [
+            41,
+            13,
+            [
+              "leech_life",
+              "supersonic",
+              "bite"
+            ]
+          ]
+        ],
+        "id": "rocket_mt2",
+        "cl": "rocket"
+      },
+      {
+        "n": "과학자",
+        "r": 300,
+        "d": {
+          "intro": "달맞이산의 화석은 내 거야!",
+          "defeat": "화석이...!"
+        },
+        "p": [
+          [
+            81,
+            12,
+            [
+              "tackle",
+              "sonic_boom",
+              "thunder_shock"
+            ]
+          ],
+          [
+            100,
+            12,
+            [
+              "tackle",
+              "screech",
+              "sonic_boom"
+            ]
+          ]
+        ],
+        "id": "super_nerd_mt1",
+        "cl": "super_nerd"
+      }
+    ],
+    "route_6": [
+      {
+        "n": "주니어 트레이너♀",
+        "r": 320,
+        "p": [
+          [
+            43,
+            16,
+            [
+              "absorb",
+              "poison_powder",
+              "stun_spore"
+            ]
+          ]
+        ],
+        "id": "jr_trainer_f_1",
+        "cl": "jr_trainer_f"
+      },
+      {
+        "n": "충잡이",
+        "r": 160,
+        "p": [
+          [
+            13,
+            16,
+            [
+              "poison_sting",
+              "string_shot"
+            ]
+          ],
+          [
+            10,
+            16,
+            [
+              "tackle",
+              "string_shot"
+            ]
+          ]
+        ],
+        "id": "bug_catcher_6",
+        "cl": "bug_catcher"
+      },
+      {
+        "n": "주니어 트레이너♂",
+        "r": 340,
+        "p": [
+          [
+            21,
+            17,
+            [
+              "peck",
+              "leer",
+              "fury_attack"
+            ]
+          ]
+        ],
+        "id": "jr_trainer_m_2",
+        "cl": "jr_trainer_m"
+      }
+    ],
+    "ss_anne": [
+      {
+        "n": "선원",
+        "r": 525,
+        "p": [
+          [
+            66,
+            17,
+            [
+              "low_kick",
+              "leer",
+              "focus_energy"
+            ]
+          ],
+          [
+            66,
+            17,
+            [
+              "low_kick",
+              "leer",
+              "focus_energy"
+            ]
+          ]
+        ],
+        "id": "sailor_1",
+        "cl": "sailor"
+      },
+      {
+        "n": "선원",
+        "r": 555,
+        "p": [
+          [
+            72,
+            18,
+            [
+              "poison_sting",
+              "supersonic",
+              "wrap",
+              "acid"
+            ]
+          ]
+        ],
+        "id": "sailor_2",
+        "cl": "sailor"
+      },
+      {
+        "n": "신사",
+        "r": 1260,
+        "p": [
+          [
+            58,
+            18,
+            [
+              "ember",
+              "leer",
+              "take_down"
+            ]
+          ],
+          [
+            77,
+            18,
+            [
+              "ember",
+              "tail_whip",
+              "stomp"
+            ]
+          ]
+        ],
+        "id": "gentleman_1",
+        "cl": "gentleman"
+      },
+      {
+        "n": "라이벌",
+        "r": 1125,
+        "d": {
+          "intro": "오! 너 여기서 뭐해?",
+          "battle": "상트앤느호에서 한판 붙자!",
+          "defeat": "으악! 또 졌어!"
+        },
+        "p": {
+          "bulbasaur": [
+            [
+              18,
+              19,
+              [
+                "gust",
+                "sand_attack",
+                "quick_attack"
+              ]
+            ],
+            [
+              19,
+              16,
+              [
+                "tackle",
+                "tail_whip",
+                "quick_attack"
+              ]
+            ],
+            [
+              63,
+              18,
+              [
+                "teleport"
+              ]
+            ],
+            [
+              9,
+              20,
+              [
+                "tackle",
+                "tail_whip",
+                "bubble",
+                "water_gun"
+              ]
+            ]
+          ],
+          "charmander": [
+            [
+              18,
+              19,
+              [
+                "gust",
+                "sand_attack",
+                "quick_attack"
+              ]
+            ],
+            [
+              19,
+              16,
+              [
+                "tackle",
+                "tail_whip",
+                "quick_attack"
+              ]
+            ],
+            [
+              63,
+              18,
+              [
+                "teleport"
+              ]
+            ],
+            [
+              3,
+              20,
+              [
+                "tackle",
+                "growl",
+                "leech_seed",
+                "vine_whip"
+              ]
+            ]
+          ],
+          "squirtle": [
+            [
+              18,
+              19,
+              [
+                "gust",
+                "sand_attack",
+                "quick_attack"
+              ]
+            ],
+            [
+              19,
+              16,
+              [
+                "tackle",
+                "tail_whip",
+                "quick_attack"
+              ]
+            ],
+            [
+              63,
+              18,
+              [
+                "teleport"
+              ]
+            ],
+            [
+              6,
+              20,
+              [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            ]
+          ]
+        },
+        "id": "rival_ss_anne",
+        "cl": "rival"
+      }
+    ],
+    "rock_tunnel": [
+      {
+        "n": "등산가",
+        "r": 665,
+        "p": [
+          [
+            74,
+            19,
+            [
+              "tackle",
+              "defense_curl",
+              "rock_throw"
+            ]
+          ]
+        ],
+        "id": "hiker_rt1",
+        "cl": "hiker"
+      },
+      {
+        "n": "등산가",
+        "r": 595,
+        "p": [
+          [
+            74,
+            17,
+            [
+              "tackle",
+              "defense_curl"
+            ]
+          ],
+          [
+            95,
+            17,
+            [
+              "tackle",
+              "screech",
+              "bind"
+            ]
+          ]
+        ],
+        "id": "hiker_rt2",
+        "cl": "hiker"
+      },
+      {
+        "n": "포켓몬 매니아",
+        "r": 570,
+        "p": [
+          [
+            104,
+            19,
+            [
+              "growl",
+              "bone_club",
+              "leer"
+            ]
+          ],
+          [
+            79,
+            19,
+            [
+              "confusion",
+              "disable",
+              "headbutt"
+            ]
+          ]
+        ],
+        "id": "pokemaniac_rt1",
+        "cl": "pokemaniac"
+      }
+    ],
+    "pokemon_tower": [
+      {
+        "n": "무녀",
+        "r": 736,
+        "p": [
+          [
+            92,
+            23,
+            [
+              "lick",
+              "confuse_ray",
+              "night_shade"
+            ]
+          ]
+        ],
+        "id": "channeler_1",
+        "cl": "channeler"
+      },
+      {
+        "n": "무녀",
+        "r": 768,
+        "p": [
+          [
+            92,
+            24,
+            [
+              "lick",
+              "confuse_ray",
+              "night_shade"
+            ]
+          ]
+        ],
+        "id": "channeler_2",
+        "cl": "channeler"
+      },
+      {
+        "n": "무녀",
+        "r": 800,
+        "p": [
+          [
+            93,
+            25,
+            [
+              "lick",
+              "confuse_ray",
+              "night_shade",
+              "hypnosis"
+            ]
+          ]
+        ],
+        "id": "channeler_3",
+        "cl": "channeler"
+      }
+    ],
+    "rocket_hideout": [
+      {
+        "n": "로켓단",
+        "r": 700,
+        "p": [
+          [
+            19,
+            20,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack",
+              "hyper_fang"
+            ]
+          ],
+          [
+            41,
+            20,
+            [
+              "leech_life",
+              "supersonic",
+              "bite",
+              "confuse_ray"
+            ]
+          ]
+        ],
+        "id": "rocket_rh1",
+        "cl": "rocket"
+      },
+      {
+        "n": "로켓단",
+        "r": 665,
+        "p": [
+          [
+            88,
+            19,
+            [
+              "pound",
+              "disable",
+              "poison_gas",
+              "minimize"
+            ]
+          ],
+          [
+            109,
+            19,
+            [
+              "tackle",
+              "smog",
+              "sludge"
+            ]
+          ]
+        ],
+        "id": "rocket_rh2",
+        "cl": "rocket"
+      },
+      {
+        "n": "비주기",
+        "r": 2975,
+        "d": {
+          "intro": "로켓단 보스 비주기다. 감히 여기까지 오다니!",
+          "battle": "한 수 가르쳐주마!",
+          "defeat": "후후... 재미있는 녀석이군. 다시 만나자."
+        },
+        "p": [
+          [
+            95,
+            25,
+            [
+              "tackle",
+              "bind",
+              "rock_throw",
+              "screech"
+            ]
+          ],
+          [
+            111,
+            24,
+            [
+              "horn_attack",
+              "stomp",
+              "tail_whip"
+            ]
+          ],
+          [
+            31,
+            29,
+            [
+              "scratch",
+              "tail_whip",
+              "poison_sting",
+              "body_slam"
+            ]
+          ]
+        ],
+        "id": "giovanni_hideout",
+        "cl": "boss"
+      }
+    ],
+    "silph_co": [
+      {
+        "n": "로켓단",
+        "r": 875,
+        "p": [
+          [
+            20,
+            25,
+            [
+              "tackle",
+              "tail_whip",
+              "quick_attack",
+              "hyper_fang"
+            ]
+          ],
+          [
+            42,
+            25,
+            [
+              "leech_life",
+              "supersonic",
+              "bite",
+              "confuse_ray"
+            ]
+          ]
+        ],
+        "id": "rocket_sc1",
+        "cl": "rocket"
+      },
+      {
+        "n": "로켓단",
+        "r": 875,
+        "p": [
+          [
+            89,
+            25,
+            [
+              "pound",
+              "disable",
+              "poison_gas",
+              "minimize"
+            ]
+          ],
+          [
+            110,
+            25,
+            [
+              "tackle",
+              "smog",
+              "sludge",
+              "self_destruct"
+            ]
+          ]
+        ],
+        "id": "rocket_sc2",
+        "cl": "rocket"
+      },
+      {
+        "n": "라이벌",
+        "r": 2310,
+        "d": {
+          "intro": "여기서 또 만나네!",
+          "battle": "실프주식회사에서 승부다!",
+          "defeat": "크... 또 졌군..."
+        },
+        "p": {
+          "bulbasaur": [
+            [
+              18,
+              37,
+              [
+                "wing_attack",
+                "quick_attack",
+                "whirlwind",
+                "feather_dance"
+              ]
+            ],
+            [
+              20,
+              35,
+              [
+                "quick_attack",
+                "hyper_fang",
+                "pursuit"
+              ]
+            ],
+            [
+              59,
+              35,
+              [
+                "ember",
+                "take_down",
+                "flame_wheel"
+              ]
+            ],
+            [
+              64,
+              35,
+              [
+                "confusion",
+                "psybeam",
+                "recover"
+              ]
+            ],
+            [
+              9,
+              40,
+              [
+                "water_gun",
+                "bite",
+                "ice_beam",
+                "skull_bash"
+              ]
+            ]
+          ],
+          "charmander": [
+            [
+              18,
+              37,
+              [
+                "wing_attack",
+                "quick_attack",
+                "whirlwind",
+                "feather_dance"
+              ]
+            ],
+            [
+              20,
+              35,
+              [
+                "quick_attack",
+                "hyper_fang",
+                "pursuit"
+              ]
+            ],
+            [
+              103,
+              35,
+              [
+                "confusion",
+                "hypnosis",
+                "stomp"
+              ]
+            ],
+            [
+              64,
+              35,
+              [
+                "confusion",
+                "psybeam",
+                "recover"
+              ]
+            ],
+            [
+              3,
+              40,
+              [
+                "vine_whip",
+                "razor_leaf",
+                "sleep_powder",
+                "growth"
+              ]
+            ]
+          ],
+          "squirtle": [
+            [
+              18,
+              37,
+              [
+                "wing_attack",
+                "quick_attack",
+                "whirlwind",
+                "feather_dance"
+              ]
+            ],
+            [
+              20,
+              35,
+              [
+                "quick_attack",
+                "hyper_fang",
+                "pursuit"
+              ]
+            ],
+            [
+              130,
+              35,
+              [
+                "bite",
+                "dragon_rage",
+                "twister"
+              ]
+            ],
+            [
+              64,
+              35,
+              [
+                "confusion",
+                "psybeam",
+                "recover"
+              ]
+            ],
+            [
+              6,
+              40,
+              [
+                "ember",
+                "slash",
+                "fire_spin",
+                "wing_attack"
+              ]
+            ]
+          ]
+        },
+        "id": "rival_silph",
+        "cl": "rival"
+      },
+      {
+        "n": "비주기",
+        "r": 4059,
+        "d": {
+          "intro": "또 만났군. 실프주식회사의 마스터볼은 내 것이야!",
+          "battle": "이번엔 봐주지 않겠다!",
+          "defeat": "쿠... 로켓단은 해산이다..."
+        },
+        "p": [
+          [
+            34,
+            37,
+            [
+              "thrash",
+              "horn_attack",
+              "poison_sting"
+            ]
+          ],
+          [
+            31,
+            37,
+            [
+              "body_slam",
+              "double_kick",
+              "poison_sting"
+            ]
+          ],
+          [
+            112,
+            37,
+            [
+              "stomp",
+              "horn_attack",
+              "fury_attack"
+            ]
+          ],
+          [
+            111,
+            35,
+            [
+              "horn_attack",
+              "stomp",
+              "tail_whip"
+            ]
+          ]
+        ],
+        "id": "giovanni_silph",
+        "cl": "boss"
+      }
+    ]
+  }
+}

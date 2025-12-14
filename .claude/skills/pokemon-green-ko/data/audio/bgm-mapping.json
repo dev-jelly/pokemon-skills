@@ -1,0 +1,392 @@
+{
+  "version": "2.1.0",
+  "description": "1세대 포켓몬 그린 BGM 매핑 (afplay 자동재생) - archive.org Super Music Collection 기준",
+  "bgmPath": "data/audio/bgm",
+  "source": "https://archive.org/details/pkmn-rgby-soundtrack/",
+
+  "tracks": {
+    "bgm_001": {
+      "name": { "ko": "태초마을", "en": "Pallet Town" },
+      "file": "pallet_town.mp3",
+      "archive": "03 - Pallet Town.mp3",
+      "loop": true
+    },
+    "bgm_002": {
+      "name": { "ko": "오박사 연구소", "en": "Oak's Lab" },
+      "file": "oak_lab.mp3",
+      "archive": "05 - Oak Pokémon Lab.mp3",
+      "loop": true
+    },
+    "bgm_003": {
+      "name": { "ko": "라이벌 등장", "en": "Rival Appears" },
+      "file": "rival_appears.mp3",
+      "archive": "07 - Rival.mp3",
+      "loop": false
+    },
+    "bgm_004": {
+      "name": { "ko": "도로 테마", "en": "Route Theme" },
+      "file": "route_theme.mp3",
+      "archive": "11 - Route 1.mp3",
+      "loop": true
+    },
+    "bgm_005": {
+      "name": { "ko": "야생 전투", "en": "Wild Battle" },
+      "file": "wild_battle.mp3",
+      "archive": "13 - Battle! (Wild Pokémon).mp3",
+      "loop": true
+    },
+    "bgm_006": {
+      "name": { "ko": "야생 승리", "en": "Victory Wild" },
+      "file": "victory_wild.mp3",
+      "archive": "14 - Victory! (Wild Pokémon).mp3",
+      "loop": false
+    },
+    "bgm_007": {
+      "name": { "ko": "포켓몬 센터", "en": "Pokemon Center" },
+      "file": "pokemon_center.mp3",
+      "archive": "17 - Pokémon Center.mp3",
+      "loop": true
+    },
+    "bgm_008": {
+      "name": { "ko": "체육관", "en": "Gym" },
+      "file": "gym.mp3",
+      "archive": "23 - Pokémon Gym.mp3",
+      "loop": true
+    },
+    "bgm_009": {
+      "name": { "ko": "트레이너 전투", "en": "Trainer Battle" },
+      "file": "trainer_battle.mp3",
+      "archive": "08 - Battle! (Trainer).mp3",
+      "loop": true
+    },
+    "bgm_010": {
+      "name": { "ko": "트레이너 승리", "en": "Victory Trainer" },
+      "file": "victory_trainer.mp3",
+      "archive": "09 - Victory! (Trainer).mp3",
+      "loop": false
+    },
+    "bgm_011": {
+      "name": { "ko": "체육관장 전투", "en": "Gym Leader Battle" },
+      "file": "gym_leader.mp3",
+      "archive": "25 - Battle! (Gym Leader).mp3",
+      "loop": true
+    },
+    "bgm_012": {
+      "name": { "ko": "보라타운", "en": "Lavender Town" },
+      "file": "lavender_town.mp3",
+      "archive": "39 - Lavender Town.mp3",
+      "loop": true
+    },
+    "bgm_013": {
+      "name": { "ko": "포켓몬 타워", "en": "Pokemon Tower" },
+      "file": "pokemon_tower.mp3",
+      "archive": "40 - Pokémon Tower.mp3",
+      "loop": true
+    },
+    "bgm_014": {
+      "name": { "ko": "무지개시티", "en": "Celadon City" },
+      "file": "celadon_city.mp3",
+      "archive": "41 - Celadon City.mp3",
+      "loop": true
+    },
+    "bgm_015": {
+      "name": { "ko": "황금시티", "en": "Saffron City" },
+      "file": "saffron_city.mp3",
+      "archive": "30 - Cerulean City.mp3",
+      "loop": true
+    },
+    "bgm_016": {
+      "name": { "ko": "로켓단 아지트", "en": "Rocket Hideout" },
+      "file": "rocket_hideout.mp3",
+      "archive": "43 - Rocket Hideout.mp3",
+      "loop": true
+    },
+    "bgm_017": {
+      "name": { "ko": "실프주식회사", "en": "Silph Co." },
+      "file": "silph_co.mp3",
+      "archive": "45 - Silph Co..mp3",
+      "loop": true
+    },
+    "bgm_018": {
+      "name": { "ko": "사이클링 로드", "en": "Cycling" },
+      "file": "cycling.mp3",
+      "archive": "37 - Cycling.mp3",
+      "loop": true
+    },
+    "bgm_019": {
+      "name": { "ko": "바다", "en": "Sea" },
+      "file": "sea.mp3",
+      "archive": "46 - Surf.mp3",
+      "loop": true
+    },
+    "bgm_020": {
+      "name": { "ko": "동굴", "en": "Cave" },
+      "file": "cave.mp3",
+      "archive": "29 - Mt. Moon.mp3",
+      "loop": true
+    },
+    "bgm_021": {
+      "name": { "ko": "챔피언로드", "en": "Victory Road" },
+      "file": "victory_road.mp3",
+      "archive": "49 - Victory Road.mp3",
+      "loop": true
+    },
+    "bgm_022": {
+      "name": { "ko": "사천왕", "en": "Elite Four" },
+      "file": "elite_four.mp3",
+      "archive": "25 - Battle! (Gym Leader).mp3",
+      "loop": true
+    },
+    "bgm_023": {
+      "name": { "ko": "챔피언 전투", "en": "Champion Battle" },
+      "file": "champion.mp3",
+      "archive": "50 - Final Battle! (Rival).mp3",
+      "loop": true
+    },
+    "bgm_024": {
+      "name": { "ko": "명예의 전당", "en": "Hall of Fame" },
+      "file": "hall_of_fame.mp3",
+      "archive": "51 - Hall of Fame.mp3",
+      "loop": false
+    },
+    "bgm_025": {
+      "name": { "ko": "진화", "en": "Evolution" },
+      "file": "evolution.mp3",
+      "archive": "32 - Evolution.mp3",
+      "loop": false
+    },
+    "bgm_026": {
+      "name": { "ko": "레벨업", "en": "Level Up" },
+      "file": "level_up.mp3",
+      "archive": "10 - Level Up!.mp3",
+      "loop": false
+    },
+    "bgm_027": {
+      "name": { "ko": "포획 성공", "en": "Capture" },
+      "file": "capture.mp3",
+      "archive": "15 - Caught a Pokémon!.mp3",
+      "loop": false
+    },
+    "bgm_028": {
+      "name": { "ko": "치료 완료", "en": "Pokemon Healed" },
+      "file": "pokemon_healed.mp3",
+      "archive": "18 - Pokémon Healed.mp3",
+      "loop": false
+    },
+    "bgm_029": {
+      "name": { "ko": "포켓몬 획득", "en": "Pokemon Obtained" },
+      "file": "pokemon_obtained.mp3",
+      "archive": "15 - Caught a Pokémon!.mp3",
+      "loop": false
+    },
+    "bgm_030": {
+      "name": { "ko": "아이템 획득", "en": "Item Obtained" },
+      "file": "item_obtained.mp3",
+      "archive": "12 - Obtained an Item!.mp3",
+      "loop": false
+    },
+    "bgm_031": {
+      "name": { "ko": "중요한 물건 획득", "en": "Key Item Obtained" },
+      "file": "key_item_obtained.mp3",
+      "archive": "06 - Obtained a Key Item!.mp3",
+      "loop": false
+    },
+    "bgm_032": {
+      "name": { "ko": "뱃지 획득", "en": "Badge Obtained" },
+      "file": "badge_obtained.mp3",
+      "archive": "26 - Victory! (Gym Leader).mp3",
+      "loop": false
+    },
+    "bgm_033": {
+      "name": { "ko": "타이틀 화면", "en": "Title Screen" },
+      "file": "title_screen.mp3",
+      "archive": "02 - Title Screen.mp3",
+      "loop": true
+    },
+    "bgm_034": {
+      "name": { "ko": "오프닝", "en": "Opening" },
+      "file": "opening.mp3",
+      "archive": "01 - Opening Movie.mp3",
+      "loop": false
+    },
+    "bgm_035": {
+      "name": { "ko": "회색시티", "en": "Pewter City" },
+      "file": "pewter_city.mp3",
+      "archive": "16 - Pewter City.mp3",
+      "loop": true
+    },
+    "bgm_036": {
+      "name": { "ko": "황토시티", "en": "Vermilion City" },
+      "file": "vermilion_city.mp3",
+      "archive": "35 - Vermilion City.mp3",
+      "loop": true
+    },
+    "bgm_037": {
+      "name": { "ko": "홍련섬", "en": "Cinnabar Island" },
+      "file": "cinnabar_island.mp3",
+      "archive": "47 - Cinnabar Island.mp3",
+      "loop": true
+    },
+    "bgm_038": {
+      "name": { "ko": "상록숲", "en": "Viridian Forest" },
+      "file": "viridian_forest.mp3",
+      "archive": "19 - Viridian Forest.mp3",
+      "loop": true
+    },
+    "bgm_039": {
+      "name": { "ko": "상트안느호", "en": "S.S. Anne" },
+      "file": "ss_anne.mp3",
+      "archive": "36 - S.S. Anne.mp3",
+      "loop": true
+    },
+    "bgm_040": {
+      "name": { "ko": "포켓몬 저택", "en": "Pokemon Mansion" },
+      "file": "pokemon_mansion.mp3",
+      "archive": "48 - Pokémon Mansion.mp3",
+      "loop": true
+    },
+    "bgm_041": {
+      "name": { "ko": "게임코너", "en": "Game Corner" },
+      "file": "game_corner.mp3",
+      "archive": "42 - Game Corner.mp3",
+      "loop": true
+    },
+    "bgm_042": {
+      "name": { "ko": "푸린의 노래", "en": "Jigglypuff Song" },
+      "file": "jigglypuff_song.mp3",
+      "archive": "22 - Jigglypuff's Song.mp3",
+      "loop": false
+    },
+    "bgm_043": {
+      "name": { "ko": "오박사", "en": "Professor Oak" },
+      "file": "professor_oak.mp3",
+      "archive": "04 - Professor Oak.mp3",
+      "loop": false
+    },
+    "bgm_044": {
+      "name": { "ko": "트레이너 등장", "en": "Trainer Appears" },
+      "file": "trainer_appears.mp3",
+      "archive": "20 - Trainers' Eyes Meet (Boy).mp3",
+      "loop": false
+    },
+    "bgm_045": {
+      "name": { "ko": "엔딩", "en": "Ending" },
+      "file": "ending.mp3",
+      "archive": "52 - Ending.mp3",
+      "loop": false
+    }
+  },
+
+  "locationMapping": {
+    "pallet_town": "bgm_001",
+    "player_house": "bgm_001",
+    "rival_house": "bgm_001",
+    "oak_lab": "bgm_002",
+
+    "route_1": "bgm_004",
+    "route_2": "bgm_004",
+    "route_3": "bgm_004",
+    "route_4": "bgm_004",
+    "route_5": "bgm_004",
+    "route_6": "bgm_004",
+    "route_7": "bgm_004",
+    "route_8": "bgm_004",
+    "route_9": "bgm_004",
+    "route_10": "bgm_004",
+    "route_11": "bgm_004",
+    "route_12": "bgm_004",
+    "route_13": "bgm_004",
+    "route_14": "bgm_004",
+    "route_15": "bgm_004",
+    "route_16": "bgm_004",
+    "route_17": "bgm_018",
+    "route_18": "bgm_004",
+    "route_19": "bgm_019",
+    "route_20": "bgm_019",
+    "route_21": "bgm_019",
+    "route_22": "bgm_004",
+    "route_23": "bgm_004",
+    "route_24": "bgm_004",
+    "route_25": "bgm_004",
+
+    "viridian_city": "bgm_004",
+    "viridian_forest": "bgm_038",
+    "pewter_city": "bgm_035",
+    "pewter_gym": "bgm_008",
+
+    "mt_moon": "bgm_020",
+    "cerulean_city": "bgm_004",
+    "cerulean_gym": "bgm_008",
+    "cerulean_cave": "bgm_020",
+
+    "vermilion_city": "bgm_036",
+    "vermilion_gym": "bgm_008",
+    "ss_anne": "bgm_039",
+
+    "rock_tunnel": "bgm_020",
+    "lavender_town": "bgm_012",
+    "pokemon_tower": "bgm_013",
+
+    "celadon_city": "bgm_014",
+    "celadon_gym": "bgm_008",
+    "game_corner": "bgm_041",
+    "rocket_hideout": "bgm_016",
+
+    "saffron_city": "bgm_015",
+    "saffron_gym": "bgm_008",
+    "silph_co": "bgm_017",
+    "fighting_dojo": "bgm_008",
+
+    "fuchsia_city": "bgm_004",
+    "fuchsia_gym": "bgm_008",
+    "safari_zone": "bgm_004",
+
+    "seafoam_islands": "bgm_020",
+    "cinnabar_island": "bgm_037",
+    "cinnabar_gym": "bgm_008",
+    "pokemon_mansion": "bgm_040",
+
+    "power_plant": "bgm_020",
+    "victory_road": "bgm_021",
+    "indigo_plateau": "bgm_021",
+    "pokemon_league": "bgm_021",
+
+    "pokemon_center": "bgm_007"
+  },
+
+  "battleMapping": {
+    "wild": "bgm_005",
+    "trainer": "bgm_009",
+    "gymLeader": "bgm_011",
+    "eliteFour": "bgm_022",
+    "champion": "bgm_023"
+  },
+
+  "eventMapping": {
+    "evolution": "bgm_025",
+    "levelUp": "bgm_026",
+    "capture": "bgm_027",
+    "victoryWild": "bgm_006",
+    "victoryTrainer": "bgm_010",
+    "hallOfFame": "bgm_024",
+    "rivalAppears": "bgm_003",
+
+    "healing": "bgm_028",
+    "pokemonObtained": "bgm_029",
+    "itemObtained": "bgm_030",
+    "keyItemObtained": "bgm_031",
+    "badgeObtained": "bgm_032",
+    "titleScreen": "bgm_033",
+    "opening": "bgm_034",
+    "trainerAppears": "bgm_044",
+    "ending": "bgm_045",
+    "jigglypuffSong": "bgm_042",
+    "professorOak": "bgm_043"
+  },
+
+  "commands": {
+    "play": "pkill -f 'afplay.*pokemon-green.*bgm' 2>/dev/null; afplay {skillPath}/data/audio/bgm/{file} &",
+    "stop": "pkill -f 'afplay.*pokemon-green.*bgm'",
+    "volume": "afplay -v {volume} {skillPath}/data/audio/bgm/{file} &"
+  }
+}

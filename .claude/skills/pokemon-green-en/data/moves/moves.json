@@ -1,0 +1,1662 @@
+{
+  "v": "1.0.0",
+  "_keys": "i=id,n=name,t=type(N/F/W/G/E/I/K/P/R/Y/S/B/O/H/D),c=cat(P/S/X),p=power,a=acc,pp=pp,pr=priority,ef=effect",
+  "pound": {
+    "i": 1,
+    "n": "Pound",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "karate_chop": {
+    "i": 2,
+    "n": "Karate Chop",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "high_critical",
+      "chance": 100
+    }
+  },
+  "double_slap": {
+    "i": 3,
+    "n": "Double Slap",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 10,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "comet_punch": {
+    "i": 4,
+    "n": "Comet Punch",
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 85,
+    "pp": 15,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "mega_punch": {
+    "i": 5,
+    "n": "Mega Punch",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 85,
+    "pp": 20
+  },
+  "pay_day": {
+    "i": 6,
+    "n": "Pay Day",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "scatter_coins"
+    }
+  },
+  "fire_punch": {
+    "i": 7,
+    "n": "Fire Punch",
+    "t": "F",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "ice_punch": {
+    "i": 8,
+    "n": "Ice Punch",
+    "t": "I",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "thunder_punch": {
+    "i": 9,
+    "n": "Thunder Punch",
+    "t": "E",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 10
+    }
+  },
+  "scratch": {
+    "i": 10,
+    "n": "Scratch",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "vice_grip": {
+    "i": 11,
+    "n": "Vice Grip",
+    "t": "N",
+    "c": "P",
+    "p": 55,
+    "a": 100,
+    "pp": 30
+  },
+  "guillotine": {
+    "i": 12,
+    "n": "Guillotine",
+    "t": "N",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": {
+      "type": "ohko"
+    }
+  },
+  "razor_wind": {
+    "i": 13,
+    "n": "Razor Wind",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "charge",
+      "charge_turn": 1
+    }
+  },
+  "swords_dance": {
+    "i": 14,
+    "n": "Swords Dance",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": 2
+    }
+  },
+  "cut": {
+    "i": 15,
+    "n": "Cut",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 95,
+    "pp": 30
+  },
+  "gust": {
+    "i": 16,
+    "n": "Gust",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "wing_attack": {
+    "i": 17,
+    "n": "Wing Attack",
+    "t": "Y",
+    "c": "P",
+    "p": 60,
+    "a": 100,
+    "pp": 35
+  },
+  "whirlwind": {
+    "i": 18,
+    "n": "Whirlwind",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
+  },
+  "fly": {
+    "i": 19,
+    "n": "Fly",
+    "t": "Y",
+    "c": "P",
+    "p": 90,
+    "a": 95,
+    "pp": 15,
+    "ef": {
+      "type": "semi_invulnerable",
+      "charge_turn": 1
+    }
+  },
+  "bind": {
+    "i": 20,
+    "n": "Bind",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
+  },
+  "slam": {
+    "i": 21,
+    "n": "Slam",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 75,
+    "pp": 20
+  },
+  "vine_whip": {
+    "i": 22,
+    "n": "Vine Whip",
+    "t": "G",
+    "c": "S",
+    "p": 45,
+    "a": 100,
+    "pp": 25
+  },
+  "stomp": {
+    "i": 23,
+    "n": "Stomp",
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "double_kick": {
+    "i": 24,
+    "n": "Double Kick",
+    "t": "K",
+    "c": "P",
+    "p": 30,
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "multi_hit",
+      "hits": 2
+    }
+  },
+  "mega_kick": {
+    "i": 25,
+    "n": "Mega Kick",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 75,
+    "pp": 5
+  },
+  "jump_kick": {
+    "i": 26,
+    "n": "Jump Kick",
+    "t": "K",
+    "c": "P",
+    "p": 100,
+    "a": 95,
+    "pp": 10,
+    "ef": {
+      "type": "crash_damage",
+      "damage": "1hp"
+    }
+  },
+  "rolling_kick": {
+    "i": 27,
+    "n": "Rolling Kick",
+    "t": "K",
+    "c": "P",
+    "p": 60,
+    "a": 85,
+    "pp": 15,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "sand_attack": {
+    "i": 28,
+    "n": "Sand Attack",
+    "t": "R",
+    "c": "X",
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "stat_change",
+      "stat": "accuracy",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "headbutt": {
+    "i": 29,
+    "n": "Headbutt",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "horn_attack": {
+    "i": 30,
+    "n": "Horn Attack",
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 25
+  },
+  "fury_attack": {
+    "i": 31,
+    "n": "Fury Attack",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "horn_drill": {
+    "i": 32,
+    "n": "Horn Drill",
+    "t": "N",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": {
+      "type": "ohko"
+    }
+  },
+  "tackle": {
+    "i": 33,
+    "n": "Tackle",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "body_slam": {
+    "i": 34,
+    "n": "Body Slam",
+    "t": "N",
+    "c": "P",
+    "p": 85,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 30
+    }
+  },
+  "wrap": {
+    "i": 35,
+    "n": "Wrap",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 90,
+    "pp": 20,
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
+  },
+  "take_down": {
+    "i": 36,
+    "n": "Take Down",
+    "t": "N",
+    "c": "P",
+    "p": 90,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
+  },
+  "thrash": {
+    "i": 37,
+    "n": "Thrash",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "rampage",
+      "duration": "2-3",
+      "confuse_after": true
+    }
+  },
+  "double_edge": {
+    "i": 38,
+    "n": "Double-Edge",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
+  },
+  "tail_whip": {
+    "i": 39,
+    "n": "Tail Whip",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "poison_sting": {
+    "i": 40,
+    "n": "Poison Sting",
+    "t": "P",
+    "c": "P",
+    "p": 15,
+    "a": 100,
+    "pp": 35,
+    "ef": {
+      "type": "status",
+      "status": "poison",
+      "chance": 20
+    }
+  },
+  "twineedle": {
+    "i": 41,
+    "n": "Twineedle",
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit_poison",
+      "hits": 2,
+      "poison_chance": 20
+    }
+  },
+  "pin_missile": {
+    "i": 42,
+    "n": "Pin Missile",
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 95,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "leer": {
+    "i": 43,
+    "n": "Leer",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "bite": {
+    "i": 44,
+    "n": "Bite",
+    "t": "N",
+    "c": "P",
+    "p": 60,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "flinch",
+      "chance": 10
+    }
+  },
+  "growl": {
+    "i": 45,
+    "n": "Growl",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 40,
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "roar": {
+    "i": 46,
+    "n": "Roar",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
+  },
+  "sing": {
+    "i": 47,
+    "n": "Sing",
+    "t": "N",
+    "c": "X",
+    "a": 55,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "sleep",
+      "chance": 100
+    }
+  },
+  "supersonic": {
+    "i": 48,
+    "n": "Supersonic",
+    "t": "N",
+    "c": "X",
+    "a": 55,
+    "pp": 20,
+    "ef": {
+      "type": "confuse",
+      "chance": 100
+    }
+  },
+  "sonic_boom": {
+    "i": 49,
+    "n": "Sonic Boom",
+    "t": "N",
+    "c": "P",
+    "a": 90,
+    "pp": 20,
+    "ef": {
+      "type": "fixed_damage",
+      "damage": 20
+    }
+  },
+  "disable": {
+    "i": 50,
+    "n": "Disable",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "disable_move",
+      "duration": "0-6"
+    }
+  },
+  "acid": {
+    "i": 51,
+    "n": "Acid",
+    "t": "P",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent",
+      "chance": 33
+    }
+  },
+  "ember": {
+    "i": 52,
+    "n": "Ember",
+    "t": "F",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "flamethrower": {
+    "i": 53,
+    "n": "Flamethrower",
+    "t": "F",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "ice_beam": {
+    "i": 54,
+    "n": "Ice Beam",
+    "t": "I",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "blizzard": {
+    "i": 55,
+    "n": "Blizzard",
+    "t": "I",
+    "c": "S",
+    "p": 110,
+    "a": 90,
+    "pp": 5,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "psybeam": {
+    "i": 56,
+    "n": "Psybeam",
+    "t": "S",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to confuse target"
+  },
+  "bubble_beam": {
+    "i": 57,
+    "n": "Bubble Beam",
+    "t": "W",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "aurora_beam": {
+    "i": 58,
+    "n": "Aurora Beam",
+    "t": "I",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to lower target's Attack by 1 stage"
+  },
+  "hyper_beam": {
+    "i": 59,
+    "n": "Hyper Beam",
+    "t": "N",
+    "c": "P",
+    "p": 150,
+    "a": 90,
+    "pp": 5,
+    "ef": "User must recharge next turn (unless target faints)"
+  },
+  "peck": {
+    "i": 60,
+    "n": "Peck",
+    "t": "Y",
+    "c": "P",
+    "p": 35,
+    "a": 100,
+    "pp": 35
+  },
+  "drill_peck": {
+    "i": 61,
+    "n": "Drill Peck",
+    "t": "Y",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 20
+  },
+  "submission": {
+    "i": 62,
+    "n": "Submission",
+    "t": "K",
+    "c": "P",
+    "p": 80,
+    "a": 80,
+    "pp": 20,
+    "ef": "User takes 1/4 of damage dealt as recoil"
+  },
+  "low_kick": {
+    "i": 63,
+    "n": "Low Kick",
+    "t": "K",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 20,
+    "ef": "30% chance to flinch target"
+  },
+  "counter": {
+    "i": 64,
+    "n": "Counter",
+    "t": "K",
+    "c": "P",
+    "a": 100,
+    "pp": 20,
+    "ef": "Returns double the damage of physical attacks received"
+  },
+  "seismic_toss": {
+    "i": 65,
+    "n": "Seismic Toss",
+    "t": "K",
+    "c": "P",
+    "a": 100,
+    "pp": 20,
+    "ef": "Deals damage equal to user's level"
+  },
+  "strength": {
+    "i": 66,
+    "n": "Strength",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 15
+  },
+  "absorb": {
+    "i": 67,
+    "n": "Absorb",
+    "t": "G",
+    "c": "S",
+    "p": 20,
+    "a": 100,
+    "pp": 25,
+    "ef": "User recovers half the damage dealt"
+  },
+  "mega_drain": {
+    "i": 68,
+    "n": "Mega Drain",
+    "t": "G",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 15,
+    "ef": "User recovers half the damage dealt"
+  },
+  "leech_seed": {
+    "i": 69,
+    "n": "Leech Seed",
+    "t": "G",
+    "c": "X",
+    "a": 90,
+    "pp": 10,
+    "ef": "Drains 1/16 of target's max HP each turn"
+  },
+  "growth": {
+    "i": 70,
+    "n": "Growth",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "ef": "Raises user's Special by 1 stage"
+  },
+  "razor_leaf": {
+    "i": 71,
+    "n": "Razor Leaf",
+    "t": "G",
+    "c": "S",
+    "p": 55,
+    "a": 95,
+    "pp": 25,
+    "ef": "High critical hit ratio"
+  },
+  "solar_beam": {
+    "i": 72,
+    "n": "Solar Beam",
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": "Charges first turn, attacks second turn"
+  },
+  "poison_powder": {
+    "i": 73,
+    "n": "Poison Powder",
+    "t": "P",
+    "c": "X",
+    "a": 75,
+    "pp": 35,
+    "ef": "Poisons target"
+  },
+  "stun_spore": {
+    "i": 74,
+    "n": "Stun Spore",
+    "t": "G",
+    "c": "X",
+    "a": 75,
+    "pp": 30,
+    "ef": "Paralyzes target"
+  },
+  "sleep_powder": {
+    "i": 75,
+    "n": "Sleep Powder",
+    "t": "G",
+    "c": "X",
+    "a": 75,
+    "pp": 15,
+    "ef": "Puts target to sleep"
+  },
+  "petal_dance": {
+    "i": 76,
+    "n": "Petal Dance",
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": "Attacks for 2-3 turns, then user becomes confused"
+  },
+  "string_shot": {
+    "i": 77,
+    "n": "String Shot",
+    "t": "B",
+    "c": "X",
+    "a": 95,
+    "pp": 40,
+    "ef": "Lowers target's Speed by 1 stage"
+  },
+  "dragon_rage": {
+    "i": 78,
+    "n": "Dragon Rage",
+    "t": "D",
+    "c": "S",
+    "a": 100,
+    "pp": 10,
+    "ef": "Always deals 40 HP damage"
+  },
+  "fire_spin": {
+    "i": 79,
+    "n": "Fire Spin",
+    "t": "F",
+    "c": "S",
+    "p": 35,
+    "a": 85,
+    "pp": 15,
+    "ef": "Traps and damages target for 2-5 turns"
+  },
+  "thunder_shock": {
+    "i": 80,
+    "n": "Thunder Shock",
+    "t": "E",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "ef": "10% chance to paralyze target"
+  },
+  "thunderbolt": {
+    "i": 81,
+    "n": "Thunderbolt",
+    "t": "E",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 15,
+    "ef": "10% chance to paralyze target"
+  },
+  "thunder_wave": {
+    "i": 82,
+    "n": "Thunder Wave",
+    "t": "E",
+    "c": "X",
+    "a": 90,
+    "pp": 20,
+    "ef": "Paralyzes target"
+  },
+  "thunder": {
+    "i": 83,
+    "n": "Thunder",
+    "t": "E",
+    "c": "S",
+    "p": 110,
+    "a": 70,
+    "pp": 10,
+    "ef": "10% chance to paralyze target; 30% accuracy during rain"
+  },
+  "rock_throw": {
+    "i": 84,
+    "n": "Rock Throw",
+    "t": "O",
+    "c": "P",
+    "p": 50,
+    "a": 90,
+    "pp": 15
+  },
+  "earthquake": {
+    "i": 85,
+    "n": "Earthquake",
+    "t": "R",
+    "c": "P",
+    "p": 100,
+    "a": 100,
+    "pp": 10,
+    "ef": "Double damage to Pokemon using Dig"
+  },
+  "fissure": {
+    "i": 86,
+    "n": "Fissure",
+    "t": "R",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": "One-hit KO; fails if target's Speed is higher"
+  },
+  "dig": {
+    "i": 87,
+    "n": "Dig",
+    "t": "R",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10,
+    "ef": "Digs underground first turn, attacks second turn"
+  },
+  "toxic": {
+    "i": 88,
+    "n": "Toxic",
+    "t": "P",
+    "c": "X",
+    "a": 90,
+    "pp": 10,
+    "ef": "Badly poisons target (damage increases each turn)"
+  },
+  "confusion": {
+    "i": 89,
+    "n": "Confusion",
+    "t": "S",
+    "c": "S",
+    "p": 50,
+    "a": 100,
+    "pp": 25,
+    "ef": "10% chance to confuse target"
+  },
+  "psychic": {
+    "i": 90,
+    "n": "Psychic",
+    "t": "S",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 10,
+    "ef": "30% chance to lower target's Special by 1 stage"
+  },
+  "hypnosis": {
+    "i": 91,
+    "n": "Hypnosis",
+    "t": "S",
+    "c": "X",
+    "a": 60,
+    "pp": 20,
+    "ef": "Puts target to sleep"
+  },
+  "meditate": {
+    "i": 92,
+    "n": "Meditate",
+    "t": "S",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Attack by 1 stage"
+  },
+  "agility": {
+    "i": 93,
+    "n": "Agility",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Speed by 2 stages"
+  },
+  "quick_attack": {
+    "i": 94,
+    "n": "Quick Attack",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "pr": 1,
+    "ef": "Always goes first"
+  },
+  "rage": {
+    "i": 95,
+    "n": "Rage",
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 20,
+    "ef": "Raises user's Attack by 1 stage when hit"
+  },
+  "teleport": {
+    "i": 96,
+    "n": "Teleport",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Escapes from wild Pokemon battles"
+  },
+  "night_shade": {
+    "i": 97,
+    "n": "Night Shade",
+    "t": "H",
+    "c": "P",
+    "a": 100,
+    "pp": 15,
+    "ef": "Deals damage equal to user's level"
+  },
+  "mimic": {
+    "i": 98,
+    "n": "Mimic",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Copies target's last used move"
+  },
+  "screech": {
+    "i": 99,
+    "n": "Screech",
+    "t": "N",
+    "c": "X",
+    "a": 85,
+    "pp": 40,
+    "ef": "Lowers target's Defense by 2 stages"
+  },
+  "double_team": {
+    "i": 100,
+    "n": "Double Team",
+    "t": "N",
+    "c": "X",
+    "pp": 15,
+    "ef": "Raises user's Evasion by 1 stage"
+  },
+  "recover": {
+    "i": 101,
+    "n": "Recover",
+    "t": "N",
+    "c": "X",
+    "pp": 5,
+    "ef": "Restores 50% of user's max HP"
+  },
+  "harden": {
+    "i": 102,
+    "n": "Harden",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "minimize": {
+    "i": 103,
+    "n": "Minimize",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Raises user's Evasion by 2 stages"
+  },
+  "smokescreen": {
+    "i": 104,
+    "n": "Smokescreen",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 20,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "confuse_ray": {
+    "i": 105,
+    "n": "Confuse Ray",
+    "t": "H",
+    "c": "X",
+    "a": 100,
+    "pp": 10,
+    "ef": "Confuses target"
+  },
+  "withdraw": {
+    "i": 106,
+    "n": "Withdraw",
+    "t": "W",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "defense_curl": {
+    "i": 107,
+    "n": "Defense Curl",
+    "t": "N",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "light_screen": {
+    "i": 108,
+    "n": "Light Screen",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Reduces special damage by 50% for 5 turns"
+  },
+  "mist": {
+    "i": 109,
+    "n": "Mist",
+    "t": "I",
+    "c": "X",
+    "pp": 30,
+    "ef": "Prevents stat reduction for 5 turns"
+  },
+  "reflect": {
+    "i": 110,
+    "n": "Reflect",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Reduces physical damage by 50% for 5 turns"
+  },
+  "focus_energy": {
+    "i": 116,
+    "n": "Focus Energy",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Increases critical hit ratio (Gen 1 bug: actually divides by 4)"
+  },
+  "bide": {
+    "i": 117,
+    "n": "Bide",
+    "t": "N",
+    "c": "P",
+    "a": 100,
+    "pp": 10,
+    "ef": "User takes damage for 2 turns, then returns double damage"
+  },
+  "metronome": {
+    "i": 118,
+    "n": "Metronome",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Randomly uses any move in the game"
+  },
+  "mirror_move": {
+    "i": 119,
+    "n": "Mirror Move",
+    "t": "Y",
+    "c": "X",
+    "pp": 20,
+    "ef": "User performs the opponent's last move"
+  },
+  "self_destruct": {
+    "i": 120,
+    "n": "Self-Destruct",
+    "t": "N",
+    "c": "P",
+    "p": 130,
+    "a": 100,
+    "pp": 5,
+    "ef": "User faints. Halves target's Defense during damage calculation"
+  },
+  "egg_bomb": {
+    "i": 121,
+    "n": "Egg Bomb",
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 75,
+    "pp": 10
+  },
+  "lick": {
+    "i": 122,
+    "n": "Lick",
+    "t": "H",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 30,
+    "ef": "30% chance to paralyze the target"
+  },
+  "smog": {
+    "i": 123,
+    "n": "Smog",
+    "t": "P",
+    "c": "P",
+    "p": 20,
+    "a": 70,
+    "pp": 20,
+    "ef": "40% chance to poison the target"
+  },
+  "sludge": {
+    "i": 124,
+    "n": "Sludge",
+    "t": "P",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "40% chance to poison the target"
+  },
+  "bone_club": {
+    "i": 125,
+    "n": "Bone Club",
+    "t": "R",
+    "c": "P",
+    "p": 65,
+    "a": 85,
+    "pp": 20,
+    "ef": "10% chance to flinch the target"
+  },
+  "fire_blast": {
+    "i": 126,
+    "n": "Fire Blast",
+    "t": "F",
+    "c": "S",
+    "p": 120,
+    "a": 85,
+    "pp": 5,
+    "ef": "30% chance to burn the target"
+  },
+  "waterfall": {
+    "i": 127,
+    "n": "Waterfall",
+    "t": "W",
+    "c": "S",
+    "p": 80,
+    "a": 100,
+    "pp": 15
+  },
+  "clamp": {
+    "i": 128,
+    "n": "Clamp",
+    "t": "W",
+    "c": "S",
+    "p": 35,
+    "a": 75,
+    "pp": 10,
+    "ef": "Traps opponent for 2-5 turns"
+  },
+  "swift": {
+    "i": 129,
+    "n": "Swift",
+    "t": "N",
+    "c": "P",
+    "p": 60,
+    "pp": 20,
+    "ef": "Never misses"
+  },
+  "skull_bash": {
+    "i": 130,
+    "n": "Skull Bash",
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 100,
+    "pp": 15,
+    "ef": "Raises Defense on first turn, attacks on second turn"
+  },
+  "spike_cannon": {
+    "i": 131,
+    "n": "Spike Cannon",
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 15,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "constrict": {
+    "i": 132,
+    "n": "Constrict",
+    "t": "N",
+    "c": "P",
+    "p": 10,
+    "a": 100,
+    "pp": 35,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "amnesia": {
+    "i": 133,
+    "n": "Amnesia",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Raises user's Special by 2 stages"
+  },
+  "kinesis": {
+    "i": 134,
+    "n": "Kinesis",
+    "t": "S",
+    "c": "X",
+    "a": 80,
+    "pp": 15,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "soft_boiled": {
+    "i": 135,
+    "n": "Soft-Boiled",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "User recovers half its max HP"
+  },
+  "hi_jump_kick": {
+    "i": 136,
+    "n": "Hi Jump Kick",
+    "t": "K",
+    "c": "P",
+    "p": 85,
+    "a": 90,
+    "pp": 20,
+    "ef": "If miss, user takes 1 HP damage"
+  },
+  "glare": {
+    "i": 137,
+    "n": "Glare",
+    "t": "N",
+    "c": "X",
+    "a": 75,
+    "pp": 30,
+    "ef": "Paralyzes the target"
+  },
+  "dream_eater": {
+    "i": 138,
+    "n": "Dream Eater",
+    "t": "S",
+    "c": "S",
+    "p": 100,
+    "a": 100,
+    "pp": 15,
+    "ef": "Only works on sleeping target. User recovers half the damage dealt"
+  },
+  "poison_gas": {
+    "i": 139,
+    "n": "Poison Gas",
+    "t": "P",
+    "c": "X",
+    "a": 55,
+    "pp": 40,
+    "ef": "Poisons the target"
+  },
+  "barrage": {
+    "i": 140,
+    "n": "Barrage",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "leech_life": {
+    "i": 141,
+    "n": "Leech Life",
+    "t": "B",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 15,
+    "ef": "User recovers half the damage dealt"
+  },
+  "lovely_kiss": {
+    "i": 142,
+    "n": "Lovely Kiss",
+    "t": "N",
+    "c": "X",
+    "a": 75,
+    "pp": 10,
+    "ef": "Puts the target to sleep"
+  },
+  "sky_attack": {
+    "i": 143,
+    "n": "Sky Attack",
+    "t": "Y",
+    "c": "P",
+    "p": 140,
+    "a": 90,
+    "pp": 5,
+    "ef": "Charges on first turn, attacks on second turn"
+  },
+  "transform": {
+    "i": 144,
+    "n": "Transform",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 10,
+    "ef": "User takes on the form and moves of the target"
+  },
+  "bubble": {
+    "i": 145,
+    "n": "Bubble",
+    "t": "W",
+    "c": "S",
+    "p": 20,
+    "a": 100,
+    "pp": 30,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "dizzy_punch": {
+    "i": 146,
+    "n": "Dizzy Punch",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 10
+  },
+  "spore": {
+    "i": 147,
+    "n": "Spore",
+    "t": "G",
+    "c": "X",
+    "a": 100,
+    "pp": 15,
+    "ef": "Puts the target to sleep"
+  },
+  "flash": {
+    "i": 148,
+    "n": "Flash",
+    "t": "N",
+    "c": "X",
+    "a": 70,
+    "pp": 20,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "psywave": {
+    "i": 149,
+    "n": "Psywave",
+    "t": "S",
+    "c": "S",
+    "a": 80,
+    "pp": 15,
+    "ef": "Inflicts damage equal to user's level x (0.5-1.5)"
+  },
+  "splash": {
+    "i": 150,
+    "n": "Splash",
+    "t": "N",
+    "c": "X",
+    "pp": 40,
+    "ef": "Doesn't do anything"
+  },
+  "acid_armor": {
+    "i": 151,
+    "n": "Acid Armor",
+    "t": "P",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 2 stages"
+  },
+  "crabhammer": {
+    "i": 152,
+    "n": "Crabhammer",
+    "t": "W",
+    "c": "S",
+    "p": 90,
+    "a": 85,
+    "pp": 10,
+    "ef": "High critical hit ratio"
+  },
+  "explosion": {
+    "i": 153,
+    "n": "Explosion",
+    "t": "N",
+    "c": "P",
+    "p": 170,
+    "a": 100,
+    "pp": 5,
+    "ef": "User faints. Halves target's Defense during damage calculation"
+  },
+  "fury_swipes": {
+    "i": 154,
+    "n": "Fury Swipes",
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 80,
+    "pp": 15,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "bonemerang": {
+    "i": 155,
+    "n": "Bonemerang",
+    "t": "R",
+    "c": "P",
+    "p": 50,
+    "a": 90,
+    "pp": 10,
+    "ef": "Hits twice in one turn"
+  },
+  "rest": {
+    "i": 156,
+    "n": "Rest",
+    "t": "S",
+    "c": "X",
+    "pp": 10,
+    "ef": "User sleeps for 2 turns and is fully healed"
+  },
+  "rock_slide": {
+    "i": 157,
+    "n": "Rock Slide",
+    "t": "O",
+    "c": "P",
+    "p": 75,
+    "a": 90,
+    "pp": 10,
+    "ef": "30% chance to flinch the target"
+  },
+  "hyper_fang": {
+    "i": 158,
+    "n": "Hyper Fang",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 90,
+    "pp": 15,
+    "ef": "10% chance to flinch the target"
+  },
+  "sharpen": {
+    "i": 159,
+    "n": "Sharpen",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Attack by 1 stage"
+  },
+  "conversion": {
+    "i": 160,
+    "n": "Conversion",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Changes user's type to that of its first move"
+  },
+  "tri_attack": {
+    "i": 161,
+    "n": "Tri Attack",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10
+  },
+  "super_fang": {
+    "i": 162,
+    "n": "Super Fang",
+    "t": "N",
+    "c": "P",
+    "a": 90,
+    "pp": 10,
+    "ef": "Inflicts damage equal to half the target's HP"
+  },
+  "slash": {
+    "i": 163,
+    "n": "Slash",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 20,
+    "ef": "High critical hit ratio"
+  },
+  "substitute": {
+    "i": 164,
+    "n": "Substitute",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "User takes 1/4 HP to create a substitute that absorbs damage"
+  },
+  "struggle": {
+    "i": 165,
+    "n": "Struggle",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 10,
+    "ef": "Used when all moves run out of PP. User takes recoil damage"
+  },
+  "barrier": {
+    "i": 112,
+    "n": "Barrier",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Defense by 2 stages"
+  },
+  "haze": {
+    "i": 114,
+    "n": "Haze",
+    "t": "I",
+    "c": "X",
+    "pp": 30,
+    "ef": "Resets all stat stage changes"
+  }
+}

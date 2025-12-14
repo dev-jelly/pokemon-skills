@@ -1,0 +1,1662 @@
+{
+  "v": "1.0.0",
+  "_keys": "i=id,n=name,t=type(N/F/W/G/E/I/K/P/R/Y/S/B/O/H/D),c=cat(P/S/X),p=power,a=acc,pp=pp,pr=priority,ef=effect",
+  "pound": {
+    "i": 1,
+    "n": "막치기",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "karate_chop": {
+    "i": 2,
+    "n": "태권당수",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "high_critical",
+      "chance": 100
+    }
+  },
+  "double_slap": {
+    "i": 3,
+    "n": "연속뺨치기",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 10,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "comet_punch": {
+    "i": 4,
+    "n": "연속펀치",
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 85,
+    "pp": 15,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "mega_punch": {
+    "i": 5,
+    "n": "메가톤펀치",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 85,
+    "pp": 20
+  },
+  "pay_day": {
+    "i": 6,
+    "n": "물지불기",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "scatter_coins"
+    }
+  },
+  "fire_punch": {
+    "i": 7,
+    "n": "불꽃펀치",
+    "t": "F",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "ice_punch": {
+    "i": 8,
+    "n": "냉동펀치",
+    "t": "I",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "thunder_punch": {
+    "i": 9,
+    "n": "번개펀치",
+    "t": "E",
+    "c": "S",
+    "p": 75,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 10
+    }
+  },
+  "scratch": {
+    "i": 10,
+    "n": "할퀴기",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "vice_grip": {
+    "i": 11,
+    "n": "집게집기",
+    "t": "N",
+    "c": "P",
+    "p": 55,
+    "a": 100,
+    "pp": 30
+  },
+  "guillotine": {
+    "i": 12,
+    "n": "가위자르기",
+    "t": "N",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": {
+      "type": "ohko"
+    }
+  },
+  "razor_wind": {
+    "i": 13,
+    "n": "칼바람",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "charge",
+      "charge_turn": 1
+    }
+  },
+  "swords_dance": {
+    "i": 14,
+    "n": "칼춤",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": 2
+    }
+  },
+  "cut": {
+    "i": 15,
+    "n": "풀베기",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 95,
+    "pp": 30
+  },
+  "gust": {
+    "i": 16,
+    "n": "바람일으키기",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "wing_attack": {
+    "i": 17,
+    "n": "날개치기",
+    "t": "Y",
+    "c": "P",
+    "p": 60,
+    "a": 100,
+    "pp": 35
+  },
+  "whirlwind": {
+    "i": 18,
+    "n": "회오리",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
+  },
+  "fly": {
+    "i": 19,
+    "n": "공중날기",
+    "t": "Y",
+    "c": "P",
+    "p": 90,
+    "a": 95,
+    "pp": 15,
+    "ef": {
+      "type": "semi_invulnerable",
+      "charge_turn": 1
+    }
+  },
+  "bind": {
+    "i": 20,
+    "n": "조이기",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
+  },
+  "slam": {
+    "i": 21,
+    "n": "힘껏치기",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 75,
+    "pp": 20
+  },
+  "vine_whip": {
+    "i": 22,
+    "n": "덩굴채찍",
+    "t": "G",
+    "c": "S",
+    "p": 45,
+    "a": 100,
+    "pp": 25
+  },
+  "stomp": {
+    "i": 23,
+    "n": "짓밟기",
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "double_kick": {
+    "i": 24,
+    "n": "두번차기",
+    "t": "K",
+    "c": "P",
+    "p": 30,
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "multi_hit",
+      "hits": 2
+    }
+  },
+  "mega_kick": {
+    "i": 25,
+    "n": "메가톤킥",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 75,
+    "pp": 5
+  },
+  "jump_kick": {
+    "i": 26,
+    "n": "점프킥",
+    "t": "K",
+    "c": "P",
+    "p": 100,
+    "a": 95,
+    "pp": 10,
+    "ef": {
+      "type": "crash_damage",
+      "damage": "1hp"
+    }
+  },
+  "rolling_kick": {
+    "i": 27,
+    "n": "돌려차기",
+    "t": "K",
+    "c": "P",
+    "p": 60,
+    "a": 85,
+    "pp": 15,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "sand_attack": {
+    "i": 28,
+    "n": "모래뿌리기",
+    "t": "R",
+    "c": "X",
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "stat_change",
+      "stat": "accuracy",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "headbutt": {
+    "i": 29,
+    "n": "박치기",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "flinch",
+      "chance": 30
+    }
+  },
+  "horn_attack": {
+    "i": 30,
+    "n": "뿔찌르기",
+    "t": "N",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 25
+  },
+  "fury_attack": {
+    "i": 31,
+    "n": "분노",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "horn_drill": {
+    "i": 32,
+    "n": "뿔드릴",
+    "t": "N",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": {
+      "type": "ohko"
+    }
+  },
+  "tackle": {
+    "i": 33,
+    "n": "몸통박치기",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 35
+  },
+  "body_slam": {
+    "i": 34,
+    "n": "누르기",
+    "t": "N",
+    "c": "P",
+    "p": 85,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "paralysis",
+      "chance": 30
+    }
+  },
+  "wrap": {
+    "i": 35,
+    "n": "감기",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 90,
+    "pp": 20,
+    "ef": {
+      "type": "trap",
+      "duration": "2-5"
+    }
+  },
+  "take_down": {
+    "i": 36,
+    "n": "돌진",
+    "t": "N",
+    "c": "P",
+    "p": 90,
+    "a": 85,
+    "pp": 20,
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
+  },
+  "thrash": {
+    "i": 37,
+    "n": "난동부리기",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "rampage",
+      "duration": "2-3",
+      "confuse_after": true
+    }
+  },
+  "double_edge": {
+    "i": 38,
+    "n": "이판사판태클",
+    "t": "N",
+    "c": "P",
+    "p": 120,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "recoil",
+      "percent": 25
+    }
+  },
+  "tail_whip": {
+    "i": 39,
+    "n": "꼬리흔들기",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "poison_sting": {
+    "i": 40,
+    "n": "독침",
+    "t": "P",
+    "c": "P",
+    "p": 15,
+    "a": 100,
+    "pp": 35,
+    "ef": {
+      "type": "status",
+      "status": "poison",
+      "chance": 20
+    }
+  },
+  "twineedle": {
+    "i": 41,
+    "n": "더블니들",
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit_poison",
+      "hits": 2,
+      "poison_chance": 20
+    }
+  },
+  "pin_missile": {
+    "i": 42,
+    "n": "바늘미사일",
+    "t": "B",
+    "c": "P",
+    "p": 25,
+    "a": 95,
+    "pp": 20,
+    "ef": {
+      "type": "multi_hit",
+      "min_hits": 2,
+      "max_hits": 5
+    }
+  },
+  "leer": {
+    "i": 43,
+    "n": "째려보기",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "bite": {
+    "i": 44,
+    "n": "물기",
+    "t": "N",
+    "c": "P",
+    "p": 60,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "flinch",
+      "chance": 10
+    }
+  },
+  "growl": {
+    "i": 45,
+    "n": "울음소리",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 40,
+    "ef": {
+      "type": "stat_change",
+      "stat": "attack",
+      "stages": -1,
+      "target": "opponent"
+    }
+  },
+  "roar": {
+    "i": 46,
+    "n": "울부짖기",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "pr": -6,
+    "ef": {
+      "type": "force_switch"
+    }
+  },
+  "sing": {
+    "i": 47,
+    "n": "노래하기",
+    "t": "N",
+    "c": "X",
+    "a": 55,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "sleep",
+      "chance": 100
+    }
+  },
+  "supersonic": {
+    "i": 48,
+    "n": "초음파",
+    "t": "N",
+    "c": "X",
+    "a": 55,
+    "pp": 20,
+    "ef": {
+      "type": "confuse",
+      "chance": 100
+    }
+  },
+  "sonic_boom": {
+    "i": 49,
+    "n": "소닉붐",
+    "t": "N",
+    "c": "P",
+    "a": 90,
+    "pp": 20,
+    "ef": {
+      "type": "fixed_damage",
+      "damage": 20
+    }
+  },
+  "disable": {
+    "i": 50,
+    "n": "사슬묶기",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 20,
+    "ef": {
+      "type": "disable_move",
+      "duration": "0-6"
+    }
+  },
+  "acid": {
+    "i": 51,
+    "n": "용해액",
+    "t": "P",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "ef": {
+      "type": "stat_change",
+      "stat": "defense",
+      "stages": -1,
+      "target": "opponent",
+      "chance": 33
+    }
+  },
+  "ember": {
+    "i": 52,
+    "n": "불꽃세례",
+    "t": "F",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 25,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "flamethrower": {
+    "i": 53,
+    "n": "화염방사",
+    "t": "F",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 15,
+    "ef": {
+      "type": "status",
+      "status": "burn",
+      "chance": 10
+    }
+  },
+  "ice_beam": {
+    "i": 54,
+    "n": "냉동빔",
+    "t": "I",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 10,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "blizzard": {
+    "i": 55,
+    "n": "눈보라",
+    "t": "I",
+    "c": "S",
+    "p": 110,
+    "a": 90,
+    "pp": 5,
+    "ef": {
+      "type": "status",
+      "status": "freeze",
+      "chance": 10
+    }
+  },
+  "psybeam": {
+    "i": 56,
+    "n": "사이키네시스",
+    "t": "S",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to confuse target"
+  },
+  "bubble_beam": {
+    "i": 57,
+    "n": "버블광선",
+    "t": "W",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "aurora_beam": {
+    "i": 58,
+    "n": "오로라빔",
+    "t": "I",
+    "c": "S",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "10% chance to lower target's Attack by 1 stage"
+  },
+  "hyper_beam": {
+    "i": 59,
+    "n": "파괴광선",
+    "t": "N",
+    "c": "P",
+    "p": 150,
+    "a": 90,
+    "pp": 5,
+    "ef": "User must recharge next turn (unless target faints)"
+  },
+  "peck": {
+    "i": 60,
+    "n": "쪼기",
+    "t": "Y",
+    "c": "P",
+    "p": 35,
+    "a": 100,
+    "pp": 35
+  },
+  "drill_peck": {
+    "i": 61,
+    "n": "드릴부리",
+    "t": "Y",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 20
+  },
+  "submission": {
+    "i": 62,
+    "n": "수수께끼의힘",
+    "t": "K",
+    "c": "P",
+    "p": 80,
+    "a": 80,
+    "pp": 20,
+    "ef": "User takes 1/4 of damage dealt as recoil"
+  },
+  "low_kick": {
+    "i": 63,
+    "n": "지옥의바퀴",
+    "t": "K",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 20,
+    "ef": "30% chance to flinch target"
+  },
+  "counter": {
+    "i": 64,
+    "n": "카운터",
+    "t": "K",
+    "c": "P",
+    "a": 100,
+    "pp": 20,
+    "ef": "Returns double the damage of physical attacks received"
+  },
+  "seismic_toss": {
+    "i": 65,
+    "n": "지구던지기",
+    "t": "K",
+    "c": "P",
+    "a": 100,
+    "pp": 20,
+    "ef": "Deals damage equal to user's level"
+  },
+  "strength": {
+    "i": 66,
+    "n": "힘",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 15
+  },
+  "absorb": {
+    "i": 67,
+    "n": "흡수",
+    "t": "G",
+    "c": "S",
+    "p": 20,
+    "a": 100,
+    "pp": 25,
+    "ef": "User recovers half the damage dealt"
+  },
+  "mega_drain": {
+    "i": 68,
+    "n": "메가드레인",
+    "t": "G",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 15,
+    "ef": "User recovers half the damage dealt"
+  },
+  "leech_seed": {
+    "i": 69,
+    "n": "씨뿌리기",
+    "t": "G",
+    "c": "X",
+    "a": 90,
+    "pp": 10,
+    "ef": "Drains 1/16 of target's max HP each turn"
+  },
+  "growth": {
+    "i": 70,
+    "n": "성장",
+    "t": "N",
+    "c": "X",
+    "pp": 20,
+    "ef": "Raises user's Special by 1 stage"
+  },
+  "razor_leaf": {
+    "i": 71,
+    "n": "잎날가르기",
+    "t": "G",
+    "c": "S",
+    "p": 55,
+    "a": 95,
+    "pp": 25,
+    "ef": "High critical hit ratio"
+  },
+  "solar_beam": {
+    "i": 72,
+    "n": "솔라빔",
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": "Charges first turn, attacks second turn"
+  },
+  "poison_powder": {
+    "i": 73,
+    "n": "독가루",
+    "t": "P",
+    "c": "X",
+    "a": 75,
+    "pp": 35,
+    "ef": "Poisons target"
+  },
+  "stun_spore": {
+    "i": 74,
+    "n": "저리가루",
+    "t": "G",
+    "c": "X",
+    "a": 75,
+    "pp": 30,
+    "ef": "Paralyzes target"
+  },
+  "sleep_powder": {
+    "i": 75,
+    "n": "수면가루",
+    "t": "G",
+    "c": "X",
+    "a": 75,
+    "pp": 15,
+    "ef": "Puts target to sleep"
+  },
+  "petal_dance": {
+    "i": 76,
+    "n": "꽃잎춤",
+    "t": "G",
+    "c": "S",
+    "p": 120,
+    "a": 100,
+    "pp": 10,
+    "ef": "Attacks for 2-3 turns, then user becomes confused"
+  },
+  "string_shot": {
+    "i": 77,
+    "n": "실뿜기",
+    "t": "B",
+    "c": "X",
+    "a": 95,
+    "pp": 40,
+    "ef": "Lowers target's Speed by 1 stage"
+  },
+  "dragon_rage": {
+    "i": 78,
+    "n": "용의분노",
+    "t": "D",
+    "c": "S",
+    "a": 100,
+    "pp": 10,
+    "ef": "Always deals 40 HP damage"
+  },
+  "fire_spin": {
+    "i": 79,
+    "n": "불꽃소용돌이",
+    "t": "F",
+    "c": "S",
+    "p": 35,
+    "a": 85,
+    "pp": 15,
+    "ef": "Traps and damages target for 2-5 turns"
+  },
+  "thunder_shock": {
+    "i": 80,
+    "n": "전기쇼크",
+    "t": "E",
+    "c": "S",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "ef": "10% chance to paralyze target"
+  },
+  "thunderbolt": {
+    "i": 81,
+    "n": "10만볼트",
+    "t": "E",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 15,
+    "ef": "10% chance to paralyze target"
+  },
+  "thunder_wave": {
+    "i": 82,
+    "n": "전기자석파",
+    "t": "E",
+    "c": "X",
+    "a": 90,
+    "pp": 20,
+    "ef": "Paralyzes target"
+  },
+  "thunder": {
+    "i": 83,
+    "n": "번개",
+    "t": "E",
+    "c": "S",
+    "p": 110,
+    "a": 70,
+    "pp": 10,
+    "ef": "10% chance to paralyze target; 30% accuracy during rain"
+  },
+  "rock_throw": {
+    "i": 84,
+    "n": "락스로우",
+    "t": "O",
+    "c": "P",
+    "p": 50,
+    "a": 90,
+    "pp": 15
+  },
+  "earthquake": {
+    "i": 85,
+    "n": "지진",
+    "t": "R",
+    "c": "P",
+    "p": 100,
+    "a": 100,
+    "pp": 10,
+    "ef": "Double damage to Pokemon using Dig"
+  },
+  "fissure": {
+    "i": 86,
+    "n": "땅가르기",
+    "t": "R",
+    "c": "P",
+    "a": 30,
+    "pp": 5,
+    "ef": "One-hit KO; fails if target's Speed is higher"
+  },
+  "dig": {
+    "i": 87,
+    "n": "구멍파기",
+    "t": "R",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10,
+    "ef": "Digs underground first turn, attacks second turn"
+  },
+  "toxic": {
+    "i": 88,
+    "n": "맹독",
+    "t": "P",
+    "c": "X",
+    "a": 90,
+    "pp": 10,
+    "ef": "Badly poisons target (damage increases each turn)"
+  },
+  "confusion": {
+    "i": 89,
+    "n": "염동력",
+    "t": "S",
+    "c": "S",
+    "p": 50,
+    "a": 100,
+    "pp": 25,
+    "ef": "10% chance to confuse target"
+  },
+  "psychic": {
+    "i": 90,
+    "n": "사이코키네시스",
+    "t": "S",
+    "c": "S",
+    "p": 90,
+    "a": 100,
+    "pp": 10,
+    "ef": "30% chance to lower target's Special by 1 stage"
+  },
+  "hypnosis": {
+    "i": 91,
+    "n": "최면술",
+    "t": "S",
+    "c": "X",
+    "a": 60,
+    "pp": 20,
+    "ef": "Puts target to sleep"
+  },
+  "meditate": {
+    "i": 92,
+    "n": "명상",
+    "t": "S",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Attack by 1 stage"
+  },
+  "agility": {
+    "i": 93,
+    "n": "고속이동",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Speed by 2 stages"
+  },
+  "quick_attack": {
+    "i": 94,
+    "n": "전광석화",
+    "t": "N",
+    "c": "P",
+    "p": 40,
+    "a": 100,
+    "pp": 30,
+    "pr": 1,
+    "ef": "Always goes first"
+  },
+  "rage": {
+    "i": 95,
+    "n": "분노",
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 20,
+    "ef": "Raises user's Attack by 1 stage when hit"
+  },
+  "teleport": {
+    "i": 96,
+    "n": "순간이동",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Escapes from wild Pokemon battles"
+  },
+  "night_shade": {
+    "i": 97,
+    "n": "나이트헤드",
+    "t": "H",
+    "c": "P",
+    "a": 100,
+    "pp": 15,
+    "ef": "Deals damage equal to user's level"
+  },
+  "mimic": {
+    "i": 98,
+    "n": "흉내내기",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Copies target's last used move"
+  },
+  "screech": {
+    "i": 99,
+    "n": "꿰뚫어보기",
+    "t": "N",
+    "c": "X",
+    "a": 85,
+    "pp": 40,
+    "ef": "Lowers target's Defense by 2 stages"
+  },
+  "double_team": {
+    "i": 100,
+    "n": "그림자분신",
+    "t": "N",
+    "c": "X",
+    "pp": 15,
+    "ef": "Raises user's Evasion by 1 stage"
+  },
+  "recover": {
+    "i": 101,
+    "n": "자기회복",
+    "t": "N",
+    "c": "X",
+    "pp": 5,
+    "ef": "Restores 50% of user's max HP"
+  },
+  "harden": {
+    "i": 102,
+    "n": "방어",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "minimize": {
+    "i": 103,
+    "n": "웅크리기",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Raises user's Evasion by 2 stages"
+  },
+  "smokescreen": {
+    "i": 104,
+    "n": "연막",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 20,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "confuse_ray": {
+    "i": 105,
+    "n": "도깨비불",
+    "t": "H",
+    "c": "X",
+    "a": 100,
+    "pp": 10,
+    "ef": "Confuses target"
+  },
+  "withdraw": {
+    "i": 106,
+    "n": "껍질에숨기",
+    "t": "W",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "defense_curl": {
+    "i": 107,
+    "n": "뱅글뱅글",
+    "t": "N",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 1 stage"
+  },
+  "light_screen": {
+    "i": 108,
+    "n": "빛의장막",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Reduces special damage by 50% for 5 turns"
+  },
+  "mist": {
+    "i": 109,
+    "n": "안개",
+    "t": "I",
+    "c": "X",
+    "pp": 30,
+    "ef": "Prevents stat reduction for 5 turns"
+  },
+  "reflect": {
+    "i": 110,
+    "n": "리플렉터",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Reduces physical damage by 50% for 5 turns"
+  },
+  "focus_energy": {
+    "i": 116,
+    "n": "기합모으기",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Increases critical hit ratio (Gen 1 bug: actually divides by 4)"
+  },
+  "bide": {
+    "i": 117,
+    "n": "버티기",
+    "t": "N",
+    "c": "P",
+    "a": 100,
+    "pp": 10,
+    "ef": "User takes damage for 2 turns, then returns double damage"
+  },
+  "metronome": {
+    "i": 118,
+    "n": "손가락흔들기",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "Randomly uses any move in the game"
+  },
+  "mirror_move": {
+    "i": 119,
+    "n": "따라하기",
+    "t": "Y",
+    "c": "X",
+    "pp": 20,
+    "ef": "User performs the opponent's last move"
+  },
+  "self_destruct": {
+    "i": 120,
+    "n": "자폭",
+    "t": "N",
+    "c": "P",
+    "p": 130,
+    "a": 100,
+    "pp": 5,
+    "ef": "User faints. Halves target's Defense during damage calculation"
+  },
+  "egg_bomb": {
+    "i": 121,
+    "n": "알폭탄",
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 75,
+    "pp": 10
+  },
+  "lick": {
+    "i": 122,
+    "n": "핥기",
+    "t": "H",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 30,
+    "ef": "30% chance to paralyze the target"
+  },
+  "smog": {
+    "i": 123,
+    "n": "스모그",
+    "t": "P",
+    "c": "P",
+    "p": 20,
+    "a": 70,
+    "pp": 20,
+    "ef": "40% chance to poison the target"
+  },
+  "sludge": {
+    "i": 124,
+    "n": "진흙뿌리기",
+    "t": "P",
+    "c": "P",
+    "p": 65,
+    "a": 100,
+    "pp": 20,
+    "ef": "40% chance to poison the target"
+  },
+  "bone_club": {
+    "i": 125,
+    "n": "뼈다귀치기",
+    "t": "R",
+    "c": "P",
+    "p": 65,
+    "a": 85,
+    "pp": 20,
+    "ef": "10% chance to flinch the target"
+  },
+  "fire_blast": {
+    "i": 126,
+    "n": "불대문자",
+    "t": "F",
+    "c": "S",
+    "p": 120,
+    "a": 85,
+    "pp": 5,
+    "ef": "30% chance to burn the target"
+  },
+  "waterfall": {
+    "i": 127,
+    "n": "폭포오르기",
+    "t": "W",
+    "c": "S",
+    "p": 80,
+    "a": 100,
+    "pp": 15
+  },
+  "clamp": {
+    "i": 128,
+    "n": "껍질끼우기",
+    "t": "W",
+    "c": "S",
+    "p": 35,
+    "a": 75,
+    "pp": 10,
+    "ef": "Traps opponent for 2-5 turns"
+  },
+  "swift": {
+    "i": 129,
+    "n": "스피드스타",
+    "t": "N",
+    "c": "P",
+    "p": 60,
+    "pp": 20,
+    "ef": "Never misses"
+  },
+  "skull_bash": {
+    "i": 130,
+    "n": "로켓박치기",
+    "t": "N",
+    "c": "P",
+    "p": 100,
+    "a": 100,
+    "pp": 15,
+    "ef": "Raises Defense on first turn, attacks on second turn"
+  },
+  "spike_cannon": {
+    "i": 131,
+    "n": "바늘지옥",
+    "t": "N",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 15,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "constrict": {
+    "i": 132,
+    "n": "조이기",
+    "t": "N",
+    "c": "P",
+    "p": 10,
+    "a": 100,
+    "pp": 35,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "amnesia": {
+    "i": 133,
+    "n": "자기암시",
+    "t": "S",
+    "c": "X",
+    "pp": 20,
+    "ef": "Raises user's Special by 2 stages"
+  },
+  "kinesis": {
+    "i": 134,
+    "n": "염력",
+    "t": "S",
+    "c": "X",
+    "a": 80,
+    "pp": 15,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "soft_boiled": {
+    "i": 135,
+    "n": "알낳기",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "User recovers half its max HP"
+  },
+  "hi_jump_kick": {
+    "i": 136,
+    "n": "무릎차기",
+    "t": "K",
+    "c": "P",
+    "p": 85,
+    "a": 90,
+    "pp": 20,
+    "ef": "If miss, user takes 1 HP damage"
+  },
+  "glare": {
+    "i": 137,
+    "n": "쏘아붙이기",
+    "t": "N",
+    "c": "X",
+    "a": 75,
+    "pp": 30,
+    "ef": "Paralyzes the target"
+  },
+  "dream_eater": {
+    "i": 138,
+    "n": "꿈먹기",
+    "t": "S",
+    "c": "S",
+    "p": 100,
+    "a": 100,
+    "pp": 15,
+    "ef": "Only works on sleeping target. User recovers half the damage dealt"
+  },
+  "poison_gas": {
+    "i": 139,
+    "n": "독가스",
+    "t": "P",
+    "c": "X",
+    "a": 55,
+    "pp": 40,
+    "ef": "Poisons the target"
+  },
+  "barrage": {
+    "i": 140,
+    "n": "구슬굴리기",
+    "t": "N",
+    "c": "P",
+    "p": 15,
+    "a": 85,
+    "pp": 20,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "leech_life": {
+    "i": 141,
+    "n": "흡혈",
+    "t": "B",
+    "c": "P",
+    "p": 20,
+    "a": 100,
+    "pp": 15,
+    "ef": "User recovers half the damage dealt"
+  },
+  "lovely_kiss": {
+    "i": 142,
+    "n": "악마의키스",
+    "t": "N",
+    "c": "X",
+    "a": 75,
+    "pp": 10,
+    "ef": "Puts the target to sleep"
+  },
+  "sky_attack": {
+    "i": 143,
+    "n": "하늘에서떨어지기",
+    "t": "Y",
+    "c": "P",
+    "p": 140,
+    "a": 90,
+    "pp": 5,
+    "ef": "Charges on first turn, attacks on second turn"
+  },
+  "transform": {
+    "i": 144,
+    "n": "변신",
+    "t": "N",
+    "c": "X",
+    "a": 100,
+    "pp": 10,
+    "ef": "User takes on the form and moves of the target"
+  },
+  "bubble": {
+    "i": 145,
+    "n": "거품",
+    "t": "W",
+    "c": "S",
+    "p": 20,
+    "a": 100,
+    "pp": 30,
+    "ef": "10% chance to lower target's Speed by 1 stage"
+  },
+  "dizzy_punch": {
+    "i": 146,
+    "n": "일격필살",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 10
+  },
+  "spore": {
+    "i": 147,
+    "n": "포자",
+    "t": "G",
+    "c": "X",
+    "a": 100,
+    "pp": 15,
+    "ef": "Puts the target to sleep"
+  },
+  "flash": {
+    "i": 148,
+    "n": "플래시",
+    "t": "N",
+    "c": "X",
+    "a": 70,
+    "pp": 20,
+    "ef": "Lowers target's Accuracy by 1 stage"
+  },
+  "psywave": {
+    "i": 149,
+    "n": "사이코웨이브",
+    "t": "S",
+    "c": "S",
+    "a": 80,
+    "pp": 15,
+    "ef": "Inflicts damage equal to user's level x (0.5-1.5)"
+  },
+  "splash": {
+    "i": 150,
+    "n": "튀어오르기",
+    "t": "N",
+    "c": "X",
+    "pp": 40,
+    "ef": "Doesn't do anything"
+  },
+  "acid_armor": {
+    "i": 151,
+    "n": "녹기",
+    "t": "P",
+    "c": "X",
+    "pp": 40,
+    "ef": "Raises user's Defense by 2 stages"
+  },
+  "crabhammer": {
+    "i": 152,
+    "n": "크랩해머",
+    "t": "W",
+    "c": "S",
+    "p": 90,
+    "a": 85,
+    "pp": 10,
+    "ef": "High critical hit ratio"
+  },
+  "explosion": {
+    "i": 153,
+    "n": "대폭발",
+    "t": "N",
+    "c": "P",
+    "p": 170,
+    "a": 100,
+    "pp": 5,
+    "ef": "User faints. Halves target's Defense during damage calculation"
+  },
+  "fury_swipes": {
+    "i": 154,
+    "n": "연속할퀴기",
+    "t": "N",
+    "c": "P",
+    "p": 18,
+    "a": 80,
+    "pp": 15,
+    "ef": "Hits 2-5 times in one turn"
+  },
+  "bonemerang": {
+    "i": 155,
+    "n": "뼈다귀부메랑",
+    "t": "R",
+    "c": "P",
+    "p": 50,
+    "a": 90,
+    "pp": 10,
+    "ef": "Hits twice in one turn"
+  },
+  "rest": {
+    "i": 156,
+    "n": "잠자기",
+    "t": "S",
+    "c": "X",
+    "pp": 10,
+    "ef": "User sleeps for 2 turns and is fully healed"
+  },
+  "rock_slide": {
+    "i": 157,
+    "n": "락슬라이드",
+    "t": "O",
+    "c": "P",
+    "p": 75,
+    "a": 90,
+    "pp": 10,
+    "ef": "30% chance to flinch the target"
+  },
+  "hyper_fang": {
+    "i": 158,
+    "n": "날카로운이빨",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 90,
+    "pp": 15,
+    "ef": "10% chance to flinch the target"
+  },
+  "sharpen": {
+    "i": 159,
+    "n": "각지기",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Attack by 1 stage"
+  },
+  "conversion": {
+    "i": 160,
+    "n": "테크니컬",
+    "t": "N",
+    "c": "X",
+    "pp": 30,
+    "ef": "Changes user's type to that of its first move"
+  },
+  "tri_attack": {
+    "i": 161,
+    "n": "트라이어택",
+    "t": "N",
+    "c": "P",
+    "p": 80,
+    "a": 100,
+    "pp": 10
+  },
+  "super_fang": {
+    "i": 162,
+    "n": "분노의앞니",
+    "t": "N",
+    "c": "P",
+    "a": 90,
+    "pp": 10,
+    "ef": "Inflicts damage equal to half the target's HP"
+  },
+  "slash": {
+    "i": 163,
+    "n": "칼등치기",
+    "t": "N",
+    "c": "P",
+    "p": 70,
+    "a": 100,
+    "pp": 20,
+    "ef": "High critical hit ratio"
+  },
+  "substitute": {
+    "i": 164,
+    "n": "분신술",
+    "t": "N",
+    "c": "X",
+    "pp": 10,
+    "ef": "User takes 1/4 HP to create a substitute that absorbs damage"
+  },
+  "struggle": {
+    "i": 165,
+    "n": "발버둥",
+    "t": "N",
+    "c": "P",
+    "p": 50,
+    "a": 100,
+    "pp": 10,
+    "ef": "Used when all moves run out of PP. User takes recoil damage"
+  },
+  "barrier": {
+    "i": 112,
+    "n": "배리어",
+    "t": "S",
+    "c": "X",
+    "pp": 30,
+    "ef": "Raises user's Defense by 2 stages"
+  },
+  "haze": {
+    "i": 114,
+    "n": "흑안개",
+    "t": "I",
+    "c": "X",
+    "pp": 30,
+    "ef": "Resets all stat stage changes"
+  }
+}

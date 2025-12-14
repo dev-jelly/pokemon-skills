@@ -1,0 +1,710 @@
+{
+  "version": "1.0.0",
+  "description": "Kanto region location data",
+  "towns": {
+    "pallet_town": {
+      "name": "Pallet Town",
+      "description": "A quiet town where your adventure begins. Prof. Oak's Lab is here.",
+      "connections": [
+        "route_1"
+      ],
+      "buildings": [
+        "player_house",
+        "rival_house",
+        "oak_lab"
+      ],
+      "hasPokeCenter": false,
+      "hasPokeMart": false,
+      "hasGym": false
+    },
+    "viridian_city": {
+      "name": "Viridian City",
+      "description": "A city at the entrance of Viridian Forest.",
+      "connections": [
+        "route_1",
+        "route_2",
+        "route_22"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "viridian_gym",
+        "trainer_school"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "giovanni",
+        "type": "ground",
+        "badge": "earth_badge",
+        "requiredBadges": 7
+      }
+    },
+    "pewter_city": {
+      "name": "Pewter City",
+      "description": "A city famous for rocks and stones. Has a museum.",
+      "connections": [
+        "route_2",
+        "route_3"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "pewter_gym",
+        "museum"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "brock",
+        "type": "rock",
+        "badge": "boulder_badge",
+        "requiredBadges": 0
+      }
+    },
+    "cerulean_city": {
+      "name": "Cerulean City",
+      "description": "A city of clear water. Near the beach.",
+      "connections": [
+        "route_4",
+        "route_5",
+        "route_9",
+        "route_24"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "cerulean_gym",
+        "bike_shop",
+        "bill_house"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "misty",
+        "type": "water",
+        "badge": "cascade_badge",
+        "requiredBadges": 1
+      }
+    },
+    "vermilion_city": {
+      "name": "Vermilion City",
+      "description": "A port city. The S.S. Anne is docked here.",
+      "connections": [
+        "route_6",
+        "route_11"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "vermilion_gym",
+        "ss_anne",
+        "pokemon_fan_club"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "surge",
+        "type": "electric",
+        "badge": "thunder_badge",
+        "requiredBadges": 2
+      }
+    },
+    "lavender_town": {
+      "name": "Lavender Town",
+      "description": "A quiet town with the Pokemon Tower.",
+      "connections": [
+        "route_8",
+        "route_10",
+        "route_12"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "pokemon_tower",
+        "mr_fuji_house",
+        "name_rater"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": false
+    },
+    "celadon_city": {
+      "name": "Celadon City",
+      "description": "A colorful city with a large department store.",
+      "connections": [
+        "route_7",
+        "route_16"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "celadon_gym",
+        "department_store",
+        "game_corner",
+        "rocket_hideout",
+        "celadon_mansion"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "erika",
+        "type": "grass",
+        "badge": "rainbow_badge",
+        "requiredBadges": 3
+      }
+    },
+    "fuchsia_city": {
+      "name": "Fuchsia City",
+      "description": "A nature city with the Safari Zone.",
+      "connections": [
+        "route_15",
+        "route_18",
+        "route_19"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "fuchsia_gym",
+        "safari_zone",
+        "warden_house"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "koga",
+        "type": "poison",
+        "badge": "soul_badge",
+        "requiredBadges": 4
+      }
+    },
+    "saffron_city": {
+      "name": "Saffron City",
+      "description": "The central city of Kanto. Home of Silph Co.",
+      "connections": [
+        "route_5",
+        "route_6",
+        "route_7",
+        "route_8"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "saffron_gym",
+        "silph_co",
+        "fighting_dojo",
+        "copycat_house"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "sabrina",
+        "type": "psychic",
+        "badge": "marsh_badge",
+        "requiredBadges": 5
+      }
+    },
+    "cinnabar_island": {
+      "name": "Cinnabar Island",
+      "description": "A volcanic island. Has a Pokemon Lab.",
+      "connections": [
+        "route_20",
+        "route_21"
+      ],
+      "buildings": [
+        "poke_center",
+        "poke_mart",
+        "cinnabar_gym",
+        "pokemon_lab",
+        "pokemon_mansion"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": true,
+      "gym": {
+        "leader": "blaine",
+        "type": "fire",
+        "badge": "volcano_badge",
+        "requiredBadges": 6
+      }
+    },
+    "indigo_plateau": {
+      "name": "Indigo Plateau",
+      "description": "Pokemon League Headquarters.",
+      "connections": [
+        "route_23"
+      ],
+      "buildings": [
+        "poke_center",
+        "pokemon_league"
+      ],
+      "hasPokeCenter": true,
+      "hasPokeMart": true,
+      "hasGym": false,
+      "isPokemonLeague": true
+    }
+  },
+  "routes": {
+    "route_1": {
+      "name": "Route 1",
+      "connections": [
+        "pallet_town",
+        "viridian_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_2": {
+      "name": "Route 2",
+      "connections": [
+        "viridian_city",
+        "viridian_forest",
+        "pewter_city",
+        "digletts_cave_south"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_3": {
+      "name": "Route 3",
+      "connections": [
+        "pewter_city",
+        "mt_moon"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_4": {
+      "name": "Route 4",
+      "connections": [
+        "mt_moon",
+        "cerulean_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_5": {
+      "name": "Route 5",
+      "connections": [
+        "cerulean_city",
+        "saffron_city",
+        "daycare"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_6": {
+      "name": "Route 6",
+      "connections": [
+        "saffron_city",
+        "vermilion_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_7": {
+      "name": "Route 7",
+      "connections": [
+        "celadon_city",
+        "saffron_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_8": {
+      "name": "Route 8",
+      "connections": [
+        "lavender_town",
+        "saffron_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_9": {
+      "name": "Route 9",
+      "connections": [
+        "cerulean_city",
+        "rock_tunnel"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_10": {
+      "name": "Route 10",
+      "connections": [
+        "rock_tunnel",
+        "lavender_town",
+        "power_plant"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_11": {
+      "name": "Route 11",
+      "connections": [
+        "vermilion_city",
+        "digletts_cave_north",
+        "route_12"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_12": {
+      "name": "Route 12",
+      "description": "A Snorlax is blocking the road.",
+      "connections": [
+        "lavender_town",
+        "route_11",
+        "route_13"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "hasSurf": true,
+      "staticEncounter": "snorlax"
+    },
+    "route_13": {
+      "name": "Route 13",
+      "connections": [
+        "route_12",
+        "route_14"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_14": {
+      "name": "Route 14",
+      "connections": [
+        "route_13",
+        "route_15"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_15": {
+      "name": "Route 15",
+      "connections": [
+        "route_14",
+        "fuchsia_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_16": {
+      "name": "Route 16",
+      "description": "A Snorlax is blocking the road. Entrance to Cycling Road.",
+      "connections": [
+        "celadon_city",
+        "route_17"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "staticEncounter": "snorlax",
+      "requiresCut": true
+    },
+    "route_17": {
+      "name": "Route 17",
+      "description": "Cycling Road. Bicycle required.",
+      "connections": [
+        "route_16",
+        "route_18"
+      ],
+      "terrain": "road",
+      "hasWildPokemon": true,
+      "requiresBicycle": true
+    },
+    "route_18": {
+      "name": "Route 18",
+      "connections": [
+        "route_17",
+        "fuchsia_city"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_19": {
+      "name": "Route 19",
+      "connections": [
+        "fuchsia_city",
+        "seafoam_islands"
+      ],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_20": {
+      "name": "Route 20",
+      "connections": [
+        "seafoam_islands",
+        "cinnabar_island"
+      ],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_21": {
+      "name": "Route 21",
+      "connections": [
+        "cinnabar_island",
+        "pallet_town"
+      ],
+      "terrain": "water",
+      "hasWildPokemon": true,
+      "requiresSurf": true
+    },
+    "route_22": {
+      "name": "Route 22",
+      "connections": [
+        "viridian_city",
+        "route_23"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_23": {
+      "name": "Route 23",
+      "connections": [
+        "route_22",
+        "victory_road",
+        "indigo_plateau"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true,
+      "requiresBadges": 8
+    },
+    "route_24": {
+      "name": "Route 24",
+      "description": "Nugget Bridge. Battle 5 trainers in a row.",
+      "connections": [
+        "cerulean_city",
+        "route_25"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    },
+    "route_25": {
+      "name": "Route 25",
+      "description": "The road to Bill's house.",
+      "connections": [
+        "route_24",
+        "bills_house"
+      ],
+      "terrain": "grass",
+      "hasWildPokemon": true
+    }
+  },
+  "dungeons": {
+    "viridian_forest": {
+      "name": "Viridian Forest",
+      "connections": [
+        "route_2"
+      ],
+      "terrain": "forest",
+      "hasWildPokemon": true
+    },
+    "mt_moon": {
+      "name": "Mt. Moon",
+      "connections": [
+        "route_3",
+        "route_4"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "floors": 3
+    },
+    "digletts_cave": {
+      "name": "Diglett's Cave",
+      "connections": [
+        "route_2",
+        "route_11"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "entrances": {
+        "north": "route_11",
+        "south": "route_2"
+      }
+    },
+    "rock_tunnel": {
+      "name": "Rock Tunnel",
+      "connections": [
+        "route_9",
+        "route_10"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "requiresFlash": true
+    },
+    "ss_anne": {
+      "name": "S.S. Anne",
+      "connections": [
+        "vermilion_city"
+      ],
+      "terrain": "ship",
+      "hasWildPokemon": false,
+      "floors": 3,
+      "hasTrainers": true,
+      "event": "cut_hm"
+    },
+    "pokemon_tower": {
+      "name": "Pokemon Tower",
+      "connections": [
+        "lavender_town"
+      ],
+      "terrain": "tower",
+      "hasWildPokemon": true,
+      "floors": 7,
+      "requiresSilphScope": true
+    },
+    "rocket_hideout": {
+      "name": "Rocket Hideout",
+      "connections": [
+        "celadon_city"
+      ],
+      "terrain": "hideout",
+      "hasWildPokemon": false,
+      "floors": 4,
+      "hasTrainers": true,
+      "boss": "giovanni",
+      "reward": "silph_scope"
+    },
+    "silph_co": {
+      "name": "Silph Co.",
+      "connections": [
+        "saffron_city"
+      ],
+      "terrain": "building",
+      "hasWildPokemon": false,
+      "floors": 11,
+      "hasTrainers": true,
+      "boss": "giovanni",
+      "reward": "master_ball"
+    },
+    "safari_zone": {
+      "name": "Safari Zone",
+      "connections": [
+        "fuchsia_city"
+      ],
+      "terrain": "safari",
+      "hasWildPokemon": true,
+      "areas": 4,
+      "specialRules": true,
+      "rewards": [
+        "surf_hm",
+        "gold_teeth"
+      ]
+    },
+    "seafoam_islands": {
+      "name": "Seafoam Islands",
+      "connections": [
+        "route_19",
+        "route_20"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "articuno",
+      "floors": 4,
+      "requiresStrength": true
+    },
+    "pokemon_mansion": {
+      "name": "Pokemon Mansion",
+      "connections": [
+        "cinnabar_island"
+      ],
+      "terrain": "mansion",
+      "hasWildPokemon": true,
+      "floors": 4,
+      "reward": "secret_key"
+    },
+    "victory_road": {
+      "name": "Victory Road",
+      "connections": [
+        "route_23",
+        "indigo_plateau"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "moltres",
+      "requiresBadges": 8,
+      "floors": 3,
+      "requiresStrength": true
+    },
+    "cerulean_cave": {
+      "name": "Cerulean Cave",
+      "connections": [
+        "cerulean_city"
+      ],
+      "terrain": "cave",
+      "hasWildPokemon": true,
+      "hasLegendary": "mewtwo",
+      "requiresEliteFour": true,
+      "floors": 3
+    },
+    "power_plant": {
+      "name": "Power Plant",
+      "connections": [
+        "route_10"
+      ],
+      "terrain": "building",
+      "hasWildPokemon": true,
+      "hasLegendary": "zapdos",
+      "requiresSurf": true
+    }
+  },
+  "badges": {
+    "boulder_badge": {
+      "name": "Boulder Badge",
+      "leader": "brock",
+      "city": "pewter_city",
+      "effect": "Enables use of Flash"
+    },
+    "cascade_badge": {
+      "name": "Cascade Badge",
+      "leader": "misty",
+      "city": "cerulean_city",
+      "effect": "Enables use of Cut, Pokemon up to Lv.30 obey"
+    },
+    "thunder_badge": {
+      "name": "Thunder Badge",
+      "leader": "surge",
+      "city": "vermilion_city",
+      "effect": "Enables use of Fly, Pokemon up to Lv.50 obey"
+    },
+    "rainbow_badge": {
+      "name": "Rainbow Badge",
+      "leader": "erika",
+      "city": "celadon_city",
+      "effect": "Enables use of Strength, Pokemon up to Lv.70 obey"
+    },
+    "soul_badge": {
+      "name": "Soul Badge",
+      "leader": "koga",
+      "city": "fuchsia_city",
+      "effect": "Enables use of Surf"
+    },
+    "marsh_badge": {
+      "name": "Marsh Badge",
+      "leader": "sabrina",
+      "city": "saffron_city",
+      "effect": "Pokemon up to Lv.70 obey"
+    },
+    "volcano_badge": {
+      "name": "Volcano Badge",
+      "leader": "blaine",
+      "city": "cinnabar_island",
+      "effect": "Pokemon up to Lv.80 obey"
+    },
+    "earth_badge": {
+      "name": "Earth Badge",
+      "leader": "giovanni",
+      "city": "viridian_city",
+      "effect": "All Pokemon obey"
+    }
+  }
+}
