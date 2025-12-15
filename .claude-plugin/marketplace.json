@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pokemon-skills",
+  "version": "1.0.0",
+  "description": "Pokemon Gen 1 Text RPG - An experiment in controlling non-deterministic LLM deterministically through structured data and explicit rules",
+  "owner": {
+    "name": "dev-jelly",
+    "email": "chm073@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "pokemon-green-ko",
+      "description": "포켓몬 그린 버전 텍스트 RPG. 1세대 151마리 포켓몬, 165개 기술, 관동 지방 완전 재현. 한국어 전용.",
+      "version": "1.0.0",
+      "source": "./.claude/skills/pokemon-green-ko",
+      "category": "entertainment",
+      "tags": ["game", "pokemon", "rpg", "text-adventure", "korean"]
+    },
+    {
+      "name": "pokemon-green-en",
+      "description": "Pokemon Green Version Text RPG. Gen 1 with 151 Pokemon, 165 moves, full Kanto region. English only.",
+      "version": "1.0.0",
+      "source": "./.claude/skills/pokemon-green-en",
+      "category": "entertainment",
+      "tags": ["game", "pokemon", "rpg", "text-adventure", "english"]
+    }
+  ]
+}
