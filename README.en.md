@@ -23,13 +23,13 @@ A Claude Code skill that lets you play Generation 1 Pokemon Green Version as a t
 
 ### Experiment
 
-The real purpose of this project is an experiment: **"Can non-deterministic gameplay be achieved through LLM skills?"**
+The real purpose of this project is an experiment: **"How deterministically can we control a non-deterministic LLM through skills?"**
 
-- Traditional games are **deterministic**. Same input, same output.
-- But what if an LLM plays the role of game master?
-- Every playthrough brings slightly different dialogues, nuances, and experiences.
+- LLMs are inherently **non-deterministic**. Same input, different outputs.
+- But what if we provide enough structured data and explicit rules?
+- Can **skills (SKILL.md) as constraints** make AI behavior predictable?
 
-Through Claude Code's skill system, we explore the possibility of **"interactive fiction driven by AI."**
+Through Claude Code's skill system, we explore the possibility of **"taming AI with structured data."**
 
 ---
 
@@ -257,44 +257,49 @@ for creating the Pokemon series.
 
 ---
 
-## Philosophy: Imagining the Future
+## Core Experiment (Philosophy)
 
-### "Isn't this a waste of tokens?"
+### "Can Skills Control AI?"
 
-Yes. Honestly, this project is a **massive waste of tokens** right now.
+LLMs are inherently non-deterministic. Same prompt, different responses every time.
 
-Hundreds of tokens just to draw ASCII art. Thousands of tokens per battle.
-We're running what a Game Boy did with 8KB RAM on a model with billions of parameters.
+**But what if we provide sufficiently structured data and explicit rules?**
 
-**But this is an imagination of the future.**
+This project is an experiment to answer that question:
 
-What if LLM inference becomes 100x, 1000x faster and cheaper?
-- Real-time gameplay becomes possible
-- Infinite NPC conversations become natural
-- Instant response to every player action
+- **151 Pokemon data** → AI uses exact stats instead of making them up
+- **165 move data** → Calculates damage precisely according to formulas
+- **Type effectiveness chart** → Applies 2x, 0.5x, 0x by the rules
+- **Even Gen 1 bugs documented** → Reproduces "Psychic vs Ghost = 0x"
 
-This project is a **prototype** that lets us experience that future today.
-It was built imagining when today's "waste" becomes tomorrow's "obvious."
+When a skill document clearly defines **what to do and how**, even a non-deterministic LLM can behave **like a deterministic game engine**.
 
-### What If LLM Becomes a Game Master?
+### Why Pokemon?
 
-This project is not just a retro game recreation.
+Pokemon Generation 1 is a perfect testbed for this experiment:
 
-What does it mean when **"AI runs the game"**?
+1. **Clear rules**: Damage formulas, catch rates, type matchups - all numerically defined
+2. **Finite data**: 151 Pokemon, 165 moves - fully enumerable
+3. **Verifiable**: Can measure accuracy by comparing to the original
+4. **Right complexity**: Simple yet with diverse interactions
 
-1. **Non-deterministic Experience**: Same choices, slightly different reactions every time
-2. **Natural Language Interface**: Progress through conversation, not buttons
-3. **Emergent Storytelling**: Improvisational dialogue beyond scripted responses
-4. **Infinite Extensibility**: Any game is possible with skill data
+### What We've Learned
+
+- **JSON data**: Single source of truth that AI can consistently reference
+- **Explicit rules**: Not "do this" but "follow this formula"
+- **Documenting exceptions**: Even bugs are reproduced when documented
+- **Templates**: Defining output formats maintains consistent UI
 
 ### Future Possibilities
 
-- **D&D-style TRPG**: AI Dungeon Master
-- **Interactive Fiction**: Stories that respond to player choices
-- **Educational Simulations**: Experiential learning in history, science, etc.
-- **Prototyping**: Rapid validation of game ideas
+If this experiment succeeds, the same methodology could apply to:
 
-I hope this project serves as a small experiment on **the future of LLM and interactive entertainment**.
+- **Complex board games**: Chess, Go, Catan, etc.
+- **Simulations**: Rule-based economic/ecological models
+- **Educational tutors**: Learning assistants with definite answers
+- **Workflow automation**: Rule-based task processing
+
+**It's not "AI can't be controlled" but "how do we control it?"**
 
 ---
 
