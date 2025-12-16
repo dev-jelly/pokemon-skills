@@ -92,8 +92,6 @@ Through Claude Code's skill system, we explore the possibility of **"taming AI w
 
 ### Battle Screen
 
-![Battle Screen](assets/demo-battle.png)
-
 ```
 ╔════════════════════════════════════════════════════════════════╗
 ║  Wild PIKACHU                                       Lv.5      ║
