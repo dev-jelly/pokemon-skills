@@ -1,15 +1,14 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="Pokemon Green Text RPG" width="400">
+
 # Pokemon Green Text RPG
 
-```
-    Pokemon Green Version
-    ░█▀█░█▀█░█░█░█▀▀░█▄█░█▀█░█▀█
-    ░█▀▀░█░█░█▀▄░█▀▀░█░█░█░█░█░█
-    ░▀░░░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    Claude Code Skill for Gen 1
-```
+**Claude Code Skill for Generation 1**
 
-> **[English](README.md)** | 한국어
+**[English](README.md)** | 한국어
+
+</div>
 
 1세대 포켓몬 그린 버전을 터미널에서 텍스트 RPG로 플레이하는 Claude Code 스킬입니다.
 

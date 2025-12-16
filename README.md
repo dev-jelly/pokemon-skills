@@ -1,15 +1,14 @@
+<div align="center">
+
+<img src="assets/logo.png" alt="Pokemon Green Text RPG" width="400">
+
 # Pokemon Green Text RPG
 
-```
-    Pokemon Green Version
-    ░█▀█░█▀█░█░█░█▀▀░█▄█░█▀█░█▀█
-    ░█▀▀░█░█░█▀▄░█▀▀░█░█░█░█░█░█
-    ░▀░░░▀▀▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░▀
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    Claude Code Skill for Gen 1
-```
+**Claude Code Skill for Generation 1**
 
-> English | **[한국어](README.ko.md)**
+English | **[한국어](README.ko.md)**
+
+</div>
 
 A Claude Code skill that lets you play Generation 1 Pokemon Green Version as a text-based RPG in your terminal.
 
