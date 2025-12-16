@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Pokemon Green Text RPG" width="400">
+<img src="assets/logo.png" alt="Pokemon Green Text RPG" width="200">
 
 # Pokemon Green Text RPG
 
