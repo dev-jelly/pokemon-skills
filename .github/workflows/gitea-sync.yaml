@@ -1,0 +1,12 @@
+name: Gitea Mirror Sync
+on:
+  push:
+    branches: [ main, master ]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Gitea Mirror Sync
+        run: |
+          curl -X POST ${{ secrets.GITEA_URL }}/api/v1/repos/dev-jelly/pokemon-skills/mirror-sync \
+          -H "Authorization: token ${{ secrets.GITEA_TOKEN }}"
